@@ -1,0 +1,401 @@
+{
+  "index_type": "gk_index",
+  "project": "AI_LAWYER",
+  "jurisdiction": "KZ",
+  "language": "ru",
+  "index_version": "AI_LAWYER_GK_INDEX_v1_SERIOUS_CANON",
+  "storage_layout": {
+    "index_file": "index/gk_index/kz_gk_index.json",
+    "layout_mode": "alias_folders",
+    "path_join_rule": "Физический путь строится так: folders[alias] + '/' + source_id. Пример: alias='gk' -> rag/kz_gk_code/kz_gk_code",
+    "folders": {
+      "gk": "rag/kz_gk_code",
+      "pk": "rag/kz_pk_code",
+      "vs_np_invalidity": "rag/kz_vs_np_invalidity_of_transactions_code",
+      "vs_np_llp_alp": "rag/kz_vs_np_llp_and_alp_code",
+      "vs_np_civil_procedure": "rag/kz_vs_np_civil_procedure_norms_code",
+      "vs_np_civil_judgment": "rag/kz_vs_np_civil_judgment_code",
+      "law_enforcement": "rag/kz_law_enforcement_code",
+      "law_consumer_protection": "rag/kz_law_consumer_protection_code",
+      "law_llp": "rag/kz_law_llp_code",
+      "law_state_registration": "rag/kz_law_state_registration_code",
+      "law_buh": "rag/kz_law_buh_code"
+    },
+    "source_to_folder": {
+      "kz_gk_code": "gk",
+      "kz_pk_code": "pk",
+      "kz_vs_np_invalidity_of_transactions_code": "vs_np_invalidity",
+      "kz_vs_np_llp_and_alp_code": "vs_np_llp_alp",
+      "kz_vs_np_civil_procedure_norms_code": "vs_np_civil_procedure",
+      "kz_vs_np_civil_judgment_code": "vs_np_civil_judgment",
+      "kz_law_enforcement_code": "law_enforcement",
+      "kz_law_consumer_protection_code": "law_consumer_protection",
+      "kz_law_llp_code": "law_llp",
+      "kz_law_state_registration_code": "law_state_registration",
+      "kz_law_buh_code": "law_buh"
+    },
+    "hard_rule": "Слова gk/pk/vs_np/laws используются только как алиасы для путей. Никакие 'civil'/'цивиль' не используются как папки или файлы."
+  },
+  "primary_source": "kz_gk_code",
+  "secondary_sources": [
+    "kz_pk_code"
+  ],
+  "supporting_sources": [
+    "kz_vs_np_invalidity_of_transactions_code",
+    "kz_vs_np_llp_and_alp_code",
+    "kz_vs_np_civil_procedure_norms_code",
+    "kz_vs_np_civil_judgment_code",
+    "kz_law_enforcement_code",
+    "kz_law_consumer_protection_code",
+    "kz_law_llp_code",
+    "kz_law_state_registration_code",
+    "kz_law_buh_code"
+  ],
+  "mission": "Сделать из запроса клиента юридически применимую позицию по ГКРК: квалификация -> конструкция (основание) -> элементы доказывания -> доказательства -> расчеты -> сроки/давность -> стратегический план (досудебка/суд/исполнение).",
+  "gk_is_bible_reasoning": {
+    "why_gk_is_core": [
+      "ГКРК задаёт универсальные понятия и конструкции частного права: лица, сделки, имущество, обязательства, ответственность.",
+      "Большинство бизнес-споров и имущественных конфликтов сводятся к конструкциям ГКРК даже если сверху есть специальные законы.",
+      "ГКРК позволяет строго собрать 'право на требование' через элементы доказывания — это язык суда и адвоката."
+    ],
+    "use_principle": "Сначала конструкция по ГКРК, затем уточняющие спецнормы (если есть) и практика (НП ВС)."
+  },
+  "guardrails": {
+    "never_assume_facts": true,
+    "always_split_facts_and_hypotheses": true,
+    "do_not_name_article_without_elements": true,
+    "do_not_compute_limitation_without_dates": true,
+    "do_not_promise_outcome": true,
+    "do_not_call_anything_crime": true,
+    "if_crime_signals_then_handoff_to_root": true,
+    "use_only_root_canon_source_ids": true,
+    "no_new_source_ids": true
+  },
+  "router_output_schema": {
+    "must_return_json_object": true,
+    "required_fields": [
+      "mode_label",
+      "primary_route",
+      "routes",
+      "addons",
+      "confidence",
+      "why",
+      "facts_vs_hypotheses",
+      "legal_construction",
+      "remedies",
+      "elements_to_prove",
+      "evidence_matrix",
+      "missing_facts",
+      "next_questions",
+      "risk_map",
+      "strategy",
+      "drafting_checklist"
+    ],
+    "field_types": {
+      "mode_label": "string",
+      "primary_route": "string",
+      "routes": "array[string]",
+      "addons": "array[string]",
+      "confidence": "number",
+      "why": "array[string]",
+      "facts_vs_hypotheses": {
+        "facts": "array[string]",
+        "hypotheses": "array[string]"
+      },
+      "legal_construction": "string",
+      "remedies": "array[string]",
+      "elements_to_prove": "array[string]",
+      "evidence_matrix": "array[object]",
+      "missing_facts": "array[string]",
+      "next_questions": "array[string]",
+      "risk_map": "array[string]",
+      "strategy": "array[string]",
+      "drafting_checklist": "array[string]"
+    },
+    "hard_rule": "mode_label всегда писать как 'ГКРК (kz_gk_code)' — без слова 'цивиль'."
+  },
+  "methodology": {
+    "name": "Senior GK Workflow",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Юридическая квалификация (что это за отношения)",
+        "must_identify": [
+          "тип: договор / вред / неосновательное / вещное право / недействительность / корпоративное / потребитель",
+          "стороны и их статус: физ/юр, ИП/ТОО, потребитель/предприниматель",
+          "роль государства: если госорган как регулятор — это не ГК, а APPK (handoff)"
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Конструкция (основание требования) и Remedy",
+        "must_output": [
+          "legal_construction (одна главная конструкция + доп. при необходимости)",
+          "remedies (что конкретно требуем: взыскать/обязать/расторгнуть/признать недействительным/вернуть)"
+        ],
+        "rule": "Сначала remedy, потом под него собирается конструкция и элементы."
+      },
+      {
+        "step": 3,
+        "title": "Элементы доказывания (что суд должен увидеть)",
+        "must_output": [
+          "elements_to_prove как чек-лист",
+          "минимальные условия (например: обязательство -> нарушение -> размер)"
+        ]
+      },
+      {
+        "step": 4,
+        "title": "Доказательства (матрица элемент -> документ)",
+        "must_output": [
+          "evidence_matrix: каждый элемент доказывания должен иметь хотя бы 1-2 доказательства",
+          "если доказательств нет — это missing_facts/risks"
+        ]
+      },
+      {
+        "step": 5,
+        "title": "Расчёты требований",
+        "must_output": [
+          "как считается долг/неустойка/убытки",
+          "какие документы нужны для расчёта",
+          "что является слабым местом расчёта"
+        ]
+      },
+      {
+        "step": 6,
+        "title": "Сроки/давность — только после дат",
+        "hard_rule": "Без дат — только вопросы. Никаких выводов про истекло/не истекло.",
+        "must_ask": [
+          "Когда нарушение?",
+          "Когда узнали?",
+          "Было ли признание долга/частичная оплата/переписка?"
+        ]
+      },
+      {
+        "step": 7,
+        "title": "Стратегия: досудебка -> суд -> исполнение",
+        "must_output": [
+          "strategy: шаги и порядок действий",
+          "drafting_checklist: какие документы подготовить"
+        ]
+      }
+    ]
+  },
+  "tracks": [
+    {
+      "track_id": "GK_CONTRACT",
+      "title": "Договор: долг/неисполнение/неустойка/убытки",
+      "routes": [
+        "kz_gk_code"
+      ],
+      "addons_suggested": [
+        "kz_pk_code",
+        "kz_law_buh_code"
+      ],
+      "legal_construction_templates": [
+        "взыскание долга по договорному обязательству",
+        "взыскание неустойки за просрочку",
+        "взыскание убытков сверх/вместо неустойки (если допускается)"
+      ],
+      "elements_to_prove_templates": [
+        "наличие обязательства и его условий (предмет/цена/срок/порядок оплаты)",
+        "ваше исполнение или готовность исполнить (если релевантно)",
+        "нарушение контрагентом",
+        "размер требований и расчет",
+        "причинная связь (для убытков)"
+      ]
+    },
+    {
+      "track_id": "GK_INVALIDITY",
+      "title": "Недействительность сделок (мнимая/притворная/оспоримая) + последствия",
+      "routes": [
+        "kz_gk_code"
+      ],
+      "addons_suggested": [
+        "kz_vs_np_invalidity_of_transactions_code",
+        "kz_law_buh_code",
+        "kz_pk_code"
+      ],
+      "mandatory_addons": [
+        "kz_vs_np_invalidity_of_transactions_code"
+      ],
+      "legal_construction_templates": [
+        "признание сделки недействительной",
+        "применение последствий недействительности (реституция)",
+        "взыскание убытков (если допустимо)"
+      ]
+    },
+    {
+      "track_id": "GK_UNJUST_ENRICHMENT",
+      "title": "Неосновательное обогащение",
+      "routes": [
+        "kz_gk_code"
+      ],
+      "addons_suggested": [
+        "kz_law_buh_code"
+      ],
+      "legal_construction_templates": [
+        "возврат денег/имущества, полученных без основания или при отпадении основания"
+      ]
+    },
+    {
+      "track_id": "GK_TORT_DAMAGE",
+      "title": "Вред (деликт): ущерб + причинная связь",
+      "routes": [
+        "kz_gk_code"
+      ],
+      "addons_suggested": [
+        "kz_law_buh_code"
+      ]
+    },
+    {
+      "track_id": "GK_PROPERTY",
+      "title": "Имущество и вещные права: владение/возврат/титул",
+      "routes": [
+        "kz_gk_code"
+      ],
+      "addons_suggested": [
+        "kz_law_state_registration_code"
+      ]
+    },
+    {
+      "track_id": "GK_CORPORATE",
+      "title": "Корпоративное (ТОО/участники/управление) в связке ГК+ПК+Закон о ТОО",
+      "routes": [
+        "kz_pk_code",
+        "kz_gk_code"
+      ],
+      "addons_suggested": [
+        "kz_law_llp_code",
+        "kz_vs_np_llp_and_alp_code",
+        "kz_law_state_registration_code"
+      ]
+    },
+    {
+      "track_id": "GK_CONSUMER",
+      "title": "Потребительские споры (если клиент — потребитель)",
+      "routes": [
+        "kz_gk_code"
+      ],
+      "addons_suggested": [
+        "kz_law_consumer_protection_code"
+      ],
+      "mandatory_addons": [
+        "kz_law_consumer_protection_code"
+      ]
+    }
+  ],
+  "addons_rules": [
+    {
+      "if_any_keyword": [
+        "недействительность",
+        "мнимая",
+        "притворная",
+        "реституция",
+        "оспорить сделку"
+      ],
+      "add": [
+        "kz_vs_np_invalidity_of_transactions_code"
+      ]
+    },
+    {
+      "if_any_keyword": [
+        "тоо",
+        "участник",
+        "директор",
+        "доля",
+        "протокол",
+        "собрание"
+      ],
+      "add": [
+        "kz_law_llp_code",
+        "kz_vs_np_llp_and_alp_code",
+        "kz_law_state_registration_code"
+      ]
+    },
+    {
+      "if_any_keyword": [
+        "потребитель",
+        "гарантия",
+        "возврат товара",
+        "качество",
+        "услуга ненадлежащая"
+      ],
+      "add": [
+        "kz_law_consumer_protection_code"
+      ]
+    },
+    {
+      "if_any_keyword": [
+        "исполнительный лист",
+        "пристав",
+        "арест",
+        "взыскание",
+        "исполнение решения"
+      ],
+      "add": [
+        "kz_law_enforcement_code"
+      ]
+    },
+    {
+      "if_any_keyword": [
+        "акт",
+        "накладная",
+        "первичка",
+        "проводки",
+        "учет",
+        "ошибка бухучета"
+      ],
+      "add": [
+        "kz_law_buh_code"
+      ]
+    }
+  ],
+  "handoff_rules": {
+    "crime_signals_any": [
+      "подделка",
+      "фальсификация",
+      "189",
+      "190",
+      "383",
+      "384",
+      "385",
+      "обнал",
+      "вывод активов",
+      "лжепредпринимательство",
+      "фиктивное банкротство",
+      "преднамеренное банкротство",
+      "полиция",
+      "следователь",
+      "уголовное дело"
+    ],
+    "admin_signals_any": [
+      "КГД",
+      "уведомление",
+      "предписание",
+      "акт проверки",
+      "штраф",
+      "протокол",
+      "постановление",
+      "госорган",
+      "обжаловать действие/бездействие органа"
+    ],
+    "if_crime_signal": {
+      "do": "handoff_to_root_mode=CRIMINAL_OR_MIXED",
+      "message": "Есть признаки уголовно-правовых рисков. ГКРК не отменяется, но квалификация должна идти через ROOT с режимом CRIMINAL/MIXED."
+    },
+    "if_admin_signal": {
+      "do": "handoff_to_root_mode=ADMIN_OR_MIXED",
+      "message": "Есть признаки публично-правового спора/админпроцедуры. Нужна связка через ROOT с APPK/KoAP."
+    }
+  },
+  "minimal_questions_pack": {
+    "ask_first_always": [
+      "Кто стороны (физ/юр, ИП/ТОО)?",
+      "Есть ли договор или хотя бы переписка/счет/оферта?",
+      "Что произошло (факты 1-2 предложения)?",
+      "Сумма и по каким документам?",
+      "Даты: когда возникло обязательство и когда нарушили?",
+      "Что хотите получить (деньги/расторгнуть/признать недействительным/вернуть)?"
+    ]
+  }
+}

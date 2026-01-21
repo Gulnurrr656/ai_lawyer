@@ -1,0 +1,154 @@
+{
+  "index_type": "uk_index",
+  "project": "AI_LAWYER",
+  "jurisdiction": "KZ",
+  "language": "ru",
+  "index_version": "AI_LAWYER_UK_INDEX_v1_SERIOUS_CANON",
+
+  "storage_layout": {
+    "index_file": "index/uk_index/kz_uk_index.json",
+    "folders": {
+      "uk": "rag/kz_uk_code",
+      "gk": "rag/kz_gk_code",
+      "appc": "rag/kz_appc_code",
+      "koap": "rag/kz_koap_code",
+      "pk": "rag/kz_pk_code",
+      "laws": "rag/kz_laws",
+      "vs_np": "rag/kz_vs_np"
+    },
+    "source_to_folder": {
+      "kz_uk_code": "uk",
+      "kz_gk_code": "gk",
+      "kz_appc_code": "appc",
+      "kz_koap_code": "koap",
+      "kz_pk_code": "pk"
+    },
+    "hard_rule": "Алиасы uk/gk/appc/koap/pk/laws/vs_np используются только как ключи для путей. Фактические папки в rag/ строго вида rag/kz_<source_id>."
+  },
+
+  "primary_source": "kz_uk_code",
+  "secondary_sources": [
+    "kz_gk_code",
+    "kz_koap_code",
+    "kz_appc_code"
+  ],
+  "supporting_sources": [
+    "kz_pk_code"
+  ],
+
+  "mission": "Режим уголовно-правовых рисков: распознать красные флаги в фактах (экономика/документы/должностные лица) -> отделить гражданско-правовую часть от потенциально уголовной -> предложить безопасную юридическую траекторию (ГК/КоАП/АППК) без обвинений и без инструкций по нарушению закона.",
+
+  "uk_core_meaning": {
+    "what_it_is": [
+      "УК фиксирует, какие деяния являются уголовно наказуемыми и какие последствия наступают.",
+      "Для AI_LAWYER это не 'обвинитель', а детектор уголовно-правовых рисков вокруг гражданских и административных кейсов."
+    ],
+    "why_you_loaded_articles_pack": [
+      "Статьи 1–6 нужны как рамка понимания уголовного закона и его действия.",
+      "Статья 10 нужна, чтобы понимать порог 'уголовное правонарушение' и идею уголовного проступка как зоны перехода.",
+      "Статьи 189 и 190 — типовые экономические кейсы на границе договоров/долгов и уголовных рисков.",
+      "Блок 221–249 — экономическая деятельность: именно там чаще всего 'гражданка' превращается в уголовные риски.",
+      "Статьи 364–370 (включая 370-1/370-2) — зона должностных лиц/злоупотреблений, часто примыкает к спорам с органами.",
+      "Статьи 383–385 — документы/печати/подложность, критично для проверок, банкротств, первички."
+    ]
+  },
+
+  "guardrails": {
+    "never_assume_guilt": true,
+    "never_label_as_crime": true,
+    "always_use_risk_language": true,
+    "always_split_facts_and_hypotheses": true,
+    "do_not_give_illegal_instructions": true,
+    "do_not_promise_outcome": true,
+    "use_only_root_canon_source_ids": true,
+    "no_new_source_ids": true
+  },
+
+  "router_output_schema": {
+    "must_return_json_object": true,
+    "required_fields": [
+      "mode_label",
+      "primary_route",
+      "routes",
+      "addons",
+      "confidence",
+      "why",
+      "facts_vs_hypotheses",
+      "risk_flags",
+      "safe_language_summary",
+      "civil_admin_safe_path",
+      "do_not_say_list",
+      "elements_to_clarify",
+      "missing_facts",
+      "next_questions",
+      "risk_map",
+      "strategy",
+      "drafting_checklist"
+    ],
+    "field_types": {
+      "mode_label": "string",
+      "primary_route": "string",
+      "routes": "array[string]",
+      "addons": "array[string]",
+      "confidence": "number",
+      "why": "array[string]",
+      "facts_vs_hypotheses": { "facts": "array[string]", "hypotheses": "array[string]" },
+      "risk_flags": "array[string]",
+      "safe_language_summary": "array[string]",
+      "civil_admin_safe_path": "array[string]",
+      "do_not_say_list": "array[string]",
+      "elements_to_clarify": "array[string]",
+      "missing_facts": "array[string]",
+      "next_questions": "array[string]",
+      "risk_map": "array[string]",
+      "strategy": "array[string]",
+      "drafting_checklist": "array[string]"
+    },
+    "hard_rule": "mode_label всегда писать как 'УК РК (kz_uk_code) — риск-режим' и никогда не писать 'это преступление/уголовка'."
+  },
+
+  "tracks": [
+    {
+      "track_id": "UK_BORDER_GK_ECON",
+      "title": "Граница ГК ↔ УК в экономике (189/190 и вокруг)",
+      "routes": ["kz_uk_code", "kz_gk_code"],
+      "addons_suggested": ["kz_pk_code"],
+      "risk_flags_templates": [
+        "обман/введение в заблуждение",
+        "злоупотребление доверием",
+        "вверенное имущество/деньги",
+        "фиктивность документов/первички",
+        "сокрытие активов/следов операций"
+      ]
+    },
+    {
+      "track_id": "UK_ECON_ACTIVITY",
+      "title": "Экономическая деятельность (глава 221–249) как зона повышенных рисков",
+      "routes": ["kz_uk_code"],
+      "addons_suggested": ["kz_gk_code", "kz_koap_code", "kz_appc_code"]
+    },
+    {
+      "track_id": "UK_DOCS_SIGNS",
+      "title": "Документы/печати/подложность (383–385)",
+      "routes": ["kz_uk_code"],
+      "addons_suggested": ["kz_gk_code", "kz_appc_code"]
+    },
+    {
+      "track_id": "UK_OFFICIALS_RISK",
+      "title": "Должностные лица/злоупотребления (364–370-1/370-2)",
+      "routes": ["kz_uk_code"],
+      "addons_suggested": ["kz_appc_code"]
+    }
+  ],
+
+  "minimal_questions_pack": {
+    "ask_first_always": [
+      "Кто стороны (физ/ИП/ТОО) и есть ли госорган?",
+      "Есть ли договор/переписка/счет/акт/накладная?",
+      "Деньги/товар были 'вверены' (переданы на хранение/реализацию/управление)?",
+      "Были ли признаки обмана/подделки/подложных документов?",
+      "Есть ли протокол/постановление/штраф (КоАП) или акт/уведомление органа (АППК)?",
+      "Какая цель: взыскать долг/оспорить акт/обжаловать штраф/восстановить право?"
+    ]
+  }
+}

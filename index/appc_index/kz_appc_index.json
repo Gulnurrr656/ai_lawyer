@@ -1,0 +1,252 @@
+{
+  "index_type": "appc_index",
+  "project": "AI_LAWYER",
+  "jurisdiction": "KZ",
+  "language": "ru",
+  "index_version": "AI_LAWYER_APPC_INDEX_v1_SERIOUS_CANON",
+
+  "storage_layout": {
+    "index_file": "index/appc_index/kz_appc_index.json",
+    "folders": {
+      "appc": "rag/kz_appc_code",
+      "koap": "rag/kz_koap_code",
+      "gk": "rag/kz_gk_code",
+      "pk": "rag/kz_pk_code",
+      "vs_np": "rag/kz_vs_np",
+      "laws": "rag/kz_laws"
+    },
+    "source_to_folder": {
+      "kz_appc_code": "appc",
+      "kz_koap_code": "koap",
+      "kz_gk_code": "gk",
+      "kz_pk_code": "pk",
+      "kz_vs_np_civil_procedure_norms_code": "vs_np",
+      "kz_vs_np_civil_judgment_code": "vs_np",
+      "kz_vs_np_public_procurement_code": "vs_np",
+      "kz_law_state_registration_code": "laws",
+      "kz_law_trade_regulation_code": "laws",
+      "kz_law_technical_regulation_code": "laws",
+      "kz_law_enforcement_code": "laws",
+      "kz_law_personal_data_code": "laws"
+    },
+    "hard_rule": "Названия папок и файлов без пробелов. Алиасы appc/koap/gk/pk/vs_np/laws используются только как ключи для путей. Никакие 'civil'/'цивиль' не используются как папки или файлы."
+  },
+
+  "primary_source": "kz_appc_code",
+  "secondary_sources": ["kz_koap_code"],
+  "supporting_sources": [
+    "kz_gk_code",
+    "kz_pk_code",
+    "kz_vs_np_public_procurement_code",
+    "kz_law_state_registration_code",
+    "kz_law_trade_regulation_code",
+    "kz_law_technical_regulation_code",
+    "kz_law_enforcement_code",
+    "kz_law_personal_data_code"
+  ],
+
+  "mission": "Сделать из запроса клиента юридически применимую позицию по спору с госорганом: определить административный акт/действие/бездействие -> проверить компетенцию/процедуру/сроки -> собрать основания незаконности -> выбрать способ защиты (жалоба/суд) -> сформировать доказательства -> подготовить план действий и проект процессуальных документов.",
+
+  "appc_core_reasoning": {
+    "why_appc_is_core": [
+      "АППК определяет правила поведения госоргана (административная процедура) и правила судебного контроля над госорганом (административный процесс).",
+      "Если в деле есть госорган, его акт или бездействие, то ГК как материальная база может быть релевантен, но механизм защиты и сроки определяются АППК.",
+      "АППК требует проверять законность административного акта: компетенция, процедура, мотивировка, сроки, соблюдение прав и принципов."
+    ],
+    "use_principle": "Сначала АППК (процедура и процесс), затем материальные нормы (ГК/ПК/спецзаконы) как обоснование нарушенного права или интереса."
+  },
+
+  "guardrails": {
+    "never_assume_facts": true,
+    "always_split_facts_and_hypotheses": true,
+    "do_not_name_deadlines_without_dates": true,
+    "do_not_promise_outcome": true,
+    "do_not_call_anything_crime": true,
+    "use_only_root_canon_source_ids": true,
+    "no_new_source_ids": true
+  },
+
+  "router_output_schema": {
+    "must_return_json_object": true,
+    "required_fields": [
+      "mode_label",
+      "primary_route",
+      "routes",
+      "addons",
+      "confidence",
+      "why",
+      "facts_vs_hypotheses",
+      "admin_act_or_inaction",
+      "procedure_stage",
+      "remedies",
+      "grounds_of_illegality",
+      "elements_to_prove",
+      "evidence_matrix",
+      "missing_facts",
+      "next_questions",
+      "risk_map",
+      "strategy",
+      "drafting_checklist"
+    ],
+    "field_types": {
+      "mode_label": "string",
+      "primary_route": "string",
+      "routes": "array[string]",
+      "addons": "array[string]",
+      "confidence": "number",
+      "why": "array[string]",
+      "facts_vs_hypotheses": { "facts": "array[string]", "hypotheses": "array[string]" },
+      "admin_act_or_inaction": "string",
+      "procedure_stage": "string",
+      "remedies": "array[string]",
+      "grounds_of_illegality": "array[string]",
+      "elements_to_prove": "array[string]",
+      "evidence_matrix": "array[object]",
+      "missing_facts": "array[string]",
+      "next_questions": "array[string]",
+      "risk_map": "array[string]",
+      "strategy": "array[string]",
+      "drafting_checklist": "array[string]"
+    },
+    "hard_rule": "mode_label всегда писать как 'АППК (kz_appc_code)' — без других названий."
+  },
+
+  "methodology": {
+    "name": "Senior APPC Workflow",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Идентификация госоргана и формы вмешательства",
+        "must_identify": [
+          "какой орган и какое подразделение",
+          "что произошло: административный акт / действие / бездействие",
+          "какая госуслуга/процедура/проверка",
+          "есть ли документ: уведомление/предписание/акт/отказ/письмо"
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Стадия: досудебная процедура или суд",
+        "must_identify": [
+          "подавалась ли жалоба в орган/вышестоящий орган",
+          "есть ли обязательный досудебный порядок (если применимо)",
+          "какие сроки уже идут (только после точных дат)"
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Основания незаконности административного акта",
+        "must_output": [
+          "grounds_of_illegality: компетенция, процедура, мотивировка, сроки, нарушение прав, несоразмерность",
+          "что именно просим: отменить акт/признать незаконным/обязать совершить действие/признать бездействие незаконным"
+        ]
+      },
+      {
+        "step": 4,
+        "title": "Элементы доказывания",
+        "must_output": [
+          "elements_to_prove как чек-лист",
+          "факты и документы, подтверждающие нарушение процедуры или прав"
+        ]
+      },
+      {
+        "step": 5,
+        "title": "Доказательства (матрица элемент -> документ)",
+        "must_output": [
+          "evidence_matrix: каждый элемент доказывания должен иметь доказательства",
+          "если доказательств нет — missing_facts и риски"
+        ]
+      },
+      {
+        "step": 6,
+        "title": "Сроки и процессуальные требования — только после дат",
+        "hard_rule": "Без дат — только вопросы. Никаких выводов про пропущено/не пропущено.",
+        "must_ask": [
+          "Когда получили акт/отказ/уведомление?",
+          "Когда узнали о бездействии?",
+          "Подавали ли жалобу, когда и куда?",
+          "Есть ли доказательства вручения/получения?"
+        ]
+      },
+      {
+        "step": 7,
+        "title": "Стратегия: жалоба -> суд -> исполнение",
+        "must_output": [
+          "strategy: шаги и порядок действий",
+          "drafting_checklist: какие документы подготовить"
+        ]
+      }
+    ]
+  },
+
+  "tracks": [
+    {
+      "track_id": "APPC_ACT_CHALLENGE",
+      "title": "Оспаривание административного акта (отказ/решение/предписание/уведомление)",
+      "routes": ["kz_appc_code"],
+      "addons_suggested": ["kz_koap_code", "kz_gk_code", "kz_pk_code"],
+      "legal_construction_templates": [
+        "признание административного акта незаконным",
+        "отмена административного акта",
+        "обязание принять решение/совершить действие"
+      ],
+      "elements_to_prove_templates": [
+        "наличие административного акта и факт его получения",
+        "компетенция органа (или её отсутствие)",
+        "нарушение процедуры/сроков/мотивировки",
+        "нарушение прав/законных интересов заявителя",
+        "причинная связь между актом и ущербом/ограничением (если заявляется)"
+      ]
+    },
+    {
+      "track_id": "APPC_INACTION",
+      "title": "Бездействие госоргана: обязать совершить действие",
+      "routes": ["kz_appc_code"],
+      "addons_suggested": ["kz_law_state_registration_code", "kz_law_trade_regulation_code"],
+      "legal_construction_templates": [
+        "признание бездействия незаконным",
+        "обязание совершить административное действие"
+      ]
+    },
+    {
+      "track_id": "APPC_FINE_AND_PROTOCOL",
+      "title": "Штраф/протокол/постановление: связка АППК + КоАП",
+      "routes": ["kz_appc_code", "kz_koap_code"],
+      "addons_suggested": ["kz_pk_code"],
+      "legal_construction_templates": [
+        "обжалование постановления по делу об административном правонарушении",
+        "проверка состава и процедуры привлечения"
+      ]
+    }
+  ],
+
+  "addons_rules": [
+    {
+      "if_any_keyword": ["штраф", "протокол", "постановление", "административное правонарушение"],
+      "add": ["kz_koap_code"]
+    },
+    {
+      "if_any_keyword": ["регистрация", "перерегистрация", "ликвидация", "юридическое лицо", "БИН", "справка"],
+      "add": ["kz_law_state_registration_code"]
+    },
+    {
+      "if_any_keyword": ["персональные данные", "согласие", "утечка", "обработка данных"],
+      "add": ["kz_law_personal_data_code"]
+    },
+    {
+      "if_any_keyword": ["исполнение решения", "пристав", "исполнительный лист", "взыскание"],
+      "add": ["kz_law_enforcement_code"]
+    }
+  ],
+
+  "minimal_questions_pack": {
+    "ask_first_always": [
+      "Какой госорган и какое решение/отказ/уведомление/предписание?",
+      "Есть ли документ и дата получения (скан/фото)?",
+      "В чем именно нарушены ваши права/интерес (1-2 предложения)?",
+      "Подавали ли жалобу в орган/вышестоящий орган, когда и куда?",
+      "Какие сроки сейчас важны (когда получили документ)?",
+      "Чего вы хотите добиться: отменить акт/обязать совершить действие/признать бездействие незаконным?"
+    ]
+  }
+}

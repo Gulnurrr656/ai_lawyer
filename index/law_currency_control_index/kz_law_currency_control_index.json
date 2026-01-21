@@ -1,0 +1,52 @@
+{
+  "index_type": "law_currency_control_index",
+  "project": "AI_LAWYER",
+  "jurisdiction": "KZ",
+  "language": "ru",
+  "index_version": "AI_LAWYER_LAW_CURRENCY_CONTROL_INDEX_v1_SERIOUS_CANON",
+
+  "storage_layout": {
+    "index_file": "index/law_currency_control_index/kz_law_currency_control_index.json",
+    "folders": {
+      "law_currency_control": "rag/kz_law_currency_control_code"
+    },
+    "source_to_folder": {
+      "kz_law_currency_control_code": "law_currency_control"
+    },
+    "hard_rule": "RAG-папка строго rag/kz_law_currency_control_code (1:1 с source_id). Файлы внутри: отдельные JSON по статьям/пунктам."
+  },
+
+  "primary_source": "kz_law_currency_control_code",
+  "supporting_sources": [
+    "kz_nk_code",
+    "kz_koap_code"
+  ],
+
+  "mission": "Дать правовую рамку валютных операций и валютного контроля в РК: резидент/нерезидент, допустимость валютных операций, требования к оформлению валютных договоров, контроль исполнения обязательств по ВЭД (экспорт/импорт), требования к подтверждающим документам, базовые комплаенс-риски и триггеры ответственности.",
+
+  "law_core_meaning": {
+    "what_it_is": [
+      "Базовый закон РК, задающий понятия резидент/нерезидент, принципы валютного регулирования и валютного контроля.",
+      "Определяет общий контур надзора за валютными операциями и исполнением обязательств по валютным договорам (особенно ВЭД)."
+    ],
+    "when_it_triggers": [
+      "экспорт/импорт: контроль поступления денег и закрытие обязательств документами",
+      "переводы денег нерезидентам/от нерезидентов, валютные платежи по договорам",
+      "проверки банка (агента валютного контроля): запрос договоров/инвойсов/актов/подтверждающих документов",
+      "риски нарушений сроков/порядка валютных операций и дальнейшая ответственность"
+    ],
+    "how_law_is_used_by_lawyers": [
+      "Собирают комплаенс-позицию: можно ли проводить валютную операцию и какие документы нужны.",
+      "Готовят ответы банку/регулятору: обоснование платежа, подтверждающие документы, устранение замечаний.",
+      "Строят линию защиты при претензиях по валютному контролю (связка: закон + подзаконные правила + КоАП/УК)."
+    ]
+  },
+
+  "guardrails": {
+    "never_assume_facts": true,
+    "always_split_facts_and_hypotheses": true,
+    "do_not_invent_sources": true,
+    "use_only_root_canon_source_ids": true,
+    "no_new_source_ids": true
+  }
+}

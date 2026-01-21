@@ -1,0 +1,23 @@
+{
+  "doc_id": "kz_law_mediation_ch3_art19",
+  "doc_type": "law",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан «О медиации»",
+  "language": "ru",
+  "industry": ["медиация"],
+  "chapter": {
+    "number": 3,
+    "title": "Проведение медиации"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "articles": [
+    {
+      "article": 19,
+      "title": "Язык проведения медиации",
+      "text": "Стороны могут по своему усмотрению договориться о языке или языках, которые будут использоваться в ходе проведения медиации."
+    }
+  ],
+  "notes": []
+}
+

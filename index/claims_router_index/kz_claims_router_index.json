@@ -1,0 +1,122 @@
+{
+  "index_type": "claims_router_index",
+  "project": "AI_LAWYER",
+  "jurisdiction": "KZ",
+  "language": "ru",
+  "index_version": "AI_LAWYER_CLAIMS_ROUTER_INDEX_v1_SERIOUS_CANON",
+
+  "storage_layout": {
+    "index_file": "index/claims_router_index/kz_claims_router_index.json",
+    "folders": {
+      "gk": "rag/kz_gk_code",
+      "appc": "rag/kz_appc_code",
+      "koap": "rag/kz_koap_code",
+      "nk": "rag/kz_nk_code",
+      "pk": "rag/kz_pk_code",
+
+      "vs_np_civil_judgment": "rag/kz_vs_np_civil_judgment_code",
+      "vs_np_civil_process": "rag/kz_vs_np_civil_procedure_norms_code",
+
+      "law_enforcement": "rag/kz_law_enforcement_code",
+      "law_buh": "rag/kz_law_buh_code",
+      "law_personal_data": "rag/kz_law_personal_data_code",
+      "law_trade_regulation": "rag/kz_law_trade_regulation_code",
+      "law_consumer_protection": "rag/kz_law_consumer_protection_code"
+    },
+    "source_to_folder": {
+      "kz_gk_code": "gk",
+      "kz_appc_code": "appc",
+      "kz_koap_code": "koap",
+      "kz_nk_code": "nk",
+      "kz_pk_code": "pk",
+
+      "kz_vs_np_civil_judgment_code": "vs_np_civil_judgment",
+      "kz_vs_np_civil_procedure_norms_code": "vs_np_civil_process",
+
+      "kz_law_enforcement_code": "law_enforcement",
+      "kz_law_buh_code": "law_buh",
+      "kz_law_personal_data_code": "law_personal_data",
+      "kz_law_trade_regulation_code": "law_trade_regulation",
+      "kz_law_consumer_protection_code": "law_consumer_protection"
+    },
+    "hard_rule": "Индекс ТОЛЬКО для заявлений/жалоб/претензий/ответов. Он не хранит doc_id. Он хранит карту rag/ и правила включения источников. Ищейка обязана вернуть top-N doc_id+фрагменты."
+  },
+
+  "primary_source": "kz_appc_code",
+  "supporting_sources": [
+    "kz_gk_code",
+    "kz_koap_code",
+    "kz_nk_code",
+    "kz_pk_code",
+    "kz_vs_np_civil_procedure_norms_code",
+    "kz_vs_np_civil_judgment_code",
+    "kz_law_enforcement_code",
+    "kz_law_buh_code",
+    "kz_law_personal_data_code",
+    "kz_law_trade_regulation_code",
+    "kz_law_consumer_protection_code"
+  ],
+
+  "mission": "Процессуальные документы и досудебка: заявления, жалобы, претензии, ответы. Правильная структура, сроки, доказательства, адресаты, и маршрут источников.",
+
+  "claim_taxonomy": {
+    "court": [
+      "исковое заявление",
+      "отзыв/возражение",
+      "ходатайство",
+      "апелляция/кассация (каркас)",
+      "взыскание судебных расходов (каркас)"
+    ],
+    "state_bodies": [
+      "обращение/заявление",
+      "жалоба",
+      "возражение на акт/уведомление",
+      "пояснения"
+    ],
+    "bank_fin_org": [
+      "претензия банку",
+      "жалоба/заявление",
+      "ответ банку"
+    ],
+    "dосудебка": [
+      "претензия контрагенту",
+      "ответ на претензию",
+      "досудебное уведомление",
+      "уведомление о расторжении/изменении",
+      "требование об оплате/возврате"
+    ],
+    "enforcement": [
+      "заявление судебному исполнителю",
+      "жалоба на действия/бездействие",
+      "ходатайство об аресте/снятии ареста"
+    ]
+  },
+
+  "routing_rules": {
+    "always_include": ["kz_appc_code"],
+
+    "if_court_keywords": ["kz_vs_np_civil_procedure_norms_code", "kz_vs_np_civil_judgment_code", "kz_gk_code"],
+    "if_tax_keywords": ["kz_nk_code", "kz_law_buh_code", "kz_koap_code"],
+    "if_enforcement_keywords": ["kz_law_enforcement_code"],
+    "if_consumer_keywords": ["kz_law_consumer_protection_code", "kz_law_trade_regulation_code"],
+    "if_personal_data_keywords": ["kz_law_personal_data_code"],
+    "if_business_context": ["kz_pk_code"]
+  },
+
+  "keywords_bank": {
+    "court": ["иск", "истец", "ответчик", "суд", "ходатайство", "апелляция", "доказательства"],
+    "tax": ["КГД", "уведомление", "камерал", "доначисление", "НДС", "КПН", "вычет", "проверка", "акт"],
+    "enforcement": ["исполнительный лист", "судебный исполнитель", "арест", "взыскание", "постановление"],
+    "consumer": ["возврат", "неустойка", "гарантия", "качество товара", "продавец", "потребитель"],
+    "personal_data": ["персональные данные", "согласие", "утечка", "обработка данных"]
+  },
+
+  "guardrails": {
+    "always_output_structure": true,
+    "always_list_evidence": true,
+    "always_list_deadlines_as_placeholders": true,
+    "retriever_must_return_top_n_doc_ids": true,
+    "no_manual_doc_id_lists_in_index": true,
+    "do_not_invent_sources": true
+  }
+}

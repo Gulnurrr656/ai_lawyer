@@ -1,0 +1,27 @@
+{
+  "index_type": "law_buh_index",
+  "project": "AI_LAWYER",
+  "jurisdiction": "KZ",
+  "language": "ru",
+  "index_version": "AI_LAWYER_LAW_BUH_INDEX_v1_SERIOUS_CANON",
+  "storage_layout": {
+    "index_file": "index/law_buh_index/kz_law_buh_index.json",
+    "folders": {
+      "law_buh": "rag/kz_law_buh_code"
+    },
+    "source_to_folder": {
+      "kz_law_buh_code": "law_buh"
+    },
+    "hard_rule": "RAG-папка строго rag/kz_law_buh_code (1:1 с source_id)."
+  },
+  "primary_source": "kz_law_buh_code",
+  "supporting_sources": [
+    "kz_nk_code",
+    "kz_gk_code",
+    "kz_pk_code",
+    "kz_appc_code",
+    "kz_koap_code"
+  ],
+  "mission": "Закон РК «О бухгалтерском учете и финансовой отчетности»: применяем для проверки первички, учета, отчетности, ответственности и доказательственной базы в налоговых и гражданских спорах.",
+  "docs": []
+}

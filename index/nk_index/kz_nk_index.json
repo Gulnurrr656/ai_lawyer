@@ -1,0 +1,245 @@
+{
+  "index_type": "nk_index",
+  "project": "AI_LAWYER",
+  "jurisdiction": "KZ",
+  "language": "ru",
+  "index_version": "AI_LAWYER_NK_INDEX_v1_SERIOUS_CANON",
+
+  "storage_layout": {
+    "index_file": "index/nk_index/kz_nk_index.json",
+    "folders": {
+      "nk": "rag/kz_nk_code",
+      "appc": "rag/kz_appc_code",
+      "koap": "rag/kz_koap_code",
+      "gk": "rag/kz_gk_code",
+      "pk": "rag/kz_pk_code",
+      "vs_np": "rag/kz_vs_np",
+      "laws": "rag/kz_laws"
+    },
+    "source_to_folder": {
+      "kz_nk_code": "nk",
+      "kz_appc_code": "appc",
+      "kz_koap_code": "koap",
+      "kz_gk_code": "gk",
+      "kz_pk_code": "pk",
+      "kz_vs_np_civil_procedure_norms_code": "vs_np",
+      "kz_vs_np_civil_judgment_code": "vs_np",
+      "kz_law_enforcement_code": "laws",
+      "kz_law_state_registration_code": "laws",
+      "kz_law_consumer_protection_code": "laws",
+      "kz_law_buh_code": "laws"
+    },
+    "hard_rule": "Алиасы nk/appc/koap/gk/pk/vs_np/laws используются только как ключи путей. Папки rag/ должны быть строго вида rag/kz_<source_id> (например rag/kz_nk_code). Никаких 'civil'/'цивиль' в путях и именах."
+  },
+
+  "primary_source": "kz_nk_code",
+  "secondary_sources": [
+    "kz_appc_code",
+    "kz_koap_code"
+  ],
+  "supporting_sources": [
+    "kz_gk_code",
+    "kz_pk_code",
+    "kz_law_buh_code",
+    "kz_law_enforcement_code",
+    "kz_law_state_registration_code"
+  ],
+
+  "mission": "Сделать из налогового вопроса юридически применимую позицию: определить налог/объект/период -> режим налогообложения -> расчёт базы и платежа -> отчётность и документы -> камеральный контроль/проверка -> риски (пени/штрафы) -> стратегия (исправление/возражения/жалоба/суд через АППК) с запретом на схемы уклонения.",
+
+  "nk_core_meaning": {
+    "what_it_is": [
+      "Налоговый кодекс РК регулирует налоги и другие обязательные платежи в бюджет, а также налоговое администрирование: учет, отчетность, камеральный контроль, проверки, задолженность и взыскание.",
+      "НК задаёт материальные правила: что считается нарушением, как считается база и сумма, какие документы нужны, какие последствия наступают.",
+      "В спорах с КГД НК отвечает за 'суть', а АППК отвечает за порядок защиты (жалоба/админсуд)."
+    ],
+    "when_it_triggers_after_gk": [
+      "Когда вопрос про налоги, отчётность, ЭСФ, НДС, КПН, ИПН, соцплатежи, камеральные уведомления, проверки, доначисления, задолженность, взыскание.",
+      "Когда бизнес-спор по ГК имеет налоговые последствия: реальность сделки, первичка, расходы, вычеты, НДС, корректировки.",
+      "Когда нужно не допустить 'перелома' кейса в КоАП/УК: правильно выстроить документы, факты и правовую позицию без признаний и без фиктивности."
+    ],
+    "boundary_with_appc_koap_uk": [
+      "Если оспаривается действие/акт КГД (уведомление, отказ, предписание, результаты проверки) -> процесс ведет АППК, а НК даёт материальную аргументацию.",
+      "Если есть протокол/постановление/штраф по налоговым нарушениям -> подключается КоАП (ответственность).",
+      "Если появляются признаки фиктивности/обнала/умысла/подделки документов -> включается ROOT handoff в режим CRIMINAL/MIXED, но без утверждения 'это уголовка'."
+    ]
+  },
+
+  "guardrails": {
+    "never_assume_facts": true,
+    "always_split_facts_and_hypotheses": true,
+    "do_not_invent_deadlines_without_dates": true,
+    "do_not_promise_outcome": true,
+    "no_tax_evasion_instructions": true,
+    "use_only_root_canon_source_ids": true,
+    "no_new_source_ids": true
+  },
+
+  "router_output_schema": {
+    "must_return_json_object": true,
+    "required_fields": [
+      "mode_label",
+      "primary_route",
+      "routes",
+      "addons",
+      "confidence",
+      "why",
+      "facts_vs_hypotheses",
+      "tax_object_and_period",
+      "taxpayer_profile",
+      "tax_regime",
+      "calculation_outline",
+      "documents_and_reporting",
+      "risk_map",
+      "elements_to_prove",
+      "evidence_matrix",
+      "missing_facts",
+      "next_questions",
+      "strategy",
+      "drafting_checklist"
+    ],
+    "field_types": {
+      "mode_label": "string",
+      "primary_route": "string",
+      "routes": "array[string]",
+      "addons": "array[string]",
+      "confidence": "number",
+      "why": "array[string]",
+      "facts_vs_hypotheses": { "facts": "array[string]", "hypotheses": "array[string]" },
+      "tax_object_and_period": "string",
+      "taxpayer_profile": "string",
+      "tax_regime": "string",
+      "calculation_outline": "array[string]",
+      "documents_and_reporting": "array[string]",
+      "risk_map": "array[string]",
+      "elements_to_prove": "array[string]",
+      "evidence_matrix": "array[object]",
+      "missing_facts": "array[string]",
+      "next_questions": "array[string]",
+      "strategy": "array[string]",
+      "drafting_checklist": "array[string]"
+    },
+    "hard_rule": "mode_label всегда писать как 'НК РК (kz_nk_code)' и не называть налоговый спор 'гражданкой'."
+  },
+
+  "methodology": {
+    "name": "Senior NK Workflow",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Определить налоговый контур",
+        "must_identify": [
+          "какой налог/платеж (НДС/КПН/ИПН/социальные и т.д.)",
+          "какой период",
+          "какой объект (оборот, доход, импорт, зарплата, имущество и т.д.)",
+          "кто налогоплательщик (ИП/ТОО, резидент/нерезидент, отрасль)"
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Определить режим и базовую механику расчёта",
+        "must_output": [
+          "tax_regime (общеустановленный/спецрежим/иное — без выдумок)",
+          "calculation_outline: какие показатели нужны и откуда берутся"
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Документы, отчётность, первичка",
+        "must_output": [
+          "documents_and_reporting: декларации/ЭСФ/акты/накладные/учет",
+          "что критично для доказуемости реальности операций"
+        ]
+      },
+      {
+        "step": 4,
+        "title": "Налоговое администрирование: камералка/проверка/доначисления",
+        "must_identify": [
+          "есть ли уведомление камерального контроля",
+          "есть ли акт проверки/решение/доначисление",
+          "есть ли задолженность и меры взыскания"
+        ]
+      },
+      {
+        "step": 5,
+        "title": "Стратегия защиты: исправление или спор",
+        "must_output": [
+          "если исправление: что и как корректировать законно",
+          "если спор: возражения/жалоба/суд через АППК (handoff по процедуре)"
+        ]
+      },
+      {
+        "step": 6,
+        "title": "Сроки — только после дат",
+        "hard_rule": "Без дат не делать выводов о пропуске сроков; только вопросы.",
+        "must_ask": [
+          "когда получили уведомление/акт/решение",
+          "какие даты подачи возражений/жалоб",
+          "какие доказательства вручения/получения"
+        ]
+      },
+      {
+        "step": 7,
+        "title": "Риск-карта: КоАП/УК-триггеры без обвинений",
+        "must_output": [
+          "risk_map: где риск штрафа (КоАП) и где риск ухода в криминальную плоскость (через ROOT) без ярлыков"
+        ]
+      }
+    ]
+  },
+
+  "addons_rules": [
+    {
+      "if_any_keyword": [
+        "уведомление",
+        "камеральный контроль",
+        "расхождение",
+        "ЭСФ",
+        "акт проверки",
+        "доначисление",
+        "КГД"
+      ],
+      "add": ["kz_appc_code"]
+    },
+    {
+      "if_any_keyword": [
+        "протокол",
+        "постановление",
+        "штраф",
+        "административное правонарушение"
+      ],
+      "add": ["kz_koap_code"]
+    },
+    {
+      "if_any_keyword": [
+        "взыскание",
+        "арест счетов",
+        "пристав",
+        "исполнительный лист"
+      ],
+      "add": ["kz_law_enforcement_code"]
+    },
+    {
+      "if_any_keyword": [
+        "первичка",
+        "акт",
+        "накладная",
+        "проводки",
+        "учет",
+        "ошибка бухучета"
+      ],
+      "add": ["kz_law_buh_code"]
+    }
+  ],
+
+  "minimal_questions_pack": {
+    "ask_first_always": [
+      "Кто вы: ИП или ТОО, какой режим налогообложения?",
+      "Какой налог и какой период (месяц/квартал/год)?",
+      "Что случилось: расчёт, уведомление камералки, проверка, доначисление, задолженность?",
+      "Есть документ от КГД? (номер/дата/что требуют) и когда получили?",
+      "Какие у вас документы по операциям (договор, акты, ЭСФ, оплата, переписка)?",
+      "Какая цель: исправить без спора или оспорить действия/решение?"
+    ]
+  }
+}

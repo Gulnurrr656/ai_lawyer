@@ -1,0 +1,336 @@
+{
+  "index_type": "tk_index",
+  "project": "AI_LAWYER",
+  "jurisdiction": "KZ",
+  "language": "ru",
+  "index_version": "AI_LAWYER_TK_INDEX_v1_SERIOUS_CANON",
+
+  "storage_layout": {
+    "index_file": "index/tk_index/kz_tk_index.json",
+    "folders": {
+      "tk": "rag/kz_tk_code",
+      "appc": "rag/kz_appc_code",
+      "koap": "rag/kz_koap_code",
+      "nk": "rag/kz_nk_code",
+      "uk": "rag/kz_uk_code",
+      "gk": "rag/kz_gk_code",
+      "pk": "rag/kz_pk_code",
+      "vs_np": "rag/kz_vs_np",
+      "laws": "rag/kz_laws"
+    },
+    "source_to_folder": {
+      "kz_tk_code": "tk",
+      "kz_appc_code": "appc",
+      "kz_koap_code": "koap",
+      "kz_nk_code": "nk",
+      "kz_uk_code": "uk",
+      "kz_gk_code": "gk",
+      "kz_pk_code": "pk",
+      "kz_vs_np_civil_procedure_norms_code": "vs_np",
+      "kz_vs_np_civil_judgment_code": "vs_np",
+      "kz_law_enforcement_code": "laws",
+      "kz_law_state_registration_code": "laws",
+      "kz_law_buh_code": "laws",
+      "kz_law_currency_control_code": "laws",
+      "kz_law_trade_regulation_code": "laws",
+      "kz_law_technical_regulation_code": "laws",
+      "kz_law_personal_data_code": "laws",
+      "kz_law_consumer_protection_code": "laws"
+    },
+    "hard_rule": "Алиасы tk/appc/koap/nk/uk/gk/pk/vs_np/laws используются только как ключи путей. Папки rag/ должны быть строго вида rag/kz_<source_id>. Никаких других вариантов."
+  },
+
+  "primary_source": "kz_tk_code",
+  "secondary_sources": [
+    "kz_appc_code",
+    "kz_koap_code",
+    "kz_nk_code"
+  ],
+  "supporting_sources": [
+    "kz_gk_code",
+    "kz_pk_code",
+    "kz_uk_code",
+    "kz_law_buh_code",
+    "kz_law_currency_control_code",
+    "kz_law_trade_regulation_code",
+    "kz_law_technical_regulation_code",
+    "kz_law_enforcement_code"
+  ],
+
+  "mission": "Таможенный контур: провести импорт/экспорт законно и безопасно. Определить товар/процедуру/стоимость/платежи -> документы -> контроль/проверка -> спор с таможней (АППК) -> ответственность (КоАП) -> риск ухода в уголовную плоскость (УК) без ярлыков и без утверждений.",
+
+  "tk_core_meaning": {
+    "what_it_is": [
+      "kz_tk_code покрывает таможенное регулирование: декларирование, таможенные процедуры, таможенная стоимость, таможенные платежи, таможенный контроль и проверки, меры обеспечения, взаимодействие с таможенными органами.",
+      "В таможенных кейсах всегда есть 2 слоя: (1) 'суть' по таможне (kz_tk_code) и (2) 'как спорить с госорганом' (kz_appc_code) если оспаривается решение/действие/бездействие."
+    ],
+    "when_it_triggers": [
+      "ввоз/вывоз товаров, транзит, временный ввоз, переработка, склад",
+      "таможенная стоимость/корректировка стоимости/обеспечение",
+      "коды ТН ВЭД, ограничения/разрешительные документы",
+      "таможенный контроль, запросы документов, проверки, уведомления/решения таможни",
+      "взыскание платежей, блокировки/аресты в исполнении (через enforcement)"
+    ],
+    "boundaries_and_handoffs": [
+      "Если оспаривается решение/акт/действие/бездействие таможни -> процессуальная рамка ведется АППК (kz_appc_code), а материальная аргументация берется из ТК (kz_tk_code).",
+      "Если есть протокол/постановление/штраф -> подключается КоАП (kz_koap_code) как ключ по ответственности.",
+      "Если появляются признаки подделки документов/фиктивности/умысла/организованности -> подключается УК как риск-блок (kz_uk_code), но запрещено говорить 'это уголовка' как утверждение."
+    ]
+  },
+
+  "guardrails": {
+    "never_assume_facts": true,
+    "always_split_facts_and_hypotheses": true,
+    "do_not_invent_deadlines_without_dates": true,
+    "do_not_promise_outcome": true,
+    "no_smuggling_or_evasion_instructions": true,
+    "do_not_label_case_as_criminal": true,
+    "use_only_root_canon_source_ids": true,
+    "no_new_source_ids": true
+  },
+
+  "router_output_schema": {
+    "must_return_json_object": true,
+    "required_fields": [
+      "mode_label",
+      "primary_route",
+      "routes",
+      "addons",
+      "confidence",
+      "why",
+      "facts_vs_hypotheses",
+      "customs_object",
+      "procedure_track",
+      "declaration_context",
+      "payments_and_value_context",
+      "control_or_audit_context",
+      "elements_to_prove",
+      "evidence_matrix",
+      "missing_facts",
+      "next_questions",
+      "risk_map",
+      "strategy",
+      "drafting_checklist"
+    ],
+    "field_types": {
+      "mode_label": "string",
+      "primary_route": "string",
+      "routes": "array[string]",
+      "addons": "array[string]",
+      "confidence": "number",
+      "why": "array[string]",
+      "facts_vs_hypotheses": { "facts": "array[string]", "hypotheses": "array[string]" },
+      "customs_object": "string",
+      "procedure_track": "string",
+      "declaration_context": "array[string]",
+      "payments_and_value_context": "array[string]",
+      "control_or_audit_context": "array[string]",
+      "elements_to_prove": "array[string]",
+      "evidence_matrix": "array[object]",
+      "missing_facts": "array[string]",
+      "next_questions": "array[string]",
+      "risk_map": "array[string]",
+      "strategy": "array[string]",
+      "drafting_checklist": "array[string]"
+    },
+    "hard_rule": "mode_label всегда писать как 'Таможня (kz_tk_code)'."
+  },
+
+  "methodology": {
+    "name": "Senior Customs Workflow",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Определить таможенный объект и контур кейса",
+        "must_identify": [
+          "какой товар/партия/сделка (кратко) и роль клиента (импортер/экспортер/перевозчик/брокер)",
+          "что происходит: оформление/контроль/проверка/спор/штраф",
+          "есть ли госакт: решение/уведомление/отказ/корректировка/требование документов"
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Процедура и декларация",
+        "must_output": [
+          "procedure_track: import_or_export_or_transit_or_other",
+          "declaration_context: что декларировали, номер/дата ДТ (если есть), таможенный орган"
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Таможенная стоимость и платежи",
+        "must_identify": [
+          "есть ли спор по стоимости/корректировка/обеспечение",
+          "какие платежи затронуты (пошлина/НДС при импорте/акциз и т.д.)"
+        ],
+        "note": "Если вопрос про НДС/платежи/задолженность — добавлять NK как addon, но не подменять TK."
+      },
+      {
+        "step": 4,
+        "title": "Контроль/проверка (до или после выпуска)",
+        "must_output": [
+          "control_or_audit_context: запросы документов, осмотры, проверки, уведомления и сроки получения (если есть)"
+        ]
+      },
+      {
+        "step": 5,
+        "title": "Если спор с таможней — handoff в АППК",
+        "hard_rule": "Если оспаривается акт/действие/бездействие таможни — процесс ведет АППК, TK дает материальные аргументы.",
+        "must_output": [
+          "strategy: жалоба/админсуд/доказательства вручения/процедурные нарушения",
+          "drafting_checklist: жалоба/адмиск/ходатайства/приложения"
+        ]
+      },
+      {
+        "step": 6,
+        "title": "Если штраф/протокол — handoff в КоАП",
+        "hard_rule": "Если есть протокол/постановление/штраф — КоАП ведет по ответственности, TK дает контекст фактов, АППК — по спорам с органом (если применимо)."
+      },
+      {
+        "step": 7,
+        "title": "Риск ухода в УК — без ярлыков",
+        "hard_rule": "Запрещено говорить 'это уголовка'. Можно говорить: 'если сделать/есть признаки X, есть риск уголовно-правовых последствий'.",
+        "must_output": [
+          "risk_map: признаки фиктивности/подделок/умысла/организованности как гипотезы",
+          "missing_facts: что нужно, чтобы исключить риск (оригиналы, цепочка платежей, транспортные документы)"
+        ]
+      }
+    ]
+  },
+
+  "tracks": [
+    {
+      "track_id": "TK_PROCEDURE_CLEARANCE",
+      "title": "Оформление и таможенная процедура",
+      "routes": ["kz_tk_code"],
+      "addons_suggested": ["kz_gk_code", "kz_pk_code"],
+      "elements_to_prove_templates": [
+        "правильность выбранной процедуры",
+        "наличие полного пакета документов",
+        "соответствие фактического товара сведениям декларации"
+      ]
+    },
+    {
+      "track_id": "TK_CUSTOMS_VALUE_PAYMENTS",
+      "title": "Таможенная стоимость и платежи (корректировка/обеспечение)",
+      "routes": ["kz_tk_code"],
+      "addons_suggested": ["kz_nk_code", "kz_law_currency_control_code", "kz_law_buh_code"],
+      "elements_to_prove_templates": [
+        "основания заявленной стоимости (инвойс/контракт/платежи)",
+        "состав затрат и подтверждения (страховка/перевозка/упаковка и т.д.)",
+        "отсутствие противоречий в документах"
+      ]
+    },
+    {
+      "track_id": "TK_CONTROL_AUDIT",
+      "title": "Таможенный контроль/проверка/запрос документов",
+      "routes": ["kz_tk_code"],
+      "addons_suggested": ["kz_appc_code"],
+      "elements_to_prove_templates": [
+        "компетенция органа и законность требований",
+        "соблюдение процедуры уведомления/запроса",
+        "надлежащее предоставление документов и фиксация передачи"
+      ]
+    },
+    {
+      "track_id": "TK_DISPUTE_WITH_CUSTOMS",
+      "title": "Спор с таможней: акт/решение/действие/бездействие",
+      "routes": ["kz_appc_code", "kz_tk_code"],
+      "addons_suggested": ["kz_nk_code"],
+      "note": "АППК ведет процесс (жалоба/суд), ТК — материальная часть (почему неправильно)."
+    },
+    {
+      "track_id": "TK_FINE_KOAP_LINK",
+      "title": "Штраф/протокол по таможне",
+      "routes": ["kz_koap_code", "kz_tk_code"],
+      "addons_suggested": ["kz_appc_code"],
+      "note": "КоАП — ответственность; ТК — фактическая и материальная рамка; АППК — если оспариваются действия органа."
+    }
+  ],
+
+  "addons_rules": [
+    {
+      "if_any_keyword": [
+        "решение таможни",
+        "отказ в выпуске",
+        "корректировка",
+        "уведомление",
+        "действие/бездействие",
+        "обжалование"
+      ],
+      "add": ["kz_appc_code"]
+    },
+    {
+      "if_any_keyword": [
+        "протокол",
+        "постановление",
+        "штраф",
+        "административное правонарушение"
+      ],
+      "add": ["kz_koap_code"]
+    },
+    {
+      "if_any_keyword": [
+        "НДС при импорте",
+        "платежи",
+        "задолженность",
+        "пени",
+        "взыскание"
+      ],
+      "add": ["kz_nk_code", "kz_law_enforcement_code"]
+    },
+    {
+      "if_any_keyword": [
+        "инвойс",
+        "контракт",
+        "платежка",
+        "проводки",
+        "первичка",
+        "бухучет"
+      ],
+      "add": ["kz_law_buh_code"]
+    },
+    {
+      "if_any_keyword": [
+        "валюта",
+        "оплата в долларах",
+        "SWIFT",
+        "контроль валютных операций"
+      ],
+      "add": ["kz_law_currency_control_code"]
+    },
+    {
+      "if_any_keyword": [
+        "сертификат",
+        "техрегламент",
+        "маркировка",
+        "разрешение",
+        "ограничения"
+      ],
+      "add": ["kz_law_technical_regulation_code", "kz_law_trade_regulation_code"]
+    },
+    {
+      "if_any_keyword": [
+        "подделка",
+        "фиктивный",
+        "липовый",
+        "не было товара",
+        "умысел",
+        "обнал",
+        "цепочка контрагентов"
+      ],
+      "add": ["kz_uk_code"]
+    }
+  ],
+
+  "minimal_questions_pack": {
+    "ask_first_always": [
+      "Что за товар и в какой стране/на какой границе оформляли?",
+      "Вы кто в цепочке: импортер/экспортер/перевозчик/брокер?",
+      "Есть ДТ (декларация): номер/дата/таможенный пост?",
+      "Что сделала таможня: отказ/корректировка стоимости/требование документов/уведомление/проверка/штраф?",
+      "Когда вы получили документ/уведомление (есть доказательство вручения)?",
+      "Какие документы есть: контракт, инвойс, платежки, транспортные, страховка, упаковка, переписка?"
+    ]
+  }
+}

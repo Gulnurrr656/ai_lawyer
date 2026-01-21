@@ -1,0 +1,176 @@
+{
+  "index_type": "koap_index",
+  "project": "AI_LAWYER",
+  "jurisdiction": "KZ",
+  "language": "ru",
+  "index_version": "AI_LAWYER_KOAP_INDEX_v1_SERIOUS_CANON",
+
+  "storage_layout": {
+    "index_file": "index/koap_index/kz_koap_index.json",
+    "folders": {
+      "koap": "rag/kz_koap_code"
+    },
+    "source_to_folder": {
+      "kz_koap_code": "koap"
+    },
+    "hard_rule": "Имя папки и source_id фиксированы: rag/kz_koap_code и kz_koap_code. Никаких других вариантов."
+  },
+
+  "primary_source": "kz_koap_code",
+  "supporting_sources": [],
+
+  "mission": "Административная ответственность: квалификация правонарушения -> субъект -> состав -> доказательства -> сроки/процесс -> санкции -> стратегия защиты/обжалования.",
+
+  "koap_is_admin_liability_reasoning": {
+    "why_koap_is_needed": [
+      "КоАП РК отвечает за составы административных правонарушений и санкции (штраф, предупреждение, лишение спецправа и т.п.).",
+      "АППК (kz_appc_code) отвечает за административные процедуры и административное судопроизводство по публично-правовым спорам, но не заменяет составы и санкции КоАП.",
+      "Если в деле есть протокол/постановление/штраф — КоАП является ведущим источником по квалификации и санкции; процессуальные аргументы и обжалование могут требовать добавления АППК как отдельного слоя."
+    ],
+    "use_principle": "Сначала определить: есть ли протокол/постановление/штраф (КоАП). Затем — проверить процедуру, сроки, компетенцию и способ обжалования; при необходимости добавить АППК (kz_appc_code) как addon для процессуальной части."
+  },
+
+  "guardrails": {
+    "never_assume_guilt": true,
+    "always_split_facts_and_hypotheses": true,
+    "do_not_name_article_without_elements": true,
+    "do_not_promise_outcome": true,
+    "do_not_invent_sources": true,
+    "use_only_root_canon_source_ids": true,
+    "no_new_source_ids": true
+  },
+
+  "router_output_schema": {
+    "must_return_json_object": true,
+    "required_fields": [
+      "mode_label",
+      "primary_route",
+      "routes",
+      "addons",
+      "confidence",
+      "why",
+      "facts_vs_hypotheses",
+      "qualification_hypothesis",
+      "elements_to_check",
+      "evidence_matrix",
+      "procedure_checks",
+      "missing_facts",
+      "next_questions",
+      "risk_map",
+      "strategy",
+      "drafting_checklist"
+    ],
+    "field_types": {
+      "mode_label": "string",
+      "primary_route": "string",
+      "routes": "array[string]",
+      "addons": "array[string]",
+      "confidence": "number",
+      "why": "array[string]",
+      "facts_vs_hypotheses": { "facts": "array[string]", "hypotheses": "array[string]" },
+      "qualification_hypothesis": "array[string]",
+      "elements_to_check": "array[string]",
+      "evidence_matrix": "array[object]",
+      "procedure_checks": "array[string]",
+      "missing_facts": "array[string]",
+      "next_questions": "array[string]",
+      "risk_map": "array[string]",
+      "strategy": "array[string]",
+      "drafting_checklist": "array[string]"
+    },
+    "hard_rule": "mode_label всегда писать как 'КоАП РК (kz_koap_code)'."
+  },
+
+  "methodology": {
+    "name": "Senior KoAP Workflow",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Определить стадию и документы",
+        "must_identify": [
+          "есть ли протокол/постановление/акт проверки/предписание",
+          "кто орган и кто составил документ",
+          "дата вручения и дата вынесения"
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Субъект ответственности",
+        "must_identify": [
+          "физлицо/ИП/ТОО",
+          "должностное лицо/руководитель/работник",
+          "есть ли полномочия и роль субъекта"
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Гипотеза квалификации (без утверждения вины)",
+        "must_output": [
+          "qualification_hypothesis (1-3 варианта состава)",
+          "elements_to_check (что нужно проверить по составу)"
+        ],
+        "rule": "Не называть окончательную статью, пока не проверены элементы состава и доказательства."
+      },
+      {
+        "step": 4,
+        "title": "Матрица доказательств",
+        "must_output": [
+          "evidence_matrix: элемент состава -> доказательства/документы -> слабые места",
+          "если доказательств нет — это missing_facts/risks"
+        ]
+      },
+      {
+        "step": 5,
+        "title": "Процедурные проверки (при необходимости добавлять АППК как addon)",
+        "must_output": [
+          "procedure_checks: уведомление, сроки, компетенция, право на защиту, вручение, подписи, понятые, видеозапись",
+          "выделить нарушения процедуры как отдельные аргументы"
+        ]
+      },
+      {
+        "step": 6,
+        "title": "Санкции и последствия",
+        "must_output": [
+          "какая санкция и её диапазон",
+          "возможность предупреждения/смягчения/освобождения (если применимо)"
+        ]
+      },
+      {
+        "step": 7,
+        "title": "Стратегия защиты/обжалования",
+        "must_output": [
+          "strategy: шаги (заявления, жалобы, ходатайства, доказательства)",
+          "drafting_checklist: что подготовить"
+        ]
+      }
+    ]
+  },
+
+  "addons_rules": [
+    {
+      "if_any_keyword": [
+        "обжаловать",
+        "оспорить",
+        "госорган",
+        "действие органа",
+        "бездействие",
+        "административный иск",
+        "административная жалоба",
+        "процедура",
+        "срок обжалования"
+      ],
+      "add": ["kz_appc_code"]
+    }
+  ],
+
+  "minimal_questions_pack": {
+    "ask_first_always": [
+      "Какой орган? (КГД/таможня/полиция/акимат/инспекция и т.д.)",
+      "Есть протокол или уже постановление о штрафе?",
+      "Дата вынесения и дата вручения (когда получили)?",
+      "Кто привлечён: физлицо/ИП/ТОО/должностное лицо?",
+      "За что именно (1-2 предложения фактов)?",
+      "Какие документы/доказательства у вас есть (акт, фото/видео, переписка, счета)?"
+    ]
+  }
+}

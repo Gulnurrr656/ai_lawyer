@@ -1,0 +1,42 @@
+from pathlib import Path
+import os
+import openai
+
+
+# =====================================================
+# SHARED SPEECH-TO-TEXT (STT)
+# =====================================================
+# ❗ УТИЛИТА
+# ❗ НЕ ЗНАЕТ ПРО СЦЕНАРИИ
+# ❗ НЕ ЗНАЕТ ПРО FSM
+# ❗ ИСПОЛЬЗУЕТСЯ ВСЕМИ FEATURE
+# =====================================================
+
+
+async def speech_to_text(audio_path: str) -> str:
+    """
+    Преобразует аудиофайл в текст.
+    Поддерживается единый формат для всех сценариев.
+    """
+
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        raise RuntimeError("OPENAI_API_KEY is not set")
+
+    openai.api_key = api_key
+
+    path = Path(audio_path)
+    if not path.exists():
+        raise FileNotFoundError(f"Audio file not found: {audio_path}")
+
+    with open(path, "rb") as audio_file:
+        transcript = openai.Audio.transcribe(
+            model="gpt-4o-transcribe",
+            file=audio_file,
+        )
+
+    text = transcript.get("text", "").strip()
+    if not text:
+        raise RuntimeError("Speech-to-text returned empty result")
+
+    return text

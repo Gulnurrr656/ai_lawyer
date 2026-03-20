@@ -27,7 +27,9 @@
     "vs_np_public_procurement_index": "index/vs_np_public_procurement_index/kz_vs_np_public_procurement_index.json",
     "contracts_router_index": "index/contracts_router_index/kz_contracts_router_index.json",
     "claims_router_index": "index/claims_router_index/kz_claims_router_index.json",
-    "consult_router_index": "index/consult_router_index/kz_consult_router_index.json"
+    "consult_router_index": "index/consult_router_index/kz_consult_router_index.json",
+    "petitions_router_index": "index/petitions_router_index/kz_petitions_router_index.json",
+    "bankruptcy_router_index": "index/bankruptcy_router_index/kz_bankruptcy_router_index.json"
   },
   "canon_sources": [
     "kz_gk_code",
@@ -60,7 +62,9 @@
     "kz_law_enforcement_code",
     "kz_contracts_router_code",
     "kz_claims_router_code",
-    "kz_consult_router_code"
+    "kz_consult_router_code",
+    "kz_petitions_router_code",
+    "kz_bankruptcy_router_code"
   ],
   "fixed_abbreviations": {
     "ГКРК": "kz_gk_code",

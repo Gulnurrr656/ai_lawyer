@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from aiogram import Router, F
+from aiogram.dispatcher.event.bases import SkipHandler
 from aiogram.types import Message
 from aiogram.fsm.context import FSMContext
 
@@ -87,6 +88,7 @@ async def _save_session(ctx: FSMContext, session: dict) -> None:
 
 @router.message(F.text == BTN_CONTRACT)
 async def contract_entry(message: Message, state: FSMContext):
+    await state.clear()
     session = states.new_session()
     await state.update_data(**{SESSION_KEY: session})
     await message.answer(states.render_type_menu())
@@ -133,14 +135,16 @@ async def on_back(message: Message, state: FSMContext):
 
 @router.message()
 async def contract_flow(message: Message, state: FSMContext):
-    text = _text(message)
-    low = text.lower()
-    if not text:
-        return
-
     data = await state.get_data()
     session = data.get(SESSION_KEY)
     if not session:
+        # Без активной сессии этот fallback не должен потреблять апдейт —
+        # иначе не доходят petitions/claims/consult/bankruptcy/analyze.
+        raise SkipHandler()
+
+    text = _text(message)
+    low = text.lower()
+    if not text:
         return
 
     # -------------------------------------------------

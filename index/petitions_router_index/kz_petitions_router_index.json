@@ -1,0 +1,117 @@
+{
+  "index_type": "petitions_router_index",
+  "project": "AI_LAWYER",
+  "jurisdiction": "KZ",
+  "language": "ru",
+  "index_version": "AI_LAWYER_PETITIONS_ROUTER_INDEX_v1_MINIMAL",
+
+  "storage_layout": {
+    "index_file": "index/petitions_router_index/kz_petitions_router_index.json",
+    "folders": {
+      "gk": "rag/kz_gk__code",
+      "pk": "rag/kz_pk_code",
+      "nk": "rag/kz_nk_code",
+      "tm": "rag/kz_tm_code",
+      "koap": "rag/kz_koap_code",
+      "appc": "rag/kz_appc_code",
+      "tk": "rag/kz_tk__code",
+      "vs_np_civil_judgment": "rag/kz_vs_np_civil_judgment_code",
+      "vs_np_civil_process": "rag/kz_vs_np_civil_procedure_norms_code",
+      "vs_np_invalidity": "rag/kz_vs_np_invalidity_of_transactions_code",
+      "vs_np_llp_alp": "rag/kz_vs_np_llp_and_alp_code",
+      "law_buh": "rag/kz_law_buh_code",
+      "law_currency_control": "rag/kz_law_currency_control_code",
+      "law_state_registration": "rag/kz_law_state_registration_code",
+      "law_personal_data": "rag/kz_law_personal_data_code",
+      "law_llp": "rag/kz_law_llp_code",
+      "law_arbitration": "rag/kz_law_arbitration_code"
+    },
+    "source_to_folder": {
+      "kz_gk_code": "gk",
+      "kz_pk_code": "pk",
+      "kz_nk_code": "nk",
+      "kz_tm_code": "tm",
+      "kz_koap_code": "koap",
+      "kz_appc_code": "appc",
+      "kz_tk_code": "tk",
+      "kz_vs_np_civil_judgment_code": "vs_np_civil_judgment",
+      "kz_vs_np_civil_procedure_norms_code": "vs_np_civil_process",
+      "kz_vs_np_invalidity_of_transactions_code": "vs_np_invalidity",
+      "kz_vs_np_llp_and_alp_code": "vs_np_llp_alp",
+      "kz_law_buh_code": "law_buh",
+      "kz_law_currency_control_code": "law_currency_control",
+      "kz_law_state_registration_code": "law_state_registration",
+      "kz_law_personal_data_code": "law_personal_data",
+      "kz_law_llp_code": "law_llp",
+      "kz_law_arbitration_code": "law_arbitration"
+    },
+    "hard_rule": "Два режима: АДМ (pipeline_admin) и ГПО/иск (pipeline_claim). Пути gk/tk — фактические папки rag/ (kz_gk__code, kz_tk__code). Логические source_id в коде остаются kz_gk_code, kz_tk_code; retriever маппит их на диск."
+  },
+
+  "primary_source": "kz_pk_code",
+  "supporting_sources": [
+    "kz_gk_code",
+    "kz_pk_code",
+    "kz_nk_code",
+    "kz_tm_code",
+    "kz_koap_code",
+    "kz_appc_code",
+    "kz_tk_code",
+    "kz_vs_np_civil_judgment_code",
+    "kz_vs_np_civil_procedure_norms_code",
+    "kz_vs_np_invalidity_of_transactions_code",
+    "kz_vs_np_llp_and_alp_code",
+    "kz_law_buh_code",
+    "kz_law_currency_control_code",
+    "kz_law_state_registration_code",
+    "kz_law_personal_data_code",
+    "kz_law_llp_code",
+    "kz_law_arbitration_code"
+  ],
+
+  "mission": "Заявления: ветка А — административное заявление (АП, КоАП, материальные нормы); ветка Б — исковое заявление (ГК, ПК, НП ВС, НК). Индекс согласован с app/features/petitions/pipeline_admin.py и pipeline_claim.py.",
+
+  "statement_variants": {
+    "statements_admin": {
+      "label": "АДМ — административное заявление (pipeline_admin)",
+      "source_ids": [
+      "kz_gk_code",
+      "kz_pk_code",
+      "kz_nk_code",
+      "kz_tm_code",
+      "kz_koap_code",
+      "kz_appc_code",
+      "kz_tk_code",
+      "kz_vs_np_civil_judgment_code",
+      "kz_vs_np_civil_procedure_norms_code",
+      "kz_vs_np_invalidity_of_transactions_code",
+      "kz_vs_np_llp_and_alp_code",
+      "kz_law_buh_code",
+      "kz_law_currency_control_code",
+      "kz_law_state_registration_code",
+      "kz_law_personal_data_code",
+      "kz_law_llp_code",
+      "kz_law_arbitration_code"
+      ]
+    },
+    "statements_claim": {
+      "label": "ГПО — исковое заявление (pipeline_claim)",
+      "source_ids": [
+      "kz_gk_code",
+      "kz_pk_code",
+      "kz_nk_code",
+      "kz_vs_np_civil_judgment_code",
+      "kz_vs_np_civil_procedure_norms_code",
+      "kz_vs_np_invalidity_of_transactions_code"
+      ]
+    }
+  },
+
+  "routing_rules": {
+    "ab_gate": "Пользователь выбирает А (адм.) или Б (иск) в FSM petitions; retriever вызывается из соответствующего pipeline с соответствующим набором source_ids.",
+    "admin_emphasis": ["kz_appc_code", "kz_koap_code"],
+    "claim_emphasis": ["kz_gk_code", "kz_pk_code", "kz_vs_np_civil_procedure_norms_code"]
+  },
+
+  "docs": []
+}

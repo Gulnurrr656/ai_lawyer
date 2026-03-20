@@ -1,3 +1,6 @@
+import asyncio
+import copy
+import os
 from typing import Any, Dict, List
 
 from app.retrivier.rag_retriever import retrieve_rag
@@ -6,6 +9,46 @@ from app.shared.llm_client import (
     build_long_generation_plan,
     call_llm_chunked,
 )
+
+# Лимиты промпта analyze (полный документ + десятки статей RAG легко дают миллионы символов).
+_ANALYZE_MAX_DOCUMENT_IN_PROMPT = int(
+    os.getenv("ANALYZE_MAX_DOCUMENT_CHARS_IN_PROMPT", "48000")
+)
+_ANALYZE_MAX_RAG_ARTICLES_IN_PROMPT = int(
+    os.getenv("ANALYZE_MAX_RAG_ARTICLES_IN_PROMPT", "28")
+)
+_ANALYZE_MAX_RAG_ARTICLE_TEXT_CHARS = int(
+    os.getenv("ANALYZE_MAX_RAG_ARTICLE_TEXT_CHARS", "14000")
+)
+
+
+def _facts_for_analysis_prompt(facts: Dict[str, Any]) -> Dict[str, Any]:
+    facts = dict(facts or {})
+    doc = (facts.get("document_text") or "").strip()
+    cap = max(4_000, _ANALYZE_MAX_DOCUMENT_IN_PROMPT)
+    if len(doc) > cap:
+        facts["document_text"] = (
+            doc[:cap]
+            + "\n\n[… текст документа обрезан для лимита промпта; для анализа используется начало …]"
+        )
+    return facts
+
+
+def _rag_for_analysis_prompt(rag_list: List[Dict]) -> List[Dict]:
+    n = max(1, _ANALYZE_MAX_RAG_ARTICLES_IN_PROMPT)
+    mx = max(1_000, _ANALYZE_MAX_RAG_ARTICLE_TEXT_CHARS)
+    out: List[Dict] = []
+    for art in rag_list[:n]:
+        c = copy.deepcopy(art)
+        arts = c.get("articles")
+        if isinstance(arts, list) and arts and isinstance(arts[0], dict):
+            t = arts[0].get("text")
+            if isinstance(t, str) and len(t) > mx:
+                arts[0]["text"] = (
+                    t[:mx] + "\n[… фрагмент нормы обрезан для лимита промпта …]"
+                )
+        out.append(c)
+    return out
 
 
 async def generate_analysis(facts: Dict[str, Any]) -> Dict[str, Any]:
@@ -39,10 +82,11 @@ async def generate_analysis(facts: Dict[str, Any]) -> Dict[str, Any]:
     ]
     queries = [q for q in raw_queries if isinstance(q, str) and q.strip()]
 
-    rag_payload = retrieve_rag(
-        task_type="analyze",
-        queries=queries,
-        source_ids=[
+    rag_payload = await asyncio.to_thread(
+        retrieve_rag,
+        "analyze",
+        queries,
+        [
             "kz_gk_code",
             "kz_pk_code",
             "kz_nk_code",
@@ -61,7 +105,7 @@ async def generate_analysis(facts: Dict[str, Any]) -> Dict[str, Any]:
             "kz_law_llp_code",
             "kz_law_arbitration_code",
         ],
-        min_articles=50,
+        50,
     )
 
     if not rag_payload or not rag_payload.get("rag_context"):
@@ -74,7 +118,9 @@ async def generate_analysis(facts: Dict[str, Any]) -> Dict[str, Any]:
             "Проверь папки rag и source_ids."
         )
 
-    prompt = build_analysis_prompt(facts=facts, verified_rag=rag_context)
+    facts_prompt = _facts_for_analysis_prompt(facts)
+    rag_prompt = _rag_for_analysis_prompt(rag_context)
+    prompt = build_analysis_prompt(facts=facts_prompt, verified_rag=rag_prompt)
 
     if not prompt or len(prompt) < 300:
         raise RuntimeError("Analysis prompt generation failed")

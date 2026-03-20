@@ -1,0 +1,100 @@
+{
+  "index_type": "bankruptcy_router_index",
+  "project": "AI_LAWYER",
+  "jurisdiction": "KZ",
+  "language": "ru",
+  "index_version": "AI_LAWYER_BANKRUPTCY_ROUTER_INDEX_v1_MINIMAL",
+
+  "storage_layout": {
+    "index_file": "index/bankruptcy_router_index/kz_bankruptcy_router_index.json",
+    "folders": {
+      "gk": "rag/kz_gk__code",
+      "pk": "rag/kz_pk_code",
+      "nk": "rag/kz_nk_code",
+      "tm": "rag/kz_tm_code",
+      "koap": "rag/kz_koap_code",
+      "appc": "rag/kz_appc_code",
+      "tk": "rag/kz_tk__code",
+      "vs_np_civil_judgment": "rag/kz_vs_np_civil_judgment_code",
+      "vs_np_civil_process": "rag/kz_vs_np_civil_procedure_norms_code",
+      "vs_np_invalidity": "rag/kz_vs_np_invalidity_of_transactions_code",
+      "vs_np_llp_alp": "rag/kz_vs_np_llp_and_alp_code",
+      "law_buh": "rag/kz_law_buh_code",
+      "law_currency_control": "rag/kz_law_currency_control_code",
+      "law_state_registration": "rag/kz_law_state_registration_code",
+      "law_personal_data": "rag/kz_law_personal_data_code",
+      "law_llp": "rag/kz_law_llp_code",
+      "law_arbitration": "rag/kz_law_arbitration_code"
+    },
+    "source_to_folder": {
+      "kz_gk_code": "gk",
+      "kz_pk_code": "pk",
+      "kz_nk_code": "nk",
+      "kz_tm_code": "tm",
+      "kz_koap_code": "koap",
+      "kz_appc_code": "appc",
+      "kz_tk_code": "tk",
+      "kz_vs_np_civil_judgment_code": "vs_np_civil_judgment",
+      "kz_vs_np_civil_procedure_norms_code": "vs_np_civil_process",
+      "kz_vs_np_invalidity_of_transactions_code": "vs_np_invalidity",
+      "kz_vs_np_llp_and_alp_code": "vs_np_llp_alp",
+      "kz_law_buh_code": "law_buh",
+      "kz_law_currency_control_code": "law_currency_control",
+      "kz_law_state_registration_code": "law_state_registration",
+      "kz_law_personal_data_code": "law_personal_data",
+      "kz_law_llp_code": "law_llp",
+      "kz_law_arbitration_code": "law_arbitration"
+    },
+    "hard_rule": "Набор source_ids совпадает с CANON_SOURCE_IDS в app/features/bankruptcy/pipeline.py. В rag/ нет отдельного корпуса специализированного закона о банкротстве — сценарий ограничен по полноте (см. mission). Пути gk/tk — фактические папки."
+  },
+
+  "primary_source": "kz_nk_code",
+  "supporting_sources": [
+    "kz_gk_code",
+    "kz_pk_code",
+    "kz_nk_code",
+    "kz_tm_code",
+    "kz_koap_code",
+    "kz_appc_code",
+    "kz_tk_code",
+    "kz_vs_np_civil_judgment_code",
+    "kz_vs_np_civil_procedure_norms_code",
+    "kz_vs_np_invalidity_of_transactions_code",
+    "kz_vs_np_llp_and_alp_code",
+    "kz_law_buh_code",
+    "kz_law_currency_control_code",
+    "kz_law_state_registration_code",
+    "kz_law_personal_data_code",
+    "kz_law_llp_code",
+    "kz_law_arbitration_code"
+  ],
+
+  "canonical_retrieval_set": [
+    "kz_gk_code",
+    "kz_pk_code",
+    "kz_nk_code",
+    "kz_tm_code",
+    "kz_koap_code",
+    "kz_appc_code",
+    "kz_tk_code",
+    "kz_vs_np_civil_judgment_code",
+    "kz_vs_np_civil_procedure_norms_code",
+    "kz_vs_np_invalidity_of_transactions_code",
+    "kz_vs_np_llp_and_alp_code",
+    "kz_law_buh_code",
+    "kz_law_currency_control_code",
+    "kz_law_state_registration_code",
+    "kz_law_personal_data_code",
+    "kz_law_llp_code",
+    "kz_law_arbitration_code"
+  ],
+
+  "mission": "Банкротство / несостоятельность: RAG по общему «канону» как в bankruptcy/pipeline.py. ОГРАНИЧЕНИЕ: в проекте отсутствует отдельный индексированный корпус закона о банкротстве и реабилитации — ответы не позиционировать как полную замену специализированной банкротной базы до её добавления в rag/.",
+
+  "notes": [
+    "До появления rag/kz_*_bankruptcy_* или аналога сценарий — assisted general law only.",
+    "Safety-гейт в pipeline остаётся единственным контролем безопасности без изменения handlers."
+  ],
+
+  "docs": []
+}

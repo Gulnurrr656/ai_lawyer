@@ -1,26 +1,26 @@
-from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
+"""Обратная совместимость: канон — app.shared.main_menu."""
 
+from app.shared.main_menu import (
+    BTN_ANALYZE,
+    BTN_BANKRUPTCY,
+    BTN_CLAIM,
+    BTN_CONSULT,
+    BTN_CONTRACT,
+    BTN_PETITION,
+    main_menu_reply_kb,
+)
 
-def main_menu_kb() -> ReplyKeyboardMarkup:
-    """
-    ГЛАВНАЯ КЛАВИАТУРА AI_LAWYER (КАНОН).
+main_menu_kb = main_menu_reply_kb
+main_keyboard = main_menu_reply_kb
 
-    1 кнопка = 1 юридический сценарий
-    """
-
-    return ReplyKeyboardMarkup(
-        keyboard=[
-            [KeyboardButton(text="📄 Договор")],
-            [KeyboardButton(text="📝 Заявление (ГПО / Адм)")],
-            [KeyboardButton(text="✍️ Претензия / Жалоба")],
-            [KeyboardButton(text="⚖️ Банкротство")],
-            [KeyboardButton(text="💬 Консультация")],
-            [KeyboardButton(text="📎 Анализ документа")],
-        ],
-        resize_keyboard=True,
-        input_field_placeholder="Выберите действие…",
-    )
-
-
-# 🔁 Обратная совместимость
-main_keyboard = main_menu_kb
+__all__ = [
+    "BTN_ANALYZE",
+    "BTN_BANKRUPTCY",
+    "BTN_CLAIM",
+    "BTN_CONSULT",
+    "BTN_CONTRACT",
+    "BTN_PETITION",
+    "main_menu_kb",
+    "main_keyboard",
+    "main_menu_reply_kb",
+]

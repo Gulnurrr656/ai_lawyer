@@ -3,12 +3,12 @@ from aiogram.filters import Command
 from aiogram.types import Message
 from aiogram.fsm.context import FSMContext
 
+from app.shared.main_menu import BTN_BANKRUPTCY
+
 from .states import BankruptcyStates
 from .pipeline import generate_bankruptcy_result
 
 router = Router()
-
-BANKRUPTCY_BUTTON_TEXT = "⚖️ Банкротство"
 
 CONFIRM_WORDS = {
     "да",
@@ -26,7 +26,7 @@ CONFIRM_WORDS = {
 # =====================================================
 
 @router.message(Command("bankruptcy"))
-@router.message(F.text == BANKRUPTCY_BUTTON_TEXT)
+@router.message(F.text == BTN_BANKRUPTCY)
 async def start_bankruptcy(message: Message, state: FSMContext):
     await state.clear()
     await state.set_state(BankruptcyStates.subject)

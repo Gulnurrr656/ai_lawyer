@@ -10,6 +10,8 @@ from app.features.contracts import states
 from app.features.contracts.pipeline import generate_contract
 
 # ✅ СЦЕНАРИИ ИМПОРТИРУЕМ ЗДЕСЬ (ЕДИНСТВЕННОЕ МЕСТО)
+from app.shared.main_menu import BTN_CONTRACT
+
 from app.features.contracts.scenarios import (
     RENT_SCENARIO,
     SERVICE_SCENARIO,
@@ -83,7 +85,7 @@ async def _save_session(ctx: FSMContext, session: dict) -> None:
 # ENTRYPOINT
 # =====================================================
 
-@router.message(F.text == "📄 Договор")
+@router.message(F.text == BTN_CONTRACT)
 async def contract_entry(message: Message, state: FSMContext):
     session = states.new_session()
     await state.update_data(**{SESSION_KEY: session})

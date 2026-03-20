@@ -5,10 +5,9 @@ from aiogram.fsm.context import FSMContext
 
 from app.features.consult.states import ConsultStates
 from app.features.consult.base_pipeline import generate_consultation
+from app.shared.main_menu import BTN_CONSULT
 
 router = Router()
-
-CONSULT_BUTTON_TEXT = "💬 Консультация"
 CONFIRM_WORDS = {
     "да",
     "подтверждаю",
@@ -41,7 +40,7 @@ async def _start_consult(message: Message, state: FSMContext):
 
 
 @router.message(Command("consult"))
-@router.message(F.text == CONSULT_BUTTON_TEXT)
+@router.message(F.text == BTN_CONSULT)
 async def start(message: Message, state: FSMContext):
     await _start_consult(message, state)
 

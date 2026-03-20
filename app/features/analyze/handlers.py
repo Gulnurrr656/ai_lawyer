@@ -3,12 +3,11 @@ from aiogram.filters import Command
 from aiogram.types import Message
 from aiogram.fsm.context import FSMContext
 
-from app.features.analysis.states import AnalysisStates
-from app.features.analysis.pipeline import generate_analysis
+from app.features.analyze.pipeline import generate_analysis
+from app.features.analyze.states import AnalysisStates
+from app.shared.main_menu import BTN_ANALYZE
 
 router = Router()
-
-ANALYSIS_BUTTON_TEXT = "🔍 Анализ документа"
 CONFIRM_WORDS = {
     "да",
     "подтверждаю",
@@ -40,7 +39,7 @@ async def _start_analysis(message: Message, state: FSMContext):
 
 
 @router.message(Command("analysis"))
-@router.message(F.text == ANALYSIS_BUTTON_TEXT)
+@router.message(F.text == BTN_ANALYZE)
 async def start(message: Message, state: FSMContext):
     await _start_analysis(message, state)
 

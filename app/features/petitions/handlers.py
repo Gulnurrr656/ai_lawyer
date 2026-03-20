@@ -3,8 +3,11 @@ from __future__ import annotations
 from typing import Any, Dict
 
 from aiogram import Router, F
+from aiogram.filters import Command
 from aiogram.types import Message, FSInputFile
 from aiogram.fsm.context import FSMContext
+
+from app.shared.main_menu import BTN_PETITION
 
 from .states import PetitionStates
 from .pipeline_admin import generate_petition
@@ -83,7 +86,8 @@ def _doc_label(legal_goal: str | None) -> str:
 # START
 # =====================================================
 
-@router.message(F.text.lower().contains("заявление"))
+@router.message(Command("petition"))
+@router.message(F.text == BTN_PETITION)
 async def petitions_start(message: Message, state: FSMContext) -> None:
     await state.clear()
     await state.set_state(PetitionStates.legal_goal)

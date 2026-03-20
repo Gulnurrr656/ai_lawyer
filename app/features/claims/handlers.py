@@ -5,10 +5,9 @@ from aiogram.fsm.context import FSMContext
 
 from app.features.claims.states import ClaimsStates
 from app.features.claims.pipeline import generate_claim
+from app.shared.main_menu import BTN_CLAIM
 
 router = Router()
-
-CLAIMS_BUTTON_TEXT = "✍️ Претензия / Жалоба"
 CONFIRM_WORDS = {
     "да",
     "подтверждаю",
@@ -37,7 +36,7 @@ async def _start_claim(message: Message, state: FSMContext):
 
 
 @router.message(Command("claim"))
-@router.message(F.text == CLAIMS_BUTTON_TEXT)
+@router.message(F.text == BTN_CLAIM)
 async def start(message: Message, state: FSMContext):
     await _start_claim(message, state)
 

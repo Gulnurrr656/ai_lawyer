@@ -250,7 +250,6 @@ async def generate_claim(facts: Dict[str, Any]) -> Dict[str, Any]:
         queries=queries,
         source_ids=[
             "kz_gk_code",
-            "kz_gpk_code",
             "kz_pk_code",
             "kz_nk_code",
             "kz_vs_np_civil_judgment_code",

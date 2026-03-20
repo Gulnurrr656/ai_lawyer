@@ -6,6 +6,18 @@ from collections import defaultdict
 
 RAG_BASE_PATH = "rag"
 
+# Логические source_id (в коде/индексах) → фактическая папка в rag/
+# kz_gpk_code: в корпусе нет отдельной папки; гражданская процедура — kz_pk_code.
+_SOURCE_FOLDER_OVERRIDES = {
+    "kz_gk_code": "kz_gk__code",
+    "kz_tk_code": "kz_tk__code",
+    "kz_gpk_code": "kz_pk_code",
+}
+
+
+def _rag_folder_for_source_id(source_id: str) -> str:
+    return _SOURCE_FOLDER_OVERRIDES.get(source_id, source_id)
+
 
 # =====================================================
 # ЗАГРУЗКА СТАТЬИ
@@ -19,7 +31,8 @@ def load_article(path: str) -> Dict:
 # СКАНИРОВАНИЕ ИСТОЧНИКА (КОДЕКС / ЗАКОН / НП ВС)
 # =====================================================
 def scan_source(source_id: str) -> List[Dict]:
-    source_path = os.path.join(RAG_BASE_PATH, source_id)
+    folder = _rag_folder_for_source_id(source_id)
+    source_path = os.path.join(RAG_BASE_PATH, folder)
     articles: List[Dict] = []
 
     if not os.path.isdir(source_path):

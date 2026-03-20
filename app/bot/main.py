@@ -55,6 +55,7 @@ from app.features.petitions.handlers import router as petitions_router
 from app.features.claims.handlers import router as claims_router
 from app.features.consult.handlers import router as consult_router
 from app.features.bankruptcy.handlers import router as bankruptcy_router
+from app.features.analyze.handlers import router as analyze_router
 
 # =====================================================
 # MAIN
@@ -84,6 +85,7 @@ async def main() -> None:
     dp.include_router(claims_router)
     dp.include_router(consult_router)
     dp.include_router(bankruptcy_router)
+    dp.include_router(analyze_router)
 
     logger.info("ROUTERS REGISTERED. START POLLING...")
 

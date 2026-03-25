@@ -1,5 +1,7 @@
 from typing import Dict, List
 
+from app.shared.legal_reality_system import with_legal_doctrine
+
 
 def build_petition_prompt(
     facts: Dict,
@@ -190,7 +192,8 @@ def build_petition_prompt(
     # -------------------------------------------------
     # ФИНАЛЬНАЯ СБОРКА PROMPT
     # -------------------------------------------------
-    return f"""
+    return with_legal_doctrine(
+        f"""
 {system}
 
 {legal_logic}
@@ -227,3 +230,4 @@ def build_petition_prompt(
 ЛИБО:
 — МОТИВИРОВАННЫЙ ЮРИДИЧЕСКИЙ ОТКАЗ.
 """.strip()
+    )

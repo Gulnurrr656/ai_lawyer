@@ -1,5 +1,7 @@
 from typing import Dict, List
 
+from app.shared.legal_reality_system import with_legal_doctrine
+
 
 def build_analysis_prompt(
     facts: Dict,
@@ -156,7 +158,8 @@ kz_law_arbitration_code
 - ссылаться на нормы права
 """.strip()
 
-    return f"""
+    return with_legal_doctrine(
+        f"""
 {system}
 
 ====================
@@ -187,3 +190,4 @@ kz_law_arbitration_code
 ВЫПОЛНИ ЮРИДИЧЕСКИЙ АНАЛИЗ ДОКУМЕНТА.
 НЕ ПЕРЕПИСЫВАЙ ДОКУМЕНТ.
 """.strip()
+    )

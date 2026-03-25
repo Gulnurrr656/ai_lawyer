@@ -2,6 +2,8 @@ from __future__ import annotations
 
 from typing import Any, Dict, List
 
+from app.shared.legal_reality_system import with_legal_doctrine
+
 
 def build_contract_prompt(*, facts: dict, verified_rag: list) -> str:
     """
@@ -47,7 +49,8 @@ def build_contract_prompt(*, facts: dict, verified_rag: list) -> str:
     # -------------------------------
     # PROMPT
     # -------------------------------
-    return f"""
+    return with_legal_doctrine(
+        f"""
 ТЫ — ЮРИСТ-ПРАКТИК РЕСПУБЛИКИ КАЗАХСТАН.
 Ты формируешь полный, юридически допустимый договор.
 
@@ -197,7 +200,8 @@ def build_contract_prompt(*, facts: dict, verified_rag: list) -> str:
 - Не додумывать факты
 - Отсутствующие условия фиксировать, а не использовать как основание для отказа
 - Объём не менее 15 страниц
-"""
+""".strip()
+    )
 
 
 # =====================================================

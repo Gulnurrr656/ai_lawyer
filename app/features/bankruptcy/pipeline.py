@@ -13,6 +13,7 @@ from app.shared.llm_client import (
     build_long_generation_plan,
     call_llm_chunked,
 )
+from app.shared.legal_reality_system import with_legal_doctrine
 
 
 # =====================================================
@@ -187,7 +188,8 @@ def _build_bankruptcy_prompt(
 - Объём — как у письменного заключения юриста
 """.strip()
 
-    return f"""
+    return with_legal_doctrine(
+        f"""
 {system}
 
 ====================
@@ -210,6 +212,7 @@ def _build_bankruptcy_prompt(
 ====================
 {volume_rules}
 """.strip()
+    )
 
 
 # =====================================================

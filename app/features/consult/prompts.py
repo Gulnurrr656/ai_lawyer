@@ -1,5 +1,7 @@
 from typing import Dict, List
 
+from app.shared.legal_reality_system import with_legal_doctrine
+
 
 def build_consult_prompt(
     facts: Dict,
@@ -153,7 +155,8 @@ kz_law_arbitration_code
 - рекомендовать варианты
 """.strip()
 
-    return f"""
+    return with_legal_doctrine(
+        f"""
 {system}
 
 ====================
@@ -184,3 +187,4 @@ kz_law_arbitration_code
 ДАЙ ЮРИДИЧЕСКУЮ КОНСУЛЬТАЦИЮ.
 НЕ СОЗДАВАЙ ДОКУМЕНТЫ.
 """.strip()
+    )

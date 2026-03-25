@@ -1,5 +1,7 @@
 from typing import Dict, List
 
+from app.shared.legal_reality_system import with_legal_doctrine
+
 
 def build_claim_prompt(
     facts: Dict,
@@ -171,7 +173,8 @@ kz_law_arbitration_code
 как «не согласовано» или «не указано».
 """.strip()
 
-    return f"""
+    return with_legal_doctrine(
+        f"""
 {system}
 
 ====================
@@ -202,3 +205,4 @@ kz_law_arbitration_code
 СФОРМИРУЙ ПРЕТЕНЗИЮ / ЖАЛОБУ.
 ЮРИДИЧЕСКИЙ ДОКУМЕНТ.
 """.strip()
+    )

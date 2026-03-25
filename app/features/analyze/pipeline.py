@@ -135,7 +135,7 @@ async def generate_analysis(facts: Dict[str, Any]) -> Dict[str, Any]:
 """
 
     plan = build_long_generation_plan()
-    parts = await call_llm_chunked(prompt, plan)
+    parts = await call_llm_chunked(prompt, plan, mode="analysis")
 
     if not parts:
         raise RuntimeError("LLM returned empty result")

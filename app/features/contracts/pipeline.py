@@ -32,6 +32,7 @@ from app.shared.llm_client import (
 # ✅ VERIFIER
 # =====================================================
 from app.features.contracts.verifier import verify_contract_text
+from app.features.contracts.contract_length_policy import compute_min_contract_length
 
 # =====================================================
 # ✅ EXPORT DOCX
@@ -44,7 +45,6 @@ logger = logging.getLogger(__name__)
 # =====================================================
 # CONFIG
 # =====================================================
-_MIN_LEN = 3000
 _TELEGRAM_SAFE_PREVIEW = 3500
 
 
@@ -223,8 +223,26 @@ async def generate_contract(facts: Dict[str, Any]) -> Dict[str, Any]:
         p for p in parts if isinstance(p, str) and p.strip()
     ).strip()
 
-    if len(final_text) < _MIN_LEN:
-        raise RuntimeError("Договор слишком короткий — RAG использован плохо")
+    expected_min, length_metrics = compute_min_contract_length(profile, facts)
+    final_len = len(final_text)
+    logger.info(
+        "contract length gate | len_final=%s expected_min=%s profile_key=%s "
+        "facts_score=%s outline_len=%s raw=%s",
+        final_len,
+        expected_min,
+        length_metrics.get("profile_key"),
+        length_metrics.get("facts_score"),
+        length_metrics.get("outline_len"),
+        length_metrics.get("raw_before_floor"),
+    )
+
+    if final_len < expected_min:
+        raise RuntimeError(
+            "Сгенерированный текст договора короче ожидаемого минимума для данного "
+            f"типа договора и объёма введённых данных: фактически {final_len} символов, "
+            f"ожидается не менее {expected_min}. "
+            "Попробуйте повторить генерацию или уточните условия / приложения."
+        )
 
     # -------------------------------------------------
     # 4️⃣ VERIFY

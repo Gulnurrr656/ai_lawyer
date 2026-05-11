@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_uk_code_full_art47",
+  "doc_type": "code_article",
+  "source_id": "kz_uk_code_full",
+  "jurisdiction": "KZ",
+  "source": "Уголовный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "criminal_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": null,
+    "title": ""
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "59f2046079c478dec1bf7357baccd8afc843d9e451fef91adfa487464a4e3b09",
+  "articles": [
+    {
+      "article": "47",
+      "title": "Смертная казнь",
+      "text": "Сноска. Статья 47 исключена Законом РК от 29.12.2021 № 89-VII (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_health_code_ch5_art33",
+  "doc_type": "code_article",
+  "source_id": "kz_health_code",
+  "jurisdiction": "KZ",
+  "source": "Кодекс Республики Казахстан \"О здоровье народа и системе здравоохранения\"",
+  "language": "ru",
+  "industry": [
+    "health_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "5",
+    "title": "ГОСУДАРСТВЕННЫЙ КОНТРОЛЬ И НАДЗОР В ОБЛАСТИ ЗДРАВООХРАНЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "9745eeec7172ce36592b211e1285cf16e2f0e655e38a36f80cd8737d7d472652",
+  "articles": [
+    {
+      "article": "33",
+      "title": "Особый порядок проведения проверок при осуществлении государственного контроля в сфере оказания медицинских услуг (помощи)",
+      "text": "Сноска. Статью 33 исключена Законом РК от 30.12.2021 № 95-VII (вводится в действие с 01.01.2023)."
+    }
+  ],
+  "notes": []
+}

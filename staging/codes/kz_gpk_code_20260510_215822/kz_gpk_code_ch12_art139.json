@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_gpk_code_ch12_art139",
+  "doc_type": "code_article",
+  "source_id": "kz_gpk_code",
+  "jurisdiction": "KZ",
+  "source": "Гражданский процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "civil_procedure"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "12",
+    "title": "ПРИКАЗНОЕ ПРОИЗВОДСТВО"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "ff39ca16e2e0489bd8c072f7c69d68aa79040453b05eb35af2149fe1306b1166",
+  "articles": [
+    {
+      "article": "139",
+      "title": "Порядок и срок вынесения судебного приказа",
+      "text": "Судебный приказ по существу заявленного бесспорного требования выносится судьей в течение трех рабочих дней со дня поступления заявления в суд."
+    }
+  ],
+  "notes": []
+}

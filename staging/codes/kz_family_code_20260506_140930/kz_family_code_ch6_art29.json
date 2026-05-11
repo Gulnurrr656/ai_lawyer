@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_family_code_ch6_art29",
+  "doc_type": "code_article",
+  "source_id": "kz_family_code",
+  "jurisdiction": "KZ",
+  "source": "Кодекс Республики Казахстан О браке (супружестве) и семье",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "6",
+    "title": "ЛИЧНЫЕ ПРАВА И ОБЯЗАННОСТИ СУПРУГОВ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "4113d96987c33d50ee69bcb65506fe4cc7a26bff941545be25376bdf69fd959e",
+  "articles": [
+    {
+      "article": "29",
+      "title": "Возникновение прав и обязанностей супругов",
+      "text": "Права и обязанности супругов возникают со дня государственной регистрации заключения брака (супружества)."
+    }
+  ],
+  "notes": []
+}

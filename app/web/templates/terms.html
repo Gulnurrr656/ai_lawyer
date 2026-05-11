@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}{{ t('footer_terms', lang) }} — {{ brand }}{% endblock %}
+
+{% block content %}
+<div class="max-w-3xl mx-auto px-4 py-12 prose prose-slate">
+    <h1>{{ t('footer_terms', lang) }}</h1>
+    <p>{{ t('terms_body', lang) }}</p>
+    <h2>{{ t('footer_disclaimer', lang) }}</h2>
+    <p>{{ t('disclaimer', lang) }}</p>
+</div>
+{% endblock %}

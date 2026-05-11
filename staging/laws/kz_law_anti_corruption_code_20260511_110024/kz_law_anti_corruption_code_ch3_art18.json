@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_anti_corruption_code_ch3_art18",
+  "doc_type": "law_article",
+  "source_id": "kz_law_anti_corruption_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан «О противодействии коррупции»",
+  "language": "ru",
+  "industry": [
+    "anti_corruption"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "3",
+    "title": "СУБЪЕКТЫ ПРОТИВОДЕЙСТВИЯ КОРРУПЦИИ И ИХ ПОЛНОМОЧИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "dc18181c28f2d4ccc0632b651d0272d4c496abd790ba632d143af5b52bc23aa3",
+  "articles": [
+    {
+      "article": "18",
+      "title": "Субъекты противодействия коррупции",
+      "text": "К субъектам противодействия коррупции относятся:\n\n      1) уполномоченный орган по противодействию коррупции;\n\n      2) иные субъекты противодействия коррупции – государственные органы, субъекты квазигосударственного сектора, общественные объединения, а также иные физические и юридические лица."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block title %}{{ t('payment_order_title', lang) }}{{ order.id }} — {{ brand }}{% endblock %}
+
+{% block content %}
+<div class="max-w-3xl mx-auto px-4 py-10">
+    <h1 class="text-2xl font-semibold text-zp-deep">{{ t('payment_order_title', lang) }}{{ order.id }}</h1>
+    <div class="mt-4 bg-white border border-zp-line rounded-lg p-5 text-sm">
+        <div><span class="text-zp-mute">{{ t('cta_pricing', lang) }}:</span> {{ order.plan_id }}</div>
+        <div><span class="text-zp-mute">{{ t('pay_amount', lang) }}:</span> {{ order.amount_kzt }} ₸</div>
+        <div><span class="text-zp-mute">provider:</span> {{ order.provider }}</div>
+        <div><span class="text-zp-mute">{{ t('cases_col_status', lang) }}:</span> {{ order.status }}</div>
+    </div>
+
+    {% if order.provider == 'mock' and order.status != 'paid' %}
+    <button id="mock-pay" data-order="{{ order.id }}" class="mt-6 px-4 py-2 rounded-md bg-zp-blue text-white hover:bg-zp-deep text-sm">
+        {{ t('payment_pay_button', lang) }}
+    </button>
+    {% endif %}
+
+    {% if order.provider == 'kaspi_manual' %}
+    <div class="mt-6 bg-amber-50 border border-amber-200 rounded-md p-4 text-sm">
+        {% if lang == 'kk' %}Kaspi арқылы {{ order.amount_kzt }} ₸ аударыңыз. Содан кейін чекті жүктеңіз.
+        {% elif lang == 'ru' %}Переведите {{ order.amount_kzt }} ₸ через Kaspi и загрузите чек.
+        {% else %}Send {{ order.amount_kzt }} ₸ via Kaspi, then upload the receipt.{% endif %}
+    </div>
+    <form id="receipt-form" enctype="multipart/form-data" class="mt-4 bg-white border border-slate-200 rounded-lg p-4">
+        <input type="file" name="file" accept="image/*,application/pdf" required class="block w-full text-sm" />
+        <button type="submit" class="mt-3 px-4 py-2 rounded-md bg-ctablue text-white hover:bg-blue-700 text-sm">
+            {{ t('pay_upload_receipt', lang) }}
+        </button>
+    </form>
+    {% endif %}
+
+    <div id="pay-status" class="mt-6"></div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+const mockBtn = document.getElementById('mock-pay');
+if (mockBtn) {
+    mockBtn.addEventListener('click', async () => {
+        const orderId = mockBtn.dataset.order;
+        const res = await fetch('/payments/' + orderId + '/mock-pay', { method: 'POST' });
+        const data = await res.json();
+        document.getElementById('pay-status').textContent = JSON.stringify(data);
+        if (data.ok) setTimeout(() => window.location.href = '/dashboard', 600);
+    });
+}
+const receiptForm = document.getElementById('receipt-form');
+if (receiptForm) {
+    receiptForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const fd = new FormData(e.target);
+        const orderId = {{ order.id }};
+        const res = await fetch('/payments/' + orderId + '/upload-receipt', { method: 'POST', body: fd });
+        const data = await res.json();
+        document.getElementById('pay-status').textContent = JSON.stringify(data);
+    });
+}
+</script>
+{% endblock %}

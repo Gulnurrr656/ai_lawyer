@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_collectors_code_ch5_art20",
+  "doc_type": "law_article",
+  "source_id": "kz_law_collectors_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О коллекторской деятельности\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "5",
+    "title": "ЗАКЛЮЧИТЕЛЬНЫЕ И ПЕРЕХОДНЫЕ ПОЛОЖЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "199002ba8dc4855f25872e59559fbf8645286b2e5ddd6fe24599f3e20cc2c636",
+  "articles": [
+    {
+      "article": "20",
+      "title": "Ответственность за нарушение законодательства Республики Казахстан о коллекторской деятельности",
+      "text": "Нарушение законодательства Республики Казахстан о коллекторской деятельности влечет ответственность, установленную законами Республики Казахстан."
+    }
+  ],
+  "notes": []
+}

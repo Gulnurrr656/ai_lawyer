@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_family_code_ch13_art95",
+  "doc_type": "code_article",
+  "source_id": "kz_family_code",
+  "jurisdiction": "KZ",
+  "source": "Кодекс Республики Казахстан о браке (супружестве) и семье",
+  "language": "ru",
+  "industry": [
+    "family_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "13",
+    "title": "УСЫНОВЛЕНИЕ РЕБЕНКА"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "acd4b9a0f566e8811c69129448614a088882a3ef6f675d04799edccca6292df4",
+  "articles": [
+    {
+      "article": "95",
+      "title": "Согласие ребенка на усыновление",
+      "text": "Для усыновления ребенка, достигшего возраста десяти лет, необходимо его согласие.\n\n      Согласие ребенка на усыновление устанавливается судом в присутствии родителей либо других законных представителей ребенка, прокурора."
+    }
+  ],
+  "notes": []
+}

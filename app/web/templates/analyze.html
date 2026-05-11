@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}{{ t('card_analyze', lang) }} — {{ brand }}{% endblock %}
+
+{% block content %}
+<div class="max-w-3xl mx-auto px-4 py-10">
+    <h1 class="text-2xl font-semibold">{{ t('card_analyze', lang) }}</h1>
+    <p class="text-sm text-slate-500 mt-1">{{ t('intake_analyze_open', lang) }}</p>
+
+    <form id="analyze-form" class="mt-6 bg-white border border-slate-200 rounded-lg p-5" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".docx,.txt,.pdf" required class="block w-full text-sm" />
+        <button type="submit" class="mt-3 px-4 py-2 rounded-md bg-ctablue text-white hover:bg-blue-700 text-sm">
+            {{ t('voice_confirm', lang) }}
+        </button>
+    </form>
+    <div id="analyze-result" class="mt-6"></div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.getElementById('analyze-form').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const fd = new FormData(e.target);
+    const res = await fetch('/analyze/upload', { method: 'POST', body: fd });
+    const data = await res.json();
+    const out = document.getElementById('analyze-result');
+    if (!data.ok) {
+        out.innerHTML = '<div class="bg-amber-50 border border-amber-200 rounded-md p-3 text-sm">' + (data.message || data.error) + '</div>';
+        return;
+    }
+    const pre = document.createElement('pre');
+    pre.className = 'whitespace-pre-wrap text-sm bg-white border border-slate-200 rounded-md p-3';
+    pre.textContent = data.preview || '';
+    out.innerHTML = '';
+    out.appendChild(pre);
+});
+</script>
+{% endblock %}

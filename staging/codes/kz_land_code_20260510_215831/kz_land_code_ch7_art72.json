@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_land_code_ch7_art72",
+  "doc_type": "code_article",
+  "source_id": "kz_land_code",
+  "jurisdiction": "KZ",
+  "source": "Земельный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "land_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "7",
+    "title": "Сервитуты"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "7887b9208a0b6adae1eaf78416b99bd50352cb64cc6dbf30c062bb99e36e6167",
+  "articles": [
+    {
+      "article": "72",
+      "title": "Другие сервитуты",
+      "text": "В случаях, предусмотренных законодательными актами Республики Казахстан или соглашением сторон, могут быть установлены другие сервитуты, кроме указанных в настоящем Кодексе."
+    }
+  ],
+  "notes": []
+}

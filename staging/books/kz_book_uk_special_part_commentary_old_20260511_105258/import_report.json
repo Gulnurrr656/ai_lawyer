@@ -1,0 +1,31 @@
+{
+  "source_id": "kz_book_uk_special_part_commentary_old",
+  "input_file": "inbox/books/criminal/kz_book_uk_special_part_commentary_old.docx",
+  "batch_dir": "staging/books/kz_book_uk_special_part_commentary_old_20260511_105258",
+  "total_sections_found": 18,
+  "section_ids_found": [
+    "section_001",
+    "section_002",
+    "section_003",
+    "section_004",
+    "section_005",
+    "section_006",
+    "section_007",
+    "section_008",
+    "section_009",
+    "section_010",
+    "section_011",
+    "section_012",
+    "section_013",
+    "section_014",
+    "section_015",
+    "section_016",
+    "section_017",
+    "section_018"
+  ],
+  "errors": [],
+  "suspicious_mojibake_count": 0,
+  "suspicious_mojibake": [],
+  "suspicious_articles": [],
+  "RAG_CHANGED": false
+}

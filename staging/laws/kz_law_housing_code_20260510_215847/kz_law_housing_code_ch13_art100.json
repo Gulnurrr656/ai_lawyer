@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_housing_code_ch13_art100",
+  "doc_type": "law_article",
+  "source_id": "kz_law_housing_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О жилищных отношениях\"",
+  "language": "ru",
+  "industry": [
+    "housing_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "13",
+    "title": "Особенности предоставления и пользования жилищем из государственного жилищного фонда"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "9e79077b987ed3014db343298e23e496876b1267af2fa7d031fd98e0b29edb60",
+  "articles": [
+    {
+      "article": "100",
+      "title": "Правовой режим жилищ, предоставляемых из жилищного фонда государственных предприятий",
+      "text": "Сноска. Статья 100 исключена Законом РК от 27.06.2011 № 444-IV (вводится в действие по истечении десяти календарных дней после его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

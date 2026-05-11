@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_gpk_code_ch41_art351",
+  "doc_type": "code_article",
+  "source_id": "kz_gpk_code",
+  "jurisdiction": "KZ",
+  "source": "Гражданский процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "civil_procedure"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "41",
+    "title": "ПРОИЗВОДСТВО ПО ДЕЛАМ О РЕСТРУКТУРИЗАЦИИ ФИНАНСОВЫХ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "b42f7393f8b7c1f2550a59789fbc6adb0630d6a767ded3310b5c50dd6718babc",
+  "articles": [
+    {
+      "article": "351",
+      "title": "Рассмотрение заявления",
+      "text": "Суд рассматривает заявление о реструктуризации финансовой организации в течение пяти рабочих дней со дня его принятия к производству суда."
+    }
+  ],
+  "notes": []
+}

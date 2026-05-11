@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_mortgage_code_ch2_art9",
+  "doc_type": "law_article",
+  "source_id": "kz_law_mortgage_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"Об ипотеке недвижимого имущества\"",
+  "language": "ru",
+  "industry": [
+    "mortgage_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "2",
+    "title": "Ипотечный договор"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "d990f6b18e93bb2039cd850ea2419654596bd4606dda27415446a21a72a410aa",
+  "articles": [
+    {
+      "article": "9",
+      "title": "Передача прав по ипотечному договору",
+      "text": "Передача прав по ипотечному договору осуществляется с соблюдением правил об уступке требований, а в случае выдачи ипотечного свидетельства - в порядке, установленном статьей 16 настоящего Закона, и подлежит государственной регистрации."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,22 @@
+{
+  "doc_id": "kz_nk_ch26_art271",
+  "doc_type": "code",
+  "jurisdiction": "KZ",
+  "source": "Налоговый кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": ["налоговое право"],
+  "chapter": {
+    "number": 26,
+    "title": "ВЫЧЕТЫ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "articles": [
+    {
+      "article": 271,
+      "title": "Вычет по курсовой разнице",
+      "text": "      Вычету подлежит сумма превышения величины отрицательной курсовой разницы над суммой положительной курсовой разницы."
+    }
+  ],
+  "notes": []
+}

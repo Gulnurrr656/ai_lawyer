@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block title %}{{ t('menu_dashboard', lang) }} — {{ brand }}{% endblock %}
+
+{% block content %}
+<div class="max-w-6xl mx-auto px-4 py-12">
+    <div class="flex items-end justify-between flex-wrap gap-3">
+        <div>
+            <h1 class="text-2xl font-semibold text-zp-deep">{{ t('menu_dashboard', lang) }}</h1>
+        </div>
+        <div class="text-sm text-zp-mute">
+            <span class="font-medium text-zp-deep">{{ user.email }}</span>
+        </div>
+    </div>
+
+    {# Free trial / access banner — premium phrasing, no "X attempts left". #}
+    <div class="mt-6 rounded-lg border border-zp-line bg-white shadow-zp-card p-5 flex flex-wrap items-center gap-4">
+        {% set has_free_remaining = (access.consultations_left + access.documents_left) > 0 %}
+        <div class="flex-1 min-w-[16rem]">
+            <div class="text-zp-deep font-medium">
+                {% if has_free_remaining %}
+                    {{ t('free_trial_badge_active', lang) }}
+                {% else %}
+                    {{ t('free_trial_badge_used', lang) }}
+                {% endif %}
+            </div>
+        </div>
+        <a href="/payments" class="px-4 py-2 rounded-md bg-zp-blue text-white text-sm hover:bg-zp-deep">
+            {{ t('cta_pricing', lang) }}
+        </a>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
+        {% for c in [
+            ('card_consult', '/consultation/new', ''),
+            ('card_document', '/documents/new', ''),
+            ('card_court', '/court-documents/new', ''),
+            ('card_complaint', '/complaints/new', ''),
+            ('card_bankruptcy', '/bankruptcy', ''),
+            ('card_analyze', '/document-analysis/new', ''),
+            ('card_my_cases', '/cases', 'cases_desc'),
+            ('card_my_documents', '/documents', ''),
+            ('card_payments', '/payments', ''),
+        ] %}
+        <a href="{{ c[1] }}" class="block bg-white border border-zp-line rounded-lg p-5 hover:shadow-zp-card transition">
+            <div class="text-lg font-medium text-zp-deep">{{ t(c[0], lang) }}</div>
+            {% if c[2] == 'cases_desc' %}
+            <p class="text-xs text-zp-mute mt-2 leading-relaxed">{{ t('card_my_cases_desc', lang) }}</p>
+            {% endif %}
+        </a>
+        {% endfor %}
+    </div>
+
+    {% if recent_documents %}
+    <div class="mt-12">
+        <h2 class="text-lg font-medium text-zp-deep mb-3">{{ t('card_my_documents', lang) }}</h2>
+        <div class="bg-white border border-zp-line rounded-lg divide-y divide-zp-line">
+            {% for d in recent_documents %}
+            <a href="/documents/{{ d.id }}" class="block px-4 py-3 hover:bg-zp-bg flex items-center justify-between">
+                <div>
+                    <div class="font-medium text-zp-deep">{{ d.title or d.doc_type }}</div>
+                    <div class="text-xs text-zp-mute">#{{ d.id }} · {{ d.doc_type }}</div>
+                </div>
+                <span class="text-xs px-2 py-1 rounded {% if d.status == 'ready' %}bg-emerald-100 text-emerald-700{% else %}bg-zp-bg text-zp-mute{% endif %}">
+                    {{ d.status }}
+                </span>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

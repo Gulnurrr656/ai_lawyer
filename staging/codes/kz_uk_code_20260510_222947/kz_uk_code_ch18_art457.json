@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_uk_code_ch18_art457",
+  "doc_type": "code_article",
+  "source_id": "kz_uk_code",
+  "jurisdiction": "KZ",
+  "source": "Уголовный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "criminal_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "18",
+    "title": "ВОИНСКИЕ УГОЛОВНЫЕ ПРАВОНАРУШЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "0f1d76305f1b40c5b76cde40d38a618e5cd77f2a5642b53237f919ebd658c3bb",
+  "articles": [
+    {
+      "article": "457",
+      "title": "Мародерство",
+      "text": "Похищение на поле сражения вещей, находящихся при убитых и раненых (мародерство), –\n\n      наказывается лишением свободы на срок от пяти до десяти лет."
+    }
+  ],
+  "notes": []
+}

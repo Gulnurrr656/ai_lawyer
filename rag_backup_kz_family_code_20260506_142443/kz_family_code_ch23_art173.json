@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_family_code_ch23_art173",
+  "doc_type": "code_article",
+  "source_id": "kz_family_code",
+  "jurisdiction": "KZ",
+  "source": "Кодекс Республики Казахстан О браке (супружестве) и семье",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "23",
+    "title": "ПОРЯДОК УПЛАТЫ И ВЗЫСКАНИЯ АЛИМЕНТОВ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "d883fba16f3444e91d278684d198cfc08db278c4f93ebdd98c5e5810e58c04a7",
+  "articles": [
+    {
+      "article": "173",
+      "title": "Индексация алиментов",
+      "text": "Индексация алиментов, взыскиваемых по решению суда в твердой денежной сумме, производится администрацией организации по месту удержания алиментов пропорционально размеру месячного расчетного показателя."
+    }
+  ],
+  "notes": []
+}

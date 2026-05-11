@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_health_code_ch2_art14",
+  "doc_type": "code_article",
+  "source_id": "kz_health_code",
+  "jurisdiction": "KZ",
+  "source": "Кодекс Республики Казахстан \"О здоровье народа и системе здравоохранения\"",
+  "language": "ru",
+  "industry": [
+    "health_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "2",
+    "title": "ГОСУДАРСТВЕННОЕ РЕГУЛИРОВАНИЕ И УПРАВЛЕНИЕ В ОБЛАСТИ ЗДРАВООХРАНЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "db1feae944c7edf897fbdc15c18b86f10d6140203a51cdcad0393f86c5a8b84d",
+  "articles": [
+    {
+      "article": "14",
+      "title": "Полномочия национального оператора в области здравоохранения",
+      "text": "Национальный оператор в области здравоохранения реализует инвестиционные проекты и проекты государственно-частного партнерства в области здравоохранения."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_gpk_code_ch53_art422",
+  "doc_type": "code_article",
+  "source_id": "kz_gpk_code",
+  "jurisdiction": "KZ",
+  "source": "Гражданский процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "civil_procedure"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "53",
+    "title": "РАССМОТРЕНИЕ ДЕЛ ПО АПЕЛЛЯЦИОННЫМ ЖАЛОБЕ, ХОДАТАЙСТВУ ПРОКУРОРА"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "d61b100b1863d7e087e9dc942e1f00c5e111c5d25590059b40612aaaac18a9b9",
+  "articles": [
+    {
+      "article": "422",
+      "title": "Протокол судебного заседания",
+      "text": "В суде апелляционной инстанции протокол судебного заседания ведется по правилам части третьей статьи 281 настоящего Кодекса."
+    }
+  ],
+  "notes": []
+}

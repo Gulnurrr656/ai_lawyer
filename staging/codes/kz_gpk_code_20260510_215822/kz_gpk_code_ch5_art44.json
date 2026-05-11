@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_gpk_code_ch5_art44",
+  "doc_type": "code_article",
+  "source_id": "kz_gpk_code",
+  "jurisdiction": "KZ",
+  "source": "Гражданский процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "civil_procedure"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "5",
+    "title": "ЛИЦА, УЧАСТВУЮЩИЕ В ДЕЛЕ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "7460fc5d4b27be5ca26a74915d5975e4b44c67a6672f6a183d594c973f978f3e",
+  "articles": [
+    {
+      "article": "44",
+      "title": "Гражданская процессуальная правоспособность",
+      "text": "Способность иметь гражданские процессуальные права и обязанности (гражданская процессуальная правоспособность) признается в равной мере за всеми гражданами и юридическими лицами, являющимися субъектами материального права."
+    }
+  ],
+  "notes": []
+}

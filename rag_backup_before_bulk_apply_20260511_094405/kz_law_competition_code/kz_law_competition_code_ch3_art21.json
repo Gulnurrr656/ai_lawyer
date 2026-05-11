@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_competition_code_ch3_art21",
+  "doc_type": "law_article",
+  "source_id": "kz_law_competition_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О защите конкуренции\"",
+  "language": "ru",
+  "industry": [
+    "competition_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "3",
+    "title": "Недобросовестная конкуренция"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "895de54bcee06cc72b5b855c798def06106f2c40446b9f8a2eb6062b7aef0c65",
+  "articles": [
+    {
+      "article": "21",
+      "title": "Заведомо ложная, недобросовестная и",
+      "text": "недостоверная реклама\n\n      Признаки недобросовестной, недостоверной и заведомо ложной рекламы устанавливаются в соответствии с законами Республики Казахстан."
+    }
+  ],
+  "notes": []
+}

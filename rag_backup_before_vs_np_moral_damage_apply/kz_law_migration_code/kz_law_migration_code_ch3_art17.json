@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_migration_code_ch3_art17",
+  "doc_type": "law_article",
+  "source_id": "kz_law_migration_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О миграции населения\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "3",
+    "title": "ИММИГРАЦИЯ С ЦЕЛЬЮ ВОЗВРАЩЕНИЯ НА ИСТОРИЧЕСКУЮ РОДИНУ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "43d38c6456f2cde9e6478291bb08349f322c3469305e655b47a0ccf18142abbf",
+  "articles": [
+    {
+      "article": "17",
+      "title": "Категории оралманов",
+      "text": "Сноска. Cтатья 17 исключена Законом РК от 10.12.2013 № 153-V (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

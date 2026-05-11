@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_uk_code_full_ch1_art104",
+  "doc_type": "code_article",
+  "source_id": "kz_uk_code_full",
+  "jurisdiction": "KZ",
+  "source": "Уголовный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "criminal_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "1",
+    "title": "УГОЛОВНЫЕ ПРАВОНАРУШЕНИЯ ПРОТИВ ЛИЧНОСТИ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "94ec4d79244d4f1f4ec867474a3992814ff3941244bc1d58fe8e1125e7aea220",
+  "articles": [
+    {
+      "article": "104",
+      "title": "Причинение смерти по неосторожности",
+      "text": "1. Причинение смерти по неосторожности –\n\n      наказывается ограничением свободы на срок до трех лет либо лишением свободы на тот же срок.\n\n      2. Причинение смерти по неосторожности двум или более лицам –\n\n      наказывается ограничением свободы на срок до пяти лет либо лишением свободы на тот же срок."
+    }
+  ],
+  "notes": []
+}

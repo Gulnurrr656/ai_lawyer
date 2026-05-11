@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}Order #{{ order.id }} — {{ brand }}{% endblock %}
+
+{% block content %}
+<div class="max-w-3xl mx-auto px-4 py-10">
+    <h1 class="text-xl font-semibold">Order #{{ order.id }}</h1>
+    <div class="mt-4 bg-white border border-slate-200 rounded-lg p-5 text-sm">
+        <div><span class="text-slate-500">User:</span> {{ order.user_id }}</div>
+        <div><span class="text-slate-500">Plan:</span> {{ order.plan_id }}</div>
+        <div><span class="text-slate-500">Amount:</span> {{ order.amount_kzt }} ₸</div>
+        <div><span class="text-slate-500">Provider:</span> {{ order.provider }}</div>
+        <div><span class="text-slate-500">Status:</span> {{ order.status }}</div>
+        {% if order.receipt_path %}<div><span class="text-slate-500">Receipt:</span> {{ order.receipt_path }}</div>{% endif %}
+    </div>
+
+    <div class="mt-6 flex gap-3">
+        <form method="post" action="/admin/payments/{{ order.id }}/confirm">
+            <input type="text" name="note" placeholder="note" class="rounded-md border border-slate-300 px-2 py-1 text-sm" />
+            <button type="submit" class="px-3 py-1 rounded-md bg-emerald-600 text-white text-sm">{{ t('admin_confirm', lang) }}</button>
+        </form>
+        <form method="post" action="/admin/payments/{{ order.id }}/reject">
+            <input type="text" name="note" placeholder="note" class="rounded-md border border-slate-300 px-2 py-1 text-sm" />
+            <button type="submit" class="px-3 py-1 rounded-md bg-red-600 text-white text-sm">{{ t('admin_reject', lang) }}</button>
+        </form>
+    </div>
+</div>
+{% endblock %}

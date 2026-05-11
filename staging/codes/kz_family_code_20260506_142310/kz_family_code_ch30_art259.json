@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_family_code_ch30_art259",
+  "doc_type": "code_article",
+  "source_id": "kz_family_code",
+  "jurisdiction": "KZ",
+  "source": "Кодекс Республики Казахстан О браке (супружестве) и семье",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "30",
+    "title": "Перемена имени, отчества, фамилии"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "c5ea22af8250d9cba3dbb183bff61aed4a6dcc312d01cd2a98f60c5676a85dad",
+  "articles": [
+    {
+      "article": "259",
+      "title": "Заявление о перемене имени, отчества, фамилии",
+      "text": "В заявлении о перемене имени, отчества, фамилии должны быть указаны следующие сведения:\n\n      1) имя, отчество (при его наличии), фамилия заявителя;\n\n      2) избранные имя, отчество, фамилия;\n\n      3) причины перемены имени, отчества, фамилии."
+    }
+  ],
+  "notes": []
+}

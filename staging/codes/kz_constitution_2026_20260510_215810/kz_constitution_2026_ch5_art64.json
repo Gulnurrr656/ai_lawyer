@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_constitution_2026_ch5_art64",
+  "doc_type": "code_article",
+  "source_id": "kz_constitution_2026",
+  "jurisdiction": "KZ",
+  "source": "Конституция Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "constitutional_law"
+  ],
+  "authority_level": "constitution",
+  "status": "active",
+  "chapter": {
+    "number": "5",
+    "title": "Правительство"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "f2c4893b1c22eac960eeedfdf40e82b25f2c4504b8e7906c41de81284914c13a",
+  "articles": [
+    {
+      "article": "64",
+      "title": "",
+      "text": "1. Правительство образуется Президентом Республики Казахстан в порядке, предусмотренном Конституцией.\n\n      2. Предложения о структуре и составе Правительства вносятся Президенту Республики Казахстан Премьер-Министром Республики Казахстан в десятидневный срок после назначения Премьер-Министра.\n\n      3. Члены Правительства приносят присягу народу и Президенту Республики Казахстан."
+    }
+  ],
+  "notes": []
+}

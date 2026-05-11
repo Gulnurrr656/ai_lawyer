@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_gpk_code_ch8_art102",
+  "doc_type": "code_article",
+  "source_id": "kz_gpk_code",
+  "jurisdiction": "KZ",
+  "source": "Гражданский процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "civil_procedure"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "8",
+    "title": "СУДЕБНЫЕ РАСХОДЫ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "a0b50744386cc2c9035d5375fc13fc9d0a6dccccbb973587aa5e51cd7a816827",
+  "articles": [
+    {
+      "article": "102",
+      "title": "Понятие и состав судебных расходов",
+      "text": "Судебные расходы состоят из государственной пошлины и издержек, связанных с производством по делу."
+    }
+  ],
+  "notes": []
+}

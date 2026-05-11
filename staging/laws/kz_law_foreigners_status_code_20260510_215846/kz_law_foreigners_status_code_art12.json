@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_foreigners_status_code_art12",
+  "doc_type": "law_article",
+  "source_id": "kz_law_foreigners_status_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О правовом положении иностранцев\"",
+  "language": "ru",
+  "industry": [
+    "migration_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": null,
+    "title": ""
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "4cc00ce5bb9e5c0ae14dda9be8acb052d40151d5b6bd7b3234a0fd590c0a285b",
+  "articles": [
+    {
+      "article": "12",
+      "title": "Участие в общественных объединениях",
+      "text": "Иностранцы, постоянно проживающие в Республике Казахстан, имеют право вступать в общественные объединения, кроме политических партий и общественных объединений, преследующих политические цели, и если это не противоречит уставам (положениям) этих объединений."
+    }
+  ],
+  "notes": []
+}

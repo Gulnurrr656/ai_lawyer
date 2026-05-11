@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_law_enforcement_service_code_ch5_art35",
+  "doc_type": "law_article",
+  "source_id": "kz_law_law_enforcement_service_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан «О правоохранительной службе»",
+  "language": "ru",
+  "industry": [
+    "criminal_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "5",
+    "title": "НАЗНАЧЕНИЕ НА ДОЛЖНОСТЬ, ПЕРЕМЕЩЕНИЕ И"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "e788ff22fb61d2f0683c7c8dc1ed8852f26ba079caf66b0e3de421bef64a3832",
+  "articles": [
+    {
+      "article": "35",
+      "title": "Задачи формирования кадрового резерва",
+      "text": "Сноска. Статья 35 исключена Законом РК от 10.01.2025 № 156-VIII (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "source_id": "kz_book_vs_np_commentary",
+  "batch": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\books\\kz_book_vs_np_commentary_20260511_105555",
+  "mode": "missing-only",
+  "from_article": null,
+  "to_article": null,
+  "dry_run": true,
+  "apply": false,
+  "RAG_CHANGED": false,
+  "BLOCKED_BY_MOJIBAKE": false,
+  "suspicious_mojibake_count": 0,
+  "approved_candidates": [
+    {
+      "article": "section_001",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\books\\kz_book_vs_np_commentary_20260511_105555\\kz_book_vs_np_commentary_section_001.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_book_vs_np_commentary\\kz_book_vs_np_commentary_section_001.json"
+    }
+  ],
+  "errors": [],
+  "skipped_conflicts": [],
+  "skipped_existing": [],
+  "skipped_by_range": [],
+  "backup_dir": null,
+  "copied": [],
+  "stopped": false
+}

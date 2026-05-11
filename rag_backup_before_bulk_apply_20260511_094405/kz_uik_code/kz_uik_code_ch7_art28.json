@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_uik_code_ch7_art28",
+  "doc_type": "code_article",
+  "source_id": "kz_uik_code",
+  "jurisdiction": "KZ",
+  "source": "Уголовно-исполнительный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "criminal_executive"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "7",
+    "title": "КОНТРОЛЬ ЗА ДЕЯТЕЛЬНОСТЬЮ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "54203c2a23be0a099a40501ded313f6d6ecf2ab003a07c0707ffbe994a1ff2b3",
+  "articles": [
+    {
+      "article": "28",
+      "title": "Ведомственный контроль",
+      "text": "За деятельностью учреждений и органов, исполняющих наказания, осуществляется ведомственный контроль со стороны вышестоящих органов управления и их должностных лиц. Порядок осуществления ведомственного контроля определяется законодательством Республики Казахстан."
+    }
+  ],
+  "notes": []
+}

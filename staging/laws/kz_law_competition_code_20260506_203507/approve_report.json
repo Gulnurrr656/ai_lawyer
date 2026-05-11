@@ -1,0 +1,461 @@
+{
+  "source_id": "kz_law_competition_code",
+  "batch": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507",
+  "mode": "missing-only",
+  "from_article": null,
+  "to_article": null,
+  "dry_run": true,
+  "apply": false,
+  "RAG_CHANGED": false,
+  "BLOCKED_BY_MOJIBAKE": false,
+  "suspicious_mojibake_count": 0,
+  "approved_candidates": [
+    {
+      "article": "1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch1_art1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch1_art1.json"
+    },
+    {
+      "article": "10",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch2_art10.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch2_art10.json"
+    },
+    {
+      "article": "11",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch2_art11.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch2_art11.json"
+    },
+    {
+      "article": "12",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch2_art12.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch2_art12.json"
+    },
+    {
+      "article": "13",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch2_art13.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch2_art13.json"
+    },
+    {
+      "article": "14",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch2_art14.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch2_art14.json"
+    },
+    {
+      "article": "15",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch2_art15.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch2_art15.json"
+    },
+    {
+      "article": "16",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch3_art16.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch3_art16.json"
+    },
+    {
+      "article": "17",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch3_art17.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch3_art17.json"
+    },
+    {
+      "article": "18",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch3_art18.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch3_art18.json"
+    },
+    {
+      "article": "19",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch3_art19.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch3_art19.json"
+    },
+    {
+      "article": "2",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch1_art2.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch1_art2.json"
+    },
+    {
+      "article": "20",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch3_art20.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch3_art20.json"
+    },
+    {
+      "article": "21",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch3_art21.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch3_art21.json"
+    },
+    {
+      "article": "22",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch3_art22.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch3_art22.json"
+    },
+    {
+      "article": "23",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch3_art23.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch3_art23.json"
+    },
+    {
+      "article": "24",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch3_art24.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch3_art24.json"
+    },
+    {
+      "article": "25",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch3_art25.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch3_art25.json"
+    },
+    {
+      "article": "26",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch3_art26.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch3_art26.json"
+    },
+    {
+      "article": "27",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch3_art27.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch3_art27.json"
+    },
+    {
+      "article": "28",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch3_art28.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch3_art28.json"
+    },
+    {
+      "article": "29",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch4_art29.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch4_art29.json"
+    },
+    {
+      "article": "3",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch1_art3.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch1_art3.json"
+    },
+    {
+      "article": "30",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch4_art30.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch4_art30.json"
+    },
+    {
+      "article": "31",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch4_art31.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch4_art31.json"
+    },
+    {
+      "article": "32",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch4_art32.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch4_art32.json"
+    },
+    {
+      "article": "33",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch5_art33.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch5_art33.json"
+    },
+    {
+      "article": "34",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch5_art34.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch5_art34.json"
+    },
+    {
+      "article": "35",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch5_art35.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch5_art35.json"
+    },
+    {
+      "article": "36",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch5_art36.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch5_art36.json"
+    },
+    {
+      "article": "37",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch6_art37.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch6_art37.json"
+    },
+    {
+      "article": "38",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch6_art38.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch6_art38.json"
+    },
+    {
+      "article": "39",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch6_art39.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch6_art39.json"
+    },
+    {
+      "article": "4",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch1_art4.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch1_art4.json"
+    },
+    {
+      "article": "40",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch6_art40.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch6_art40.json"
+    },
+    {
+      "article": "40-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch6_art40-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch6_art40-1.json"
+    },
+    {
+      "article": "41",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch6_art41.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch6_art41.json"
+    },
+    {
+      "article": "42",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch6_art42.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch6_art42.json"
+    },
+    {
+      "article": "43",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch6_art43.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch6_art43.json"
+    },
+    {
+      "article": "43-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch6_art43-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch6_art43-1.json"
+    },
+    {
+      "article": "44",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch7_art44.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch7_art44.json"
+    },
+    {
+      "article": "44-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch7_art44-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch7_art44-1.json"
+    },
+    {
+      "article": "45",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch7_art45.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch7_art45.json"
+    },
+    {
+      "article": "46",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch8_art46.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch8_art46.json"
+    },
+    {
+      "article": "47",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch8_art47.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch8_art47.json"
+    },
+    {
+      "article": "48",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch8_art48.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch8_art48.json"
+    },
+    {
+      "article": "48-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch8_art48-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch8_art48-1.json"
+    },
+    {
+      "article": "49",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch8_art49.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch8_art49.json"
+    },
+    {
+      "article": "5",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch1_art5.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch1_art5.json"
+    },
+    {
+      "article": "50",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch8_art50.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch8_art50.json"
+    },
+    {
+      "article": "51",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch8_art51.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch8_art51.json"
+    },
+    {
+      "article": "52",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch8_art52.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch8_art52.json"
+    },
+    {
+      "article": "53",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch8_art53.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch8_art53.json"
+    },
+    {
+      "article": "54",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch8_art54.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch8_art54.json"
+    },
+    {
+      "article": "54-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch8_art54-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch8_art54-1.json"
+    },
+    {
+      "article": "54-2",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch8_art54-2.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch8_art54-2.json"
+    },
+    {
+      "article": "55",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch8_art55.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch8_art55.json"
+    },
+    {
+      "article": "56",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch8_art56.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch8_art56.json"
+    },
+    {
+      "article": "56-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch8_art56-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch8_art56-1.json"
+    },
+    {
+      "article": "57",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch8_art57.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch8_art57.json"
+    },
+    {
+      "article": "58",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch9_art58.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch9_art58.json"
+    },
+    {
+      "article": "59",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch9_art59.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch9_art59.json"
+    },
+    {
+      "article": "6",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch1_art6.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch1_art6.json"
+    },
+    {
+      "article": "60",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch9_art60.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch9_art60.json"
+    },
+    {
+      "article": "61",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch9_art61.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch9_art61.json"
+    },
+    {
+      "article": "62",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch9_art62.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch9_art62.json"
+    },
+    {
+      "article": "63",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch9_art63.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch9_art63.json"
+    },
+    {
+      "article": "64",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch9_art64.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch9_art64.json"
+    },
+    {
+      "article": "65",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch9_art65.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch9_art65.json"
+    },
+    {
+      "article": "66",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch9_art66.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch9_art66.json"
+    },
+    {
+      "article": "67",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch9_art67.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch9_art67.json"
+    },
+    {
+      "article": "68",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch10_art68.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch10_art68.json"
+    },
+    {
+      "article": "69",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch10_art69.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch10_art69.json"
+    },
+    {
+      "article": "7",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch1_art7.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch1_art7.json"
+    },
+    {
+      "article": "70",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch10_art70.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch10_art70.json"
+    },
+    {
+      "article": "71",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch10_art71.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch10_art71.json"
+    },
+    {
+      "article": "72",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch10_art72.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch10_art72.json"
+    },
+    {
+      "article": "73",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch10_art73.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch10_art73.json"
+    },
+    {
+      "article": "74",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch10_art74.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch10_art74.json"
+    },
+    {
+      "article": "75",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch11_art75.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch11_art75.json"
+    },
+    {
+      "article": "76",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch11_art76.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch11_art76.json"
+    },
+    {
+      "article": "77",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch12_art77.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch12_art77.json"
+    },
+    {
+      "article": "78",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch12_art78.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch12_art78.json"
+    },
+    {
+      "article": "79",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch12_art79.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch12_art79.json"
+    },
+    {
+      "article": "8",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch2_art8.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch2_art8.json"
+    },
+    {
+      "article": "80",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch13_art80.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch13_art80.json"
+    },
+    {
+      "article": "81",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch13_art81.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch13_art81.json"
+    },
+    {
+      "article": "9",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_competition_code_20260506_203507\\kz_law_competition_code_ch2_art9.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_competition_code\\kz_law_competition_code_ch2_art9.json"
+    }
+  ],
+  "errors": [],
+  "skipped_conflicts": [],
+  "skipped_existing": [],
+  "skipped_by_range": [],
+  "backup_dir": null,
+  "copied": [],
+  "stopped": false
+}

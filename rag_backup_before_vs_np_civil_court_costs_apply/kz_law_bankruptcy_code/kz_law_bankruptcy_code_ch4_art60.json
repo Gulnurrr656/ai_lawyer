@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_bankruptcy_code_ch4_art60",
+  "doc_type": "law_article",
+  "source_id": "kz_law_bankruptcy_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О реабилитации и банкротстве\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "4",
+    "title": "РАССМОТРЕНИЕ ДЕЛ О РЕАБИЛИТАЦИИ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "14e3c5d622ad55eac1768ec88e3047698ff475cfa3bd76d825e1ef988c0cf5a8",
+  "articles": [
+    {
+      "article": "60",
+      "title": "Решение суда при ложном банкротстве",
+      "text": "Сноска. Статья 60 исключена Законом РК от 27.12.2019 № 290-VI (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

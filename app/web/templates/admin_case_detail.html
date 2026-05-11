@@ -1,0 +1,135 @@
+{% extends "base.html" %}
+{% block title %}{{ case.case_id }} — {{ brand }}{% endblock %}
+
+{% block content %}
+{% set ps = case.payment_status %}
+{% set ps_tone = 'bg-zp-bg text-zp-mute border-zp-line' %}
+{% if ps == 'access_granted' or ps == 'paid' %}
+    {% set ps_tone = 'bg-emerald-50 text-emerald-800 border-emerald-200' %}
+{% elif ps == 'free_trial' %}
+    {% set ps_tone = 'bg-sky-50 text-sky-800 border-sky-200' %}
+{% elif ps == 'pending_payment' or ps == 'pending_review' %}
+    {% set ps_tone = 'bg-amber-50 text-amber-800 border-amber-200' %}
+{% elif ps == 'rejected' or ps == 'expired' %}
+    {% set ps_tone = 'bg-rose-50 text-rose-800 border-rose-200' %}
+{% endif %}
+
+<div class="max-w-5xl mx-auto px-4 py-10 space-y-8">
+    <div class="flex flex-wrap items-start justify-between gap-4">
+        <div>
+            <p class="text-xs font-mono text-zp-mute">{{ case.case_id }}</p>
+            <h1 class="text-2xl font-semibold text-zp-deep mt-1">{{ case.title or case.case_id }}</h1>
+            <p class="text-sm text-zp-mute mt-1">
+                {{ t('admin_case_meta_user', lang) }}: <span class="font-mono">{{ case.user_id }}</span>
+                · {{ t('admin_case_meta_case_type', lang) }}: {{ case.case_type }}
+                · {{ t('admin_case_meta_status', lang) }}: {{ case.status }}
+            </p>
+        </div>
+        <a href="/admin/cases" class="text-sm text-zp-blue hover:underline">← {{ t('admin_case_back_list', lang) }}</a>
+    </div>
+
+    <!-- Meta grid -->
+    <section class="grid grid-cols-1 md:grid-cols-3 gap-3 text-sm">
+        <div class="bg-white border border-zp-line rounded-lg px-4 py-3">
+            <p class="text-xs uppercase tracking-wide text-zp-mute">{{ t('admin_case_meta_payment_status', lang) }}</p>
+            <p class="mt-1"><span class="inline-flex items-center px-2 py-0.5 rounded-full border text-xs {{ ps_tone }}">{{ ps }}</span></p>
+        </div>
+        <div class="bg-white border border-zp-line rounded-lg px-4 py-3">
+            <p class="text-xs uppercase tracking-wide text-zp-mute">{{ t('admin_case_meta_strategy', lang) }}</p>
+            <p class="mt-1 text-zp-deep">{{ case.selected_strategy_name or case.selected_strategy_id or '—' }}</p>
+        </div>
+        <div class="bg-white border border-zp-line rounded-lg px-4 py-3">
+            <p class="text-xs uppercase tracking-wide text-zp-mute">{{ t('admin_case_meta_created', lang) }} / {{ t('admin_case_meta_updated', lang) }}</p>
+            <p class="mt-1 text-xs text-zp-mute font-mono">{{ case.created_at }} → {{ case.updated_at }}</p>
+        </div>
+    </section>
+
+    <section class="bg-white border border-zp-line rounded-lg p-5 shadow-zp-card space-y-3">
+        <h2 class="font-medium text-zp-deep">{{ t('case_section_goal', lang) }}</h2>
+        <p class="text-sm text-zp-mute whitespace-pre-wrap">{{ case.client_goal or "—" }}</p>
+        <h2 class="font-medium text-zp-deep pt-2">{{ t('case_section_facts', lang) }}</h2>
+        <ul class="text-sm list-disc pl-5 text-zp-mute">
+            {% for f in case.facts %}<li>{{ f }}</li>{% endfor %}
+            {% if not case.facts %}<li>—</li>{% endif %}
+        </ul>
+        <h2 class="font-medium text-zp-deep pt-2">{{ t('case_section_missing', lang) }}</h2>
+        <ul class="text-sm list-disc pl-5 text-zp-mute">
+            {% for f in case.missing_facts %}<li>{{ f }}</li>{% endfor %}
+            {% if not case.missing_facts %}<li>—</li>{% endif %}
+        </ul>
+    </section>
+
+    {% if case.admin_notes %}
+    <section class="bg-white border border-zp-line rounded-lg p-5 shadow-zp-card">
+        <h2 class="font-medium text-zp-deep mb-2">{{ t('admin_case_meta_notes', lang) }}</h2>
+        <p class="text-sm whitespace-pre-wrap text-zp-deep">{{ case.admin_notes }}</p>
+        {% if case.admin_reviewed_at %}
+        <p class="text-xs text-emerald-700 mt-2">{{ t('admin_case_reviewed', lang) }}: {{ case.admin_reviewed_at }}</p>
+        {% endif %}
+    </section>
+    {% endif %}
+
+    <section class="bg-white border border-zp-line rounded-lg p-5 shadow-zp-card">
+        <h2 class="font-medium text-zp-deep mb-2">Professor snapshot</h2>
+        <pre class="text-xs bg-zp-bg rounded-md p-3 overflow-x-auto max-h-64">{{ professor_json }}</pre>
+    </section>
+
+    <section class="bg-white border border-zp-line rounded-lg p-5 shadow-zp-card space-y-4">
+        <h2 class="font-medium text-zp-deep">{{ t('case_documents_page', lang) }}</h2>
+        {% if case.generated_documents %}
+        <ul class="divide-y divide-zp-line">
+            {% for d in case.generated_documents %}
+            <li class="py-3 flex flex-wrap items-center justify-between gap-2">
+                <div>
+                    <span class="font-medium text-zp-deep">#{{ d.document_id }}</span>
+                    <span class="text-xs text-zp-mute ml-2">{{ d.doc_type }}</span>
+                    {% if d.title %}<div class="text-xs text-zp-mute">{{ d.title }}</div>{% endif %}
+                </div>
+                <a href="/admin/cases/{{ case.case_id }}/documents/{{ d.document_id }}/download"
+                   class="text-sm px-3 py-1 rounded-md border border-zp-line hover:bg-zp-bg">
+                    {{ t('admin_case_download', lang) }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+        {% else %}
+        <p class="text-sm text-zp-mute">{{ t('admin_case_no_docs', lang) }}</p>
+        {% endif %}
+    </section>
+
+    <!-- Admin actions -->
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <form method="post" action="/admin/cases/{{ case.case_id }}/grant-access" class="bg-white border border-zp-line rounded-lg p-5 shadow-zp-card space-y-3">
+            <h3 class="font-medium text-zp-deep">{{ t('admin_case_grant', lang) }}</h3>
+            <textarea name="note" rows="2" class="w-full rounded-md border border-zp-line px-3 py-2 text-sm" placeholder="{{ t('admin_case_action_note', lang) }}"></textarea>
+            <button type="submit" class="px-4 py-2 rounded-md bg-emerald-600 text-white text-sm hover:bg-emerald-700">
+                {{ t('admin_case_grant', lang) }}
+            </button>
+        </form>
+
+        <form method="post" action="/admin/cases/{{ case.case_id }}/reject-access" class="bg-white border border-zp-line rounded-lg p-5 shadow-zp-card space-y-3">
+            <h3 class="font-medium text-zp-deep">{{ t('admin_case_reject', lang) }}</h3>
+            <textarea name="note" rows="2" class="w-full rounded-md border border-zp-line px-3 py-2 text-sm" placeholder="{{ t('admin_case_action_note', lang) }}"></textarea>
+            <button type="submit" class="px-4 py-2 rounded-md bg-rose-600 text-white text-sm hover:bg-rose-700">
+                {{ t('admin_case_reject', lang) }}
+            </button>
+        </form>
+
+        <form method="post" action="/admin/cases/{{ case.case_id }}/retry-generate" class="bg-white border border-zp-line rounded-lg p-5 shadow-zp-card space-y-3">
+            <h3 class="font-medium text-zp-deep">{{ t('admin_case_retry_gen', lang) }}</h3>
+            <textarea name="note" rows="2" class="w-full rounded-md border border-zp-line px-3 py-2 text-sm" placeholder="{{ t('admin_case_action_note', lang) }}"></textarea>
+            <button type="submit" class="px-4 py-2 rounded-md bg-zp-blue text-white text-sm hover:bg-zp-deep">
+                {{ t('admin_case_retry_gen', lang) }}
+            </button>
+        </form>
+
+        <form method="post" action="/admin/cases/{{ case.case_id }}/mark-reviewed" class="bg-white border border-zp-line rounded-lg p-5 shadow-zp-card space-y-3">
+            <h3 class="font-medium text-zp-deep">{{ t('admin_case_reviewed', lang) }}</h3>
+            <textarea name="note" rows="2" class="w-full rounded-md border border-zp-line px-3 py-2 text-sm" placeholder="{{ t('admin_case_action_note', lang) }}">{{ case.admin_notes }}</textarea>
+            <button type="submit" class="px-4 py-2 rounded-md bg-zp-deep text-white text-sm">
+                {{ t('admin_case_reviewed', lang) }}
+            </button>
+        </form>
+    </section>
+</div>
+{% endblock %}

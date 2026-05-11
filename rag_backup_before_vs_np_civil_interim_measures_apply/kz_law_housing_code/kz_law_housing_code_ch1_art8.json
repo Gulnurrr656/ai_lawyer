@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_housing_code_ch1_art8",
+  "doc_type": "law_article",
+  "source_id": "kz_law_housing_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О жилищных отношениях\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "1",
+    "title": "Общие положения"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "f0528cc290ee763ec8a2792e0ebefa0c7a917a8dd3977c323f28dacaee82763d",
+  "articles": [
+    {
+      "article": "8",
+      "title": "Разрешение жилищных споров",
+      "text": "1. Споры, вытекающие из жилищных правоотношений, разрешаются судом.\n\n      2. Выселение граждан и юридических лиц из занимаемых ими жилых помещений допускается лишь по основаниям, установленным настоящим Законом, в судебном порядке."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_housing_code_ch6_art32",
+  "doc_type": "law_article",
+  "source_id": "kz_law_housing_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О жилищных отношениях\"",
+  "language": "ru",
+  "industry": [
+    "housing_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "6",
+    "title": "Кондоминиум многоквартирного жилого дома"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "f9dd887146389f88103c3f89eb942ae71f9a67a9e2f6f7186b354b4f14e01d78",
+  "articles": [
+    {
+      "article": "32",
+      "title": "Содержание общего имущества объекта кондоминиума",
+      "text": "Сноска. Статья 32 исключена Законом РК от 15.07.2025 № 207-VIII (вводится в действие по истечении шестидесяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

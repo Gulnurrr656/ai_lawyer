@@ -1,0 +1,32 @@
+{
+  "doc_id": "kz_constitution_2026_sec2_art22",
+  "doc_type": "constitution_article",
+  "source_id": "kz_constitution_2026",
+  "jurisdiction": "KZ",
+  "source": "Конституция Республики Казахстан 2026",
+  "language": "ru",
+  "industry": [
+    "constitutional_law"
+  ],
+  "authority_level": "constitution",
+  "status": "not_effective_yet",
+  "chapter": {
+    "number": "2",
+    "title": "Основные права, свободы и обязанности"
+  },
+  "granularity": "article",
+  "as_of_date": "2026-05-06",
+  "text_hash": "90d628fd77bc8f8975e8b0b7ccf91da8d7ae86a99f1e0cb699b0d819d6bf2659",
+  "articles": [
+    {
+      "article": "22",
+      "title": "",
+      "text": "1. Каждый человек вправе определять, указывать или не указывать свою национальную принадлежность.\n\n      2. Каждый человек имеет право пользоваться родным языком и культурой, свободно выбирать язык общения, воспитания, обучения, творчества."
+    }
+  ],
+  "notes": [
+    "Конституция принята на республиканском референдуме 15 марта 2026 года.",
+    "Вводится в действие с 1 июля 2026 года."
+  ],
+  "effective_from": "2026-07-01"
+}

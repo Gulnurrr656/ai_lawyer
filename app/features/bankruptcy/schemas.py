@@ -1,9 +1,11 @@
-from typing import Literal, Dict, Any
 from dataclasses import dataclass
+from typing import Literal
 
 
-RiskLevel = Literal["safe", "borderline", "criminal_risk"]
-RouteDecision = Literal["bankruptcy_allowed", "bankruptcy_not_allowed"]
+# Уровень риска для жёсткого стоп-гейта (уголовные / фиктивные маркеры)
+RiskLevel = Literal["low", "medium", "high"]
+
+RouteDecision = Literal["bankruptcy_allowed", "bankruptcy_blocked"]
 
 
 @dataclass

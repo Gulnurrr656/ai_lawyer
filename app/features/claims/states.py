@@ -7,6 +7,13 @@ from aiogram.fsm.state import StatesGroup, State
 # =========================
 
 class ClaimsStates(StatesGroup):
+    # 0️⃣ Жанр (scenario lock — не переопределяется текстом дальше)
+    branch_select = State()
+
+    # Свободный рассказ → извлечение фактов (интервьюер)
+    free_story = State()
+    interview_clarify = State()
+
     # 1️⃣ Тип обращения
     # (досудебная претензия / жалоба / обращение)
     claim_type = State()

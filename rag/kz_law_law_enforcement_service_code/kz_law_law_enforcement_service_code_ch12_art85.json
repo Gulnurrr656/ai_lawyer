@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_law_enforcement_service_code_ch12_art85",
+  "doc_type": "law_article",
+  "source_id": "kz_law_law_enforcement_service_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан «О правоохранительной службе»",
+  "language": "ru",
+  "industry": [
+    "criminal_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "12",
+    "title": "ЗАКЛЮЧИТЕЛЬНЫЕ ПОЛОЖЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "4a3f77ab9ea92486f4b0382bcd564ac20f154f0f005ae21da2c3c6d20a1d52f5",
+  "articles": [
+    {
+      "article": "85",
+      "title": "Порядок введения в действие настоящего Закона",
+      "text": "Настоящий Закон вводится в действие по истечении десяти календарных дней после его первого официального опубликования."
+    }
+  ],
+  "notes": []
+}

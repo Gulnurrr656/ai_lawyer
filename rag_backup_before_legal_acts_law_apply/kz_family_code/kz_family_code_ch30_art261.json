@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_family_code_ch30_art261",
+  "doc_type": "code_article",
+  "source_id": "kz_family_code",
+  "jurisdiction": "KZ",
+  "source": "Кодекс Республики Казахстан О браке (супружестве) и семье",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "30",
+    "title": "Перемена имени, отчества, фамилии"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "37ddc9ebaaba3c54498457d1fefa3ec68b0066158f54953c6fe6e95108565c47",
+  "articles": [
+    {
+      "article": "261",
+      "title": "Перечень документов, прилагаемых к заявлению о перемене имени, отчества, фамилии",
+      "text": "Сноска. Статья 261 исключена Законом РК от 14.07.2022 № 141-VII (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

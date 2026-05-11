@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_gpk_code_ch55_art461",
+  "doc_type": "code_article",
+  "source_id": "kz_gpk_code",
+  "jurisdiction": "KZ",
+  "source": "Гражданский процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "civil_procedure"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "55",
+    "title": "ПРОИЗВОДСТВО ПО ПЕРЕСМОТРУ СУДЕБНЫХ АКТОВ ПО ВНОВЬ ОТКРЫВШИМСЯ ИЛИ НОВЫМ ОБСТОЯТЕЛЬСТВАМ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "a83a9f043498fece7c29de689c5869801bee746cfafe2ec021bc369fc8324d8f",
+  "articles": [
+    {
+      "article": "461",
+      "title": "Возвращение заявления",
+      "text": "Сноска. Статья 461 исключена Законом РК от 10.06.2020 № 342-VI (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

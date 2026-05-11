@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_gpk_code_ch18_art192",
+  "doc_type": "code_article",
+  "source_id": "kz_gpk_code",
+  "jurisdiction": "KZ",
+  "source": "Гражданский процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "18",
+    "title": "СУДЕБНОЕ РАЗБИРАТЕЛЬСТВО"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "fda66413fd863a3ed7f52a6668a692cf43ef6de29711558a655abd45aef8491a",
+  "articles": [
+    {
+      "article": "192",
+      "title": "Удаление свидетелей из зала судебного заседания",
+      "text": "1. Явившиеся свидетели удаляются из зала судебного заседания.\n\n      2. Председательствующий принимает меры к тому, чтобы допрошенные свидетели не общались с недопрошенными судом свидетелями."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_budget_code_ch33_art171",
+  "doc_type": "code_article",
+  "source_id": "kz_budget_code",
+  "jurisdiction": "KZ",
+  "source": "Бюджетный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "33",
+    "title": "ЗАКЛЮЧИТЕЛЬНЫЕ ПОЛОЖЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "f0ad35c25459930db62578857bebdf93d2f8585cccd126ccb38803be99c5c7b2",
+  "articles": [
+    {
+      "article": "171",
+      "title": "Ответственность за нарушение бюджетного законодательства Республики Казахстан",
+      "text": "Нарушение бюджетного законодательства Республики Казахстан влечет ответственность, установленную законами Республики Казахстан."
+    }
+  ],
+  "notes": []
+}

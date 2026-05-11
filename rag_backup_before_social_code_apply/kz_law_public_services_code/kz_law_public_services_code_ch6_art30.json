@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_public_services_code_ch6_art30",
+  "doc_type": "law_article",
+  "source_id": "kz_law_public_services_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О государственных услугах\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "6",
+    "title": "ЗАКЛЮЧИТЕЛЬНЫЕ ПОЛОЖЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "3dd829c8d9ebfef2661aabf2a7d6abc69bed680c636253d267cd1cd701f486ed",
+  "articles": [
+    {
+      "article": "30",
+      "title": "Ответственность за нарушение законодательства Республики Казахстан в сфере оказания государственных услуг",
+      "text": "Нарушение законодательства Республики Казахстан в сфере оказания государственных услуг влечет ответственность, установленную законами Республики Казахстан."
+    }
+  ],
+  "notes": []
+}

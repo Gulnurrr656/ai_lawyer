@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_architecture_construction_code_ch7_art39",
+  "doc_type": "law_article",
+  "source_id": "kz_law_architecture_construction_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"Об архитектурной, градостроительной и строительной деятельности в Республике Казахстан\"",
+  "language": "ru",
+  "industry": [
+    "construction_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "7",
+    "title": "Государственный градостроительный кадастр"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "6b3766c58f0b8faea3341ff23d845c722680dfa1b66188376b6974ae4ac3d78e",
+  "articles": [
+    {
+      "article": "39",
+      "title": "Государственный градостроительный кадастр областного (города республиканского значения, столицы) и базового уровней",
+      "text": "Сноска. Статья 39 исключена Законом РК от 21.01.2014 № 167-V (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

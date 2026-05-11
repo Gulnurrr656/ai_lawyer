@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}{{ t('admin_users', lang) }} — {{ brand }}{% endblock %}
+
+{% block content %}
+<div class="max-w-6xl mx-auto px-4 py-10">
+    <h1 class="text-2xl font-semibold">{{ t('admin_users', lang) }}</h1>
+    <div class="mt-6 bg-white border border-slate-200 rounded-lg overflow-x-auto">
+        <table class="min-w-full text-sm">
+            <thead class="bg-slate-50 text-slate-600 text-xs uppercase">
+                <tr>
+                    <th class="px-3 py-2 text-left">#</th>
+                    <th class="px-3 py-2 text-left">Email</th>
+                    <th class="px-3 py-2 text-left">Role</th>
+                    <th class="px-3 py-2 text-left">Lang</th>
+                    <th class="px-3 py-2 text-left">Created</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y">
+                {% for u in users %}
+                <tr>
+                    <td class="px-3 py-2">{{ u.id }}</td>
+                    <td class="px-3 py-2">{{ u.email }}</td>
+                    <td class="px-3 py-2">{{ u.role }}</td>
+                    <td class="px-3 py-2">{{ u.language }}</td>
+                    <td class="px-3 py-2">{{ u.created_at }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

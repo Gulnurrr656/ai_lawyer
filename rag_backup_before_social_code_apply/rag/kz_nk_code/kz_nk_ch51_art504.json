@@ -1,0 +1,22 @@
+{
+  "doc_id": "kz_nk_ch51_art504",
+  "doc_type": "code",
+  "jurisdiction": "KZ",
+  "source": "Налоговый кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": ["налоговое право"],
+  "chapter": {
+    "number": 51,
+    "title": "ПОРЯДОК ИСЧИСЛЕНИЯ И УПЛАТЫ НАЛОГА"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "articles": [
+    {
+      "article": 504,
+      "title": "Налоговый период",
+      "text": "Налоговым периодом по налогу на добавленную стоимость является календарный квартал."
+    }
+  ],
+  "notes": []
+}

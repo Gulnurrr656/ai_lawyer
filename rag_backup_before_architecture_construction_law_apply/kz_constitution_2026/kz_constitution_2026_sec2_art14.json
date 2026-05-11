@@ -1,0 +1,32 @@
+{
+  "doc_id": "kz_constitution_2026_sec2_art14",
+  "doc_type": "constitution_article",
+  "source_id": "kz_constitution_2026",
+  "jurisdiction": "KZ",
+  "source": "Конституция Республики Казахстан 2026",
+  "language": "ru",
+  "industry": [
+    "constitutional_law"
+  ],
+  "authority_level": "constitution",
+  "status": "not_effective_yet",
+  "chapter": {
+    "number": "2",
+    "title": "Основные права, свободы и обязанности"
+  },
+  "granularity": "article",
+  "as_of_date": "2026-05-06",
+  "text_hash": "97d6cb5e3785f847be55d1aa3c9035836d0659e65c95cf5ffea2112bf29ec2bf",
+  "articles": [
+    {
+      "article": "14",
+      "title": "",
+      "text": "1. Гражданин Республики Казахстан не может быть выдан иностранному государству, если иное не установлено международными договорами Республики Казахстан.\n\n      2. Республика Казахстан гарантирует своим гражданам защиту за ее пределами в соответствии с законом."
+    }
+  ],
+  "notes": [
+    "Конституция принята на республиканском референдуме 15 марта 2026 года.",
+    "Вводится в действие с 1 июля 2026 года."
+  ],
+  "effective_from": "2026-07-01"
+}

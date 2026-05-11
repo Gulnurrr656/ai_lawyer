@@ -1,0 +1,22 @@
+{
+  "doc_id": "kz_law_mediation_ch4_art28",
+  "doc_type": "law",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан «О медиации»",
+  "language": "ru",
+  "industry": ["медиация"],
+  "chapter": {
+    "number": 4,
+    "title": "Заключительные положения"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "articles": [
+    {
+      "article": 28,
+      "title": "Порядок введения в действие настоящего Закона",
+      "text": "Настоящий Закон вводится в действие по истечении шести месяцев после его первого официального опубликования."
+    }
+  ],
+  "notes": []
+}

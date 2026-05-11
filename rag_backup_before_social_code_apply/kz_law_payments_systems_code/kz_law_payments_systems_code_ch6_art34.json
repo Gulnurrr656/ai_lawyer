@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_payments_systems_code_ch6_art34",
+  "doc_type": "law_article",
+  "source_id": "kz_law_payments_systems_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О платежах и платежных системах\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "6",
+    "title": "ПЛАТЕЖНЫЕ ИНСТРУМЕНТЫ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "a90ec5db1d4a29ac296c620473e5d08dd7c370394bbd19dc55c8a36fb3a29387",
+  "articles": [
+    {
+      "article": "34",
+      "title": "Вексель",
+      "text": "Применение векселей для осуществления безналичных платежей и (или) переводов денег регулируется вексельным законодательством Республики Казахстан."
+    }
+  ],
+  "notes": []
+}

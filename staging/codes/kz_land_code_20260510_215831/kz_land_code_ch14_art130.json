@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_land_code_ch14_art130",
+  "doc_type": "code_article",
+  "source_id": "kz_land_code",
+  "jurisdiction": "KZ",
+  "source": "Земельный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "land_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "14",
+    "title": "Земли лесного фонда"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "4ea3221ab5d761c13bca30f650840ca2b51d50c91bb5a61c20bd1bf7dc3a7429",
+  "articles": [
+    {
+      "article": "130",
+      "title": "Ограничения в переводе земель лесного фонда в другие категории земель",
+      "text": "Перевод земель лесного фонда в земли других категорий для целей, не связанных с ведением лесного хозяйства, осуществляется Правительством Республики Казахстан."
+    }
+  ],
+  "notes": []
+}

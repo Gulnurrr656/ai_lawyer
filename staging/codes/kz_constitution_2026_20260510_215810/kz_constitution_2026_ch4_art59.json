@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_constitution_2026_ch4_art59",
+  "doc_type": "code_article",
+  "source_id": "kz_constitution_2026",
+  "jurisdiction": "KZ",
+  "source": "Конституция Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "constitutional_law"
+  ],
+  "authority_level": "constitution",
+  "status": "active",
+  "chapter": {
+    "number": "4",
+    "title": "Курултай"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "952d360f0849b11f8f4fe8bbc4a426d3f1cc7eb77c1105d6063477af0c958157",
+  "articles": [
+    {
+      "article": "59",
+      "title": "",
+      "text": "1. Курултай образует постоянные комитеты, число которых определяется конституционным законом, а также комиссии.\n\n      2. Комитеты и комиссии по вопросам своей компетенции издают постановления."
+    }
+  ],
+  "notes": []
+}

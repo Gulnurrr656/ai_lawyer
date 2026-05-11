@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_foreigners_status_code_art20",
+  "doc_type": "law_article",
+  "source_id": "kz_law_foreigners_status_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О правовом положении иностранцев\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": null,
+    "title": ""
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "02cc3cd519749f1ed3c7ace29d11624dd6119a0f96fc53b94c0662d5a744c08f",
+  "articles": [
+    {
+      "article": "20",
+      "title": "Отношение к воинской обязанности",
+      "text": "Воинская обязанность не распространяется на иностранцев, постоянно проживающих на территории Республики Казахстан.\n\n      Сноска. Статья 20 в редакции Закона РК от 12.01.2007 № 227.\n\n\nРаздел III. Въезд в Республику Казахстан и выезд\nиз Республики Казахстан иностранцев"
+    }
+  ],
+  "notes": []
+}

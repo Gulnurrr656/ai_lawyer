@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_gpk_code_ch57_art504",
+  "doc_type": "code_article",
+  "source_id": "kz_gpk_code",
+  "jurisdiction": "KZ",
+  "source": "Гражданский процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "57",
+    "title": "ПРОИЗВОДСТВО ПО ДЕЛАМ С УЧАСТИЕМ ИНОСТРАННЫХ ЛИЦ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "d94801feba589996b700b4fe764cbb7730ae5af0033d52dd369f279f0df4e8d7",
+  "articles": [
+    {
+      "article": "504",
+      "title": "Отказ в выдаче и выдача исполнительного листа",
+      "text": "Отказ в выдаче и выдача исполнительного листа осуществляются по правилам, предусмотренным главой 20 настоящего Кодекса.\n\nГлава 58. ЗАКЛЮЧИТЕЛЬНЫЕ ПОЛОЖЕНИЯ"
+    }
+  ],
+  "notes": []
+}

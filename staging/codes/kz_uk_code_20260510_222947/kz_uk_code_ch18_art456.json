@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_uk_code_ch18_art456",
+  "doc_type": "code_article",
+  "source_id": "kz_uk_code",
+  "jurisdiction": "KZ",
+  "source": "Уголовный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "criminal_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "18",
+    "title": "ВОИНСКИЕ УГОЛОВНЫЕ ПРАВОНАРУШЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "d5f470df0bf2cf9effecb40e1a85fe75a0b612a8a06c7d14dd6a552011040919",
+  "articles": [
+    {
+      "article": "456",
+      "title": "Добровольная сдача в плен",
+      "text": "Добровольная сдача в плен по трусости или малодушию –\n\n      наказывается лишением свободы на срок от пяти до десяти лет."
+    }
+  ],
+  "notes": []
+}

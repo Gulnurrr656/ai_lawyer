@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_law_enforcement_service_code_ch5_art46-2",
+  "doc_type": "law_article",
+  "source_id": "kz_law_law_enforcement_service_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан «О правоохранительной службе»",
+  "language": "ru",
+  "industry": [
+    "criminal_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "5",
+    "title": "НАЗНАЧЕНИЕ НА ДОЛЖНОСТЬ, ПЕРЕМЕЩЕНИЕ И"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "71ddc3ec2ef913b552ead3a3e502c8d906a1440ed0ff50aeb6bef945c6b270b8",
+  "articles": [
+    {
+      "article": "46-2",
+      "title": "Оценка деятельности",
+      "text": "Сноска. Статья 46-2 исключена Законом РК от 10.01.2025 № 156-VIII (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).\n\nГлава 6. АТТЕСТАЦИЯ"
+    }
+  ],
+  "notes": []
+}

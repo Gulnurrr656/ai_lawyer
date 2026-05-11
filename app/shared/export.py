@@ -29,4 +29,4 @@ def save_docx(text: str, filename: str) -> str:
         p.add_run(block)
 
     doc.save(path)
-    return str(path)
+    return str(path.resolve())

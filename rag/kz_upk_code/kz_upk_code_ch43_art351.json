@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_upk_code_ch43_art351",
+  "doc_type": "code_article",
+  "source_id": "kz_upk_code",
+  "jurisdiction": "KZ",
+  "source": "Уголовно-процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "criminal_procedure"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "43",
+    "title": "Подготовительная часть главного судебного"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "148b4fa5facb7b45f3b45c4bb63f8d2b1746870cd472d19b9f0d935058f83295",
+  "articles": [
+    {
+      "article": "351",
+      "title": "Проверка явки лиц, вызывавшихся в главное судебное разбирательство",
+      "text": "Секретарь судебного заседания докладывает суду о явке лиц, которые должны участвовать в главном судебном заседании, и сообщает о причинах неявки отсутствующих."
+    }
+  ],
+  "notes": []
+}

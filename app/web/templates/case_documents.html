@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}{{ t('case_documents_page', lang) }} — {{ case.case_id }}{% endblock %}
+
+{% block content %}
+<div class="max-w-4xl mx-auto px-4 py-10">
+    <a href="/cases/{{ case.case_id }}" class="text-sm text-zp-gold hover:underline">← {{ case.case_id }}</a>
+    <h1 class="text-xl font-semibold text-zp-deep mt-4">{{ t('case_documents_page', lang) }}</h1>
+
+    {% if case.generated_documents %}
+    <ul class="mt-6 space-y-3">
+        {% for d in case.generated_documents %}
+        <li class="bg-white border border-zp-line rounded-lg p-4 flex flex-wrap justify-between gap-2 shadow-zp-card">
+            <div>
+                <span class="font-medium text-zp-deep">#{{ d.document_id }}</span>
+                <span class="text-sm text-zp-mute ml-2">{{ d.doc_type }}</span>
+                {% if d.title %}<p class="text-xs text-zp-mute">{{ d.title }}</p>{% endif %}
+            </div>
+            <a href="/documents/{{ d.document_id }}" class="text-sm text-zp-gold hover:underline">DOCX</a>
+        </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p class="mt-6 text-zp-mute text-sm">—</p>
+    {% endif %}
+</div>
+{% endblock %}

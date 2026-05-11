@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_housing_code_ch8_art64",
+  "doc_type": "law_article",
+  "source_id": "kz_law_housing_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О жилищных отношениях\"",
+  "language": "ru",
+  "industry": [
+    "housing_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "8",
+    "title": "Жилищно-строительные кооперативы"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "9c266c35a3bedb47fb9b57091201860c985a445ed65313f7a6a26c69fe08d2ea",
+  "articles": [
+    {
+      "article": "64",
+      "title": "Предоставление освобожденного жилища другому лицу",
+      "text": "Сноска. Статья 64 исключена Законом РК от 26.12.2019 № 284-VІ (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_competition_code_ch3_art20",
+  "doc_type": "law_article",
+  "source_id": "kz_law_competition_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О защите конкуренции\"",
+  "language": "ru",
+  "industry": [
+    "competition_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "3",
+    "title": "Недобросовестная конкуренция"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "1a81585309ed8c536ee9832954049a96ee0e041a008fa34b6356eefee00a5c23",
+  "articles": [
+    {
+      "article": "20",
+      "title": "Дискредитация субъекта рынка",
+      "text": "Дискредитацией субъекта рынка является распространение в любой форме заведомо ложных, недостоверных сведений, связанных с деятельностью субъекта рынка."
+    }
+  ],
+  "notes": []
+}

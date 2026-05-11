@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_family_code_ch23_art163",
+  "doc_type": "code_article",
+  "source_id": "kz_family_code",
+  "jurisdiction": "KZ",
+  "source": "Кодекс Республики Казахстан о браке (супружестве) и семье",
+  "language": "ru",
+  "industry": [
+    "family_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "23",
+    "title": "ПОРЯДОК УПЛАТЫ И ВЗЫСКАНИЯ АЛИМЕНТОВ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "88c014deae0006b61c20a0eea410a88f737bb5ec71094221311c5b4a555f3739",
+  "articles": [
+    {
+      "article": "163",
+      "title": "Взыскание алиментов по решению суда",
+      "text": "При отсутствии соглашения об уплате алиментов члены семьи, указанные в статьях 143 - 155 настоящего Кодекса, вправе обратиться в суд с требованием о взыскании алиментов."
+    }
+  ],
+  "notes": []
+}

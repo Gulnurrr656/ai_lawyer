@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_legal_acts_code_ch5_art21",
+  "doc_type": "law_article",
+  "source_id": "kz_law_legal_acts_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О правовых актах\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "5",
+    "title": "ПОДГОТОВКА И ОФОРМЛЕНИЕ ПРОЕКТОВ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "061f8f178c24d9d1ef17676c7cd7f83433a9b0bb9c960d22366f195cbc8c32b5",
+  "articles": [
+    {
+      "article": "21",
+      "title": "Согласование проекта нормативного правового акта с заинтересованными государственными органами и организациями",
+      "text": "Сноска. Статья 21 исключена Законом РК от 12.03.2021 № 15-VII (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

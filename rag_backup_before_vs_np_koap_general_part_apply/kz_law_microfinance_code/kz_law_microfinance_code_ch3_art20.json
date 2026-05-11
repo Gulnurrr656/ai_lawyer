@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_microfinance_code_ch3_art20",
+  "doc_type": "law_article",
+  "source_id": "kz_law_microfinance_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О микрофинансовой деятельности\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "3",
+    "title": "СОЗДАНИЕ И ДЕЯТЕЛЬНОСТЬ МИКРОФИНАНСОВЫХ ОРГАНИЗАЦИЙ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "ab0db99be3c2769eded2edd7f588e1737595557c15ad01817066b86dbf06cfd0",
+  "articles": [
+    {
+      "article": "20",
+      "title": "Порядок ведения документации по предоставленному микрокредиту",
+      "text": "Сноска. Статья 20 исключена Законом РК от 02.01.2021 № 399-VI (вводится в действие с 01.01.2021)."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_gpk_code_ch18_art184",
+  "doc_type": "code_article",
+  "source_id": "kz_gpk_code",
+  "jurisdiction": "KZ",
+  "source": "Гражданский процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "18",
+    "title": "СУДЕБНОЕ РАЗБИРАТЕЛЬСТВО"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "56737fdf997c43c1f573f7ed5a0915d2c719dca7650aaa9b371ca8cc94fee146",
+  "articles": [
+    {
+      "article": "184",
+      "title": "Судебное заседание",
+      "text": "Разбирательство гражданского дела судом происходит в судебном заседании с обязательным извещением лиц, участвующих в деле."
+    }
+  ],
+  "notes": []
+}

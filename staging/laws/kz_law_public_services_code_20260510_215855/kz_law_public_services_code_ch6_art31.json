@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_public_services_code_ch6_art31",
+  "doc_type": "law_article",
+  "source_id": "kz_law_public_services_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О государственных услугах\"",
+  "language": "ru",
+  "industry": [
+    "public_services_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "6",
+    "title": "ЗАКЛЮЧИТЕЛЬНЫЕ ПОЛОЖЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "1265e220d83887ba19e243389bd1620a882fe56c5163c8a75e8e5907d105b9d5",
+  "articles": [
+    {
+      "article": "31",
+      "title": "Порядок введения в действие настоящего Закона",
+      "text": "Настоящий Закон вводится в действие по истечении тридцати календарных дней после его первого официального"
+    }
+  ],
+  "notes": []
+}

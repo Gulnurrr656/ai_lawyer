@@ -1,0 +1,95 @@
+{# ====================================================================
+   Voice recorder widget — WhatsApp-style multi-message voice input.
+
+   Drops a self-contained record/stop/cancel/send control next to a chat
+   text input. Multiple sequential recordings are supported by design —
+   the JS resets MediaRecorder + stream after each recording.
+
+   Required context:
+     - ``lang`` (kk|ru|en)
+     - widget injects itself into ``#voice-recorder-host`` (place this
+       include after the chat-input markup with that anchor id).
+
+   Optional context attributes the JS will read from the wrapper:
+     - data-target-input="#chat-input"   — receives transcribed text
+     - data-target-send="#chat-send"     — optional auto-click target
+     - data-session-id="..."             — preferred multi-turn endpoint
+     - data-transcribe-url="/api/voice/transcribe"  — override endpoint
+     - data-autosend="0"                 — default: do not auto-send
+
+   No raw audio is ever stored permanently. iOS / Safari devices get a
+   ``<input type=file accept=audio/* capture>`` fallback.
+   ==================================================================== #}
+<div id="voice-recorder"
+     class="mt-3 inline-flex flex-col gap-2"
+     data-voice-recorder="1"
+     data-target-input="#chat-input"
+     data-target-send="#chat-send"
+     data-session-id="{{ session_id or '' }}"
+     data-transcribe-url="/api/voice/transcribe"
+     data-autosend="0">
+
+    <div class="flex flex-wrap items-center gap-2">
+        <button type="button"
+                data-voice-record
+                class="inline-flex items-center gap-2 px-3 py-2 rounded-md border border-zp-line hover:bg-zp-bg text-sm text-zp-deep"
+                aria-label="{{ t('voice_widget_record', lang) }}"
+                title="{{ t('voice_widget_record', lang) }}">
+            <span class="text-base leading-none" aria-hidden="true">🎙</span>
+            <span>{{ t('voice_widget_label', lang) }}</span>
+        </button>
+
+        <button type="button"
+                data-voice-stop
+                class="hidden inline-flex items-center gap-2 px-3 py-2 rounded-md border border-zp-gold/60 bg-zp-gold/10 text-sm text-zp-deep"
+                aria-label="{{ t('voice_widget_stop', lang) }}">
+            <span class="text-base leading-none" aria-hidden="true">■</span>
+            <span>{{ t('voice_widget_stop', lang) }}</span>
+            <span data-voice-timer class="ml-1 text-xs text-zp-mute font-mono">0:00</span>
+        </button>
+
+        <button type="button"
+                data-voice-cancel
+                class="hidden inline-flex items-center gap-2 px-3 py-2 rounded-md border border-zp-line hover:bg-zp-bg text-sm text-zp-mute"
+                aria-label="{{ t('voice_widget_cancel', lang) }}">
+            {{ t('voice_widget_cancel', lang) }}
+        </button>
+
+        <button type="button"
+                data-voice-send
+                class="hidden inline-flex items-center gap-2 px-3 py-2 rounded-md bg-zp-blue text-white hover:bg-zp-deep text-sm"
+                aria-label="{{ t('voice_widget_send', lang) }}">
+            {{ t('voice_widget_send', lang) }}
+        </button>
+
+        <label class="hidden inline-flex items-center gap-2 px-3 py-2 rounded-md border border-zp-line text-sm text-zp-deep cursor-pointer"
+               data-voice-fallback>
+            <input type="file" accept="audio/*" capture data-voice-file class="hidden" />
+            <span>{{ t('voice_widget_fallback_hint', lang) }}</span>
+        </label>
+    </div>
+
+    <p data-voice-status class="text-xs text-zp-mute" aria-live="polite"></p>
+
+    <textarea data-voice-transcript
+              class="hidden w-full max-w-xl rounded-md border border-zp-line px-3 py-2 text-sm"
+              rows="2"
+              placeholder="{{ t('voice_widget_ready', lang) }}"></textarea>
+
+    {# JS-side labels for status messages, one render per page so strict
+       single-language is preserved. #}
+    <script type="application/json" data-voice-labels>
+    {
+      "record": {{ t('voice_widget_record', lang) | tojson }},
+      "stop": {{ t('voice_widget_stop', lang) | tojson }},
+      "send": {{ t('voice_widget_send', lang) | tojson }},
+      "cancel": {{ t('voice_widget_cancel', lang) | tojson }},
+      "recording": {{ t('voice_widget_recording', lang) | tojson }},
+      "sending": {{ t('voice_widget_sending', lang) | tojson }},
+      "transcribing": {{ t('voice_widget_transcribing', lang) | tojson }},
+      "ready": {{ t('voice_widget_ready', lang) | tojson }},
+      "error": {{ t('voice_widget_error', lang) | tojson }},
+      "unavailable": {{ t('voice_unavailable', lang) | tojson }}
+    }
+    </script>
+</div>

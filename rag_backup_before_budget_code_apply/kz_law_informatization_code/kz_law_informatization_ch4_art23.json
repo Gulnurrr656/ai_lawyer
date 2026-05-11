@@ -1,0 +1,24 @@
+{
+  "doc_id": "kz_law_informatization_ch4_art23",
+  "doc_type": "law",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан «Об информатизации»",
+  "language": "ru",
+  "industry": ["информационное право", "цифровизация"],
+  "chapter": {
+    "number": 4,
+    "title": "«ЭЛЕКТРОННОЕ ПРАВИТЕЛЬСТВО»"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "articles": [
+    {
+      "article": 23,
+      "title": "Архитектура государственного органа",
+      "text": ""
+    }
+  ],
+  "notes": [
+    "Сноска. Статья 23 исключена Законом РК от 14.07.2022 № 141-VII (вводится в действие с 01.01.2023)."
+  ]
+}

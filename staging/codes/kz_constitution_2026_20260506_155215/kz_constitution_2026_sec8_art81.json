@@ -1,0 +1,32 @@
+{
+  "doc_id": "kz_constitution_2026_sec8_art81",
+  "doc_type": "constitution_article",
+  "source_id": "kz_constitution_2026",
+  "jurisdiction": "KZ",
+  "source": "Конституция Республики Казахстан 2026",
+  "language": "ru",
+  "industry": [
+    "constitutional_law"
+  ],
+  "authority_level": "constitution",
+  "status": "not_effective_yet",
+  "chapter": {
+    "number": "8",
+    "title": "Правосудие. Прокуратура. Правозащитные механизмы"
+  },
+  "granularity": "article",
+  "as_of_date": "2026-05-06",
+  "text_hash": "8723356c928a4cfec4a76ae3090bc1f79bd8b76cfee9186a3ef83874e47a326c",
+  "articles": [
+    {
+      "article": "81",
+      "title": "",
+      "text": "Финансирование судов, обеспечение судей жильем производится за счет средств республиканского бюджета и должно обеспечивать возможность полного и независимого осуществления правосудия."
+    }
+  ],
+  "notes": [
+    "Конституция принята на республиканском референдуме 15 марта 2026 года.",
+    "Вводится в действие с 1 июля 2026 года."
+  ],
+  "effective_from": "2026-07-01"
+}

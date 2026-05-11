@@ -1,0 +1,32 @@
+{
+  "doc_id": "kz_constitution_2026_sec2_art17",
+  "doc_type": "constitution_article",
+  "source_id": "kz_constitution_2026",
+  "jurisdiction": "KZ",
+  "source": "Конституция Республики Казахстан 2026",
+  "language": "ru",
+  "industry": [
+    "constitutional_law"
+  ],
+  "authority_level": "constitution",
+  "status": "not_effective_yet",
+  "chapter": {
+    "number": "2",
+    "title": "Основные права, свободы и обязанности"
+  },
+  "granularity": "article",
+  "as_of_date": "2026-05-06",
+  "text_hash": "f94a4a256e1d9480a323f31338b7e4f52d476fddc918daaaee7775201740429c",
+  "articles": [
+    {
+      "article": "17",
+      "title": "",
+      "text": "1. Право на жизнь – неотъемлемое и неотчуждаемое право каждого человека.\n\n      2. Никто не вправе произвольно лишать человека жизни.\n\n      3. Смертная казнь запрещена."
+    }
+  ],
+  "notes": [
+    "Конституция принята на республиканском референдуме 15 марта 2026 года.",
+    "Вводится в действие с 1 июля 2026 года."
+  ],
+  "effective_from": "2026-07-01"
+}

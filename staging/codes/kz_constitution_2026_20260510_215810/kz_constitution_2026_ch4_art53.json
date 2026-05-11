@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_constitution_2026_ch4_art53",
+  "doc_type": "code_article",
+  "source_id": "kz_constitution_2026",
+  "jurisdiction": "KZ",
+  "source": "Конституция Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "constitutional_law"
+  ],
+  "authority_level": "constitution",
+  "status": "active",
+  "chapter": {
+    "number": "4",
+    "title": "Курултай"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "8eac4021bc32716305e56351d3500ef9db6556a0619cd7e93d9eac366d4717cb",
+  "articles": [
+    {
+      "article": "53",
+      "title": "",
+      "text": "1. Курултай состоит из ста сорока пяти депутатов, избираемых в порядке, установленном конституционным законом, по системе пропорционального представительства по территории единого общенационального избирательного округа.\n\n      2. Срок полномочий депутатов Курултая – пять лет."
+    }
+  ],
+  "notes": []
+}

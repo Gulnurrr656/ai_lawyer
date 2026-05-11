@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_gpk_code_ch7_art95",
+  "doc_type": "code_article",
+  "source_id": "kz_gpk_code",
+  "jurisdiction": "KZ",
+  "source": "Гражданский процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "7",
+    "title": "ДОКАЗАТЕЛЬСТВА И ДОКАЗЫВАНИЕ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "db1aa3d1310cdf17cfa26700d2f9e94ea12307d2c299df1a909dea3591d9a466",
+  "articles": [
+    {
+      "article": "95",
+      "title": "Вещественные доказательства",
+      "text": "Вещественными доказательствами признаются предметы, если есть основание полагать, что они своим внешним видом, свойствами или иными признаками могут служить средством установления обстоятельств, имеющих значение для дела."
+    }
+  ],
+  "notes": []
+}

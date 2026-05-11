@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_constitution_2026_ch6_art70",
+  "doc_type": "code_article",
+  "source_id": "kz_constitution_2026",
+  "jurisdiction": "KZ",
+  "source": "Конституция Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "constitutional_law"
+  ],
+  "authority_level": "constitution",
+  "status": "active",
+  "chapter": {
+    "number": "6",
+    "title": "Қазақстан Халық Кеңесі"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "6be986605f947aaf9b948d23378b9e7f94c05bc64271399ce1662f047343d95f",
+  "articles": [
+    {
+      "article": "70",
+      "title": "",
+      "text": "1. Қазақстан Халық Кеңесі (Народный Совет Казахстана) – высший консультативный орган, представляющий интересы народа Республики Казахстан.\n\n      2. Состав Қазақстан Халық Кеңесі формируется из числа граждан Республики Казахстан.\n\n      3. Порядок образования, формирования состава, полномочия и организация деятельности Қазақстан Халық Кеңесі определяются конституционным законом."
+    }
+  ],
+  "notes": []
+}

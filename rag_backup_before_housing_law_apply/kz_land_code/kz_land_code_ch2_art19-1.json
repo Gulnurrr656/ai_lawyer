@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_land_code_ch2_art19-1",
+  "doc_type": "code_article",
+  "source_id": "kz_land_code",
+  "jurisdiction": "KZ",
+  "source": "Земельный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "2",
+    "title": "Компетенция государственных органов"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "815ee4e294c7f8a284e51c9517ca1c255072c8c62f3b28c163f7b6e4268da2c1",
+  "articles": [
+    {
+      "article": "19-1",
+      "title": "Компетенция администрации специальной экономической зоны",
+      "text": "Сноска. Статья 19-1 исключена Законом РК от 21.07.2011 № 470-IV (вводится в действие с 01.04.2012).\n\nРаздел 2. Право собственности, право землепользования\nи иные вещные права на землю\nГлава 3. Право собственности на землю"
+    }
+  ],
+  "notes": []
+}

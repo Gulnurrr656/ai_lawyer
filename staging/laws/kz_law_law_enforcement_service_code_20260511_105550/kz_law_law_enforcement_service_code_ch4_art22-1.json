@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_law_enforcement_service_code_ch4_art22-1",
+  "doc_type": "law_article",
+  "source_id": "kz_law_law_enforcement_service_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан «О правоохранительной службе»",
+  "language": "ru",
+  "industry": [
+    "criminal_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "4",
+    "title": "Специальные звания или классные чины"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "d09a1182c6838fe49e895755c3704ced84336e4b425b3cf2e882181e69c262bb",
+  "articles": [
+    {
+      "article": "22-1",
+      "title": "Квалификационные классы сотрудников антикоррупционной службы и службы экономических расследований",
+      "text": "Сноска. Статья 22-1 исключена Законом РК от 11.07.2022 № 136-VII (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

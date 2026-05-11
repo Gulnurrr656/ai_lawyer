@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_uik_code_ch22_art141",
+  "doc_type": "code_article",
+  "source_id": "kz_uik_code",
+  "jurisdiction": "KZ",
+  "source": "Уголовно-исполнительный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "criminal_executive"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "22",
+    "title": "ОСОБЕННОСТИ ИСПОЛНЕНИЯ НАКАЗАНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "ded97c4c76f3143d6f03baafeead92ea4ec2a8cbb9b35f172a915b9f080befed",
+  "articles": [
+    {
+      "article": "141",
+      "title": "Условия отбывания наказания в учреждениях чрезвычайной безопасности для осужденных, отбывающих пожизненное лишение свободы",
+      "text": "Сноска. Статья 141 исключена Законом РК от 17.03.2023 № 212-VII (вводится в действие по истечении шестидесяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

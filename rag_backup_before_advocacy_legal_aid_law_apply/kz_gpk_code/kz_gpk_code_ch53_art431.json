@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_gpk_code_ch53_art431",
+  "doc_type": "code_article",
+  "source_id": "kz_gpk_code",
+  "jurisdiction": "KZ",
+  "source": "Гражданский процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "53",
+    "title": "РАССМОТРЕНИЕ ДЕЛ ПО АПЕЛЛЯЦИОННЫМ ЖАЛОБЕ, ХОДАТАЙСТВУ ПРОКУРОРА"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "81cb789abb220d3a77b36740a13d99b69ab3170c3f037298cabdf81671d72891",
+  "articles": [
+    {
+      "article": "431",
+      "title": "Законная сила судебных актов суда апелляционной инстанции",
+      "text": "Судебные акты суда апелляционной инстанции вступают в законную силу со дня их оглашения."
+    }
+  ],
+  "notes": []
+}

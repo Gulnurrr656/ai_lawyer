@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}{{ t('menu_admin', lang) }} — {{ brand }}{% endblock %}
+
+{% block content %}
+<div class="max-w-5xl mx-auto px-4 py-10">
+    <h1 class="text-2xl font-semibold">{{ t('menu_admin', lang) }}</h1>
+    <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
+        <a href="/admin/payments" class="block bg-white border border-zp-line rounded-lg p-5 hover:shadow-zp-card hover:border-zp-gold/60 transition">
+            <div class="font-medium text-zp-deep">{{ t('admin_payments', lang) }}</div>
+        </a>
+        <a href="/admin/documents" class="block bg-white border border-zp-line rounded-lg p-5 hover:shadow-zp-card hover:border-zp-gold/60 transition">
+            <div class="font-medium text-zp-deep">{{ t('admin_documents', lang) }}</div>
+        </a>
+        <a href="/admin/users" class="block bg-white border border-zp-line rounded-lg p-5 hover:shadow-zp-card hover:border-zp-gold/60 transition">
+            <div class="font-medium text-zp-deep">{{ t('admin_users', lang) }}</div>
+        </a>
+        <a href="/admin/cases" class="block bg-white border border-zp-line rounded-lg p-5 hover:shadow-zp-card hover:border-zp-gold/60 transition md:col-span-3">
+            <div class="font-medium text-zp-deep">{{ t('admin_cases_title', lang) }}</div>
+        </a>
+        <a href="/admin/ingest-queue" class="block bg-white border border-zp-line rounded-lg p-5 hover:shadow-zp-card hover:border-zp-gold/60 transition md:col-span-3">
+            <div class="font-medium text-zp-deep">{{ t('admin_queue_title', lang) }}</div>
+        </a>
+    </div>
+</div>
+{% endblock %}

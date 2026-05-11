@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+{% block title %}Dev voice test — {{ brand }}{% endblock %}
+
+{% block content %}
+<div class="max-w-3xl mx-auto px-4 py-10">
+    <p class="uppercase tracking-widest text-xs text-zp-gold mb-2">Dev / test mode</p>
+    <h1 class="text-2xl font-semibold text-zp-deep">/dev/voice-test</h1>
+    <p class="text-sm text-zp-mute mt-2">
+        Self-contained diagnostics for the voice pipeline. Only available
+        when <code>APP_ENV != production</code> and <code>ZANGERPRO_TEST_MODE=1</code>.
+    </p>
+
+    <section class="mt-6 bg-white border border-zp-line rounded-lg p-5 shadow-zp-card text-sm">
+        <h2 class="font-semibold text-zp-deep">Runtime snapshot</h2>
+        <dl class="mt-3 grid grid-cols-2 gap-y-1">
+            <dt class="text-zp-mute">app_env</dt><dd class="text-zp-deep">{{ snapshot.app_env }}</dd>
+            <dt class="text-zp-mute">is_production</dt><dd class="text-zp-deep">{{ snapshot.is_production }}</dd>
+            <dt class="text-zp-mute">is_test_mode</dt><dd class="text-zp-deep">{{ snapshot.is_test_mode }}</dd>
+            <dt class="text-zp-mute">payment_bypass</dt><dd class="text-zp-deep">{{ snapshot.payment_bypass }}</dd>
+            <dt class="text-zp-mute">voice_enabled</dt><dd class="text-zp-deep">{{ snapshot.voice_enabled }}</dd>
+            <dt class="text-zp-mute">voice_mock</dt><dd class="text-zp-deep">{{ snapshot.voice_mock }}</dd>
+            <dt class="text-zp-mute">openai_configured</dt><dd class="text-zp-deep">{{ snapshot.openai_configured }}</dd>
+            <dt class="text-zp-mute">transcribe_model</dt><dd class="text-zp-deep">{{ snapshot.transcribe_model }}</dd>
+        </dl>
+    </section>
+
+    <section class="mt-6 bg-white border border-zp-line rounded-lg p-5 shadow-zp-card">
+        <h2 class="font-semibold text-zp-deep">Recorder</h2>
+        <p class="text-xs text-zp-mute mt-1">
+            Selected MIME: <code id="dev-mime">—</code>
+        </p>
+
+        <textarea id="chat-input" rows="3" class="mt-3 w-full rounded-md border border-zp-line px-3 py-2 text-sm" placeholder="{{ t('voice_widget_ready', lang) }}"></textarea>
+
+        {% include "_voice_recorder.html" %}
+
+        <h3 class="mt-6 text-sm font-semibold text-zp-deep">Last response</h3>
+        <pre id="dev-result" class="mt-2 text-xs bg-zp-bg border border-zp-line rounded-md p-3 overflow-x-auto">—</pre>
+    </section>
+
+    <p class="text-xs text-zp-mute mt-4">
+        Run multiple recordings without page reload to verify the
+        <code>resetRecorderState</code> path. The widget supports an iOS
+        file-input fallback for browsers without
+        <code>MediaRecorder</code>.
+    </p>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/js/voice_recorder.js" defer></script>
+<script>
+(function () {
+    function pickMime() {
+        var cands = [
+            'audio/webm;codecs=opus',
+            'audio/webm',
+            'audio/mp4',
+            'audio/mpeg'
+        ];
+        if (!window.MediaRecorder) return '';
+        for (var i = 0; i < cands.length; i++) {
+            try { if (MediaRecorder.isTypeSupported(cands[i])) return cands[i]; } catch (_) {}
+        }
+        return '';
+    }
+    var slot = document.getElementById('dev-mime');
+    if (slot) slot.textContent = pickMime() || 'none — fallback to file input';
+
+    // Intercept fetch to /api/voice/transcribe to surface the JSON response.
+    var origFetch = window.fetch;
+    window.fetch = function (input, init) {
+        var url = (typeof input === 'string') ? input : (input && input.url) || '';
+        var p = origFetch.apply(this, arguments);
+        if (url.indexOf('/api/voice/transcribe') !== -1) {
+            p.then(function (r) {
+                var clone = r.clone();
+                return clone.json().then(function (data) {
+                    var box = document.getElementById('dev-result');
+                    if (box) box.textContent = JSON.stringify(data, null, 2);
+                });
+            }).catch(function () {});
+        }
+        return p;
+    };
+})();
+</script>
+{% endblock %}

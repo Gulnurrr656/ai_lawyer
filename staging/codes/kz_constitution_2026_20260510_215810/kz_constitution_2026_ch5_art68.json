@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_constitution_2026_ch5_art68",
+  "doc_type": "code_article",
+  "source_id": "kz_constitution_2026",
+  "jurisdiction": "KZ",
+  "source": "Конституция Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "constitutional_law"
+  ],
+  "authority_level": "constitution",
+  "status": "active",
+  "chapter": {
+    "number": "5",
+    "title": "Правительство"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "045a4e9fd19223cc6665d0d58ed0495bf419dbe71af03658e2a570f8fe8be6f3",
+  "articles": [
+    {
+      "article": "68",
+      "title": "",
+      "text": "1. Правительство по вопросам своей компетенции издает постановления, имеющие обязательную силу на всей территории Республики Казахстан.\n\n      2. Премьер-Министр издает распоряжения, имеющие обязательную силу на всей территории Республики Казахстан.\n\n      3. Постановления Правительства и распоряжения Премьер-Министра не должны противоречить Конституции, законам, актам Президента Республики Казахстан."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_ecology_code_ch4_art32",
+  "doc_type": "code_article",
+  "source_id": "kz_ecology_code",
+  "jurisdiction": "KZ",
+  "source": "Экологический кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "4",
+    "title": "ЭКОЛОГИЧЕСКАЯ ИНФОРМАЦИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "825bc589b047f64fa9eb0515a191777744b1f0e2c1d3204838352094a244fe8f",
+  "articles": [
+    {
+      "article": "32",
+      "title": "Общие положения об экологических требованиях",
+      "text": "Под экологическими требованиями понимаются правила, требования, ограничения и запреты, установленные экологическим законодательством Республики Казахстан, которые направлены на обеспечение охраны окружающей среды."
+    }
+  ],
+  "notes": []
+}

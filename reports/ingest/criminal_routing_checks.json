@@ -1,0 +1,112 @@
+[
+  {
+    "query": "статья 1 УК РК",
+    "expected_source": "kz_uk_code_full",
+    "expected_article_or_point": "1",
+    "result_count": 1,
+    "actual_source": "kz_uk_code_full",
+    "actual_article": "1",
+    "actual_point": null,
+    "ok": true,
+    "note": "Option C: full UK preferred over legacy partial"
+  },
+  {
+    "query": "статья 999 УК РК",
+    "expected_source": "<empty/NOT_FOUND>",
+    "expected_article_or_point": "<none>",
+    "result_count": 0,
+    "actual_source": "<none>",
+    "actual_article": null,
+    "actual_point": null,
+    "ok": true,
+    "note": ""
+  },
+  {
+    "query": "статья 1 УПК РК",
+    "expected_source": "kz_upk_code",
+    "expected_article_or_point": "1",
+    "result_count": 1,
+    "actual_source": "kz_upk_code",
+    "actual_article": "1",
+    "actual_point": null,
+    "ok": true,
+    "note": ""
+  },
+  {
+    "query": "статья 1 УИК РК",
+    "expected_source": "kz_uik_code",
+    "expected_article_or_point": "1",
+    "result_count": 1,
+    "actual_source": "kz_uik_code",
+    "actual_article": "1",
+    "actual_point": null,
+    "ok": true,
+    "note": ""
+  },
+  {
+    "query": "О судебном приговоре пункт 1",
+    "expected_source": "kz_vs_np_criminal_sentence_code",
+    "expected_article_or_point": "1",
+    "result_count": 1,
+    "actual_source": "kz_vs_np_criminal_sentence_code",
+    "actual_article": "1",
+    "actual_point": "1",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "query": "О назначении уголовного наказания пункт 1",
+    "expected_source": "kz_vs_np_criminal_punishment_code",
+    "expected_article_or_point": "1",
+    "result_count": 1,
+    "actual_source": "kz_vs_np_criminal_punishment_code",
+    "actual_article": "1",
+    "actual_point": "1",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "query": "О практике рассмотрения уголовных дел в апелляционном порядке пункт 1",
+    "expected_source": "kz_vs_np_criminal_appeal_code",
+    "expected_article_or_point": "1",
+    "result_count": 1,
+    "actual_source": "kz_vs_np_criminal_appeal_code",
+    "actual_article": "1",
+    "actual_point": "1",
+    "ok": true,
+    "note": ""
+  },
+  {
+    "query": "О применении законодательства, регламентирующего рассмотрение уголовных дел в кассационном порядке пункт 1",
+    "expected_source": "<empty/NOT_FOUND>",
+    "expected_article_or_point": "<none>",
+    "result_count": 0,
+    "actual_source": "<none>",
+    "actual_article": null,
+    "actual_point": null,
+    "ok": true,
+    "note": "missing on disk → expect NOT_FOUND"
+  },
+  {
+    "query": "О поступившему уголовному делу пункт 1",
+    "expected_source": "<empty/NOT_FOUND>",
+    "expected_article_or_point": "<none>",
+    "result_count": 0,
+    "actual_source": "<none>",
+    "actual_article": null,
+    "actual_point": null,
+    "ok": true,
+    "note": "missing on disk → expect NOT_FOUND"
+  },
+  {
+    "query": "О рассмотрении уголовных дел в сокращенном порядке пункт 1",
+    "expected_source": "<empty/NOT_FOUND>",
+    "expected_article_or_point": "<none>",
+    "result_count": 0,
+    "actual_source": "<none>",
+    "actual_article": null,
+    "actual_point": null,
+    "ok": true,
+    "note": "missing on disk → expect NOT_FOUND"
+  }
+]

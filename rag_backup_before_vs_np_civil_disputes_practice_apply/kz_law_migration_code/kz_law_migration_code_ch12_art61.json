@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_migration_code_ch12_art61",
+  "doc_type": "law_article",
+  "source_id": "kz_law_migration_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О миграции населения\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "12",
+    "title": "ОТВЕТСТВЕННОСТЬ ЗА НАРУШЕНИЕ ЗАКОНОДАТЕЛЬСТВА"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "0793ef1013d29e4715e545fb70ef0fcbfb90d7b9fb5089c49471472cf8aca786",
+  "articles": [
+    {
+      "article": "61",
+      "title": "Разрешение споров",
+      "text": "Решения и действия (бездействие) уполномоченных органов и (или) их должностных лиц могут быть обжалованы в вышестоящих государственных органах (вышестоящему должностному лицу) и (или) в суд в соответствии с законами Республики Казахстан.\n\nГлава 13. ЗАКЛЮЧИТЕЛЬНЫЕ ПОЛОЖЕНИЯ"
+    }
+  ],
+  "notes": []
+}

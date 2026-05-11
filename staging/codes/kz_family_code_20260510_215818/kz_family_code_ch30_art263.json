@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_family_code_ch30_art263",
+  "doc_type": "code_article",
+  "source_id": "kz_family_code",
+  "jurisdiction": "KZ",
+  "source": "Кодекс Республики Казахстан о браке (супружестве) и семье",
+  "language": "ru",
+  "industry": [
+    "family_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "30",
+    "title": "Перемена имени, отчества, фамилии"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "9ecb9bcd63e5a7f64a07bbd4e1b0a3a6399ab8c36c0561d9ca920559fafadcc3",
+  "articles": [
+    {
+      "article": "263",
+      "title": "Содержание записи акта о перемене имени, отчества, фамилии",
+      "text": "Сноска. Статья 263 исключена Законом РК от 14.07.2022 № 141-VII (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

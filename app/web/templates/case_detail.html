@@ -1,0 +1,224 @@
+{% extends "base.html" %}
+{% block title %}{{ case.title or case.case_id }} — {{ brand }}{% endblock %}
+
+{% block content %}
+{% set ps = case.payment_status %}
+{% set ps_badge = '' %}
+{% set ps_tone = 'bg-zp-bg text-zp-mute border-zp-line' %}
+{% if ps == 'access_granted' %}
+    {% set ps_badge = t('case_access_granted_badge', lang) %}
+    {% set ps_tone = 'bg-emerald-50 text-emerald-800 border-emerald-200' %}
+{% elif ps == 'free_trial' %}
+    {% set ps_badge = t('case_free_trial_badge', lang) %}
+    {% set ps_tone = 'bg-sky-50 text-sky-800 border-sky-200' %}
+{% elif ps == 'paid' %}
+    {% set ps_badge = t('case_payment_label', lang) %}
+    {% set ps_tone = 'bg-emerald-50 text-emerald-800 border-emerald-200' %}
+{% elif ps == 'pending_payment' %}
+    {% set ps_badge = t('case_pending_payment_badge', lang) %}
+    {% set ps_tone = 'bg-amber-50 text-amber-800 border-amber-200' %}
+{% elif ps == 'rejected' %}
+    {% set ps_badge = t('case_rejected_badge', lang) %}
+    {% set ps_tone = 'bg-rose-50 text-rose-800 border-rose-200' %}
+{% else %}
+    {% set ps_badge = ps %}
+{% endif %}
+
+<div class="max-w-4xl mx-auto px-4 py-10">
+    <div class="flex flex-wrap items-start justify-between gap-3">
+        <div>
+            <p class="text-xs text-zp-mute font-mono">{{ case.case_id }}</p>
+            <h1 class="text-2xl font-semibold text-zp-deep mt-1">{{ case.title or case.case_id }}</h1>
+            <p class="text-sm text-zp-mute mt-1">{{ case.case_type }} · {{ case.status }}</p>
+        </div>
+        <a href="/dashboard" class="text-sm text-zp-gold hover:underline">
+            {{ t('case_back_dashboard', lang) }}
+        </a>
+    </div>
+
+    <!-- Status row -->
+    <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-3 text-sm">
+        <div class="bg-white border border-zp-line rounded-lg px-4 py-3">
+            <p class="text-xs uppercase tracking-wide text-zp-mute">{{ t('case_status_label', lang) }}</p>
+            <p class="mt-1 text-zp-deep">{{ case.status }}</p>
+        </div>
+        <div class="bg-white border border-zp-line rounded-lg px-4 py-3">
+            <p class="text-xs uppercase tracking-wide text-zp-mute">{{ t('case_payment_label', lang) }}</p>
+            <p class="mt-1"><span class="inline-flex items-center px-2 py-0.5 rounded-full border text-xs {{ ps_tone }}">{{ ps_badge or ps }}</span></p>
+        </div>
+        <div class="bg-white border border-zp-line rounded-lg px-4 py-3">
+            <p class="text-xs uppercase tracking-wide text-zp-mute">{{ t('case_strategy_label', lang) }}</p>
+            {% if selected_strategy %}
+            <p class="mt-1 text-zp-deep">{{ selected_strategy.selected_strategy_name or selected_strategy.selected_strategy_id }}</p>
+            {% else %}
+            <p class="mt-1 text-amber-700 text-sm">{{ t('case_no_strategy', lang) }}</p>
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- Warnings -->
+    {% set warnings = [] %}
+    {% if not selected_strategy %}
+        {% set _ = warnings.append({'tone': 'amber', 'text': t('case_warn_no_strategy', lang)}) %}
+    {% endif %}
+    {% if not access_allowed %}
+        {% set _ = warnings.append({'tone': 'amber', 'text': t('case_warn_payment_required', lang)}) %}
+    {% endif %}
+    {% if not has_facts %}
+        {% set _ = warnings.append({'tone': 'amber', 'text': t('case_warn_missing_facts', lang)}) %}
+    {% endif %}
+    {% if heavy_doc_without_strategy %}
+        {% set _ = warnings.append({'tone': 'amber', 'text': t('case_warn_no_strategy', lang)}) %}
+    {% endif %}
+    {% if case.generated_documents %}
+        {% set _ = warnings.append({'tone': 'emerald', 'text': t('case_warn_document_ready', lang)}) %}
+    {% endif %}
+    {% if warnings %}
+    <div class="mt-4 space-y-2">
+        {% for w in warnings %}
+        <div class="rounded-md border px-3 py-2 text-sm
+                    {% if w.tone == 'emerald' %}bg-emerald-50 border-emerald-200 text-emerald-800
+                    {% else %}bg-amber-50 border-amber-200 text-amber-900{% endif %}">
+            {{ w.text }}
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="bg-white border border-zp-line rounded-lg p-4 shadow-zp-card">
+            <h2 class="text-sm font-semibold text-zp-deep">{{ t('case_section_goal', lang) }}</h2>
+            <p class="mt-2 text-sm text-zp-deep whitespace-pre-wrap">{{ case.client_goal or '—' }}</p>
+        </div>
+        <div class="bg-white border border-zp-line rounded-lg p-4 shadow-zp-card">
+            <h2 class="text-sm font-semibold text-zp-deep">{{ t('card_payments', lang) }}</h2>
+            <p class="mt-2 text-sm"><span class="text-zp-mute">payment_status:</span> {{ case.payment_status }}</p>
+            {% if access_allowed %}
+            <p class="mt-2 text-xs text-emerald-700">{{ t('case_access_open', lang) }}</p>
+            {% else %}
+            <a href="/pricing" class="inline-block mt-3 px-3 py-1.5 rounded-md bg-zp-gold text-zp-deep text-xs font-semibold hover:brightness-105">
+                {{ t('case_pay_and_continue', lang) }} →
+            </a>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="mt-4 bg-white border border-zp-line rounded-lg p-4 shadow-zp-card">
+        <h2 class="text-sm font-semibold text-zp-deep">{{ t('case_section_facts', lang) }}</h2>
+        {% if case.facts %}
+        <ul class="mt-2 list-disc pl-5 text-sm text-zp-deep">{% for f in case.facts %}<li>{{ f }}</li>{% endfor %}</ul>
+        {% else %}<p class="text-sm text-zp-mute mt-2">—</p>{% endif %}
+    </div>
+
+    <div class="mt-4 bg-white border border-zp-line rounded-lg p-4 shadow-zp-card">
+        <h2 class="text-sm font-semibold text-zp-deep">{{ t('case_section_missing', lang) }}</h2>
+        {% if case.missing_facts %}
+        <ul class="mt-2 list-disc pl-5 text-sm text-zp-deep">{% for f in case.missing_facts %}<li>{{ f }}</li>{% endfor %}</ul>
+        {% else %}<p class="text-sm text-zp-mute mt-2">—</p>{% endif %}
+    </div>
+
+    <div class="mt-4 bg-white border border-zp-line rounded-lg p-4 shadow-zp-card">
+        <div class="flex flex-wrap justify-between gap-2">
+            <div>
+                <h2 class="text-sm font-semibold text-zp-deep">{{ t('case_section_professor', lang) }}</h2>
+            </div>
+            <a href="/cases/{{ case.case_id }}/analysis" class="text-xs text-zp-gold hover:underline">{{ t('case_analysis_page', lang) }}</a>
+        </div>
+        <p class="text-xs text-zp-mute mt-2">{{ t('disclaimer', lang) }}</p>
+    </div>
+
+    <div class="mt-4 bg-zp-deep text-white rounded-lg p-4">
+        <p class="text-xs text-zp-gold uppercase tracking-wide mb-2">A / B / C</p>
+        <p class="text-sm text-blue-100">{{ t('strategy_panel_title', lang) }}</p>
+        {% if selected_strategy %}
+        <p class="mt-2 text-sm"><span class="text-zp-gold">{{ selected_strategy.selected_strategy_id }}</span> — {{ selected_strategy.selected_strategy_name }}</p>
+        {% endif %}
+        <div id="strategy-mini" class="mt-3 flex flex-wrap gap-2"></div>
+    </div>
+
+    <div class="mt-6 bg-white border border-zp-line rounded-lg p-4 shadow-zp-card">
+        <div class="flex flex-wrap justify-between gap-2">
+            <h2 class="text-sm font-semibold text-zp-deep">{{ t('case_section_documents', lang) }}</h2>
+            <a href="/cases/{{ case.case_id }}/documents" class="text-xs text-zp-gold hover:underline">{{ t('case_documents_page', lang) }}</a>
+        </div>
+        {% if case.generated_documents %}
+        <ul class="mt-3 divide-y divide-zp-line">
+            {% for d in case.generated_documents %}
+            <li class="py-2 flex flex-wrap justify-between gap-2">
+                <span class="text-sm text-zp-deep">#{{ d.document_id }} · {{ d.doc_type }}</span>
+                <a href="/documents/{{ d.document_id }}/download/docx" class="text-xs text-zp-gold hover:underline">DOCX</a>
+            </li>
+            {% endfor %}
+        </ul>
+        {% else %}
+        <p class="text-sm text-zp-mute mt-2">—</p>
+        {% endif %}
+    </div>
+
+    <div class="mt-8 flex flex-wrap gap-3">
+        <a href="/consultation/new" class="px-4 py-2 rounded-md bg-zp-gold text-zp-deep text-sm font-semibold hover:brightness-105">
+            {{ t('case_btn_strategy', lang) }}
+        </a>
+        <span class="text-xs text-zp-mute self-center">{{ t('case_generate_hint', lang) }}</span>
+    </div>
+
+    <form class="mt-4 flex flex-wrap gap-2 items-end max-w-lg" method="post" action="/cases/{{ case.case_id }}/generate-document">
+        <div>
+            <label class="block text-xs text-zp-mute">session_id</label>
+            <input type="number" name="session_id" required class="rounded-md border border-zp-line px-3 py-2 text-sm w-32" placeholder="e.g. 12" />
+        </div>
+        <button type="submit" class="px-4 py-2 rounded-md bg-zp-blue text-white text-sm hover:bg-zp-deep">
+            {{ t('case_btn_generate', lang) }}
+        </button>
+    </form>
+
+    {# ----- Voice input — append transcribed text to chat-like input ----- #}
+    <div class="mt-6 bg-white border border-zp-line rounded-lg p-4 shadow-zp-card">
+        <h2 class="text-sm font-semibold text-zp-deep">{{ t('voice_widget_label', lang) }}</h2>
+        <textarea id="chat-input" rows="3" class="mt-3 w-full rounded-md border border-zp-line px-3 py-2 text-sm" placeholder="{{ t('voice_widget_ready', lang) }}"></textarea>
+        {% include "_voice_recorder.html" %}
+    </div>
+
+    <div class="mt-6 flex flex-wrap gap-3">
+        {% if case.generated_documents %}
+        {% set last = case.generated_documents[-1] %}
+        <a href="/documents/{{ last.document_id }}/download/docx" class="px-4 py-2 rounded-md border border-zp-gold text-zp-deep text-sm hover:bg-zp-gold/10">
+            {{ t('case_btn_docx', lang) }}
+        </a>
+        {% endif %}
+        <button type="button" disabled class="px-4 py-2 rounded-md border border-zp-line text-zp-mute cursor-not-allowed text-sm" title="PDF — coming soon">
+            {{ t('case_btn_pdf', lang) }}
+        </button>
+    </div>
+
+    <details class="mt-8 border border-zp-line rounded-lg p-4 bg-zp-bg/40">
+        <summary class="cursor-pointer text-sm font-medium text-zp-deep">JSON snapshot</summary>
+        <pre class="mt-3 text-xs overflow-x-auto whitespace-pre-wrap text-zp-mute">{{ professor_json }}</pre>
+    </details>
+</div>
+<script src="/static/js/voice_recorder.js" defer></script>
+<script>
+(function () {
+  var opts = {{ strategy_options_json | safe }};
+  var box = document.getElementById('strategy-mini');
+  var lang = {{ lang | tojson }};
+  if (!box || !opts || !opts.length) return;
+  opts.slice(0, 5).forEach(function (o) {
+    var b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'px-2 py-1 rounded border border-white/30 text-xs hover:bg-white/10';
+    var label = lang === 'kk' ? (o.name_kk || o.name_ru || o.id)
+              : lang === 'ru' ? (o.name_ru || o.name_kk || o.id)
+              :                  (o.name_en || o.name_ru || o.name_kk || o.id);
+    b.textContent = label || '';
+    b.onclick = function () {
+      var fd = new FormData();
+      fd.append('strategy', o.id || '');
+      fetch('/case/{{ case.case_id }}/strategy/select', { method: 'POST', body: fd })
+        .then(function () { location.reload(); });
+    };
+    box.appendChild(b);
+  });
+})();
+</script>
+{% endblock %}

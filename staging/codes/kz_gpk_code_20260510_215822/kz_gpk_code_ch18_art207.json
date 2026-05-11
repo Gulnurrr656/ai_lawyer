@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_gpk_code_ch18_art207",
+  "doc_type": "code_article",
+  "source_id": "kz_gpk_code",
+  "jurisdiction": "KZ",
+  "source": "Гражданский процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "civil_procedure"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "18",
+    "title": "СУДЕБНОЕ РАЗБИРАТЕЛЬСТВО"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "cdcd8a154234a2dae2d6fdc1cbe26f63d7a10fb577942d2c6385ec7d4b35af3a",
+  "articles": [
+    {
+      "article": "207",
+      "title": "Оглашение показаний свидетеля",
+      "text": "Показания свидетелей, собранные в порядке, предусмотренном статьями 69, 71, 74, 75 и 199 настоящего Кодекса, оглашаются в судебном заседании, после чего лица, участвующие в деле, вправе дать по ним объяснения."
+    }
+  ],
+  "notes": []
+}

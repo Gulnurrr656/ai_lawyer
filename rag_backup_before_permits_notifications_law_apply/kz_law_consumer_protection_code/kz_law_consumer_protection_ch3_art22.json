@@ -1,0 +1,24 @@
+{
+  "doc_id": "kz_law_consumer_protection_ch3_art22",
+  "doc_type": "law",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О защите прав потребителей\"",
+  "language": "ru",
+  "industry": ["защита прав потребителей"],
+  "chapter": {
+    "number": 3,
+    "title": "ПРАВА ПОТРЕБИТЕЛЕЙ И ИХ ЗАЩИТА"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "articles": [
+    {
+      "article": "22",
+      "title": "Право потребителей на защиту прав и законных интересов",
+      "text": ""
+    }
+  ],
+  "notes": [
+    "Сноска. Статья 22 исключена Законом РК от 25.06.2020 № 346-VI."
+  ]
+}

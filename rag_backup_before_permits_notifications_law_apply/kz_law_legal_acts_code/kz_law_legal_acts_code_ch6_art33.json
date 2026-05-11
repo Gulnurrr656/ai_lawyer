@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_legal_acts_code_ch6_art33",
+  "doc_type": "law_article",
+  "source_id": "kz_law_legal_acts_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О правовых актах\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "6",
+    "title": "Научное сопровождение нормотворческой деятельности"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "2b44d4aef2e1013ca0378892d9adc849cd0a70d891cfaae6bf77fe4f40095353",
+  "articles": [
+    {
+      "article": "33",
+      "title": "Научная лингвистическая экспертиза проектов нормативных правовых актов",
+      "text": "Сноска. Статья 33 исключена Законом РК от 17.12.2025 № 241-VIII (вводится в действие с 01.01.2026)."
+    }
+  ],
+  "notes": []
+}

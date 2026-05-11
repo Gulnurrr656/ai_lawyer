@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_migration_code_ch3_art19",
+  "doc_type": "law_article",
+  "source_id": "kz_law_migration_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О миграции населения\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "3",
+    "title": "ИММИГРАЦИЯ С ЦЕЛЬЮ ВОЗВРАЩЕНИЯ НА ИСТОРИЧЕСКУЮ РОДИНУ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "ff10f8ea18436b39e180d0ca3f1b362e5707ed016cf2777a81f2d1771a752d10",
+  "articles": [
+    {
+      "article": "19",
+      "title": "Комиссия по включению в квоту иммиграции оралманов",
+      "text": "Сноска. Статья 19 исключена Законом РК от 10.12.2013 № 153-V (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

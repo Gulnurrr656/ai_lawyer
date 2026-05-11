@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_family_code_ch30_art265",
+  "doc_type": "code_article",
+  "source_id": "kz_family_code",
+  "jurisdiction": "KZ",
+  "source": "Кодекс Республики Казахстан о браке (супружестве) и семье",
+  "language": "ru",
+  "industry": [
+    "family_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "30",
+    "title": "Перемена имени, отчества, фамилии"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "a6c46f1fa1749602570c7778c699b19dc7521e1bef9e90af07741dcd21e72f95",
+  "articles": [
+    {
+      "article": "265",
+      "title": "Выдача свидетельства о перемене имени, отчества, фамилии",
+      "text": "Сноска. Статья 265 исключена Законом РК от 14.07.2022 № 141-VII (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

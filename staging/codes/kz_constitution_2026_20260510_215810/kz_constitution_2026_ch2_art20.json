@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_constitution_2026_ch2_art20",
+  "doc_type": "code_article",
+  "source_id": "kz_constitution_2026",
+  "jurisdiction": "KZ",
+  "source": "Конституция Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "constitutional_law"
+  ],
+  "authority_level": "constitution",
+  "status": "active",
+  "chapter": {
+    "number": "2",
+    "title": "Основные права, свободы и обязанности"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "c831b4f9f12bcd0795c6be2172d17c7ccc74b5a7d6fa58869464a463ff21830c",
+  "articles": [
+    {
+      "article": "20",
+      "title": "",
+      "text": "1. Честь и достоинство человека неприкосновенны и охраняются законом.\n\n      2. Никто не должен подвергаться пыткам, насилию, другому жестокому или унижающему человеческое достоинство обращению или наказанию."
+    }
+  ],
+  "notes": []
+}

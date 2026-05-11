@@ -1,0 +1,594 @@
+{
+  "source_id": "kz_vs_np_criminal_sentence_code",
+  "batch": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858",
+  "mode": "missing-only",
+  "from_article": null,
+  "to_article": null,
+  "dry_run": false,
+  "apply": true,
+  "RAG_CHANGED": true,
+  "BLOCKED_BY_MOJIBAKE": false,
+  "suspicious_mojibake_count": 0,
+  "approved_candidates": [
+    {
+      "article": "1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p001.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p001.json"
+    },
+    {
+      "article": "10",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p010.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p010.json"
+    },
+    {
+      "article": "11",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p011.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p011.json"
+    },
+    {
+      "article": "12",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p012.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p012.json"
+    },
+    {
+      "article": "13",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p013.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p013.json"
+    },
+    {
+      "article": "14",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p014.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p014.json"
+    },
+    {
+      "article": "15",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p015.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p015.json"
+    },
+    {
+      "article": "16",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p016.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p016.json"
+    },
+    {
+      "article": "17",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p017.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p017.json"
+    },
+    {
+      "article": "18",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p018.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p018.json"
+    },
+    {
+      "article": "19",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p019.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p019.json"
+    },
+    {
+      "article": "2",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p002.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p002.json"
+    },
+    {
+      "article": "20",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p020.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p020.json"
+    },
+    {
+      "article": "21",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p021.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p021.json"
+    },
+    {
+      "article": "22",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p022.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p022.json"
+    },
+    {
+      "article": "23",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p023.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p023.json"
+    },
+    {
+      "article": "24",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p024.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p024.json"
+    },
+    {
+      "article": "25",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p025.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p025.json"
+    },
+    {
+      "article": "26",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p026.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p026.json"
+    },
+    {
+      "article": "27",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p027.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p027.json"
+    },
+    {
+      "article": "28",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p028.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p028.json"
+    },
+    {
+      "article": "29",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p029.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p029.json"
+    },
+    {
+      "article": "3",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p003.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p003.json"
+    },
+    {
+      "article": "30",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p030.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p030.json"
+    },
+    {
+      "article": "31",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p031.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p031.json"
+    },
+    {
+      "article": "32",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p032.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p032.json"
+    },
+    {
+      "article": "33",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p033.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p033.json"
+    },
+    {
+      "article": "34",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p034.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p034.json"
+    },
+    {
+      "article": "35",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p035.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p035.json"
+    },
+    {
+      "article": "36",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p036.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p036.json"
+    },
+    {
+      "article": "36-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p36-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p36-1.json"
+    },
+    {
+      "article": "37",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p037.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p037.json"
+    },
+    {
+      "article": "38",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p038.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p038.json"
+    },
+    {
+      "article": "39",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p039.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p039.json"
+    },
+    {
+      "article": "4",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p004.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p004.json"
+    },
+    {
+      "article": "40",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p040.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p040.json"
+    },
+    {
+      "article": "41",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p041.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p041.json"
+    },
+    {
+      "article": "42",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p042.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p042.json"
+    },
+    {
+      "article": "43",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p043.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p043.json"
+    },
+    {
+      "article": "44",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p044.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p044.json"
+    },
+    {
+      "article": "45",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p045.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p045.json"
+    },
+    {
+      "article": "46",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p046.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p046.json"
+    },
+    {
+      "article": "47",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p047.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p047.json"
+    },
+    {
+      "article": "48",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p048.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p048.json"
+    },
+    {
+      "article": "49",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p049.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p049.json"
+    },
+    {
+      "article": "5",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p005.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p005.json"
+    },
+    {
+      "article": "50",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p050.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p050.json"
+    },
+    {
+      "article": "51",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p051.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p051.json"
+    },
+    {
+      "article": "52",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p052.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p052.json"
+    },
+    {
+      "article": "53",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p053.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p053.json"
+    },
+    {
+      "article": "54",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p054.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p054.json"
+    },
+    {
+      "article": "55",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p055.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p055.json"
+    },
+    {
+      "article": "56",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p056.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p056.json"
+    },
+    {
+      "article": "6",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p006.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p006.json"
+    },
+    {
+      "article": "7",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p007.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p007.json"
+    },
+    {
+      "article": "8",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p008.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p008.json"
+    },
+    {
+      "article": "9",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p009.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p009.json"
+    }
+  ],
+  "errors": [],
+  "skipped_conflicts": [],
+  "skipped_existing": [],
+  "skipped_by_range": [],
+  "backup_dir": null,
+  "copied": [
+    {
+      "article": "1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p001.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p001.json"
+    },
+    {
+      "article": "10",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p010.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p010.json"
+    },
+    {
+      "article": "11",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p011.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p011.json"
+    },
+    {
+      "article": "12",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p012.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p012.json"
+    },
+    {
+      "article": "13",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p013.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p013.json"
+    },
+    {
+      "article": "14",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p014.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p014.json"
+    },
+    {
+      "article": "15",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p015.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p015.json"
+    },
+    {
+      "article": "16",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p016.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p016.json"
+    },
+    {
+      "article": "17",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p017.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p017.json"
+    },
+    {
+      "article": "18",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p018.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p018.json"
+    },
+    {
+      "article": "19",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p019.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p019.json"
+    },
+    {
+      "article": "2",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p002.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p002.json"
+    },
+    {
+      "article": "20",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p020.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p020.json"
+    },
+    {
+      "article": "21",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p021.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p021.json"
+    },
+    {
+      "article": "22",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p022.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p022.json"
+    },
+    {
+      "article": "23",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p023.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p023.json"
+    },
+    {
+      "article": "24",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p024.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p024.json"
+    },
+    {
+      "article": "25",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p025.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p025.json"
+    },
+    {
+      "article": "26",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p026.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p026.json"
+    },
+    {
+      "article": "27",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p027.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p027.json"
+    },
+    {
+      "article": "28",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p028.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p028.json"
+    },
+    {
+      "article": "29",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p029.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p029.json"
+    },
+    {
+      "article": "3",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p003.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p003.json"
+    },
+    {
+      "article": "30",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p030.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p030.json"
+    },
+    {
+      "article": "31",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p031.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p031.json"
+    },
+    {
+      "article": "32",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p032.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p032.json"
+    },
+    {
+      "article": "33",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p033.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p033.json"
+    },
+    {
+      "article": "34",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p034.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p034.json"
+    },
+    {
+      "article": "35",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p035.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p035.json"
+    },
+    {
+      "article": "36",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p036.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p036.json"
+    },
+    {
+      "article": "36-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p36-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p36-1.json"
+    },
+    {
+      "article": "37",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p037.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p037.json"
+    },
+    {
+      "article": "38",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p038.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p038.json"
+    },
+    {
+      "article": "39",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p039.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p039.json"
+    },
+    {
+      "article": "4",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p004.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p004.json"
+    },
+    {
+      "article": "40",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p040.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p040.json"
+    },
+    {
+      "article": "41",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p041.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p041.json"
+    },
+    {
+      "article": "42",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p042.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p042.json"
+    },
+    {
+      "article": "43",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p043.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p043.json"
+    },
+    {
+      "article": "44",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p044.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p044.json"
+    },
+    {
+      "article": "45",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p045.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p045.json"
+    },
+    {
+      "article": "46",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p046.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p046.json"
+    },
+    {
+      "article": "47",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p047.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p047.json"
+    },
+    {
+      "article": "48",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p048.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p048.json"
+    },
+    {
+      "article": "49",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p049.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p049.json"
+    },
+    {
+      "article": "5",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p005.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p005.json"
+    },
+    {
+      "article": "50",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p050.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p050.json"
+    },
+    {
+      "article": "51",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p051.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p051.json"
+    },
+    {
+      "article": "52",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p052.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p052.json"
+    },
+    {
+      "article": "53",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p053.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p053.json"
+    },
+    {
+      "article": "54",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p054.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p054.json"
+    },
+    {
+      "article": "55",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p055.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p055.json"
+    },
+    {
+      "article": "56",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p056.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p056.json"
+    },
+    {
+      "article": "6",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p006.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p006.json"
+    },
+    {
+      "article": "7",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p007.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p007.json"
+    },
+    {
+      "article": "8",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p008.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p008.json"
+    },
+    {
+      "article": "9",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_sentence_code_20260510_215858\\kz_vs_np_criminal_sentence_code_p009.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_sentence_code\\kz_vs_np_criminal_sentence_code_p009.json"
+    }
+  ],
+  "backup_created": false,
+  "backup_reason": "source folder did not exist",
+  "created_source_folder": true
+}

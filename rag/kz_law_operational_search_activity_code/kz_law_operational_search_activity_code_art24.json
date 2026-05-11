@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_operational_search_activity_code_art24",
+  "doc_type": "law_article",
+  "source_id": "kz_law_operational_search_activity_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан «Об оперативно-розыскной деятельности»",
+  "language": "ru",
+  "industry": [
+    "criminal_procedure"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": null,
+    "title": ""
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "2efe04c20ca289d43fbeb3746aa5ed5cbce3d672760c86f062c3f8f923ced7b4",
+  "articles": [
+    {
+      "article": "24",
+      "title": "Ведомственный контроль",
+      "text": "Руководители органов, осуществляющих оперативно-розыскную деятельность, обеспечивают контроль за соблюдением законности, организацией, тактикой, методами и средствами, а также мерами по обеспечению конспирации и конфиденциальности этой деятельности.\n\n      Вышестоящие ведомственные органы обеспечивают контроль за оперативно-розыскной деятельностью подчиненных им органов.\n\n      Сноска. Статья 24 с изменениями, внесенными Законом РК от 17.07.2009 N 187-IV."
+    }
+  ],
+  "notes": []
+}

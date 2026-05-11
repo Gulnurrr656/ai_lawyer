@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_housing_code_ch1_art5",
+  "doc_type": "law_article",
+  "source_id": "kz_law_housing_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О жилищных отношениях\"",
+  "language": "ru",
+  "industry": [
+    "housing_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "1",
+    "title": "Общие положения"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "ab632913b89e4b731835273b1aedab3b4dc4d5660d9655eab06b711ec772ed03",
+  "articles": [
+    {
+      "article": "5",
+      "title": "Совместная эксплуатация жилого дома",
+      "text": "Сноска. Статья 5 исключена Законом РК от 26.12.2019 № 284-VІ (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

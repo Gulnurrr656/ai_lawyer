@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+{% block title %}{{ t('pricing_title', lang) }} — {{ brand }}{% endblock %}
+
+{% block content %}
+<section class="bg-gradient-to-b from-zp-bg to-white border-b border-zp-line">
+    <div class="max-w-6xl mx-auto px-4 py-16">
+        <p class="uppercase tracking-widest text-xs text-zp-gold mb-2">{{ t('menu_pricing', lang) }}</p>
+        <h1 class="text-3xl md:text-4xl font-semibold text-zp-deep">{{ t('pricing_title', lang) }}</h1>
+        <p class="mt-3 text-zp-mute max-w-2xl text-sm">{{ t('pricing_subtitle', lang) }}</p>
+    </div>
+</section>
+
+<section class="max-w-6xl mx-auto px-4 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {% for p in public_plans %}
+        <div class="bg-white border border-zp-line rounded-lg p-6 flex flex-col shadow-zp-card"
+             data-public-plan="{{ p.code }}"
+             data-tariff-code="{{ p.tariff_code }}">
+            <div class="flex items-start justify-between gap-3">
+                <div class="font-semibold text-lg text-zp-deep">{{ p.title }}</div>
+                {% if p.is_free %}
+                <span class="inline-flex items-center px-2 py-0.5 rounded-full border border-sky-200 bg-sky-50 text-sky-800 text-xs">
+                    {{ t('pricing_free_trial_badge', lang) }}
+                </span>
+                {% endif %}
+            </div>
+            <div class="mt-3 text-3xl font-semibold text-zp-deep">{{ p.amount_kzt }} ₸</div>
+            <p class="mt-3 text-sm text-zp-mute leading-relaxed">{{ p.description }}</p>
+
+            {% if p.bullets %}
+            <ul class="mt-4 space-y-1.5 text-sm text-zp-deep">
+                {% for b in p.bullets %}
+                <li class="flex items-start gap-2">
+                    <span class="mt-2 inline-block w-1 h-1 rounded-full bg-zp-gold flex-shrink-0"></span>
+                    <span>{{ b }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+
+            <div class="mt-6">
+                {% if p.is_free %}
+                    <a href="{% if user %}/consultation/new{% else %}/register{% endif %}"
+                       class="inline-block w-full text-center px-4 py-2 rounded-md bg-zp-deep text-white hover:opacity-95 text-sm">
+                        {{ p.cta }}
+                    </a>
+                {% elif user %}
+                    <form method="post" action="/orders/create" class="space-y-2">
+                        <input type="hidden" name="tariff_code" value="{{ p.tariff_code }}" />
+                        <select name="provider" class="w-full rounded-md border border-zp-line px-2 py-2 text-sm">
+                            <option value="freedom">{{ t('order_provider_freedom', lang) }}</option>
+                            <option value="halyk">{{ t('order_provider_halyk', lang) }}</option>
+                            <option value="manual">{{ t('order_provider_manual', lang) }}</option>
+                            {% if not is_production %}
+                            <option value="mock">{{ t('order_provider_mock', lang) }}</option>
+                            {% endif %}
+                        </select>
+                        <button type="submit"
+                                class="w-full px-4 py-2 rounded-md bg-zp-gold text-zp-deep text-sm font-semibold hover:brightness-105">
+                            {{ p.cta }}
+                        </button>
+                    </form>
+                {% else %}
+                    <a href="/register?next=/pricing"
+                       class="inline-block w-full text-center px-4 py-2 rounded-md bg-zp-deep text-white hover:opacity-95 text-sm">
+                        {{ p.cta }}
+                    </a>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="bg-white border border-zp-line rounded-lg p-5">
+            <div class="text-zp-deep font-medium">{{ t('pricing_faq_payments_q', lang) }}</div>
+            <p class="mt-2 text-sm text-zp-mute">{{ t('pricing_faq_payments_a', lang) }}</p>
+        </div>
+        <div class="bg-white border border-zp-line rounded-lg p-5">
+            <div class="text-zp-deep font-medium">{{ t('pricing_faq_voice_q', lang) }}</div>
+            <p class="mt-2 text-sm text-zp-mute">{{ t('pricing_faq_voice_a', lang) }}</p>
+        </div>
+    </div>
+
+    <div class="mt-10 text-xs text-zp-mute max-w-3xl space-y-2">
+        <p>{{ t('disclaimer', lang) }}</p>
+        {% if lang == 'en' %}
+        <p>{{ t('en_official_review_warning', lang) }}</p>
+        {% endif %}
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_constitution_2026_ch2_art39",
+  "doc_type": "code_article",
+  "source_id": "kz_constitution_2026",
+  "jurisdiction": "KZ",
+  "source": "Конституция Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "constitutional_law"
+  ],
+  "authority_level": "constitution",
+  "status": "active",
+  "chapter": {
+    "number": "2",
+    "title": "Основные права, свободы и обязанности"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "e2dc23c7b3184ceb152f90907c65a18da4a06ee0f0e729a10ab976ba62f22e76",
+  "articles": [
+    {
+      "article": "39",
+      "title": "",
+      "text": "1. Защита Республики Казахстан – священный долг и обязанность каждого ее гражданина.\n\n      2. Граждане Республики Казахстан несут воинскую службу в порядке и видах, установленных законом."
+    }
+  ],
+  "notes": []
+}

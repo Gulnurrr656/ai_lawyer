@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_uk_code_full_ch8_art240",
+  "doc_type": "code_article",
+  "source_id": "kz_uk_code_full",
+  "jurisdiction": "KZ",
+  "source": "Уголовный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "criminal_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "8",
+    "title": "УГОЛОВНЫЕ ПРАВОНАРУШЕНИЯ В СФЕРЕ ЭКОНОМИЧЕСКОЙ ДЕЯТЕЛЬНОСТИ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "caba26f3ffc4a57c151bd7780f25176e164e493aa4c45d7989598120dce1f254",
+  "articles": [
+    {
+      "article": "240",
+      "title": "Ложное банкротство",
+      "text": "Сноска. Статья 240 исключена Законом РК от 27.12.2019 № 290-VІ (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

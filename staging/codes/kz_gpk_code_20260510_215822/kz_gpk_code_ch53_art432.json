@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_gpk_code_ch53_art432",
+  "doc_type": "code_article",
+  "source_id": "kz_gpk_code",
+  "jurisdiction": "KZ",
+  "source": "Гражданский процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "civil_procedure"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "53",
+    "title": "РАССМОТРЕНИЕ ДЕЛ ПО АПЕЛЛЯЦИОННЫМ ЖАЛОБЕ, ХОДАТАЙСТВУ ПРОКУРОРА"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "dfce8160f4189b92305b0f4ce62ecfa3f08911ef6a92ff662edabf054e2b2e2f",
+  "articles": [
+    {
+      "article": "432",
+      "title": "Направление судебного акта и возвращение дела в суд первой инстанции",
+      "text": "Суд апелляционной инстанции после рассмотрения дела и направления (вручения) копии судебного акта лицам, участвующим в деле, возвращает дело в суд первой инстанции."
+    }
+  ],
+  "notes": []
+}

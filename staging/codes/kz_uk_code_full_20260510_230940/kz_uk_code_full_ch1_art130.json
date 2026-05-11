@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_uk_code_full_ch1_art130",
+  "doc_type": "code_article",
+  "source_id": "kz_uk_code_full",
+  "jurisdiction": "KZ",
+  "source": "Уголовный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "criminal_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "1",
+    "title": "УГОЛОВНЫЕ ПРАВОНАРУШЕНИЯ ПРОТИВ ЛИЧНОСТИ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "c5f1caec0f98d268a8d66a6225436b637786020533d21670c92e114f70eaf2d5",
+  "articles": [
+    {
+      "article": "130",
+      "title": "Клевета",
+      "text": "Сноска. Статья 130 исключена Законом РК от 26.06.2020 № 349-VI (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

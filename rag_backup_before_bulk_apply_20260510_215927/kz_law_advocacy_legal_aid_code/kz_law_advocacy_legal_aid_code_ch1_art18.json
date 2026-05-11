@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_advocacy_legal_aid_code_ch1_art18",
+  "doc_type": "law_article",
+  "source_id": "kz_law_advocacy_legal_aid_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"Об адвокатской деятельности и юридической помощи\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "1",
+    "title": "ОСНОВНЫЕ ПОЛОЖЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "690295ebeeebb30e07b662b93b69b68c2ba5fa1384c7a30ec2043220ae0b5412",
+  "articles": [
+    {
+      "article": "18",
+      "title": "Гарантированная государством юридическая помощь",
+      "text": "Юридическая помощь, оказываемая физическим и юридическим лицам, имеющим право на ее получение на основании и в порядке, предусмотренных настоящим Законом и иными законами Республики Казахстан, на бесплатной основе, признается гарантированной государством юридической помощью."
+    }
+  ],
+  "notes": []
+}

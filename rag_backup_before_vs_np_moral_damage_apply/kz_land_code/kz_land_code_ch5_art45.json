@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_land_code_ch5_art45",
+  "doc_type": "code_article",
+  "source_id": "kz_land_code",
+  "jurisdiction": "KZ",
+  "source": "Земельный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "5",
+    "title": "Земельный участок как объект права собственности,"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "11a23a80fb6ba0a850b7253899d66f8bc3816b78fa6c762260ffbde8e880a8ef",
+  "articles": [
+    {
+      "article": "45",
+      "title": "Предоставление земельных участков, не связанных со строительством",
+      "text": "Сноска. Статья 45 исключена Законом РК от 05.04.2023 № 221-VII (вводится в действие с 01.07.2023)."
+    }
+  ],
+  "notes": []
+}

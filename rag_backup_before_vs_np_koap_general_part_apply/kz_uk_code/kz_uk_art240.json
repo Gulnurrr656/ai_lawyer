@@ -1,0 +1,24 @@
+{
+  "doc_id": "kz_uk_art240",
+  "doc_type": "code",
+  "jurisdiction": "KZ",
+  "source": "Уголовный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": ["уголовное право"],
+  "chapter": {
+    "number": 8,
+    "title": "УГОЛОВНЫЕ ПРАВОНАРУШЕНИЯ В СФЕРЕ ЭКОНОМИЧЕСКОЙ ДЕЯТЕЛЬНОСТИ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "articles": [
+    {
+      "article": 240,
+      "title": "Ложное банкротство",
+      "text": ""
+    }
+  ],
+  "notes": [
+    "Сноска. Статья 240 исключена Законом РК от 27.12.2019 № 290-VІ."
+  ]
+}

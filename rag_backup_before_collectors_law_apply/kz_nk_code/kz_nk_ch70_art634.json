@@ -1,0 +1,22 @@
+{
+  "doc_id": "kz_nk_ch70_art634",
+  "doc_type": "code",
+  "jurisdiction": "KZ",
+  "source": "Налоговый кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": ["налоговое право"],
+  "chapter": {
+    "number": 70,
+    "title": "ПЛАТЫ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "articles": [
+    {
+      "article": 634,
+      "title": "Налоговый период",
+      "text": "Налоговый период определяется в соответствии со статьей 358 настоящего Кодекса."
+    }
+  ],
+  "notes": []
+}

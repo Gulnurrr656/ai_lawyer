@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_social_code_ch12_art131",
+  "doc_type": "code_article",
+  "source_id": "kz_social_code",
+  "jurisdiction": "KZ",
+  "source": "Социальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "12",
+    "title": "СПЕЦИАЛЬНЫЕ СОЦИАЛЬНЫЕ УСЛУГИ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "c554856fe3a8387d423f8df099068df09b70e7832abf34ccfd40645e1383e6a5",
+  "articles": [
+    {
+      "article": "131",
+      "title": "Право на получение специальных социальных услуг",
+      "text": "Лица (семьи), признанные нуждающимися в специальных социальных услугах, имеют право на получение специальных социальных услуг в порядке и на условиях, предусмотренных настоящим Кодексом."
+    }
+  ],
+  "notes": []
+}

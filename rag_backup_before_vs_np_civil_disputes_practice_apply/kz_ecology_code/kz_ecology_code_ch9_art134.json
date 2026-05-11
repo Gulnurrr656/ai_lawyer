@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_ecology_code_ch9_art134",
+  "doc_type": "code_article",
+  "source_id": "kz_ecology_code",
+  "jurisdiction": "KZ",
+  "source": "Экологический кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "9",
+    "title": "ЭКОЛОГИЧЕСКИЕ РАЗРЕШЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "a4ede7cadfbf719bfdf834086e1adcbaf96995ac3534490b6ca8e0d30fd1be95",
+  "articles": [
+    {
+      "article": "134",
+      "title": "Экологический ущерб водам",
+      "text": "Экологическим ущербом водам признается любой ущерб, оказывающий существенное негативное воздействие на экологическое, химическое или количественное состояние либо экологический потенциал поверхностных и (или) подземных вод, определенный в экологическом и (или) водном законодательстве Республики Казахстан."
+    }
+  ],
+  "notes": []
+}

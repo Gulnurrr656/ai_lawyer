@@ -1,0 +1,92 @@
+﻿{
+  "summary_kk": "╨Ъ╨╛╨╜╤Б╤В╨╕╤В╤Г╤Ж╨╕╤П ┬╖ 1 ┬╖ ╨Ъ╨╛╨┤╨╡╨║╤Б╤В╨╡╤А ┬╖ 16 ┬╖ ╨Ч╨░╥г╨┤╨░╤А ┬╖ 32 ┬╖ ╨Ц╨б ╨Э╥Ъ ┬╖ 16",
+  "summary_ru": "╨Ъ╨╛╨╜╤Б╤В╨╕╤В╤Г╤Ж╨╕╤П ┬╖ 1 ┬╖ ╨Ъ╨╛╨┤╨╡╨║╤Б╤Л ┬╖ 16 ┬╖ ╨Ч╨░╨║╨╛╨╜╤Л ┬╖ 32 ┬╖ ╨Э╨Я ╨Т╨б ┬╖ 16",
+  "inventory": {
+    "constitution": 1,
+    "codes": 16,
+    "laws": 32,
+    "vs_np": 16,
+    "other_collections": 2,
+    "total_collections": 67,
+    "total_json_units": 10006,
+    "examples": [
+      "kz_appc_code",
+      "kz_budget_code",
+      "kz_constitution_2026",
+      "kz_ecology_code",
+      "kz_family_code",
+      "kz_gk__code",
+      "kz_gpk_code",
+      "kz_health_code",
+      "kz_koap_code",
+      "kz_land_code"
+    ],
+    "available": true
+  },
+  "code_sources": 16,
+  "law_sources": 32,
+  "vs_np_sources": 16,
+  "criminal_sources": 3,
+  "criminal_vs_np_sources": 3,
+  "criminal_json": 1490,
+  "uk_status": {
+    "coverage_status": "full_candidate",
+    "full_source_id": "kz_uk_code_full",
+    "full_json_count": 503,
+    "legacy_source_id": "kz_uk_code",
+    "legacy_json_count": 51,
+    "warning": null
+  },
+  "criminal_codes_breakdown": [
+    {
+      "source_id": "kz_uk_code_full",
+      "title": "╨г╨│╨╛╨╗╨╛╨▓╨╜╤Л╨╣ ╨║╨╛╨┤╨╡╨║╤Б (╨┐╨╛╨╗╨╜╤Л╨╣)",
+      "coverage_status": "full_candidate",
+      "json": 503
+    },
+    {
+      "source_id": "kz_uk_code",
+      "title": "╨г╨│╨╛╨╗╨╛╨▓╨╜╤Л╨╣ ╨║╨╛╨┤╨╡╨║╤Б (legacy partial)",
+      "coverage_status": "partial_legacy",
+      "json": 51
+    },
+    {
+      "source_id": "kz_upk_code",
+      "title": "╨г╨│╨╛╨╗╨╛╨▓╨╜╨╛-╨┐╤А╨╛╤Ж╨╡╤Б╤Б╤Г╨░╨╗╤М╨╜╤Л╨╣ ╨║╨╛╨┤╨╡╨║╤Б",
+      "coverage_status": "full",
+      "json": 686
+    },
+    {
+      "source_id": "kz_uik_code",
+      "title": "╨г╨│╨╛╨╗╨╛╨▓╨╜╨╛-╨╕╤Б╨┐╨╛╨╗╨╜╨╕╤В╨╡╨╗╤М╨╜╤Л╨╣ ╨║╨╛╨┤╨╡╨║╤Б",
+      "coverage_status": "full",
+      "json": 175
+    }
+  ],
+  "criminal_vs_np_breakdown": [
+    {
+      "source_id": "kz_vs_np_criminal_appeal_code",
+      "json": 37
+    },
+    {
+      "source_id": "kz_vs_np_criminal_punishment_code",
+      "json": 32
+    },
+    {
+      "source_id": "kz_vs_np_criminal_sentence_code",
+      "json": 57
+    },
+    {
+      "source_id": "kz_vs_np_criminal_cassation_code",
+      "json": 0
+    },
+    {
+      "source_id": "kz_vs_np_criminal_incoming_case_procedure_code",
+      "json": 0
+    },
+    {
+      "source_id": "kz_vs_np_criminal_shortened_procedure_code",
+      "json": 0
+    }
+  ]
+}

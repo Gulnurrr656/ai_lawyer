@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_bankruptcy_code_ch1_art21",
+  "doc_type": "law_article",
+  "source_id": "kz_law_bankruptcy_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О реабилитации и банкротстве\"",
+  "language": "ru",
+  "industry": [
+    "bankruptcy_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "1",
+    "title": "ОБЩИЕ ПОЛОЖЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "5a889da13e4006e644a9e60027cde998d006aa18201add47fd8d730d22901301",
+  "articles": [
+    {
+      "article": "21",
+      "title": "Порядок предоставления и приема текущей и запрашиваемой информации администраторов",
+      "text": "Сноска. Статья 21 исключена Законом РК от 27.12.2019 № 290-VI (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).\n\nГлава 2. КРЕДИТОРЫ"
+    }
+  ],
+  "notes": []
+}

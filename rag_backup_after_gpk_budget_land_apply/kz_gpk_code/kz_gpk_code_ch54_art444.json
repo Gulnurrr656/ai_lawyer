@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_gpk_code_ch54_art444",
+  "doc_type": "code_article",
+  "source_id": "kz_gpk_code",
+  "jurisdiction": "KZ",
+  "source": "Гражданский процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "54",
+    "title": "ПРОИЗВОДСТВО В СУДЕ КАССАЦИОННОЙ ИНСТАНЦИИ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "569a5a6a782d79efe590d22bc6e5644fbab16cba9959a9a8c4bba4bd33043a23",
+  "articles": [
+    {
+      "article": "444",
+      "title": "Решения, принимаемые по результатам предварительного рассмотрения ходатайства",
+      "text": "Сноска. Статья 444 исключена Законом РК от 21.11.2024 № 136-VIII (вводится в действие с 01.07.2025)."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_uk_code_art30",
+  "doc_type": "code_article",
+  "source_id": "kz_uk_code",
+  "jurisdiction": "KZ",
+  "source": "Уголовный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "criminal_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": null,
+    "title": ""
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "7a043cff9a2ab53a6058640a61665f0fdd98804dc665ab7d4f6edc0bc64bddf3",
+  "articles": [
+    {
+      "article": "30",
+      "title": "Эксцесс соучастника уголовного правонарушения",
+      "text": "Эксцессом соучастника признается совершение лицом уголовного правонарушения, не охватывающегося умыслом других соучастников. За эксцесс другие соучастники уголовной ответственности не подлежат."
+    }
+  ],
+  "notes": []
+}

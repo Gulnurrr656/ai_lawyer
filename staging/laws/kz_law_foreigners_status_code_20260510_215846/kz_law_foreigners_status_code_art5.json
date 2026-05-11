@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_foreigners_status_code_art5",
+  "doc_type": "law_article",
+  "source_id": "kz_law_foreigners_status_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О правовом положении иностранцев\"",
+  "language": "ru",
+  "industry": [
+    "migration_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": null,
+    "title": ""
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "61620858346d49aa22075d959d9f05eeaebf98ed00cd17fbafb9da2893474849",
+  "articles": [
+    {
+      "article": "5",
+      "title": "Предоставление убежища",
+      "text": "Республика Казахстан предоставляет право убежища иностранцам, которые стали жертвами нарушений прав человека.\n\n      Вопрос о предоставлении политического убежища решается Президентом Республики Казахстан.\n\n      Сноска. Статья 5 с изменениями, внесенными Законом РК от 12.01.2007 № 227.\n\n\nРаздел II. Основные права, свободы и\nобязанности иностранцев в Республике Казахстан"
+    }
+  ],
+  "notes": []
+}

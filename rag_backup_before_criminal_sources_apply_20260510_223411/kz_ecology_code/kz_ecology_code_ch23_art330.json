@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_ecology_code_ch23_art330",
+  "doc_type": "code_article",
+  "source_id": "kz_ecology_code",
+  "jurisdiction": "KZ",
+  "source": "Экологический кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "23",
+    "title": "ОБЩИЕ ПОЛОЖЕНИЯ ОБ ОТХОДАХ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "6850003caad7f7907b35e1bc0740dfb9a5fb5629f014b4fd07669ed10f94db7e",
+  "articles": [
+    {
+      "article": "330",
+      "title": "Принцип близости к источнику",
+      "text": "Образовавшиеся отходы должны подлежать восстановлению или удалению как можно ближе к источнику их образования, если это обосновано с технической, экономической и экологической точки зрения."
+    }
+  ],
+  "notes": []
+}

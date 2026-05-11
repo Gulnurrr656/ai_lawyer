@@ -89,3 +89,18 @@ def speech_to_text_from_bytes(voice_bytes: bytes) -> str:
             )
 
         return (resp.text or "").strip()
+
+
+def speech_to_text_from_bytes_ext(audio_bytes: bytes, ext: str) -> str:
+    """
+    Распознавание из произвольного формата (например .mp3/.m4a из Telegram audio).
+    Для .ogg — как voice (конвертация в mp3 для API).
+    """
+    ext = (ext or ".bin").lower()
+    if not ext.startswith("."):
+        ext = f".{ext}"
+    with tempfile.TemporaryDirectory() as td:
+        in_path = os.path.join(td, f"in{ext}")
+        with open(in_path, "wb") as f:
+            f.write(audio_bytes)
+        return speech_to_text(in_path)

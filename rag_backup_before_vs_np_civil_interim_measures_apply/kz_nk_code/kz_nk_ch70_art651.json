@@ -1,0 +1,24 @@
+{
+  "doc_id": "kz_nk_ch70_art651",
+  "doc_type": "code",
+  "jurisdiction": "KZ",
+  "source": "Налоговый кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "налоговое право"
+  ],
+  "chapter": {
+    "number": 70,
+    "title": "ПЛАТЫ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "articles": [
+    {
+      "article": 651,
+      "title": "Ставки платы",
+      "text": "Ставки платы устанавливаются Правительством Республики Казахстан."
+    }
+  ],
+  "notes": []
+}

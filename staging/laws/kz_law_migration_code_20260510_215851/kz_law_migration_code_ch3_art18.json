@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_migration_code_ch3_art18",
+  "doc_type": "law_article",
+  "source_id": "kz_law_migration_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О миграции населения\"",
+  "language": "ru",
+  "industry": [
+    "migration_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "3",
+    "title": "ИММИГРАЦИЯ С ЦЕЛЬЮ ВОЗВРАЩЕНИЯ НА ИСТОРИЧЕСКУЮ РОДИНУ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "4d79173961678c71fd0a642355911878b20b13f12cb9a1ed1210d3aa99fd44c3",
+  "articles": [
+    {
+      "article": "18",
+      "title": "Порядок подачи заявления на присвоение или продление статуса кандаса и (или) включение в региональную квоту приема кандасов",
+      "text": "Сноска. Статья 18 исключена Законом РК от 19.04.2023 № 223-VII (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

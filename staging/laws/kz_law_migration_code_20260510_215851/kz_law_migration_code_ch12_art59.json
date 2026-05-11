@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_migration_code_ch12_art59",
+  "doc_type": "law_article",
+  "source_id": "kz_law_migration_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О миграции населения\"",
+  "language": "ru",
+  "industry": [
+    "migration_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "12",
+    "title": "ОТВЕТСТВЕННОСТЬ ЗА НАРУШЕНИЕ ЗАКОНОДАТЕЛЬСТВА"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "07b1f709a6169c9d14e9cee2333815aa675b17461336dfae9ac4dd9172dc9c58",
+  "articles": [
+    {
+      "article": "59",
+      "title": "Ответственность за нарушение законодательства Республики Казахстан в области миграции населения",
+      "text": "Нарушение законодательства Республики Казахстан в области миграции населения влечет ответственность, установленную законами Республики Казахстан."
+    }
+  ],
+  "notes": []
+}

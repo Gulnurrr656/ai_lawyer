@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_payments_systems_code_ch6_art30",
+  "doc_type": "law_article",
+  "source_id": "kz_law_payments_systems_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О платежах и платежных системах\"",
+  "language": "ru",
+  "industry": [
+    "payments_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "6",
+    "title": "ПЛАТЕЖНЫЕ ИНСТРУМЕНТЫ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "3a37f1e1d3b0da0f49c75569feef00d0b5883cd9586394e6aae438c7cba5de5a",
+  "articles": [
+    {
+      "article": "30",
+      "title": "Виды платежных инструментов",
+      "text": "На территории Республики Казахстан при осуществлении платежей и (или) переводов денег используются следующие виды платежных инструментов:\n\n      1) платежное поручение;\n\n      2) платежное требование;\n\n      3) чек;\n\n      4) вексель;\n\n      5) инкассовое распоряжение;\n\n      6) платежный ордер;\n\n      7) платежное извещение;\n\n      8) средство электронного платежа."
+    }
+  ],
+  "notes": []
+}

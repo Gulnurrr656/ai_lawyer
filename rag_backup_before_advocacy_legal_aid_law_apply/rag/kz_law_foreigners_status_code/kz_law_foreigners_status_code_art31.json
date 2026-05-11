@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_foreigners_status_code_art31",
+  "doc_type": "law_article",
+  "source_id": "kz_law_foreigners_status_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О правовом положении иностранцев\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": null,
+    "title": ""
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "ed2b931e1705a542c81d93e8e9ed8ee5b389e0feee582d60b7b1337ffe7935ed",
+  "articles": [
+    {
+      "article": "31",
+      "title": "Порядок вступления в силу настоящего Закона",
+      "text": "Настоящий Закон вступает в силу со дня опубликования.\n\n      Приостановить до 1 января 2024 года действие части четвертой статьи 28 настоящего Закона.\n\n      Сноска. Статья 31 с изменениями, внесенными законами РК от 29.06.2021 № 58-VII (вводится в действие с 01.01.2021); от 30.12.2022 № 177-VII (вводится в действие с 01.01.2023)."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_family_code_ch8_art50",
+  "doc_type": "code_article",
+  "source_id": "kz_family_code",
+  "jurisdiction": "KZ",
+  "source": "Кодекс Республики Казахстан О браке (супружестве) и семье",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "8",
+    "title": "УСТАНОВЛЕНИЕ ПРОИСХОЖДЕНИЯ РЕБЕНКА"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "0d97e2f7e0ae753a312dc2c7099f84cb62cd62d82dc3b1e6bb0ea700973fd17c",
+  "articles": [
+    {
+      "article": "50",
+      "title": "Запись о родителях (родителе) ребенка в книге записей актов о рождении",
+      "text": "Запись о родителях (родителе) ребенка в книге записей актов о рождении производится в порядке, предусмотренном настоящим Кодексом."
+    }
+  ],
+  "notes": []
+}

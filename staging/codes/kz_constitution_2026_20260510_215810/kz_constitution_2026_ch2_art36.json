@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_constitution_2026_ch2_art36",
+  "doc_type": "code_article",
+  "source_id": "kz_constitution_2026",
+  "jurisdiction": "KZ",
+  "source": "Конституция Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "constitutional_law"
+  ],
+  "authority_level": "constitution",
+  "status": "active",
+  "chapter": {
+    "number": "2",
+    "title": "Основные права, свободы и обязанности"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "98fe9b770ba651117f792a33528d3d5052f6457e8f14fdc5d7a1bd84dcff0bf1",
+  "articles": [
+    {
+      "article": "36",
+      "title": "",
+      "text": "1. Каждый человек обязан соблюдать Конституцию и законодательство Республики Казахстан, уважать права, свободы, честь и достоинство других лиц.\n\n      2. Каждый человек обязан уважать государственные символы Республики Казахстан."
+    }
+  ],
+  "notes": []
+}

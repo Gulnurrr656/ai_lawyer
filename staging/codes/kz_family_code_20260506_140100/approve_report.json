@@ -1,0 +1,761 @@
+{
+  "source_id": "kz_family_code",
+  "batch": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100",
+  "mode": "missing-only",
+  "from_article": 145,
+  "to_article": 283,
+  "dry_run": true,
+  "approved_candidates": [
+    {
+      "article": "145",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch19_art145.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch19_art145.json"
+    },
+    {
+      "article": "146",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch19_art146.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch19_art146.json"
+    },
+    {
+      "article": "147",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch20_art147.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch20_art147.json"
+    },
+    {
+      "article": "148",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch20_art148.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch20_art148.json"
+    },
+    {
+      "article": "149",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch20_art149.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch20_art149.json"
+    },
+    {
+      "article": "150",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch20_art150.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch20_art150.json"
+    },
+    {
+      "article": "151",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch21_art151.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch21_art151.json"
+    },
+    {
+      "article": "152",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch21_art152.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch21_art152.json"
+    },
+    {
+      "article": "153",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch21_art153.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch21_art153.json"
+    },
+    {
+      "article": "154",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch21_art154.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch21_art154.json"
+    },
+    {
+      "article": "155",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch21_art155.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch21_art155.json"
+    },
+    {
+      "article": "156",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch21_art156.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch21_art156.json"
+    },
+    {
+      "article": "157",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch22_art157.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch22_art157.json"
+    },
+    {
+      "article": "158",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch22_art158.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch22_art158.json"
+    },
+    {
+      "article": "159",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch22_art159.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch22_art159.json"
+    },
+    {
+      "article": "160",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch22_art160.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch22_art160.json"
+    },
+    {
+      "article": "161",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch22_art161.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch22_art161.json"
+    },
+    {
+      "article": "162",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch22_art162.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch22_art162.json"
+    },
+    {
+      "article": "163",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch23_art163.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch23_art163.json"
+    },
+    {
+      "article": "164",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch23_art164.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch23_art164.json"
+    },
+    {
+      "article": "165",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch23_art165.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch23_art165.json"
+    },
+    {
+      "article": "166",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch23_art166.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch23_art166.json"
+    },
+    {
+      "article": "167",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch23_art167.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch23_art167.json"
+    },
+    {
+      "article": "168",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch23_art168.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch23_art168.json"
+    },
+    {
+      "article": "169",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch23_art169.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch23_art169.json"
+    },
+    {
+      "article": "170",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch23_art170.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch23_art170.json"
+    },
+    {
+      "article": "171",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch23_art171.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch23_art171.json"
+    },
+    {
+      "article": "172",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch23_art172.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch23_art172.json"
+    },
+    {
+      "article": "173",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch23_art173.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch23_art173.json"
+    },
+    {
+      "article": "174",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch23_art174.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch23_art174.json"
+    },
+    {
+      "article": "175",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch23_art175.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch23_art175.json"
+    },
+    {
+      "article": "176",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch23_art176.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch23_art176.json"
+    },
+    {
+      "article": "177",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch24_art177.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch24_art177.json"
+    },
+    {
+      "article": "178",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch24_art178.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch24_art178.json"
+    },
+    {
+      "article": "179",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch24_art179.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch24_art179.json"
+    },
+    {
+      "article": "180",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch24_art180.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch24_art180.json"
+    },
+    {
+      "article": "181",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch24_art181.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch24_art181.json"
+    },
+    {
+      "article": "182",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch24_art182.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch24_art182.json"
+    },
+    {
+      "article": "183",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch24_art183.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch24_art183.json"
+    },
+    {
+      "article": "184",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch24_art184.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch24_art184.json"
+    },
+    {
+      "article": "185",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch24_art185.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch24_art185.json"
+    },
+    {
+      "article": "186",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch24_art186.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch24_art186.json"
+    },
+    {
+      "article": "187",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch25_art187.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch25_art187.json"
+    },
+    {
+      "article": "188",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch25_art188.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch25_art188.json"
+    },
+    {
+      "article": "189",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch25_art189.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch25_art189.json"
+    },
+    {
+      "article": "190",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch25_art190.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch25_art190.json"
+    },
+    {
+      "article": "191",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch25_art191.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch25_art191.json"
+    },
+    {
+      "article": "192",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch25_art192.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch25_art192.json"
+    },
+    {
+      "article": "193",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch25_art193.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch25_art193.json"
+    },
+    {
+      "article": "194",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch25_art194.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch25_art194.json"
+    },
+    {
+      "article": "195",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch25_art195.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch25_art195.json"
+    },
+    {
+      "article": "196",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch25_art196.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch25_art196.json"
+    },
+    {
+      "article": "197",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch25_art197.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch25_art197.json"
+    },
+    {
+      "article": "198",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch25_art198.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch25_art198.json"
+    },
+    {
+      "article": "199",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch25_art199.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch25_art199.json"
+    },
+    {
+      "article": "200",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch25_art200.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch25_art200.json"
+    },
+    {
+      "article": "201",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch25_art201.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch25_art201.json"
+    },
+    {
+      "article": "202",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch25_art202.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch25_art202.json"
+    },
+    {
+      "article": "203",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch25_art203.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch25_art203.json"
+    },
+    {
+      "article": "220",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch27_art220.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch27_art220.json"
+    },
+    {
+      "article": "221",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch27_art221.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch27_art221.json"
+    },
+    {
+      "article": "222",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch27_art222.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch27_art222.json"
+    },
+    {
+      "article": "223",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch27_art223.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch27_art223.json"
+    },
+    {
+      "article": "224",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch27_art224.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch27_art224.json"
+    },
+    {
+      "article": "225",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch27_art225.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch27_art225.json"
+    },
+    {
+      "article": "226",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch27_art226.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch27_art226.json"
+    },
+    {
+      "article": "227",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch27_art227.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch27_art227.json"
+    },
+    {
+      "article": "228",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch27_art228.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch27_art228.json"
+    },
+    {
+      "article": "229",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch27_art229.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch27_art229.json"
+    },
+    {
+      "article": "230",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch27_art230.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch27_art230.json"
+    },
+    {
+      "article": "231",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch27_art231.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch27_art231.json"
+    },
+    {
+      "article": "232",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch27_art232.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch27_art232.json"
+    },
+    {
+      "article": "233",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch27_art233.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch27_art233.json"
+    },
+    {
+      "article": "234",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch27_art234.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch27_art234.json"
+    },
+    {
+      "article": "235",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch27_art235.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch27_art235.json"
+    },
+    {
+      "article": "236",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch27_art236.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch27_art236.json"
+    },
+    {
+      "article": "237",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch27_art237.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch27_art237.json"
+    },
+    {
+      "article": "238",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch28_art238.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch28_art238.json"
+    },
+    {
+      "article": "239",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch28_art239.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch28_art239.json"
+    },
+    {
+      "article": "240",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch28_art240.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch28_art240.json"
+    },
+    {
+      "article": "241",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch28_art241.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch28_art241.json"
+    },
+    {
+      "article": "242",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch28_art242.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch28_art242.json"
+    },
+    {
+      "article": "243",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch28_art243.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch28_art243.json"
+    },
+    {
+      "article": "244",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch28_art244.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch28_art244.json"
+    },
+    {
+      "article": "245",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch28_art245.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch28_art245.json"
+    },
+    {
+      "article": "246",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch28_art246.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch28_art246.json"
+    },
+    {
+      "article": "247",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch28_art247.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch28_art247.json"
+    },
+    {
+      "article": "257",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch30_art257.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch30_art257.json"
+    },
+    {
+      "article": "258",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch30_art258.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch30_art258.json"
+    },
+    {
+      "article": "259",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch30_art259.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch30_art259.json"
+    },
+    {
+      "article": "260",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch30_art260.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch30_art260.json"
+    },
+    {
+      "article": "261",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch30_art261.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch30_art261.json"
+    },
+    {
+      "article": "262",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch30_art262.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch30_art262.json"
+    },
+    {
+      "article": "263",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch30_art263.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch30_art263.json"
+    },
+    {
+      "article": "264",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch30_art264.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch30_art264.json"
+    },
+    {
+      "article": "265",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch30_art265.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch30_art265.json"
+    },
+    {
+      "article": "266",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch30_art266.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch30_art266.json"
+    },
+    {
+      "article": "267",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch30_art267.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch30_art267.json"
+    },
+    {
+      "article": "268",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch31_art268.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch31_art268.json"
+    },
+    {
+      "article": "269",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch31_art269.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch31_art269.json"
+    },
+    {
+      "article": "270",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch31_art270.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch31_art270.json"
+    },
+    {
+      "article": "271",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch31_art271.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch31_art271.json"
+    },
+    {
+      "article": "272",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch31_art272.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch31_art272.json"
+    },
+    {
+      "article": "273",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch31_art273.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch31_art273.json"
+    },
+    {
+      "article": "274",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch31_art274.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch31_art274.json"
+    },
+    {
+      "article": "275",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch32_art275.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch32_art275.json"
+    },
+    {
+      "article": "276",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch32_art276.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch32_art276.json"
+    },
+    {
+      "article": "277",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch32_art277.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch32_art277.json"
+    },
+    {
+      "article": "278",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch32_art278.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch32_art278.json"
+    },
+    {
+      "article": "279",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch32_art279.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch32_art279.json"
+    },
+    {
+      "article": "280",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch32_art280.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch32_art280.json"
+    },
+    {
+      "article": "281",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch33_art281.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch33_art281.json"
+    },
+    {
+      "article": "282",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch33_art282.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch33_art282.json"
+    },
+    {
+      "article": "283",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_family_code_20260506_140100\\kz_family_code_ch33_art283.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_family_code\\kz_family_code_ch33_art283.json"
+    }
+  ],
+  "errors": [],
+  "skipped_conflicts": [
+    "192-1: filename does not match doc_id"
+  ],
+  "skipped_existing": [],
+  "skipped_by_range": [
+    "1",
+    "10",
+    "100",
+    "101",
+    "102",
+    "103",
+    "104",
+    "105",
+    "106",
+    "107",
+    "107-1",
+    "108",
+    "109",
+    "11",
+    "110",
+    "111",
+    "112",
+    "112-1",
+    "113",
+    "114",
+    "114-1",
+    "115",
+    "116",
+    "117",
+    "118",
+    "118-1",
+    "118-2",
+    "118-3",
+    "118-4",
+    "118-5",
+    "119",
+    "12",
+    "120",
+    "121",
+    "122",
+    "123",
+    "124",
+    "125",
+    "126",
+    "127",
+    "128",
+    "129",
+    "13",
+    "130",
+    "131",
+    "132",
+    "132-1",
+    "132-10",
+    "132-2",
+    "132-3",
+    "132-4",
+    "132-5",
+    "132-6",
+    "132-7",
+    "132-8",
+    "132-9",
+    "133",
+    "134",
+    "135",
+    "136",
+    "137",
+    "137-1",
+    "137-2",
+    "137-3",
+    "137-4",
+    "138",
+    "139",
+    "14",
+    "140",
+    "141",
+    "142",
+    "143",
+    "144",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "2",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "3",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "4",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "5",
+    "5-1",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "6",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "67-1",
+    "68",
+    "69",
+    "7",
+    "70",
+    "71",
+    "71-1",
+    "72",
+    "73",
+    "73-1",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "8",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89",
+    "9",
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "97-1",
+    "98",
+    "99"
+  ],
+  "backup_dir": null,
+  "copied": [],
+  "stopped": true
+}

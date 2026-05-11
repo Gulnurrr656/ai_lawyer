@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_advocacy_legal_aid_code_ch6_art79",
+  "doc_type": "law_article",
+  "source_id": "kz_law_advocacy_legal_aid_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"Об адвокатской деятельности и юридической помощи\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "6",
+    "title": "ОРГАНИЗАЦИЯ ДЕЯТЕЛЬНОСТИ ЮРИДИЧЕСКИХ КОНСУЛЬТАНТОВ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "dbacd8a1d244d486fb24f2123000c03e4cf224a9647e121f1c795c78298bf0d4",
+  "articles": [
+    {
+      "article": "79",
+      "title": "Устав палаты юридических консультантов",
+      "text": "Устав палаты юридических консультантов разрабатывается на основе типового устава палаты, утверждаемого уполномоченным органом."
+    }
+  ],
+  "notes": []
+}

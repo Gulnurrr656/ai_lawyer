@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_bankruptcy_code_ch4_art43",
+  "doc_type": "law_article",
+  "source_id": "kz_law_bankruptcy_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О реабилитации и банкротстве\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "4",
+    "title": "РАССМОТРЕНИЕ ДЕЛ О РЕАБИЛИТАЦИИ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "acd2a91bc7245851e8ec43d4713a0ae98ed4837b1372edfe772a9168861a4d57",
+  "articles": [
+    {
+      "article": "43",
+      "title": "Возвращение заявления должника без рассмотрения",
+      "text": "Сноска. Статья 43 исключена Законом РК от 27.12.2019 № 290-VI (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

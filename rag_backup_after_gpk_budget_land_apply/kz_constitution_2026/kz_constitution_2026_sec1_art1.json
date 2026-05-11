@@ -1,0 +1,32 @@
+{
+  "doc_id": "kz_constitution_2026_sec1_art1",
+  "doc_type": "constitution_article",
+  "source_id": "kz_constitution_2026",
+  "jurisdiction": "KZ",
+  "source": "Конституция Республики Казахстан 2026",
+  "language": "ru",
+  "industry": [
+    "constitutional_law"
+  ],
+  "authority_level": "constitution",
+  "status": "not_effective_yet",
+  "chapter": {
+    "number": "1",
+    "title": "Основы конституционного строя"
+  },
+  "granularity": "article",
+  "as_of_date": "2026-05-06",
+  "text_hash": "d2c2a06312286fcbcfe2aa31e9dcac93f4f158cffc091e1e831e60e625e87f0b",
+  "articles": [
+    {
+      "article": "1",
+      "title": "",
+      "text": "Республика Казахстан – демократическое, светское, правовое и социальное государство. Высшие ценности государства – человек, его жизнь, права и свободы."
+    }
+  ],
+  "notes": [
+    "Конституция принята на республиканском референдуме 15 марта 2026 года.",
+    "Вводится в действие с 1 июля 2026 года."
+  ],
+  "effective_from": "2026-07-01"
+}

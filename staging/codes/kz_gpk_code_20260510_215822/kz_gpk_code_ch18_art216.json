@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_gpk_code_ch18_art216",
+  "doc_type": "code_article",
+  "source_id": "kz_gpk_code",
+  "jurisdiction": "KZ",
+  "source": "Гражданский процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "civil_procedure"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "18",
+    "title": "СУДЕБНОЕ РАЗБИРАТЕЛЬСТВО"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "1599ddfd28889e86e9fe8c343c6d9ce3527113aa9e6a9a2d48349051301dfbb3",
+  "articles": [
+    {
+      "article": "216",
+      "title": "Окончание рассмотрения дела по существу",
+      "text": "После исследования всех доказательств судья выясняет у лиц, участвующих в деле, и представителей, имеются ли дополнения. При отсутствии таких заявлений председательствующий объявляет исследование дела законченным и переходит к судебным прениям."
+    }
+  ],
+  "notes": []
+}

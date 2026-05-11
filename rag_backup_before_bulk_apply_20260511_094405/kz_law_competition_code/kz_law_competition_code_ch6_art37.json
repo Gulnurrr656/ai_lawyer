@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_competition_code_ch6_art37",
+  "doc_type": "law_article",
+  "source_id": "kz_law_competition_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О защите конкуренции\"",
+  "language": "ru",
+  "industry": [
+    "competition_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "6",
+    "title": "Антимонопольный орган"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "79ef70f1fecd97fc94d056e71554202ef3fa5d459f5424ce329cc684945deefa",
+  "articles": [
+    {
+      "article": "37",
+      "title": "Система антимонопольного органа",
+      "text": "1. Единую систему антимонопольного органа составляют центральный государственный орган и подчиненные ему территориальные органы.\n      2. Территориальные органы осуществляют свою деятельность в пределах полномочий, установленных законодательством Республики Казахстан, и положения, утвержденного центральным государственным органом."
+    }
+  ],
+  "notes": []
+}

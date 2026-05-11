@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_competition_code_ch7_art44",
+  "doc_type": "law_article",
+  "source_id": "kz_law_competition_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О защите конкуренции\"",
+  "language": "ru",
+  "industry": [
+    "competition_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "7",
+    "title": "Взаимодействие антимонопольного органа с правоохранительными органами Республики Казахстан и антимонопольными органами других государств"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "3bb1607c4c57b387692f1ab423ddd02bbb61c8a946156559295ca2f64d5ff787",
+  "articles": [
+    {
+      "article": "44",
+      "title": "Взаимодействие антимонопольного и",
+      "text": "регулирующих органов\n\n      Сноска. Статья 44 исключена Законом РК от 29.09.2014 № 239-V(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

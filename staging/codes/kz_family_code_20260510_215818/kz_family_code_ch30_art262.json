@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_family_code_ch30_art262",
+  "doc_type": "code_article",
+  "source_id": "kz_family_code",
+  "jurisdiction": "KZ",
+  "source": "Кодекс Республики Казахстан о браке (супружестве) и семье",
+  "language": "ru",
+  "industry": [
+    "family_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "30",
+    "title": "Перемена имени, отчества, фамилии"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "78c9da9c7e7a1d8a9fd51ea7e632bd8113ddf1b9bc1fe9ba3cd1633f3b2c865b",
+  "articles": [
+    {
+      "article": "262",
+      "title": "Отказ в перемене имени, отчества, фамилии",
+      "text": "Сноска. Заголовок статьи 262 – в редакции Закона РК от 14.07.2022 № 141-VII (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования).\n\n      Отказ регистрирующего органа в перемене имени, отчества, фамилии может быть обжалован в судебном порядке."
+    }
+  ],
+  "notes": []
+}

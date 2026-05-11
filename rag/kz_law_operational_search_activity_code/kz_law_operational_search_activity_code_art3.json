@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_operational_search_activity_code_art3",
+  "doc_type": "law_article",
+  "source_id": "kz_law_operational_search_activity_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан «Об оперативно-розыскной деятельности»",
+  "language": "ru",
+  "industry": [
+    "criminal_procedure"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": null,
+    "title": ""
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "f93ff166a47da81fa3e98f5a44cab3d8d6812d2a3901950b9ece2e3f4b38f2ea",
+  "articles": [
+    {
+      "article": "3",
+      "title": "Принципы оперативно-розыскной деятельности",
+      "text": "Оперативно-розыскная деятельность осуществляется в соответствии с принципами законности, соблюдения прав и свобод, уважения достоинства личности, равенства граждан перед законом, на основе конспирации, сочетания гласных и негласных методов, профессиональной этики."
+    }
+  ],
+  "notes": []
+}

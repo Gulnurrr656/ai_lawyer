@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_competition_code_ch5_art35",
+  "doc_type": "law_article",
+  "source_id": "kz_law_competition_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О защите конкуренции\"",
+  "language": "ru",
+  "industry": [
+    "competition_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "5",
+    "title": "Антиконкурентные действия, соглашения"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "80ceb0da1819b09de7ce893baa940a87ad3681e0865f54ee3271ab2634f86d0b",
+  "articles": [
+    {
+      "article": "35",
+      "title": "Порядок предоставления государственной помощи",
+      "text": "Сноска. Статья 35 исключена Законом РК от 06.03.2013 № 81-V (вводится в действие по истечении десяти календарных дней после его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_competition_code_ch3_art18",
+  "doc_type": "law_article",
+  "source_id": "kz_law_competition_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О защите конкуренции\"",
+  "language": "ru",
+  "industry": [
+    "competition_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "3",
+    "title": "Недобросовестная конкуренция"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "f697196d7c2eb218a62da20ed57bf57e158a5f1b337917c085939c3f9b8fb958",
+  "articles": [
+    {
+      "article": "18",
+      "title": "Неправомерное использование товара другого",
+      "text": "производителя\n\n      Неправомерным использованием товара другого производителя является введение в хозяйственный оборот под своим обозначением товара другого производителя путем изменений либо снятия обозначений производителя без разрешения правообладателя или уполномоченного на то лица."
+    }
+  ],
+  "notes": []
+}

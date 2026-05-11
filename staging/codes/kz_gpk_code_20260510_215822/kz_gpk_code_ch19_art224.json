@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_gpk_code_ch19_art224",
+  "doc_type": "code_article",
+  "source_id": "kz_gpk_code",
+  "jurisdiction": "KZ",
+  "source": "Гражданский процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "civil_procedure"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "19",
+    "title": "РЕШЕНИЕ СУДА И ЕГО ИСПОЛНЕНИЕ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "486886fed9c55ff350dfe8c41f2bfdfa33891d15e11ecb9eb92d819ba4954f08",
+  "articles": [
+    {
+      "article": "224",
+      "title": "Законность и обоснованность решения",
+      "text": "1. Решение суда должно быть законным и обоснованным.\n\n      2. Суд основывает решение лишь на тех доказательствах, которые были представлены сторонами и исследованы в судебном заседании."
+    }
+  ],
+  "notes": []
+}

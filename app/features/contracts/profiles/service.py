@@ -22,6 +22,8 @@ SERVICE_PROFILE: Dict[str, Any] = {
                 "объем услуг",
                 "содержание услуг",
                 "объем и содержание услуг",
+                "объём и содержание услуг",
+                "объём услуг",
                 "не применяется",
             ],
         },
@@ -42,6 +44,8 @@ SERVICE_PROFILE: Dict[str, Any] = {
                 "стоимость услуг",
                 "порядок расчетов",
                 "цена договора",
+                "порядок оплаты",
+                "сроки оплаты",
             ],
         },
         {
@@ -88,14 +92,27 @@ SERVICE_PROFILE: Dict[str, Any] = {
         "подряд",
         "поставка",
     ],
-    "required_attachments": [],
+    "required_attachments": [
+        "Приложение №1",
+    ],
     "min_articles": 60,
     "min_pages": 10,
     "max_pages": 25,
-    "source_ids": [],
+    "source_ids": [
+        "kz_gk_code",
+        "kz_pk_code",
+        "kz_nk_code",
+        "kz_law_arbitration_code",
+        "kz_law_buh_code",
+        "kz_vs_np_civil_judgment_code",
+        "kz_vs_np_invalidity_of_transactions_code",
+    ],
     "query_hints": [
         "договор оказания услуг",
         "возмездное оказание услуг",
+        "приёмка результата услуг акт",
+        "ответственность исполнителя услуг неустойка",
+        "оплата услуг аванс поэтапно",
     ],
 }
 

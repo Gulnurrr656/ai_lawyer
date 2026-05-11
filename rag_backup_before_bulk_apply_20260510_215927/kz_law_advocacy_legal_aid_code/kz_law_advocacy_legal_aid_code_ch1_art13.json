@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_advocacy_legal_aid_code_ch1_art13",
+  "doc_type": "law_article",
+  "source_id": "kz_law_advocacy_legal_aid_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"Об адвокатской деятельности и юридической помощи\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "1",
+    "title": "ОСНОВНЫЕ ПОЛОЖЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "85b08073f239692f0c8b11dfdccdc1255d98cce3a5da058a964ee9573aff1cbc",
+  "articles": [
+    {
+      "article": "13",
+      "title": "Уважение к суду, правилам судопроизводства и коллегам по профессии",
+      "text": "Лица, оказывающие юридическую помощь, должны относиться к своим коллегам по профессии в духе уважения, справедливости и сотрудничества.\n\n      Оказание юридической помощи должно основываться на уважении к суду и правилам судопроизводства."
+    }
+  ],
+  "notes": []
+}

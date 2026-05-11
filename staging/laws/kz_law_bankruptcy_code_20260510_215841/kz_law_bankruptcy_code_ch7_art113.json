@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_bankruptcy_code_ch7_art113",
+  "doc_type": "law_article",
+  "source_id": "kz_law_bankruptcy_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О реабилитации и банкротстве\"",
+  "language": "ru",
+  "industry": [
+    "bankruptcy_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "7",
+    "title": "ОСОБЕННОСТИ ЛИКВИДАЦИИ ДОЛЖНИКА БЕЗ ВОЗБУЖДЕНИЯ ПРОЦЕДУРЫ БАНКРОТСТВА"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "7321339c778ca71811ea0c7c21fc5aff8b9817417693a00ad99bcf8d5b94c129",
+  "articles": [
+    {
+      "article": "113",
+      "title": "Ликвидация должника без возбуждения процедуры банкротства",
+      "text": "Ликвидация должника без возбуждения процедуры банкротства осуществляется в случаях, если:\n\n      1) должник является отсутствующим;\n\n      2) в отношении должника имеется совокупность обстоятельств, предусмотренных пунктом 3 статьи 114 настоящего Закона."
+    }
+  ],
+  "notes": []
+}

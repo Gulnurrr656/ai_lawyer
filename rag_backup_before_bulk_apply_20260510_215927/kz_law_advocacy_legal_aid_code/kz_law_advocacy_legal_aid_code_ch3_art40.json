@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_advocacy_legal_aid_code_ch3_art40",
+  "doc_type": "law_article",
+  "source_id": "kz_law_advocacy_legal_aid_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"Об адвокатской деятельности и юридической помощи\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "3",
+    "title": "АДВОКАТУРА И СТАТУС АДВОКАТА"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "faebb08f8d638d5e441fa51057025504f57f6f4fedbcb4935790d244bf95b284",
+  "articles": [
+    {
+      "article": "40",
+      "title": "Порядок и условия проведения аттестации лиц, претендующих на занятие адвокатской деятельностью",
+      "text": "Сноска. Статья 40 исключена Законом РК от 17.12.2025 № 241-VIII (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

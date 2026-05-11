@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_land_code_ch4_art30",
+  "doc_type": "code_article",
+  "source_id": "kz_land_code",
+  "jurisdiction": "KZ",
+  "source": "Земельный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "land_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "4",
+    "title": "Право землепользования"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "fae02e4c737810b08c699a2014d5402ae0cc9efa9941f7b59007ffa167017c6c",
+  "articles": [
+    {
+      "article": "30",
+      "title": "Субъекты права землепользования",
+      "text": "Землепользователи подразделяются на:\n\n      1) государственные и негосударственные;\n\n      2) национальные и иностранные;\n\n      3) физические и юридические лица;\n\n      4) постоянные и временные;\n\n      5) первичные и вторичные."
+    }
+  ],
+  "notes": []
+}

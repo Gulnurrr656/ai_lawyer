@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_bankruptcy_code_ch10_art127",
+  "doc_type": "law_article",
+  "source_id": "kz_law_bankruptcy_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О реабилитации и банкротстве\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "10",
+    "title": "ЗАКЛЮЧИТЕЛЬНЫЕ ПОЛОЖЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "b7919f4f0e781a2a1309b64ce76419e2c84c30691a98d3c41b687f508abd408a",
+  "articles": [
+    {
+      "article": "127",
+      "title": "Ответственность за нарушение законодательства Республики Казахстан о реабилитации и банкротстве",
+      "text": "Нарушение законодательства Республики Казахстан о реабилитации и банкротстве влечет ответственность, установленную законами Республики Казахстан."
+    }
+  ],
+  "notes": []
+}

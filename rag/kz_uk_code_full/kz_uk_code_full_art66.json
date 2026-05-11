@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_uk_code_full_art66",
+  "doc_type": "code_article",
+  "source_id": "kz_uk_code_full",
+  "jurisdiction": "KZ",
+  "source": "Уголовный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "criminal_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": null,
+    "title": ""
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "4c11383b9ee916f2c76b818723eb98c7d7cf0b203a19cf8bdcba7764b4c3a616",
+  "articles": [
+    {
+      "article": "66",
+      "title": "Освобождение от уголовной ответственности при превышении пределов необходимой обороны",
+      "text": "Лицо, превысившее пределы необходимой обороны вследствие страха, испуга или замешательства, вызванного общественно опасным посягательством, может быть с учетом обстоятельств дела освобождено от уголовной ответственности."
+    }
+  ],
+  "notes": []
+}

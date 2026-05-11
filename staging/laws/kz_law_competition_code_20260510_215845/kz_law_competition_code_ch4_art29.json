@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_competition_code_ch4_art29",
+  "doc_type": "law_article",
+  "source_id": "kz_law_competition_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О защите конкуренции\"",
+  "language": "ru",
+  "industry": [
+    "competition_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "4",
+    "title": "Государственное участие"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "2b07db8ef5a109309b6ec78fe3f78e933e9bf36ff337eeb46fd55bc535ba6519",
+  "articles": [
+    {
+      "article": "29",
+      "title": "Принципы участия государства",
+      "text": "в предпринимательской деятельности\n\n      Принципами участия государства в предпринимательской деятельности являются:\n      1) законность;\n      2) обоснованность;\n      3) ограниченность;\n      4) несостязательность."
+    }
+  ],
+  "notes": []
+}

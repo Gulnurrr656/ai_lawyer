@@ -1,0 +1,154 @@
+{
+  "source_id": "kz_vs_np_consumer_protection_code",
+  "batch": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_consumer_protection_code_20260507_004505",
+  "mode": "missing-only",
+  "from_article": null,
+  "to_article": null,
+  "dry_run": false,
+  "apply": true,
+  "RAG_CHANGED": true,
+  "BLOCKED_BY_MOJIBAKE": false,
+  "suspicious_mojibake_count": 0,
+  "approved_candidates": [
+    {
+      "article": "1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_consumer_protection_code_20260507_004505\\kz_vs_np_consumer_protection_code_p001.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_consumer_protection_code\\kz_vs_np_consumer_protection_code_p001.json"
+    },
+    {
+      "article": "10",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_consumer_protection_code_20260507_004505\\kz_vs_np_consumer_protection_code_p010.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_consumer_protection_code\\kz_vs_np_consumer_protection_code_p010.json"
+    },
+    {
+      "article": "11",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_consumer_protection_code_20260507_004505\\kz_vs_np_consumer_protection_code_p011.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_consumer_protection_code\\kz_vs_np_consumer_protection_code_p011.json"
+    },
+    {
+      "article": "13",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_consumer_protection_code_20260507_004505\\kz_vs_np_consumer_protection_code_p013.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_consumer_protection_code\\kz_vs_np_consumer_protection_code_p013.json"
+    },
+    {
+      "article": "14",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_consumer_protection_code_20260507_004505\\kz_vs_np_consumer_protection_code_p014.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_consumer_protection_code\\kz_vs_np_consumer_protection_code_p014.json"
+    },
+    {
+      "article": "2",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_consumer_protection_code_20260507_004505\\kz_vs_np_consumer_protection_code_p002.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_consumer_protection_code\\kz_vs_np_consumer_protection_code_p002.json"
+    },
+    {
+      "article": "3",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_consumer_protection_code_20260507_004505\\kz_vs_np_consumer_protection_code_p003.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_consumer_protection_code\\kz_vs_np_consumer_protection_code_p003.json"
+    },
+    {
+      "article": "4",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_consumer_protection_code_20260507_004505\\kz_vs_np_consumer_protection_code_p004.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_consumer_protection_code\\kz_vs_np_consumer_protection_code_p004.json"
+    },
+    {
+      "article": "5",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_consumer_protection_code_20260507_004505\\kz_vs_np_consumer_protection_code_p005.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_consumer_protection_code\\kz_vs_np_consumer_protection_code_p005.json"
+    },
+    {
+      "article": "6",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_consumer_protection_code_20260507_004505\\kz_vs_np_consumer_protection_code_p006.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_consumer_protection_code\\kz_vs_np_consumer_protection_code_p006.json"
+    },
+    {
+      "article": "7",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_consumer_protection_code_20260507_004505\\kz_vs_np_consumer_protection_code_p007.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_consumer_protection_code\\kz_vs_np_consumer_protection_code_p007.json"
+    },
+    {
+      "article": "8",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_consumer_protection_code_20260507_004505\\kz_vs_np_consumer_protection_code_p008.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_consumer_protection_code\\kz_vs_np_consumer_protection_code_p008.json"
+    },
+    {
+      "article": "9",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_consumer_protection_code_20260507_004505\\kz_vs_np_consumer_protection_code_p009.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_consumer_protection_code\\kz_vs_np_consumer_protection_code_p009.json"
+    }
+  ],
+  "errors": [],
+  "skipped_conflicts": [],
+  "skipped_existing": [],
+  "skipped_by_range": [],
+  "backup_dir": null,
+  "copied": [
+    {
+      "article": "1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_consumer_protection_code_20260507_004505\\kz_vs_np_consumer_protection_code_p001.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_consumer_protection_code\\kz_vs_np_consumer_protection_code_p001.json"
+    },
+    {
+      "article": "10",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_consumer_protection_code_20260507_004505\\kz_vs_np_consumer_protection_code_p010.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_consumer_protection_code\\kz_vs_np_consumer_protection_code_p010.json"
+    },
+    {
+      "article": "11",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_consumer_protection_code_20260507_004505\\kz_vs_np_consumer_protection_code_p011.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_consumer_protection_code\\kz_vs_np_consumer_protection_code_p011.json"
+    },
+    {
+      "article": "13",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_consumer_protection_code_20260507_004505\\kz_vs_np_consumer_protection_code_p013.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_consumer_protection_code\\kz_vs_np_consumer_protection_code_p013.json"
+    },
+    {
+      "article": "14",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_consumer_protection_code_20260507_004505\\kz_vs_np_consumer_protection_code_p014.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_consumer_protection_code\\kz_vs_np_consumer_protection_code_p014.json"
+    },
+    {
+      "article": "2",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_consumer_protection_code_20260507_004505\\kz_vs_np_consumer_protection_code_p002.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_consumer_protection_code\\kz_vs_np_consumer_protection_code_p002.json"
+    },
+    {
+      "article": "3",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_consumer_protection_code_20260507_004505\\kz_vs_np_consumer_protection_code_p003.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_consumer_protection_code\\kz_vs_np_consumer_protection_code_p003.json"
+    },
+    {
+      "article": "4",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_consumer_protection_code_20260507_004505\\kz_vs_np_consumer_protection_code_p004.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_consumer_protection_code\\kz_vs_np_consumer_protection_code_p004.json"
+    },
+    {
+      "article": "5",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_consumer_protection_code_20260507_004505\\kz_vs_np_consumer_protection_code_p005.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_consumer_protection_code\\kz_vs_np_consumer_protection_code_p005.json"
+    },
+    {
+      "article": "6",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_consumer_protection_code_20260507_004505\\kz_vs_np_consumer_protection_code_p006.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_consumer_protection_code\\kz_vs_np_consumer_protection_code_p006.json"
+    },
+    {
+      "article": "7",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_consumer_protection_code_20260507_004505\\kz_vs_np_consumer_protection_code_p007.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_consumer_protection_code\\kz_vs_np_consumer_protection_code_p007.json"
+    },
+    {
+      "article": "8",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_consumer_protection_code_20260507_004505\\kz_vs_np_consumer_protection_code_p008.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_consumer_protection_code\\kz_vs_np_consumer_protection_code_p008.json"
+    },
+    {
+      "article": "9",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_consumer_protection_code_20260507_004505\\kz_vs_np_consumer_protection_code_p009.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_consumer_protection_code\\kz_vs_np_consumer_protection_code_p009.json"
+    }
+  ],
+  "backup_created": false,
+  "backup_reason": "source folder did not exist",
+  "created_source_folder": true
+}

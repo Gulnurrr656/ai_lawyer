@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_advocacy_legal_aid_code_ch1_art10",
+  "doc_type": "law_article",
+  "source_id": "kz_law_advocacy_legal_aid_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"Об адвокатской деятельности и юридической помощи\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "1",
+    "title": "ОСНОВНЫЕ ПОЛОЖЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "d3be21a26f9026b4d6fcbf11bb42dcf611029f8f42d3c81b0a2315b01f0535cf",
+  "articles": [
+    {
+      "article": "10",
+      "title": "Соблюдение норм профессионального и этического поведения",
+      "text": "Юридическая помощь оказывается с соблюдением высоких профессиональных и этических норм. Формирование этих норм осуществляется лицами, оказывающими юридическую помощь, на основе общепринятых норм поведения, нравственности и стандартов оказания юридической помощи."
+    }
+  ],
+  "notes": []
+}

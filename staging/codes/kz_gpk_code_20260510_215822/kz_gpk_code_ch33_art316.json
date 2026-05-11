@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_gpk_code_ch33_art316",
+  "doc_type": "code_article",
+  "source_id": "kz_gpk_code",
+  "jurisdiction": "KZ",
+  "source": "Гражданский процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "civil_procedure"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "33",
+    "title": "ПРОИЗВОДСТВО ПО ЗАЯВЛЕНИЯМ ОБ УСЫНОВЛЕНИИ (УДОЧЕРЕНИИ) РЕБЕНКА"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "58e093579fc9a614a566e01e4bc6a61bb3db73f5f6ffa42d78e894d1daf744fe",
+  "articles": [
+    {
+      "article": "316",
+      "title": "Отмена усыновления",
+      "text": "Рассмотрение и разрешение дел об отмене усыновления осуществляются по правилам искового производства.\n\nГлава 34. ПРОИЗВОДСТВО ПО ДЕЛАМ О ПРИЗНАНИИ ГРАЖДАНИНА\nБЕЗВЕСТНО ОТСУТСТВУЮЩИМ ИЛИ ОБЪЯВЛЕНИИ УМЕРШИМ"
+    }
+  ],
+  "notes": []
+}

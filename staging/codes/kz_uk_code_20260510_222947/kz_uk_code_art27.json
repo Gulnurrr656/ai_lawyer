@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_uk_code_art27",
+  "doc_type": "code_article",
+  "source_id": "kz_uk_code",
+  "jurisdiction": "KZ",
+  "source": "Уголовный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "criminal_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": null,
+    "title": ""
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "cffb7624540535f5499e80a5616ea6bceaf17557bd875ca6d830b52397592235",
+  "articles": [
+    {
+      "article": "27",
+      "title": "Понятие соучастия в уголовном правонарушении",
+      "text": "Соучастием в уголовном правонарушении признается умышленное совместное участие двух или более лиц в совершении умышленного уголовного правонарушения."
+    }
+  ],
+  "notes": []
+}

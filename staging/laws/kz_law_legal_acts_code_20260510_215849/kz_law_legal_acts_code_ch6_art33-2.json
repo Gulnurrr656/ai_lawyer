@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_legal_acts_code_ch6_art33-2",
+  "doc_type": "law_article",
+  "source_id": "kz_law_legal_acts_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О правовых актах\"",
+  "language": "ru",
+  "industry": [
+    "legislation_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "6",
+    "title": "Научное сопровождение нормотворческой деятельности"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "93294969b506d74ce0cce003108e155adcb55d8239406967168fcae2513bcaeb",
+  "articles": [
+    {
+      "article": "33-2",
+      "title": "Научная правовая экспертиза проектов законов",
+      "text": "Сноска. Статья 33-2 исключена Законом РК от 17.12.2025 № 241-VIII (вводится в действие с 01.01.2026)."
+    }
+  ],
+  "notes": []
+}

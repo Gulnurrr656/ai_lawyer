@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_advocacy_legal_aid_code_ch1_art14",
+  "doc_type": "law_article",
+  "source_id": "kz_law_advocacy_legal_aid_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"Об адвокатской деятельности и юридической помощи\"",
+  "language": "ru",
+  "industry": [
+    "advocacy"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "1",
+    "title": "ОСНОВНЫЕ ПОЛОЖЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "9893479cc70028ee6a78b28f09c98057a709f7260c390b3e04aa0f3e7dfa22fe",
+  "articles": [
+    {
+      "article": "14",
+      "title": "Доступность юридической помощи",
+      "text": "Каждый имеет право на получение юридической помощи.\n\n      В случаях, предусмотренных настоящим Законом и иными законами Республики Казахстан, юридическая помощь оказывается бесплатно."
+    }
+  ],
+  "notes": []
+}

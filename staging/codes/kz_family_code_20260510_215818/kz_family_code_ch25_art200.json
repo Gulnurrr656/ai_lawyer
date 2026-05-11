@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_family_code_ch25_art200",
+  "doc_type": "code_article",
+  "source_id": "kz_family_code",
+  "jurisdiction": "KZ",
+  "source": "Кодекс Республики Казахстан о браке (супружестве) и семье",
+  "language": "ru",
+  "industry": [
+    "family_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "25",
+    "title": "ГОСУДАРСТВЕННАЯ РЕГИСТРАЦИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "d8c301dbab3a94ec46022b6f4b1887e70a987aea121e887e5bc2afedd4dad6f5",
+  "articles": [
+    {
+      "article": "200",
+      "title": "Государственная регистрация рождения ребенка в торжественной обстановке",
+      "text": "По желанию родителей регистрирующий орган обеспечивает государственную регистрацию рождения ребенка в торжественной обстановке в своем помещении либо в специально предназначенных государственных дворцах бракосочетания."
+    }
+  ],
+  "notes": []
+}

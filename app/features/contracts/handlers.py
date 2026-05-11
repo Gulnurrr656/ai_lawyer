@@ -2,26 +2,50 @@
 
 from __future__ import annotations
 
+import logging
+
 from aiogram import Router, F
 from aiogram.dispatcher.event.bases import SkipHandler
-from aiogram.types import Message
+from aiogram.enums import ParseMode
+from aiogram.types import FSInputFile, Message
 from aiogram.fsm.context import FSMContext
 
 from app.features.contracts import states
 from app.features.contracts.pipeline import generate_contract
 
 # ✅ СЦЕНАРИИ ИМПОРТИРУЕМ ЗДЕСЬ (ЕДИНСТВЕННОЕ МЕСТО)
-from app.shared.main_menu import BTN_CONTRACT
+from app.shared.main_menu import BTN_CONTRACT, main_menu_button_matches
+from app.shared.fsm_scenario import (
+    FSM_ACTIVE_FEATURE,
+    FSM_ACTIVE_SCENARIO,
+    FSM_SCENARIO_ID_KEY,
+    FEATURE_CONTRACT,
+    SCENARIO_CONTRACT,
+    scenario_mismatch_for_contract,
+)
+from app.shared.scenario_registry import register_contract_scenario
 
-from app.features.contracts.scenarios import (
-    RENT_SCENARIO,
-    SERVICE_SCENARIO,
-    SUBCONTRACT_SCENARIO,
-    SUPPLY_SCENARIO,
-    MANUFACTURE_SCENARIO,
+from app.features.contracts import intake_config
+from app.features.contracts.scenarios import LEGACY_SCENARIOS, SHORT_SCENARIOS
+from app.shared.demo_messaging import (
+    friendly_contract_generation_message,
+    friendly_docx_send_failure_message,
+)
+from app.shared.free_usage import (
+    assert_can_deliver_result,
+    free_tier_footer_html,
+    free_tier_footer_plain,
+    record_completed_result,
+)
+from app.shared.ux_copy import (
+    UX_AFTER_CANCEL_HTML,
+    UX_BEFORE_GENERATION_HTML,
+    UX_FREE_NARRATIVE_INVITE_PLAIN,
+    UX_RIBBON_PLAIN,
 )
 
 router = Router(name="contracts")
+logger = logging.getLogger(__name__)
 
 SESSION_KEY = "contract_session"
 
@@ -30,17 +54,10 @@ SESSION_KEY = "contract_session"
 # SCENARIO REGISTRY
 # =====================================================
 
-SCENARIOS = {
-    "rent": RENT_SCENARIO,
-    "service": SERVICE_SCENARIO,
-    "subcontract": SUBCONTRACT_SCENARIO,
-    "supply": SUPPLY_SCENARIO,
-    "manufacture": MANUFACTURE_SCENARIO,
-}
-
-
 def get_scenario(profile: str):
-    return SCENARIOS[profile]
+    if intake_config.use_short_intake():
+        return SHORT_SCENARIOS[profile]
+    return LEGACY_SCENARIOS[profile]
 
 
 def get_current_question(session: dict):
@@ -78,6 +95,10 @@ def _low(msg: Message) -> str:
     return _text(msg).lower()
 
 
+def _uid(m: Message) -> int | None:
+    return m.from_user.id if m.from_user else None
+
+
 async def _save_session(ctx: FSMContext, session: dict) -> None:
     await ctx.update_data(**{SESSION_KEY: session})
 
@@ -86,12 +107,24 @@ async def _save_session(ctx: FSMContext, session: dict) -> None:
 # ENTRYPOINT
 # =====================================================
 
-@router.message(F.text == BTN_CONTRACT)
+@router.message(F.text.func(lambda text: main_menu_button_matches(text, BTN_CONTRACT, "contract", "dogovor")))
 async def contract_entry(message: Message, state: FSMContext):
     await state.clear()
     session = states.new_session()
-    await state.update_data(**{SESSION_KEY: session})
-    await message.answer(states.render_type_menu())
+    await state.update_data(
+        **{
+            SESSION_KEY: session,
+            FSM_ACTIVE_FEATURE: FEATURE_CONTRACT,
+            FSM_ACTIVE_SCENARIO: SCENARIO_CONTRACT,
+            FSM_SCENARIO_ID_KEY: "",
+        }
+    )
+    await message.answer(
+        states.render_type_menu()
+        + "\n\n"
+        + UX_RIBBON_PLAIN
+        + free_tier_footer_plain(_uid(message)),
+    )
 
 
 # =====================================================
@@ -101,7 +134,7 @@ async def contract_entry(message: Message, state: FSMContext):
 @router.message(lambda m: _low(m) in {"отмена", "cancel", "/cancel", "стоп"})
 async def on_cancel(message: Message, state: FSMContext):
     await state.clear()
-    await message.answer("❌ Сценарий договора отменён.")
+    await message.answer(UX_AFTER_CANCEL_HTML, parse_mode=ParseMode.HTML)
 
 
 @router.message(lambda m: _low(m) == "назад")
@@ -145,7 +178,7 @@ async def contract_flow(message: Message, state: FSMContext):
     text = _text(message)
     low = text.lower()
     if not text:
-        return
+        raise SkipHandler()
 
     # -------------------------------------------------
     # 1) ВЫБОР ТИПА ДОГОВОРА
@@ -160,6 +193,7 @@ async def contract_flow(message: Message, state: FSMContext):
 
         states.set_profile(session, profile)
         await _save_session(state, session)
+        await state.update_data(**{FSM_SCENARIO_ID_KEY: register_contract_scenario(profile)})
 
         q = get_current_question(session)
         await message.answer(
@@ -168,6 +202,8 @@ async def contract_flow(message: Message, state: FSMContext):
                 step_no=1,
                 total=len(get_scenario(profile)),
             )
+            + "\n\n"
+            + UX_FREE_NARRATIVE_INVITE_PLAIN
         )
         return
 
@@ -198,23 +234,66 @@ async def contract_flow(message: Message, state: FSMContext):
     # -------------------------------------------------
     if is_done(session):
         facts = states.build_facts_from_answers(session)
+        top = await state.get_data()
+        if scenario_mismatch_for_contract(top):
+            await message.answer(
+                "⚠️ Активен другой сценарий. Договор — только через кнопку «Договор» в меню."
+            )
+            return
+        _sid = top.get(FSM_SCENARIO_ID_KEY)
+        _feat = top.get(FSM_ACTIVE_FEATURE)
+        if _sid:
+            facts[FSM_SCENARIO_ID_KEY] = _sid
+        if _feat:
+            facts[FSM_ACTIVE_FEATURE] = _feat
 
-        await message.answer("⏳ Формирую договор…")
+        uid = _uid(message)
+        ok, wall = assert_can_deliver_result(uid)
+        if not ok:
+            await message.answer(wall, parse_mode=ParseMode.HTML)
+            return
+
+        await message.answer(
+            f"{UX_BEFORE_GENERATION_HTML}\n\n⏳ Формирую договор…" + free_tier_footer_html(uid),
+            parse_mode=ParseMode.HTML,
+        )
 
         try:
             result = await generate_contract(facts)
         except Exception as e:
-            await message.answer(f"❌ Ошибка генерации:\n{e}")
+            logger.exception("contract generation failed")
+            await message.answer(friendly_contract_generation_message(e))
             await state.clear()
             return
 
         await state.clear()
 
-        if result.get("text"):
-            await message.answer(result["text"])
-        if result.get("docx"):
-            await message.answer_document(result["docx"])
+        preview = (result.get("text") or "").strip()
+        norms = (result.get("rag_sources_summary") or "").strip()
+        # Лимит Telegram ~4096; превью договора + список норм не должны резаться посередине без смысла.
+        _tg_body_limit = 4000
+        if preview and norms:
+            combined = f"{preview}\n\n{norms}"
+            if len(combined) <= _tg_body_limit:
+                await message.answer(combined)
+            else:
+                await message.answer(preview)
+                await message.answer(norms)
+        elif preview:
+            await message.answer(preview)
+        elif norms:
+            await message.answer(norms)
 
+        docx_path = result.get("docx")
+        if docx_path:
+            try:
+                await message.answer_document(FSInputFile(docx_path))
+            except Exception:
+                logger.exception("contract docx telegram send failed | path=%s", docx_path)
+                await message.answer(friendly_docx_send_failure_message())
+
+        if preview or norms or docx_path:
+            record_completed_result(uid)
         return
 
     # -------------------------------------------------

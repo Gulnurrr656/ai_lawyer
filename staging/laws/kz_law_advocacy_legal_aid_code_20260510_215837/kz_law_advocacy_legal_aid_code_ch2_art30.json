@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_advocacy_legal_aid_code_ch2_art30",
+  "doc_type": "law_article",
+  "source_id": "kz_law_advocacy_legal_aid_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"Об адвокатской деятельности и юридической помощи\"",
+  "language": "ru",
+  "industry": [
+    "advocacy"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "2",
+    "title": "СИСТЕМА ГАРАНТИРОВАННОЙ ГОСУДАРСТВОМ ЮРИДИЧЕСКОЙ ПОМОЩИ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "e73d0e2261a35f976811b22f4c8d26cc1f57f1e4ef857adbbe2fa4f2be2fd57c",
+  "articles": [
+    {
+      "article": "30",
+      "title": "Финансирование гарантированной государством юридической помощи",
+      "text": "Финансирование гарантированной государством юридической помощи осуществляется за счет бюджетных средств в порядке, установленном законодательством Республики Казахстан.\n\nРАЗДЕЛ 3. АДВОКАТСКАЯ ДЕЯТЕЛЬНОСТЬ\n\nГлава 3. АДВОКАТУРА И СТАТУС АДВОКАТА"
+    }
+  ],
+  "notes": []
+}

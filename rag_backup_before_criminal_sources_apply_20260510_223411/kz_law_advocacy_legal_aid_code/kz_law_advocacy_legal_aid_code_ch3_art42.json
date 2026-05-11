@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_advocacy_legal_aid_code_ch3_art42",
+  "doc_type": "law_article",
+  "source_id": "kz_law_advocacy_legal_aid_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"Об адвокатской деятельности и юридической помощи\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "3",
+    "title": "АДВОКАТУРА И СТАТУС АДВОКАТА"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "1613ea4b83749611cfb030107d6893157cc8024ce197072bfd3445907bcd305b",
+  "articles": [
+    {
+      "article": "42",
+      "title": "Отказ в выдаче лицензии",
+      "text": "В выдаче лицензии отказывается по основаниям, предусмотренным Законом Республики Казахстан \"О разрешениях и уведомлениях\"."
+    }
+  ],
+  "notes": []
+}

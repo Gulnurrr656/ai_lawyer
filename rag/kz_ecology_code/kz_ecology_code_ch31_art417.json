@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_ecology_code_ch31_art417",
+  "doc_type": "code_article",
+  "source_id": "kz_ecology_code",
+  "jurisdiction": "KZ",
+  "source": "Экологический кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "31",
+    "title": "РАСШИРЕННЫЕ ОБЯЗАТЕЛЬСТВА ПРОИЗВОДИТЕЛЕЙ (ИМПОРТЕРОВ)"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "b7cc401f3906c09e786c5a3553cbfe7199453753a3b7adcc92dfcc3cd838f87f",
+  "articles": [
+    {
+      "article": "417",
+      "title": "Порядок применения настоящего Кодекса",
+      "text": "Настоящий Кодекс применяется к правоотношениям, возникшим после введения его в действие."
+    }
+  ],
+  "notes": []
+}

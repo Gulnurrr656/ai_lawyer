@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_advocacy_legal_aid_code_ch1_art9",
+  "doc_type": "law_article",
+  "source_id": "kz_law_advocacy_legal_aid_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"Об адвокатской деятельности и юридической помощи\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "1",
+    "title": "ОСНОВНЫЕ ПОЛОЖЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "e4fdc876531ffe1021ab609cf6c53f77a4868ef38adb06ac76099f83daf210c8",
+  "articles": [
+    {
+      "article": "9",
+      "title": "Сохранение профессиональной тайны",
+      "text": "Профессиональная тайна не может быть раскрыта без согласия клиента.\n\n      При оказании юридической помощи принимаются меры по сохранению профессиональной тайны, если иное не предусмотрено законами Республики Казахстан. Обязанность сохранения профессиональной тайны не ограничена во времени."
+    }
+  ],
+  "notes": []
+}

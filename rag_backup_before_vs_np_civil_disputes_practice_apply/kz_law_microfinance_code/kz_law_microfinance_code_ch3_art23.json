@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_microfinance_code_ch3_art23",
+  "doc_type": "law_article",
+  "source_id": "kz_law_microfinance_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О микрофинансовой деятельности\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "3",
+    "title": "СОЗДАНИЕ И ДЕЯТЕЛЬНОСТЬ МИКРОФИНАНСОВЫХ ОРГАНИЗАЦИЙ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "006c7ac5ada62587edf6e27d064be99b6632b190018afe60563ef8b9620e5963",
+  "articles": [
+    {
+      "article": "23",
+      "title": "Хранение документов",
+      "text": "Хранение документов, связанных с деятельностью микрофинансовой организации, осуществляется в соответствии с законодательством Республики Казахстан."
+    }
+  ],
+  "notes": []
+}

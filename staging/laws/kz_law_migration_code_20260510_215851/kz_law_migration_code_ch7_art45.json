@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_migration_code_ch7_art45",
+  "doc_type": "law_article",
+  "source_id": "kz_law_migration_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О миграции населения\"",
+  "language": "ru",
+  "industry": [
+    "migration_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "7",
+    "title": "ИММИГРАЦИЯ ПО ГУМАНИТАРНЫМ И ПОЛИТИЧЕСКИМ МОТИВАМ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "3f92fcc2d861304015bc0c9daeb5d4cb6dfc56d1cc865f7784f83d488092fd08",
+  "articles": [
+    {
+      "article": "45",
+      "title": "Иммигранты, прибывающие по политическим мотивам",
+      "text": "К иммигрантам, прибывающим по политическим мотивам, относятся:\n\n      1) беженцы;\n\n      2) лица, которым предоставлено политическое убежище."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_competition_code_ch2_art8",
+  "doc_type": "law_article",
+  "source_id": "kz_law_competition_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О конкуренции\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "2",
+    "title": "Монополистическая деятельность"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "0518d62d24f89854b64f268539d279b621ed22a50b5a6bd9886d682e0d6d96ae",
+  "articles": [
+    {
+      "article": "8",
+      "title": "Виды монополистической деятельности",
+      "text": "К монополистической деятельности, ограниченной настоящим Законом, относятся:\n      1) антиконкурентные соглашения субъектов рынка;\n      2) антиконкурентные согласованные действия субъектов рынка;\n      3) злоупотребление доминирующим или монопольным положением."
+    }
+  ],
+  "notes": []
+}

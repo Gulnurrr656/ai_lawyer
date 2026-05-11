@@ -195,9 +195,43 @@ def advance(session: dict) -> None:
 def go_back(session: dict) -> None:
     if session["step_idx"] > 0:
         session["step_idx"] -= 1
-        # =====================================================
+
+
+# =====================================================
 # FACTS CANON (FSM → FACTS)
 # =====================================================
+
+
+def _map_price_and_payment(profile: Optional[str], facts: Dict[str, Any]) -> None:
+    """
+    Legacy short intake: одно поле price_and_payment → канонические ключи профиля.
+    Short intake v2: supply/service/manufacture/subcontract задают отдельные цену,
+    payment_terms, payment_due без price_and_payment — тогда маппинг только удаляет отсутствующий ключ.
+
+    Для аренды одно значение попадает в rent_price и payment_terms — дальше модель должна разнести
+    сумму/аренду (§6) и график оплаты (§7), не пересчитывая суммы самовольно.
+    """
+    pp = facts.pop("price_and_payment", None)
+    if not pp or not str(pp).strip():
+        return
+    p = (profile or "").strip()
+    blob = str(pp).strip()
+    if p == "rent":
+        facts.setdefault("rent_price", blob)
+        facts.setdefault("payment_terms", blob)
+    elif p == "service":
+        facts.setdefault("service_price", blob)
+        facts.setdefault("payment_terms", blob)
+    elif p == "supply":
+        facts.setdefault("supply_price", blob)
+        facts.setdefault("payment_terms", blob)
+    elif p == "subcontract":
+        facts.setdefault("work_price", blob)
+        facts.setdefault("payment_terms", blob)
+    elif p == "manufacture":
+        facts.setdefault("manufacture_price", blob)
+        facts.setdefault("payment_terms", blob)
+
 
 def build_facts_from_answers(session: dict) -> dict:
     """
@@ -206,10 +240,15 @@ def build_facts_from_answers(session: dict) -> dict:
     - handlers / pipeline НЕ имеют права править FACTS
     """
 
+    from app.features.contracts.defaults import apply_contract_defaults
+
     answers = session.get("answers", {})
     profile = session.get("profile_key")
 
-    facts = dict(answers)
+    facts: Dict[str, Any] = dict(answers)
+
+    # short intake: одно поле «цена и оплата» → канонические ключи
+    _map_price_and_payment(str(profile) if profile else "", facts)
 
     # -------------------------------------------------
     # SUBJECT OF CONTRACT (обязательное поле)
@@ -260,5 +299,27 @@ def build_facts_from_answers(session: dict) -> dict:
     facts["profile_key"] = profile
     facts["contract_type"] = profile
     facts["scenario"] = profile
+
+    # UX-ключ Q_PD → prompts ожидают «pd»
+    pd_src = facts.get("pd") or facts.get("personal_data")
+    if pd_src and not facts.get("pd"):
+        facts["pd"] = str(pd_src).strip()
+
+    # -------------------------------------------------
+    # DEFAULTS (short intake и пропуски в legacy)
+    # -------------------------------------------------
+    facts = apply_contract_defaults(str(profile), facts)
+
+    extras = facts.pop("intake_extras", None)
+    if extras and str(extras).strip():
+        base_t = (facts.get("termination") or "").strip()
+        add = str(extras).strip()
+        facts["termination"] = (
+            f"{base_t}\n\nДополнительные условия (из короткого опроса): {add}"
+            if base_t
+            else f"Дополнительные условия (из короткого опроса): {add}"
+        )
+
+    facts.pop("confirm", None)
 
     return facts

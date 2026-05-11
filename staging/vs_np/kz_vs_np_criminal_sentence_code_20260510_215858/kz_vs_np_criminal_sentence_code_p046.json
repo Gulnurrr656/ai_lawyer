@@ -1,0 +1,24 @@
+{
+  "doc_id": "kz_vs_np_criminal_sentence_code_p046",
+  "doc_type": "judicial_guidance",
+  "source_id": "kz_vs_np_criminal_sentence_code",
+  "jurisdiction": "KZ",
+  "source": "Нормативное постановление Верховного Суда Республики Казахстан \"О судебном приговоре\"",
+  "language": "ru",
+  "industry": [
+    "criminal_law",
+    "criminal_procedure"
+  ],
+  "authority_level": "judicial",
+  "status": "active",
+  "date": "2024-11-28",
+  "number": "1",
+  "granularity": "point",
+  "point": {
+    "number": "46",
+    "text": "Структура и содержание обвинительного приговора, вынесенного в порядке приказного производства, должны соответствовать требованиям статьи 629-5 УПК."
+  },
+  "text": "Структура и содержание обвинительного приговора, вынесенного в порядке приказного производства, должны соответствовать требованиям статьи 629-5 УПК.",
+  "text_hash": "b3d56fb68f7a8d0f4333241c52fca9e645e2359bb77265c6876bdbda2e198d69",
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_competition_code_ch9_art59",
+  "doc_type": "law_article",
+  "source_id": "kz_law_competition_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О конкуренции\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "9",
+    "title": "Выявление нарушений антимонопольного"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "f6febaa7d85e79a7f02375a075883e005d4159cb0ed0e13b115e409870740069",
+  "articles": [
+    {
+      "article": "59",
+      "title": "Предварительное рассмотрение сведений о",
+      "text": "нарушении антимонопольного законодательства\n                   Республики Казахстан\n\n      Сноска. Статья 59 исключена Законом РК от 06.03.2013 № 81-V (вводится в действие по истечении десяти календарных дней после его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_ecology_code_ch25_art348",
+  "doc_type": "code_article",
+  "source_id": "kz_ecology_code",
+  "jurisdiction": "KZ",
+  "source": "Экологический кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "25",
+    "title": "ПОЛИГОНЫ ЗАХОРОНЕНИЯ ОТХОДОВ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "518cc6af446e7492a5a2eaedc5a30a9cd9ba86741751e48436fde38f523e9e1f",
+  "articles": [
+    {
+      "article": "348",
+      "title": "Общие положения о полигонах захоронения отходов",
+      "text": "Под полигоном захоронения отходов (далее – полигон) понимается специально оборудованное место постоянного размещения отходов без намерения их изъятия, соответствующее экологическим, строительным и санитарно-эпидемиологическим требованиям."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_constitution_2026_ch1_art7",
+  "doc_type": "code_article",
+  "source_id": "kz_constitution_2026",
+  "jurisdiction": "KZ",
+  "source": "Конституция Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "constitutional_law"
+  ],
+  "authority_level": "constitution",
+  "status": "active",
+  "chapter": {
+    "number": "1",
+    "title": "Основы конституционного строя"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "1d6fc1e95ef5a564adfa32d521dd28c8d8b28073af6905466d4f34d9388129cf",
+  "articles": [
+    {
+      "article": "7",
+      "title": "",
+      "text": "1. Религия отделена от государства.\n\n      2. Деятельность религиозных организаций на территории Казахстана осуществляется в соответствии с законом и может быть ограничена в целях защиты основ конституционного строя, прав и свобод человека и гражданина, обеспечения национальной безопасности, охраны общественного порядка, здоровья граждан и нравственности общества."
+    }
+  ],
+  "notes": []
+}

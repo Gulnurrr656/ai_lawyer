@@ -1,0 +1,434 @@
+{
+  "source_id": "kz_law_public_services_code",
+  "batch": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334",
+  "mode": "missing-only",
+  "from_article": null,
+  "to_article": null,
+  "dry_run": false,
+  "apply": true,
+  "RAG_CHANGED": true,
+  "BLOCKED_BY_MOJIBAKE": false,
+  "suspicious_mojibake_count": 0,
+  "approved_candidates": [
+    {
+      "article": "1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch1_art1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch1_art1.json"
+    },
+    {
+      "article": "10",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch2_art10.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch2_art10.json"
+    },
+    {
+      "article": "11",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch2_art11.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch2_art11.json"
+    },
+    {
+      "article": "11-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch2_art11-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch2_art11-1.json"
+    },
+    {
+      "article": "11-2",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch2_art11-2.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch2_art11-2.json"
+    },
+    {
+      "article": "12",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch3_art12.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch3_art12.json"
+    },
+    {
+      "article": "13",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch3_art13.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch3_art13.json"
+    },
+    {
+      "article": "14",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch3_art14.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch3_art14.json"
+    },
+    {
+      "article": "15",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch3_art15.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch3_art15.json"
+    },
+    {
+      "article": "16",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch3_art16.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch3_art16.json"
+    },
+    {
+      "article": "17",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch3_art17.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch3_art17.json"
+    },
+    {
+      "article": "18",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch4_art18.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch4_art18.json"
+    },
+    {
+      "article": "19",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch4_art19.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch4_art19.json"
+    },
+    {
+      "article": "19-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch4_art19-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch4_art19-1.json"
+    },
+    {
+      "article": "2",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch1_art2.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch1_art2.json"
+    },
+    {
+      "article": "20",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch4_art20.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch4_art20.json"
+    },
+    {
+      "article": "21",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch4_art21.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch4_art21.json"
+    },
+    {
+      "article": "21-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch4_art21-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch4_art21-1.json"
+    },
+    {
+      "article": "21-2",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch4_art21-2.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch4_art21-2.json"
+    },
+    {
+      "article": "22",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch4_art22.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch4_art22.json"
+    },
+    {
+      "article": "23",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch4_art23.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch4_art23.json"
+    },
+    {
+      "article": "24",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch4_art24.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch4_art24.json"
+    },
+    {
+      "article": "25",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch4_art25.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch4_art25.json"
+    },
+    {
+      "article": "26",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch5_art26.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch5_art26.json"
+    },
+    {
+      "article": "27",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch5_art27.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch5_art27.json"
+    },
+    {
+      "article": "27-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch5_art27-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch5_art27-1.json"
+    },
+    {
+      "article": "27-2",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch5_art27-2.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch5_art27-2.json"
+    },
+    {
+      "article": "27-3",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch5_art27-3.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch5_art27-3.json"
+    },
+    {
+      "article": "27-4",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch5_art27-4.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch5_art27-4.json"
+    },
+    {
+      "article": "28",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch5_art28.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch5_art28.json"
+    },
+    {
+      "article": "29",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch5_art29.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch5_art29.json"
+    },
+    {
+      "article": "3",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch1_art3.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch1_art3.json"
+    },
+    {
+      "article": "30",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch6_art30.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch6_art30.json"
+    },
+    {
+      "article": "31",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch6_art31.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch6_art31.json"
+    },
+    {
+      "article": "4",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch1_art4.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch1_art4.json"
+    },
+    {
+      "article": "5",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch1_art5.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch1_art5.json"
+    },
+    {
+      "article": "6",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch2_art6.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch2_art6.json"
+    },
+    {
+      "article": "7",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch2_art7.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch2_art7.json"
+    },
+    {
+      "article": "8",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch2_art8.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch2_art8.json"
+    },
+    {
+      "article": "9",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch2_art9.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch2_art9.json"
+    },
+    {
+      "article": "9-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch2_art9-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch2_art9-1.json"
+    }
+  ],
+  "errors": [],
+  "skipped_conflicts": [],
+  "skipped_existing": [],
+  "skipped_by_range": [],
+  "backup_dir": null,
+  "copied": [
+    {
+      "article": "1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch1_art1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch1_art1.json"
+    },
+    {
+      "article": "10",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch2_art10.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch2_art10.json"
+    },
+    {
+      "article": "11",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch2_art11.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch2_art11.json"
+    },
+    {
+      "article": "11-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch2_art11-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch2_art11-1.json"
+    },
+    {
+      "article": "11-2",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch2_art11-2.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch2_art11-2.json"
+    },
+    {
+      "article": "12",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch3_art12.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch3_art12.json"
+    },
+    {
+      "article": "13",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch3_art13.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch3_art13.json"
+    },
+    {
+      "article": "14",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch3_art14.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch3_art14.json"
+    },
+    {
+      "article": "15",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch3_art15.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch3_art15.json"
+    },
+    {
+      "article": "16",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch3_art16.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch3_art16.json"
+    },
+    {
+      "article": "17",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch3_art17.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch3_art17.json"
+    },
+    {
+      "article": "18",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch4_art18.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch4_art18.json"
+    },
+    {
+      "article": "19",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch4_art19.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch4_art19.json"
+    },
+    {
+      "article": "19-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch4_art19-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch4_art19-1.json"
+    },
+    {
+      "article": "2",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch1_art2.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch1_art2.json"
+    },
+    {
+      "article": "20",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch4_art20.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch4_art20.json"
+    },
+    {
+      "article": "21",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch4_art21.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch4_art21.json"
+    },
+    {
+      "article": "21-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch4_art21-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch4_art21-1.json"
+    },
+    {
+      "article": "21-2",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch4_art21-2.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch4_art21-2.json"
+    },
+    {
+      "article": "22",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch4_art22.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch4_art22.json"
+    },
+    {
+      "article": "23",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch4_art23.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch4_art23.json"
+    },
+    {
+      "article": "24",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch4_art24.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch4_art24.json"
+    },
+    {
+      "article": "25",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch4_art25.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch4_art25.json"
+    },
+    {
+      "article": "26",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch5_art26.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch5_art26.json"
+    },
+    {
+      "article": "27",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch5_art27.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch5_art27.json"
+    },
+    {
+      "article": "27-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch5_art27-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch5_art27-1.json"
+    },
+    {
+      "article": "27-2",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch5_art27-2.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch5_art27-2.json"
+    },
+    {
+      "article": "27-3",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch5_art27-3.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch5_art27-3.json"
+    },
+    {
+      "article": "27-4",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch5_art27-4.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch5_art27-4.json"
+    },
+    {
+      "article": "28",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch5_art28.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch5_art28.json"
+    },
+    {
+      "article": "29",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch5_art29.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch5_art29.json"
+    },
+    {
+      "article": "3",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch1_art3.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch1_art3.json"
+    },
+    {
+      "article": "30",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch6_art30.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch6_art30.json"
+    },
+    {
+      "article": "31",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch6_art31.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch6_art31.json"
+    },
+    {
+      "article": "4",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch1_art4.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch1_art4.json"
+    },
+    {
+      "article": "5",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch1_art5.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch1_art5.json"
+    },
+    {
+      "article": "6",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch2_art6.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch2_art6.json"
+    },
+    {
+      "article": "7",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch2_art7.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch2_art7.json"
+    },
+    {
+      "article": "8",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch2_art8.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch2_art8.json"
+    },
+    {
+      "article": "9",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch2_art9.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch2_art9.json"
+    },
+    {
+      "article": "9-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\laws\\kz_law_public_services_code_20260506_191334\\kz_law_public_services_code_ch2_art9-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_law_public_services_code\\kz_law_public_services_code_ch2_art9-1.json"
+    }
+  ],
+  "backup_created": false,
+  "backup_reason": "source folder did not exist",
+  "created_source_folder": true
+}

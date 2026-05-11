@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_foreigners_status_code_art11",
+  "doc_type": "law_article",
+  "source_id": "kz_law_foreigners_status_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О правовом положении иностранцев\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": null,
+    "title": ""
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "320d9efe6124ca858dd7be25919404ac8b8101c28cb8a40cad97354bf5a42057",
+  "articles": [
+    {
+      "article": "11",
+      "title": "Пользование достижениями культуры",
+      "text": "Иностранцы в Республике Казахстан имеют право на пользование достижениями культуры наравне с гражданами Республики Казахстан. Они обязаны бережно относиться к памятникам истории и культуры, другим культурным ценностям."
+    }
+  ],
+  "notes": []
+}

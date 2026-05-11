@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_uk_code_full_ch14_art352",
+  "doc_type": "code_article",
+  "source_id": "kz_uk_code_full",
+  "jurisdiction": "KZ",
+  "source": "Уголовный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "criminal_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "14",
+    "title": "ТРАНСПОРТНЫЕ УГОЛОВНЫЕ ПРАВОНАРУШЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "7129bf3d794f80696f6b222fdaac4f20250c2b4541d44a05b5d558eb2360870d",
+  "articles": [
+    {
+      "article": "352",
+      "title": "Самовольная без надобности остановка поезда",
+      "text": "Самовольная без надобности остановка поезда стоп-краном либо путем разъединения воздушной тормозной магистрали или иным способом, если это повлекло смерть человека или иные тяжкие последствия, –\n\n      наказывается лишением свободы на срок от двух до восьми лет."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,32 @@
+{
+  "doc_id": "kz_constitution_2026_sec2_art38",
+  "doc_type": "constitution_article",
+  "source_id": "kz_constitution_2026",
+  "jurisdiction": "KZ",
+  "source": "Конституция Республики Казахстан 2026",
+  "language": "ru",
+  "industry": [
+    "constitutional_law"
+  ],
+  "authority_level": "constitution",
+  "status": "not_effective_yet",
+  "chapter": {
+    "number": "2",
+    "title": "Основные права, свободы и обязанности"
+  },
+  "granularity": "article",
+  "as_of_date": "2026-05-06",
+  "text_hash": "7ffe5acced657fb48f73024af5c46fb3823082b6001ab9699ca3dd96f33ab958",
+  "articles": [
+    {
+      "article": "38",
+      "title": "",
+      "text": "Уплата законно установленных налогов, сборов и иных обязательных платежей – долг и обязанность каждого человека."
+    }
+  ],
+  "notes": [
+    "Конституция принята на республиканском референдуме 15 марта 2026 года.",
+    "Вводится в действие с 1 июля 2026 года."
+  ],
+  "effective_from": "2026-07-01"
+}

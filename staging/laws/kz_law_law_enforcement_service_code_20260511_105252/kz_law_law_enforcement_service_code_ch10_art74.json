@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_law_enforcement_service_code_ch10_art74",
+  "doc_type": "law_article",
+  "source_id": "kz_law_law_enforcement_service_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан «О правоохранительной службе»",
+  "language": "ru",
+  "industry": [
+    "criminal_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "10",
+    "title": "ОТПУСКА"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "6da62a8b9c5918d3e9aebe745b02e212bc70093a20af98cecec699c14e3b7bda",
+  "articles": [
+    {
+      "article": "74",
+      "title": "Краткосрочные отпуска",
+      "text": "1. Краткосрочные оплачиваемые отпуска предоставляются сотрудникам для решения неотложных социально-бытовых вопросов, а также по другим уважительным причинам до десяти календарных дней без учета времени на путь следования сотрудника к месту проведения отпуска и обратно.\n\n      2. Краткосрочный отпуск в счет оплачиваемого ежегодного трудового отпуска не засчитывается."
+    }
+  ],
+  "notes": []
+}

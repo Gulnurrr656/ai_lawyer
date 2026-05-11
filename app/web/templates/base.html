@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% block title %}{{ brand }}{% endblock %}</title>
+    <meta name="description" content="{{ t('hero_subtitle', lang) }}" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <link rel="stylesheet" href="/static/css/app.css" />
+    <script>
+      // ZangerPro AI palette — premium deep-blue legal-tech.
+      // Inspired by the deep blue of the Kazakh flag, with a subtle gold accent.
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              // Primary deep blue (flag-inspired).
+              'zp-deep':   '#0E2D63',   // navy / hero text
+              'zp-blue':   '#143F8C',   // primary button
+              'zp-bright': '#1E63D6',   // links / hovers
+              'zp-sky':    '#5DA8E8',   // soft-bright accent
+              // Surfaces.
+              'zp-bg':     '#F5F8FE',   // page background
+              'zp-surface':'#FFFFFF',
+              'zp-line':   '#E2E7F2',
+              // Soft accents.
+              'zp-gold':   '#C8A95B',   // subtle, not flashy
+              'zp-mute':   '#5B6B8C',   // secondary text
+              // Legacy aliases — existing templates keep rendering.
+              'ctablue':   '#143F8C',
+              'navy':      '#0E2D63',
+              'deep':      '#0A2253',
+              'gold':      '#C8A95B',
+              'papyrus':   '#F5F8FE',
+            },
+            fontFamily: {
+              sans: ['Inter', 'Manrope', 'system-ui', 'sans-serif'],
+            },
+            boxShadow: {
+              'zp-card': '0 1px 2px rgba(14,45,99,0.04), 0 8px 24px rgba(14,45,99,0.06)',
+            },
+          },
+        },
+      }
+    </script>
+</head>
+<body class="bg-zp-bg text-zp-deep font-sans antialiased min-h-screen flex flex-col">
+    <header class="sticky top-0 z-30 backdrop-blur bg-white/85 border-b border-zp-line">
+        <div class="max-w-6xl mx-auto px-4 py-3.5 flex items-center justify-between">
+            <a href="/" class="flex items-center gap-2 group">
+                <span class="inline-block w-7 h-7 rounded-md bg-gradient-to-br from-zp-blue to-zp-deep ring-1 ring-zp-deep/10 group-hover:ring-zp-bright/40 transition"></span>
+                <span class="text-lg font-semibold tracking-tight">
+                    <span class="text-zp-deep">ZangerPro</span><span class="text-zp-gold ml-1">AI</span>
+                </span>
+            </a>
+            <nav class="hidden md:flex items-center gap-6 text-sm">
+                <a href="/#features" class="text-zp-mute hover:text-zp-bright">{{ t('menu_features', lang) }}</a>
+                <a href="/#how" class="text-zp-mute hover:text-zp-bright">{{ t('menu_how', lang) }}</a>
+                <a href="/pricing" class="text-zp-mute hover:text-zp-bright">{{ t('menu_pricing', lang) }}</a>
+                <a href="/commercial-offer" class="text-zp-mute hover:text-zp-bright">{{ t('menu_commercial', lang) }}</a>
+                <a href="/faq" class="text-zp-mute hover:text-zp-bright">{{ t('menu_faq', lang) }}</a>
+                {% if user %}
+                    <a href="/dashboard" class="text-zp-mute hover:text-zp-bright">{{ t('menu_dashboard', lang) }}</a>
+                    {% if is_admin %}
+                        <a href="/admin" class="text-zp-mute hover:text-zp-bright">{{ t('menu_admin', lang) }}</a>
+                    {% endif %}
+                {% endif %}
+            </nav>
+            <div class="flex items-center gap-3">
+                <div class="text-xs text-zp-mute flex items-center gap-1" aria-label="language">
+                    {# Language switcher preserves the current path + query and
+                       sets the language via cookie (priority: query > cookie > kk). #}
+                    {% set _next = (current_path_with_query or request.url.path or '/') | urlencode %}
+                    <a href="/lang/kk?next={{ _next }}" hreflang="kk" lang="kk"
+                       class="{% if lang == 'kk' %}font-semibold text-zp-deep{% else %}hover:text-zp-deep{% endif %}">KK</a>
+                    <span class="text-zp-line" aria-hidden="true">·</span>
+                    <a href="/lang/ru?next={{ _next }}" hreflang="ru" lang="ru"
+                       class="{% if lang == 'ru' %}font-semibold text-zp-deep{% else %}hover:text-zp-deep{% endif %}">RU</a>
+                    <span class="text-zp-line" aria-hidden="true">·</span>
+                    <a href="/lang/en?next={{ _next }}" hreflang="en" lang="en"
+                       class="{% if lang == 'en' %}font-semibold text-zp-deep{% else %}hover:text-zp-deep{% endif %}">EN</a>
+                </div>
+                {% if user %}
+                    <form method="post" action="/logout" class="inline">
+                        <button type="submit" class="text-sm text-zp-mute hover:text-zp-deep">{{ t('menu_logout', lang) }}</button>
+                    </form>
+                {% else %}
+                    <a href="/login" class="text-sm text-zp-mute hover:text-zp-deep">{{ t('menu_login', lang) }}</a>
+                    <a href="/register" class="px-3 py-1.5 rounded-md bg-zp-blue text-white text-sm font-medium hover:bg-zp-deep shadow-sm">
+                        {{ t('cta_try_free', lang) }}
+                    </a>
+                {% endif %}
+            </div>
+        </div>
+    </header>
+
+    {# Test-mode badge: only rendered when the server is NOT production
+       and runtime test mode is active. Never rendered in production. #}
+    {% if rt_is_test_mode and not rt_is_production %}
+    <div data-test-mode-badge="1"
+         class="bg-zp-gold/15 border-b border-zp-gold/40 text-zp-deep text-xs">
+        <div class="max-w-6xl mx-auto px-4 py-1.5 flex items-center justify-between gap-3">
+            <span class="inline-flex items-center gap-2">
+                <span class="inline-block w-1.5 h-1.5 rounded-full bg-zp-gold" aria-hidden="true"></span>
+                <span class="font-medium">{{ t('test_mode_badge', lang) }}</span>
+            </span>
+            <span class="text-zp-mute hidden sm:inline">APP_ENV = {{ rt_is_production and 'production' or 'dev/test' }}</span>
+        </div>
+    </div>
+    {% endif %}
+
+    <main class="flex-1">
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="border-t border-zp-line bg-white mt-12">
+        <div class="max-w-6xl mx-auto px-4 py-6 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-zp-mute">
+            <div>{{ t('footer_copy', lang) }}</div>
+            <div class="flex items-center gap-4">
+                <a href="/commercial-offer" class="hover:text-zp-deep">{{ t('menu_commercial', lang) }}</a>
+                <a href="/faq" class="hover:text-zp-deep">{{ t('menu_faq', lang) }}</a>
+                <a href="/terms" class="hover:text-zp-deep">{{ t('footer_terms', lang) }}</a>
+                <a href="/privacy" class="hover:text-zp-deep">{{ t('footer_privacy', lang) }}</a>
+                <a href="/disclaimer" class="hover:text-zp-deep">{{ t('footer_disclaimer', lang) }}</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/static/js/app.js"></script>
+    {% block scripts %}{% endblock %}
+</body>
+</html>

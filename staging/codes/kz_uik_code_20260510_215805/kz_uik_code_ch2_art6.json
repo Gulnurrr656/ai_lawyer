@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_uik_code_ch2_art6",
+  "doc_type": "code_article",
+  "source_id": "kz_uik_code",
+  "jurisdiction": "KZ",
+  "source": "Уголовно-исполнительный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "criminal_executive"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "2",
+    "title": "ОБЩИЕ ВОПРОСЫ ИСПОЛНЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "82bfde27888dd0fad91a20e5a04a97a43243d1e3f263bd928d3421cc8b25fc2c",
+  "articles": [
+    {
+      "article": "6",
+      "title": "Основание исполнения наказания и иных мер уголовно-правового воздействия",
+      "text": "Основанием исполнения наказания и иных мер уголовно-правового воздействия являются приговор или постановление суда, вступившие в законную силу, акт об амнистии и его применении, акт о помиловании."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_social_code_ch12_art137",
+  "doc_type": "code_article",
+  "source_id": "kz_social_code",
+  "jurisdiction": "KZ",
+  "source": "Социальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "12",
+    "title": "СПЕЦИАЛЬНЫЕ СОЦИАЛЬНЫЕ УСЛУГИ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "5f08e59bf276de84a53f1d33c95797dd7ebbf5edb81ceff26ff960c0d44f01b0",
+  "articles": [
+    {
+      "article": "137",
+      "title": "Профилактика возникновения нуждаемости в специальных социальных услугах",
+      "text": "Профилактика возникновения нуждаемости в специальных социальных услугах направлена на выявление и предотвращение оснований, по которым лицо (семья) признается нуждающимся в специальных социальных услугах."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+{% block title %}{{ t('card_payments', lang) }} — {{ brand }}{% endblock %}
+
+{% macro plan_title(p) -%}
+    {%- if lang == 'kk' -%}{{ p.title_kz }}
+    {%- elif lang == 'ru' -%}{{ p.title_ru }}
+    {%- else -%}{{ p.title_ru or p.title_kz }}{%- endif -%}
+{%- endmacro %}
+
+{% macro plan_desc(p) -%}
+    {%- if lang == 'kk' -%}{{ p.description_kz }}
+    {%- elif lang == 'ru' -%}{{ p.description_ru }}
+    {%- else -%}{{ p.description_ru or p.description_kz }}{%- endif -%}
+{%- endmacro %}
+
+{% macro provider_title(prov) -%}
+    {%- if lang == 'kk' -%}{{ prov.title_kz }}
+    {%- elif lang == 'ru' -%}{{ prov.title_ru }}
+    {%- else -%}{{ prov.title_ru or prov.title_kz }}{%- endif -%}
+{%- endmacro %}
+
+{% block content %}
+<div class="max-w-5xl mx-auto px-4 py-10">
+    <h1 class="text-2xl font-semibold text-zp-deep">{{ t('card_payments', lang) }}</h1>
+    <p class="text-sm text-zp-mute mt-1">{{ t('pay_select_plan', lang) }}</p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
+        {% for p in plans %}
+        {% if p.requires_payment %}
+        <div class="bg-white border border-zp-line rounded-lg p-5 shadow-zp-card">
+            <div class="flex items-baseline justify-between">
+                <div class="font-medium text-zp-deep">{{ plan_title(p) }}</div>
+                <div class="text-xl font-semibold text-zp-deep">{{ p.amount_kzt }} ₸</div>
+            </div>
+            <p class="text-sm text-zp-mute mt-2">{{ plan_desc(p) }}</p>
+            <div class="mt-4 flex flex-wrap gap-2">
+                {% for prov_key, prov in providers.items() %}
+                <button class="pay-btn px-3 py-2 rounded-md text-sm border {% if prov.configured %}border-zp-blue text-zp-blue hover:bg-zp-bg{% else %}border-zp-line text-zp-mute cursor-not-allowed{% endif %}"
+                        data-plan="{{ p.plan_id }}" data-provider="{{ prov_key }}" {% if not prov.configured %}disabled{% endif %}>
+                    {{ provider_title(prov) }}
+                </button>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+
+    <div id="pay-result" class="mt-8"></div>
+
+    <p class="text-xs text-zp-mute mt-12">{{ t('disclaimer', lang) }}</p>
+    {% if lang == 'en' %}
+    <p class="text-xs text-zp-mute mt-2">{{ t('en_official_review_warning', lang) }}</p>
+    {% endif %}
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.querySelectorAll('.pay-btn').forEach((btn) => {
+    btn.addEventListener('click', async () => {
+        const fd = new FormData();
+        fd.append('plan_id', btn.dataset.plan);
+        fd.append('provider', btn.dataset.provider);
+        const res = await fetch('/payments/create', { method: 'POST', body: fd });
+        const data = await res.json();
+        const out = document.getElementById('pay-result');
+        if (!data.ok) {
+            out.innerHTML = '<div class="bg-amber-50 border border-amber-200 rounded-md p-3 text-sm">' +
+                (data.error === 'not_configured'
+                    ? ('{{ t('pay_provider_not_configured', lang) }}' +
+                       (data.reason ? ' (' + data.reason + ')' : ''))
+                    : data.error) + '</div>';
+            return;
+        }
+        out.innerHTML = '<a href="/payments/' + data.order.id + '" class="inline-block px-4 py-2 rounded-md bg-zp-blue text-white hover:bg-zp-deep text-sm">№' + data.order.id + '</a>';
+        window.location.href = '/payments/' + data.order.id;
+    });
+});
+</script>
+{% endblock %}

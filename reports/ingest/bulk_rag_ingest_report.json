@@ -1,0 +1,93 @@
+{
+  "generated_at": "2026-05-11T09:44:02",
+  "registry": "C:\\Users\\admin\\Desktop\\ai_lawyer\\config\\rag_source_registry.json",
+  "results": [
+    {
+      "source_id": "kz_vs_np_criminal_cassation_code",
+      "file_path": "inbox/vs_np/criminal/kz_vs_np_criminal_cassation_code.docx",
+      "category": "vs_np_criminal",
+      "type": "vs_np",
+      "enabled": false,
+      "skip_reason": "DOCX missing",
+      "exists": false,
+      "title_found": null,
+      "mojibake_count": 0,
+      "total_blocks": 0,
+      "missing": [],
+      "duplicates": [],
+      "new_blocks": [],
+      "same_blocks_count": 0,
+      "changed_blocks": [],
+      "conflicts": [],
+      "import_errors": [],
+      "diff_errors": [],
+      "approve_errors": [],
+      "approve_stopped": false,
+      "no_op": false,
+      "dry_run_ok": false,
+      "apply_allowed": false,
+      "batch_dir": "",
+      "notes": [
+        "disabled: DOCX missing"
+      ]
+    },
+    {
+      "source_id": "kz_vs_np_criminal_incoming_case_procedure_code",
+      "file_path": "inbox/vs_np/criminal/kz_vs_np_criminal_incoming_case_procedure_code.docx",
+      "category": "vs_np_criminal",
+      "type": "vs_np",
+      "enabled": false,
+      "skip_reason": "DOCX missing",
+      "exists": false,
+      "title_found": null,
+      "mojibake_count": 0,
+      "total_blocks": 0,
+      "missing": [],
+      "duplicates": [],
+      "new_blocks": [],
+      "same_blocks_count": 0,
+      "changed_blocks": [],
+      "conflicts": [],
+      "import_errors": [],
+      "diff_errors": [],
+      "approve_errors": [],
+      "approve_stopped": false,
+      "no_op": false,
+      "dry_run_ok": false,
+      "apply_allowed": false,
+      "batch_dir": "",
+      "notes": [
+        "disabled: DOCX missing"
+      ]
+    },
+    {
+      "source_id": "kz_vs_np_criminal_shortened_procedure_code",
+      "file_path": "inbox/vs_np/criminal/kz_vs_np_criminal_shortened_procedure_code.docx",
+      "category": "vs_np_criminal",
+      "type": "vs_np",
+      "enabled": false,
+      "skip_reason": "DOCX missing",
+      "exists": false,
+      "title_found": null,
+      "mojibake_count": 0,
+      "total_blocks": 0,
+      "missing": [],
+      "duplicates": [],
+      "new_blocks": [],
+      "same_blocks_count": 0,
+      "changed_blocks": [],
+      "conflicts": [],
+      "import_errors": [],
+      "diff_errors": [],
+      "approve_errors": [],
+      "approve_stopped": false,
+      "no_op": false,
+      "dry_run_ok": false,
+      "apply_allowed": false,
+      "batch_dir": "",
+      "notes": [
+        "disabled: DOCX missing"
+      ]
+    }
+  ]
+}

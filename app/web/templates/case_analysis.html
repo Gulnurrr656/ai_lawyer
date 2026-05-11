@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}{{ t('case_analysis_page', lang) }} — {{ case.case_id }}{% endblock %}
+
+{% block content %}
+<div class="max-w-4xl mx-auto px-4 py-10">
+    <a href="/cases/{{ case.case_id }}" class="text-sm text-zp-gold hover:underline">← {{ case.case_id }}</a>
+    <h1 class="text-xl font-semibold text-zp-deep mt-4">{{ t('case_section_professor', lang) }}</h1>
+    <pre class="mt-6 bg-white border border-zp-line rounded-lg p-4 text-xs overflow-x-auto whitespace-pre-wrap text-zp-deep shadow-zp-card">{{ professor_json }}</pre>
+</div>
+{% endblock %}

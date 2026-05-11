@@ -1,0 +1,32 @@
+{
+  "doc_id": "kz_constitution_2026_sec8_art82",
+  "doc_type": "constitution_article",
+  "source_id": "kz_constitution_2026",
+  "jurisdiction": "KZ",
+  "source": "Конституция Республики Казахстан 2026",
+  "language": "ru",
+  "industry": [
+    "constitutional_law"
+  ],
+  "authority_level": "constitution",
+  "status": "not_effective_yet",
+  "chapter": {
+    "number": "8",
+    "title": "Правосудие. Прокуратура. Правозащитные механизмы"
+  },
+  "granularity": "article",
+  "as_of_date": "2026-05-06",
+  "text_hash": "c163736964b781fc4a2292233beefca3a6e5acec86b186d7c45ba83b8c41f90d",
+  "articles": [
+    {
+      "article": "82",
+      "title": "",
+      "text": "Верховный Суд – высший судебный орган по гражданским, административным, уголовным и иным делам, подсудным местным и другим судам, который в предусмотренных законом случаях рассматривает отнесенные к его подсудности судебные дела и дает разъяснения по вопросам судебной практики."
+    }
+  ],
+  "notes": [
+    "Конституция принята на республиканском референдуме 15 марта 2026 года.",
+    "Вводится в действие с 1 июля 2026 года."
+  ],
+  "effective_from": "2026-07-01"
+}

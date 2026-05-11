@@ -1,0 +1,24 @@
+{
+  "doc_id": "kz_nk_ch94_art824",
+  "doc_type": "code",
+  "jurisdiction": "KZ",
+  "source": "Налоговый кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "налоговое право"
+  ],
+  "chapter": {
+    "number": 94,
+    "title": "ЕДИНЫЙ ПЛАТЕЖ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "articles": [
+    {
+      "article": 824,
+      "title": "Налоговый период",
+      "text": "Налоговым периодом для исчисления налоговыми агентами единого платежа является календарный месяц."
+    }
+  ],
+  "notes": []
+}

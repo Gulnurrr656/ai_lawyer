@@ -1,0 +1,22 @@
+{
+  "doc_id": "kz_nk_ch44_art448",
+  "doc_type": "code",
+  "jurisdiction": "KZ",
+  "source": "Налоговый кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": ["налоговое право"],
+  "chapter": {
+    "number": 44,
+    "title": "ОБЩИЕ ПОЛОЖЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "articles": [
+    {
+      "article": 448,
+      "title": "Объекты налогообложения",
+      "text": "Объектами обложения налогом на добавленную стоимость являются:\n\n1) облагаемый оборот;\n\n2) облагаемый импорт."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_permits_notifications_code_ch10_art50",
+  "doc_type": "law_article",
+  "source_id": "kz_law_permits_notifications_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О разрешениях и уведомлениях\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "10",
+    "title": "ОТВЕТСТВЕННОСТЬ И КОНТРОЛЬ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "859bb9635698784d139f4ab0577a7c0e946471151fdac8204d5b1a68d50522e0",
+  "articles": [
+    {
+      "article": "50",
+      "title": "Ответственность за нарушение законодательства Республики Казахстан о разрешениях и уведомлениях",
+      "text": "Нарушение законодательства Республики Казахстан о разрешениях и уведомлениях влечет ответственность, установленную законами Республики Казахстан."
+    }
+  ],
+  "notes": []
+}

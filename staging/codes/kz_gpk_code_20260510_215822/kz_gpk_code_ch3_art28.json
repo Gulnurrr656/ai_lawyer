@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_gpk_code_ch3_art28",
+  "doc_type": "code_article",
+  "source_id": "kz_gpk_code",
+  "jurisdiction": "KZ",
+  "source": "Гражданский процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "civil_procedure"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "3",
+    "title": "ПОДВЕДОМСТВЕННОСТЬ И ПОДСУДНОСТЬ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "e5f7453067a02790aee5ce700a1e1f1d8968e40cd8b41fcc2111f2de9afdea46",
+  "articles": [
+    {
+      "article": "28",
+      "title": "Подсудность гражданских дел Верховному Суду Республики Казахстан",
+      "text": "Сноска. Статья 28 исключена Законом РК от 29.06.2020 № 351-VI (вводится в действие с 01.07.2021)."
+    }
+  ],
+  "notes": []
+}

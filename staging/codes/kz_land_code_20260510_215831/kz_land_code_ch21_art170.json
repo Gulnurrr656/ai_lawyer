@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_land_code_ch21_art170",
+  "doc_type": "code_article",
+  "source_id": "kz_land_code",
+  "jurisdiction": "KZ",
+  "source": "Земельный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "land_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "21",
+    "title": "Заключительные положения"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "bd364750bff3c59f9dbf372d0ccf05838938dccef0a7e6d2b59d509d1cfd5cbb",
+  "articles": [
+    {
+      "article": "170",
+      "title": "Переходные положения",
+      "text": "Сноска. Статья 170 исключена Законом РК от 20.07.2011 № 464-IV (вводится в действие по истечении десяти календарных дней после его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

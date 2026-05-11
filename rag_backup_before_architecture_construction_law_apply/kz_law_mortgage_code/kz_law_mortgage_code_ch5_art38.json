@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_mortgage_code_ch5_art38",
+  "doc_type": "law_article",
+  "source_id": "kz_law_mortgage_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"Об ипотеке недвижимого имущества\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "5",
+    "title": "Прекращение ипотеки"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "d91c4b92996e77a1e22a58b361a80f358acf944fb8fc92541d90068200213f0e",
+  "articles": [
+    {
+      "article": "38",
+      "title": "Действие настоящего Закона",
+      "text": "Настоящий Закон вступает в силу с 1 января 1996 года."
+    }
+  ],
+  "notes": []
+}

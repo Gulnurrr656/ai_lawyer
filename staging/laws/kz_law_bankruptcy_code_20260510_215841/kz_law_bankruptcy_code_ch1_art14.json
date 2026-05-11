@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_bankruptcy_code_ch1_art14",
+  "doc_type": "law_article",
+  "source_id": "kz_law_bankruptcy_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О реабилитации и банкротстве\"",
+  "language": "ru",
+  "industry": [
+    "bankruptcy_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "1",
+    "title": "ОБЩИЕ ПОЛОЖЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "0a4d80ea048446b3bff387611401665f6f3e3085b2cfbf9d08fbc0d0df80c381",
+  "articles": [
+    {
+      "article": "14",
+      "title": "Компетенция Правительства Республики Казахстан в области реабилитации и банкротства",
+      "text": "Правительство Республики Казахстан выполняет функции, предусмотренные настоящим Законом, и иные функции, возложенные на него Конституцией, законами Республики Казахстан и актами Президента Республики Казахстан."
+    }
+  ],
+  "notes": []
+}

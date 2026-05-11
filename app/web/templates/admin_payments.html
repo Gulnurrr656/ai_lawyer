@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}{{ t('admin_payments', lang) }} — {{ brand }}{% endblock %}
+
+{% block content %}
+<div class="max-w-6xl mx-auto px-4 py-10">
+    <h1 class="text-2xl font-semibold">{{ t('admin_payments', lang) }}</h1>
+    <div class="mt-6 bg-white border border-slate-200 rounded-lg overflow-x-auto">
+        <table class="min-w-full text-sm">
+            <thead class="bg-slate-50 text-slate-600 text-xs uppercase">
+                <tr>
+                    <th class="px-3 py-2 text-left">#</th>
+                    <th class="px-3 py-2 text-left">User</th>
+                    <th class="px-3 py-2 text-left">Plan</th>
+                    <th class="px-3 py-2 text-left">Amount</th>
+                    <th class="px-3 py-2 text-left">Provider</th>
+                    <th class="px-3 py-2 text-left">Status</th>
+                    <th class="px-3 py-2"></th>
+                </tr>
+            </thead>
+            <tbody class="divide-y">
+                {% for o in orders %}
+                <tr>
+                    <td class="px-3 py-2">{{ o.id }}</td>
+                    <td class="px-3 py-2">{{ o.user_id }}</td>
+                    <td class="px-3 py-2">{{ o.plan_id }}</td>
+                    <td class="px-3 py-2">{{ o.amount_kzt }} ₸</td>
+                    <td class="px-3 py-2">{{ o.provider }}</td>
+                    <td class="px-3 py-2">{{ o.status }}</td>
+                    <td class="px-3 py-2 text-right">
+                        <a href="/admin/payments/{{ o.id }}" class="text-ctablue hover:underline">→</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

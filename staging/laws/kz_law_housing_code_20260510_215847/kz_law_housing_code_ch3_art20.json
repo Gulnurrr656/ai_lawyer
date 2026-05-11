@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_housing_code_ch3_art20",
+  "doc_type": "law_article",
+  "source_id": "kz_law_housing_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О жилищных отношениях\"",
+  "language": "ru",
+  "industry": [
+    "housing_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "3",
+    "title": "Содержание права частной собственности на жилище и условия его осуществления"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "c4ecc5ab67daa54a5c3a58e374faeb4723bbb9482c39091ab5d180f76e8978c0",
+  "articles": [
+    {
+      "article": "20",
+      "title": "(Исключена Законом РК от 06.07.2007 N 278)",
+      "text": "Исключена Законом РК от 06.07.2007 N 278."
+    }
+  ],
+  "notes": []
+}

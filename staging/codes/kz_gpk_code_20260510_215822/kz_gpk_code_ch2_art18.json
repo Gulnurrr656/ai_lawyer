@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_gpk_code_ch2_art18",
+  "doc_type": "code_article",
+  "source_id": "kz_gpk_code",
+  "jurisdiction": "KZ",
+  "source": "Гражданский процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "civil_procedure"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "2",
+    "title": "ЗАДАЧИ И ПРИНЦИПЫ ГРАЖДАНСКОГО СУДОПРОИЗВОДСТВА"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "1a57fa7f134247a1cc5cb5f2e110d1eff4ffed9ae3b76e8221e679da86d7f41d",
+  "articles": [
+    {
+      "article": "18",
+      "title": "Обеспечение прав на квалифицированную юридическую помощь",
+      "text": "1. Каждый имеет право на получение в ходе гражданского процесса квалифицированной юридической помощи в соответствии с положениями настоящего Кодекса.\n\n      2. В случаях, предусмотренных законом, юридическая помощь оказывается бесплатно."
+    }
+  ],
+  "notes": []
+}

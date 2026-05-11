@@ -1,0 +1,906 @@
+{
+  "version": 1,
+  "description": "Whitelist of normative DOCX sources for safe RAG ingest. Each entry may include optional ``source_type`` (code | law_article | judicial_guidance | legal_commentary) and ``legal_domain`` (criminal | civil | administrative | tax | bankruptcy | mixed). Physical paths follow norm type: inbox/codes, inbox/acts, inbox/vs_np/..., inbox/books/.... The bulk pipeline never touches files outside this registry, never copies DOCX into rag/, and only writes JSON via the existing import → diff → approve flow.",
+  "non_normative_skip_patterns": [
+    "petition.docx",
+    "smoke_civil_lawsuit.docx",
+    "civil_lawsuit.docx",
+    "claim.docx",
+    "contract.docx",
+    "bankruptcy.docx",
+    "cassation_complaint.docx",
+    "civil_lawsuit_*.docx"
+  ],
+  "sources": [
+    {
+      "file_path": "inbox/codes/kz_uk_code.docx",
+      "source_id": "kz_uk_code",
+      "title": "Уголовный кодекс Республики Казахстан",
+      "title_en": "Criminal Code of the Republic of Kazakhstan",
+      "doc_type": "code_article",
+      "authority_level": "code",
+      "granularity": "article",
+      "staging_root": "codes",
+      "industry": [
+        "criminal_law"
+      ],
+      "expected_min": 1,
+      "expected_max": 1,
+      "category": "criminal",
+      "coverage_status": "partial_legacy",
+      "note": "Legacy partial corpus (51/503 articles). Full UK is ingested separately as kz_uk_code_full per Option C of the conflict report. Do not delete or overwrite this folder.",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/codes/kz_uk_code.docx",
+      "source_id": "kz_uk_code_full",
+      "title": "Уголовный кодекс Республики Казахстан",
+      "title_en": "Criminal Code of the Republic of Kazakhstan",
+      "doc_type": "code_article",
+      "authority_level": "code",
+      "granularity": "article",
+      "staging_root": "codes",
+      "industry": [
+        "criminal_law"
+      ],
+      "expected_min": 1,
+      "expected_max": 503,
+      "category": "criminal",
+      "coverage_status": "full_candidate",
+      "note": "Full UK ingested as a new source per Option C of kz_uk_code conflict report. Routing prefers this over legacy partial kz_uk_code.",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/codes/kz_upk_code.docx",
+      "source_id": "kz_upk_code",
+      "title": "Уголовно-процессуальный кодекс Республики Казахстан",
+      "title_en": "Criminal Procedure Code of the Republic of Kazakhstan",
+      "doc_type": "code_article",
+      "authority_level": "code",
+      "granularity": "article",
+      "staging_root": "codes",
+      "industry": [
+        "criminal_procedure"
+      ],
+      "expected_min": 1,
+      "expected_max": 1,
+      "category": "criminal",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/codes/kz_uik_code.docx",
+      "source_id": "kz_uik_code",
+      "title": "Уголовно-исполнительный кодекс Республики Казахстан",
+      "title_en": "Criminal Executive Code of the Republic of Kazakhstan",
+      "doc_type": "code_article",
+      "authority_level": "code",
+      "granularity": "article",
+      "staging_root": "codes",
+      "industry": [
+        "criminal_executive"
+      ],
+      "expected_min": 1,
+      "expected_max": 1,
+      "category": "criminal",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/codes/budget_code.docx",
+      "source_id": "kz_budget_code",
+      "title": "Бюджетный кодекс Республики Казахстан",
+      "doc_type": "code_article",
+      "authority_level": "code",
+      "granularity": "article",
+      "staging_root": "codes",
+      "industry": [
+        "budget_law"
+      ],
+      "expected_min": 1,
+      "expected_max": 1,
+      "category": "code",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/codes/constitution_2026.docx",
+      "source_id": "kz_constitution_2026",
+      "title": "Конституция Республики Казахстан",
+      "doc_type": "code_article",
+      "authority_level": "constitution",
+      "granularity": "article",
+      "staging_root": "codes",
+      "industry": [
+        "constitutional_law"
+      ],
+      "expected_min": 1,
+      "expected_max": 1,
+      "category": "constitution",
+      "enabled": true,
+      "note": "User spec suggested kz_constitution_2026_code; we keep the existing rag folder name kz_constitution_2026 to avoid duplicating an already-ingested source."
+    },
+    {
+      "file_path": "inbox/codes/ecology_code.docx",
+      "source_id": "kz_ecology_code",
+      "title": "Экологический кодекс Республики Казахстан",
+      "doc_type": "code_article",
+      "authority_level": "code",
+      "granularity": "article",
+      "staging_root": "codes",
+      "industry": [
+        "ecology_law"
+      ],
+      "expected_min": 1,
+      "expected_max": 1,
+      "category": "code",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/codes/family_code.docx",
+      "source_id": "kz_family_code",
+      "title": "Кодекс Республики Казахстан о браке (супружестве) и семье",
+      "doc_type": "code_article",
+      "authority_level": "code",
+      "granularity": "article",
+      "staging_root": "codes",
+      "industry": [
+        "family_law"
+      ],
+      "expected_min": 1,
+      "expected_max": 1,
+      "category": "code",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/codes/gpk.docx",
+      "source_id": "kz_gpk_code",
+      "title": "Гражданский процессуальный кодекс Республики Казахстан",
+      "doc_type": "code_article",
+      "authority_level": "code",
+      "granularity": "article",
+      "staging_root": "codes",
+      "industry": [
+        "civil_procedure"
+      ],
+      "expected_min": 1,
+      "expected_max": 1,
+      "category": "code",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/codes/health_code.docx",
+      "source_id": "kz_health_code",
+      "title": "Кодекс Республики Казахстан \"О здоровье народа и системе здравоохранения\"",
+      "doc_type": "code_article",
+      "authority_level": "code",
+      "granularity": "article",
+      "staging_root": "codes",
+      "industry": [
+        "health_law"
+      ],
+      "expected_min": 1,
+      "expected_max": 1,
+      "category": "code",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/codes/land_code.docx",
+      "source_id": "kz_land_code",
+      "title": "Земельный кодекс Республики Казахстан",
+      "doc_type": "code_article",
+      "authority_level": "code",
+      "granularity": "article",
+      "staging_root": "codes",
+      "industry": [
+        "land_law"
+      ],
+      "expected_min": 1,
+      "expected_max": 1,
+      "category": "code",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/codes/social_code.docx",
+      "source_id": "kz_social_code",
+      "title": "Социальный кодекс Республики Казахстан",
+      "doc_type": "code_article",
+      "authority_level": "code",
+      "granularity": "article",
+      "staging_root": "codes",
+      "industry": [
+        "social_law"
+      ],
+      "expected_min": 1,
+      "expected_max": 1,
+      "category": "code",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/access_to_information_law.docx",
+      "source_id": "kz_law_access_to_information_code",
+      "title": "Закон Республики Казахстан \"О доступе к информации\"",
+      "doc_type": "law_article",
+      "authority_level": "law",
+      "granularity": "article",
+      "staging_root": "laws",
+      "industry": [
+        "information_law"
+      ],
+      "expected_min": 1,
+      "expected_max": 1,
+      "category": "law",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/kz_law_advocacy_legal_aid_code.docx",
+      "source_id": "kz_law_advocacy_legal_aid_code",
+      "title": "Закон Республики Казахстан \"Об адвокатской деятельности и юридической помощи\"",
+      "doc_type": "law_article",
+      "authority_level": "law",
+      "granularity": "article",
+      "staging_root": "laws",
+      "industry": [
+        "advocacy"
+      ],
+      "expected_min": 1,
+      "expected_max": 1,
+      "category": "law",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/architecture_construction_law.docx",
+      "source_id": "kz_law_architecture_construction_code",
+      "title": "Закон Республики Казахстан \"Об архитектурной, градостроительной и строительной деятельности в Республике Казахстан\"",
+      "doc_type": "law_article",
+      "authority_level": "law",
+      "granularity": "article",
+      "staging_root": "laws",
+      "industry": [
+        "construction_law"
+      ],
+      "expected_min": 1,
+      "expected_max": 1,
+      "category": "law",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/bankruptcy_law.docx",
+      "source_id": "kz_law_bankruptcy_code",
+      "title": "Закон Республики Казахстан \"О реабилитации и банкротстве\"",
+      "doc_type": "law_article",
+      "authority_level": "law",
+      "granularity": "article",
+      "staging_root": "laws",
+      "industry": [
+        "bankruptcy_law"
+      ],
+      "expected_min": 1,
+      "expected_max": 1,
+      "category": "law",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/banks_law.docx",
+      "source_id": "kz_law_banks_code",
+      "title": "Закон Республики Казахстан \"О банках и банковской деятельности в Республике Казахстан\"",
+      "doc_type": "law_article",
+      "authority_level": "law",
+      "granularity": "article",
+      "staging_root": "laws",
+      "industry": [
+        "banking_law"
+      ],
+      "expected_min": 1,
+      "expected_max": 1,
+      "category": "law",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/collectors_law.docx",
+      "source_id": "kz_law_collectors_code",
+      "title": "Закон Республики Казахстан \"О коллекторской деятельности\"",
+      "doc_type": "law_article",
+      "authority_level": "law",
+      "granularity": "article",
+      "staging_root": "laws",
+      "industry": [
+        "collectors_law"
+      ],
+      "expected_min": 1,
+      "expected_max": 1,
+      "category": "law",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/competition_law.docx",
+      "source_id": "kz_law_competition_code",
+      "title": "Закон Республики Казахстан \"О защите конкуренции\"",
+      "doc_type": "law_article",
+      "authority_level": "law",
+      "granularity": "article",
+      "staging_root": "laws",
+      "industry": [
+        "competition_law"
+      ],
+      "expected_min": 1,
+      "expected_max": 1,
+      "category": "law",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/foreigners_status_law.docx",
+      "source_id": "kz_law_foreigners_status_code",
+      "title": "Закон Республики Казахстан \"О правовом положении иностранцев\"",
+      "doc_type": "law_article",
+      "authority_level": "law",
+      "granularity": "article",
+      "staging_root": "laws",
+      "industry": [
+        "migration_law"
+      ],
+      "expected_min": 1,
+      "expected_max": 1,
+      "category": "law",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/housing_law.docx",
+      "source_id": "kz_law_housing_code",
+      "title": "Закон Республики Казахстан \"О жилищных отношениях\"",
+      "doc_type": "law_article",
+      "authority_level": "law",
+      "granularity": "article",
+      "staging_root": "laws",
+      "industry": [
+        "housing_law"
+      ],
+      "expected_min": 1,
+      "expected_max": 1,
+      "category": "law",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/legal_acts_law.docx",
+      "source_id": "kz_law_legal_acts_code",
+      "title": "Закон Республики Казахстан \"О правовых актах\"",
+      "doc_type": "law_article",
+      "authority_level": "law",
+      "granularity": "article",
+      "staging_root": "laws",
+      "industry": [
+        "legislation_law"
+      ],
+      "expected_min": 1,
+      "expected_max": 1,
+      "category": "law",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/microfinance_law.docx",
+      "source_id": "kz_law_microfinance_code",
+      "title": "Закон Республики Казахстан \"О микрофинансовой деятельности\"",
+      "doc_type": "law_article",
+      "authority_level": "law",
+      "granularity": "article",
+      "staging_root": "laws",
+      "industry": [
+        "microfinance_law"
+      ],
+      "expected_min": 1,
+      "expected_max": 1,
+      "category": "law",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/migration_law.docx",
+      "source_id": "kz_law_migration_code",
+      "title": "Закон Республики Казахстан \"О миграции населения\"",
+      "doc_type": "law_article",
+      "authority_level": "law",
+      "granularity": "article",
+      "staging_root": "laws",
+      "industry": [
+        "migration_law"
+      ],
+      "expected_min": 1,
+      "expected_max": 1,
+      "category": "law",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/mortgage_law.docx",
+      "source_id": "kz_law_mortgage_code",
+      "title": "Закон Республики Казахстан \"Об ипотеке недвижимого имущества\"",
+      "doc_type": "law_article",
+      "authority_level": "law",
+      "granularity": "article",
+      "staging_root": "laws",
+      "industry": [
+        "mortgage_law"
+      ],
+      "expected_min": 1,
+      "expected_max": 1,
+      "category": "law",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/payments_systems_law.docx",
+      "source_id": "kz_law_payments_systems_code",
+      "title": "Закон Республики Казахстан \"О платежах и платежных системах\"",
+      "doc_type": "law_article",
+      "authority_level": "law",
+      "granularity": "article",
+      "staging_root": "laws",
+      "industry": [
+        "payments_law"
+      ],
+      "expected_min": 1,
+      "expected_max": 1,
+      "category": "law",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/permits_notifications_law.docx",
+      "source_id": "kz_law_permits_notifications_code",
+      "title": "Закон Республики Казахстан \"О разрешениях и уведомлениях\"",
+      "doc_type": "law_article",
+      "authority_level": "law",
+      "granularity": "article",
+      "staging_root": "laws",
+      "industry": [
+        "permits_law"
+      ],
+      "expected_min": 1,
+      "expected_max": 1,
+      "category": "law",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/public_services_law.docx",
+      "source_id": "kz_law_public_services_code",
+      "title": "Закон Республики Казахстан \"О государственных услугах\"",
+      "doc_type": "law_article",
+      "authority_level": "law",
+      "granularity": "article",
+      "staging_root": "laws",
+      "industry": [
+        "public_services_law"
+      ],
+      "expected_min": 1,
+      "expected_max": 1,
+      "category": "law",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/state_registration_rights_law.docx",
+      "source_id": "kz_law_state_registration_rights_code",
+      "title": "Закон Республики Казахстан \"О государственной регистрации прав на недвижимое имущество\"",
+      "doc_type": "law_article",
+      "authority_level": "law",
+      "granularity": "article",
+      "staging_root": "laws",
+      "industry": [
+        "state_registration_law"
+      ],
+      "expected_min": 1,
+      "expected_max": 1,
+      "category": "law",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/kz_vs_np_criminal_appeal_code.docx",
+      "source_id": "kz_vs_np_criminal_appeal_code",
+      "title": "Нормативное постановление Верховного Суда Республики Казахстан \"О практике рассмотрения уголовных дел в апелляционном порядке\"",
+      "title_en": "On the Practice of Reviewing Criminal Cases in Appellate Proceedings",
+      "title_needle": "О практике рассмотрения уголовных дел в апелляционном",
+      "doc_type": "judicial_guidance",
+      "authority_level": "judicial",
+      "granularity": "point",
+      "staging_root": "vs_np",
+      "industry": [
+        "criminal_procedure",
+        "criminal_law"
+      ],
+      "category": "vs_np_criminal",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/kz_vs_np_criminal_punishment_code.docx",
+      "source_id": "kz_vs_np_criminal_punishment_code",
+      "title": "Нормативное постановление Верховного Суда Республики Казахстан \"О некоторых вопросах назначения уголовного наказания\"",
+      "title_en": "On Certain Issues of Imposing Criminal Punishment",
+      "title_needle": "назначения уголовного наказания",
+      "doc_type": "judicial_guidance",
+      "authority_level": "judicial",
+      "granularity": "point",
+      "staging_root": "vs_np",
+      "industry": [
+        "criminal_law"
+      ],
+      "category": "vs_np_criminal",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/kz_vs_np_criminal_sentence_code.docx",
+      "source_id": "kz_vs_np_criminal_sentence_code",
+      "title": "Нормативное постановление Верховного Суда Республики Казахстан \"О судебном приговоре\"",
+      "title_en": "On the Court Sentence",
+      "title_needle": "судебном приговоре",
+      "doc_type": "judicial_guidance",
+      "authority_level": "judicial",
+      "granularity": "point",
+      "staging_root": "vs_np",
+      "industry": [
+        "criminal_law",
+        "criminal_procedure"
+      ],
+      "category": "vs_np_criminal",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/vs_np_admin_court_decision.docx",
+      "source_id": "kz_vs_np_admin_court_decision_code",
+      "title": "Нормативное постановление Верховного Суда Республики Казахстан о судебном решении по административным делам",
+      "title_needle": "судебном решении по административным",
+      "doc_type": "judicial_guidance",
+      "authority_level": "judicial",
+      "granularity": "point",
+      "staging_root": "vs_np",
+      "industry": [
+        "administrative_law"
+      ],
+      "category": "vs_np",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/vs_np_civil_court_costs.docx",
+      "source_id": "kz_vs_np_civil_court_costs_code",
+      "title": "Нормативное постановление Верховного Суда Республики Казахстан о судебных расходах по гражданским делам",
+      "title_needle": "судебных расходах",
+      "doc_type": "judicial_guidance",
+      "authority_level": "judicial",
+      "granularity": "point",
+      "staging_root": "vs_np",
+      "industry": [
+        "civil_procedure"
+      ],
+      "category": "vs_np",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/vs_np_civil_disputes_practice.docx",
+      "source_id": "kz_vs_np_civil_disputes_practice_code",
+      "title": "Нормативное постановление Верховного Суда Республики Казахстан по практике гражданских споров",
+      "title_needle": "гражданских",
+      "doc_type": "judicial_guidance",
+      "authority_level": "judicial",
+      "granularity": "point",
+      "staging_root": "vs_np",
+      "industry": [
+        "civil_law"
+      ],
+      "category": "vs_np",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/vs_np_civil_interim_measures.docx",
+      "source_id": "kz_vs_np_civil_interim_measures_code",
+      "title": "Нормативное постановление Верховного Суда Республики Казахстан об обеспечительных мерах",
+      "title_needle": "обеспечительных",
+      "doc_type": "judicial_guidance",
+      "authority_level": "judicial",
+      "granularity": "point",
+      "staging_root": "vs_np",
+      "industry": [
+        "civil_procedure"
+      ],
+      "category": "vs_np",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/vs_np_consumer_protection.docx",
+      "source_id": "kz_vs_np_consumer_protection_code",
+      "title": "Нормативное постановление Верховного Суда Республики Казахстан о защите прав потребителей",
+      "title_needle": "защите прав потребителей",
+      "doc_type": "judicial_guidance",
+      "authority_level": "judicial",
+      "granularity": "point",
+      "staging_root": "vs_np",
+      "industry": [
+        "consumer_protection"
+      ],
+      "category": "vs_np",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/vs_np_koap_general_part.docx",
+      "source_id": "kz_vs_np_koap_general_part_code",
+      "title": "Нормативное постановление Верховного Суда Республики Казахстан \"О некоторых вопросах применения судами норм Общей части Кодекса Республики Казахстан об административных правонарушениях\"",
+      "title_needle": "Общей части Кодекса Республики Казахстан об административных правонарушениях",
+      "doc_type": "judicial_guidance",
+      "authority_level": "judicial",
+      "granularity": "point",
+      "staging_root": "vs_np",
+      "industry": [
+        "administrative_offense",
+        "administrative_law"
+      ],
+      "category": "vs_np",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/vs_np_labor_disputes.docx",
+      "source_id": "kz_vs_np_labor_disputes_code",
+      "title": "Нормативное постановление Верховного Суда Республики Казахстан \"О некоторых вопросах применения судами законодательства при разрешении трудовых споров\"",
+      "title_needle": "разрешении трудовых споров",
+      "doc_type": "judicial_guidance",
+      "authority_level": "judicial",
+      "granularity": "point",
+      "staging_root": "vs_np",
+      "industry": [
+        "labor_law",
+        "civil_procedure"
+      ],
+      "category": "vs_np",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/vs_np_moral_damage.docx",
+      "source_id": "kz_vs_np_moral_damage_code",
+      "title": "Нормативное постановление Верховного Суда Республики Казахстан о моральном вреде",
+      "title_needle": "моральном",
+      "doc_type": "judicial_guidance",
+      "authority_level": "judicial",
+      "granularity": "point",
+      "staging_root": "vs_np",
+      "industry": [
+        "civil_law"
+      ],
+      "category": "vs_np",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/ecology_code.docx",
+      "source_id": "kz_ecology_code__inbox_acts_duplicate",
+      "title": "Экологический кодекс — копия в inbox/acts",
+      "doc_type": "code_article",
+      "authority_level": "code",
+      "granularity": "article",
+      "staging_root": "codes",
+      "category": "skip_duplicate",
+      "enabled": false,
+      "skip_reason": "Duplicate of inbox/codes/ecology_code.docx — registered for traceability only; never ingested."
+    },
+    {
+      "file_path": "inbox/acts/vs_np_amendment_2016_11_25.docx",
+      "source_id": "kz_vs_np_amendment_2016_11_25_code",
+      "title": "Нормативное постановление Верховного Суда — пакет изменений от 25.11.2016",
+      "doc_type": "judicial_guidance",
+      "authority_level": "judicial",
+      "granularity": "point",
+      "staging_root": "vs_np",
+      "category": "skip_needs_review",
+      "enabled": false,
+      "skip_reason": "Это пакет поправок в другие НП ВС, а не самостоятельное НП — требует ручной классификации перед ingest."
+    },
+    {
+      "file_path": "inbox/acts/vs_np_application_of_legislation_cases.docx",
+      "source_id": "kz_vs_np_application_of_legislation_cases_code",
+      "title": "Нормативное постановление Верховного Суда о применении законодательства по делам",
+      "doc_type": "judicial_guidance",
+      "authority_level": "judicial",
+      "granularity": "point",
+      "staging_root": "vs_np",
+      "category": "skip_needs_review",
+      "enabled": false,
+      "skip_reason": "Точный source_id и заголовок требуют ручной верификации; включить после уточнения."
+    },
+    {
+      "file_path": "inbox/vs_np/criminal/kz_vs_np_criminal_cassation_code.docx",
+      "source_id": "kz_vs_np_criminal_cassation_code",
+      "title": "Нормативное постановление Верховного Суда Республики Казахстан \"О применении законодательства, регламентирующего рассмотрение уголовных дел в кассационном порядке\"",
+      "title_en": "On the Application of Legislation Regulating the Review of Criminal Cases in Cassation Proceedings",
+      "title_needle": "кассационном порядке",
+      "doc_type": "judicial_guidance",
+      "authority_level": "judicial",
+      "granularity": "point",
+      "staging_root": "vs_np",
+      "industry": [
+        "criminal_procedure"
+      ],
+      "category": "vs_np_criminal",
+      "enabled": false,
+      "skip_reason": "DOCX missing"
+    },
+    {
+      "file_path": "inbox/vs_np/criminal/kz_vs_np_criminal_incoming_case_procedure_code.docx",
+      "source_id": "kz_vs_np_criminal_incoming_case_procedure_code",
+      "title": "Нормативное постановление Верховного Суда Республики Казахстан \"О некоторых вопросах применения судами норм уголовно-процессуального законодательства по поступившему уголовному делу\"",
+      "title_en": "On Certain Issues of Applying Criminal Procedure Legislation by Courts Upon Receipt of a Criminal Case",
+      "title_needle": "поступившему уголовному",
+      "doc_type": "judicial_guidance",
+      "authority_level": "judicial",
+      "granularity": "point",
+      "staging_root": "vs_np",
+      "industry": [
+        "criminal_procedure"
+      ],
+      "category": "vs_np_criminal",
+      "enabled": false,
+      "skip_reason": "DOCX missing"
+    },
+    {
+      "file_path": "inbox/vs_np/criminal/kz_vs_np_criminal_shortened_procedure_code.docx",
+      "source_id": "kz_vs_np_criminal_shortened_procedure_code",
+      "title": "Нормативное постановление Верховного Суда Республики Казахстан \"О рассмотрении судами уголовных дел в сокращенном порядке\"",
+      "title_en": "On the Consideration of Criminal Cases by Courts in Summary Procedure",
+      "title_needle": "сокращенном порядке",
+      "doc_type": "judicial_guidance",
+      "authority_level": "judicial",
+      "granularity": "point",
+      "staging_root": "vs_np",
+      "industry": [
+        "criminal_procedure"
+      ],
+      "category": "vs_np_criminal",
+      "enabled": false,
+      "skip_reason": "DOCX missing"
+    },
+    {
+      "file_path": "inbox/acts/kz_law_aml_cft_code.docx",
+      "source_id": "kz_law_aml_cft_code",
+      "title": "Закон Республики Казахстан «О противодействии легализации (отмыванию) доходов, полученных преступным путем, финансированию терроризма и финансированию распространения оружия массового уничтожения»",
+      "title_en": "On Combating the Legalization (Laundering) of Proceeds from Crime, Financing of Terrorism and Financing of Proliferation of Weapons of Mass Destruction",
+      "doc_type": "law_article",
+      "authority_level": "law",
+      "granularity": "article",
+      "staging_root": "laws",
+      "industry": [
+        "criminal_law",
+        "financial_monitoring"
+      ],
+      "expected_min": 1,
+      "expected_max": 500,
+      "category": "criminal",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/kz_law_operational_search_activity_code.docx",
+      "source_id": "kz_law_operational_search_activity_code",
+      "title": "Закон Республики Казахстан «Об оперативно-розыскной деятельности»",
+      "title_en": "On Operational-Search Activities",
+      "doc_type": "law_article",
+      "authority_level": "law",
+      "granularity": "article",
+      "staging_root": "laws",
+      "industry": [
+        "criminal_law",
+        "criminal_procedure"
+      ],
+      "expected_min": 1,
+      "expected_max": 300,
+      "category": "criminal",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/kz_law_law_enforcement_service_code.docx",
+      "source_id": "kz_law_law_enforcement_service_code",
+      "title": "Закон Республики Казахстан «О правоохранительной службе»",
+      "title_en": "On Law Enforcement Service",
+      "doc_type": "law_article",
+      "authority_level": "law",
+      "granularity": "article",
+      "staging_root": "laws",
+      "industry": [
+        "criminal_law"
+      ],
+      "expected_min": 1,
+      "expected_max": 300,
+      "category": "criminal",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/kz_law_prosecutor_office_code.docx",
+      "source_id": "kz_law_prosecutor_office_code",
+      "title": "Закон Республики Казахстан «О прокуратуре»",
+      "title_en": "On the Prosecutor's Office",
+      "doc_type": "law_article",
+      "authority_level": "law",
+      "granularity": "article",
+      "staging_root": "laws",
+      "industry": [
+        "criminal_law",
+        "prosecution"
+      ],
+      "expected_min": 1,
+      "expected_max": 200,
+      "category": "criminal",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/acts/kz_law_anti_corruption_code.docx",
+      "source_id": "kz_law_anti_corruption_code",
+      "title": "Закон Республики Казахстан «О противодействии коррупции»",
+      "title_en": "On Combating Corruption",
+      "doc_type": "law_article",
+      "authority_level": "law",
+      "granularity": "article",
+      "staging_root": "laws",
+      "industry": [
+        "criminal_law",
+        "anti_corruption"
+      ],
+      "expected_min": 1,
+      "expected_max": 200,
+      "category": "criminal",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/vs_np/criminal/kz_vs_np_criminal_amendments_code.docx",
+      "source_id": "kz_vs_np_criminal_amendments_code",
+      "title": "Нормативное постановление Верховного Суда Республики Казахстан «О внесении изменений и дополнений в некоторые нормативные постановления Верховного Суда Республики Казахстан по уголовному и уголовно-процессуальному законодательству»",
+      "title_en": "On Amendments and Additions to Certain Regulatory Resolutions of the Supreme Court of the Republic of Kazakhstan on Criminal and Criminal Procedure Legislation",
+      "title_needle": "внесении изменений и дополнений в некоторые нормативные постановления",
+      "doc_type": "judicial_guidance",
+      "authority_level": "judicial",
+      "granularity": "point",
+      "staging_root": "vs_np",
+      "industry": [
+        "criminal_law",
+        "criminal_procedure"
+      ],
+      "category": "vs_np_criminal",
+      "np_date": "",
+      "np_number": "",
+      "enabled": false,
+      "skip_reason": "manual classification required",
+      "note": "Если это только пакет поправок к другим НП ВС — не использовать как самостоятельное материальное правовое основание без ручной классификации."
+    },
+    {
+      "file_path": "inbox/vs_np/criminal/kz_vs_np_criminal_minors_code.docx",
+      "source_id": "kz_vs_np_criminal_minors_code",
+      "title": "Нормативное постановление Верховного Суда Республики Казахстан «О судебной практике по делам об уголовных правонарушениях несовершеннолетних и о вовлечении их в совершение уголовных правонарушений и иных антиобщественных действий»",
+      "title_en": "On Judicial Practice in Cases of Criminal Offenses Committed by Minors and Involving Minors in Criminal Offenses and Other Antisocial Acts",
+      "title_needle": "несовершеннолетн",
+      "doc_type": "judicial_guidance",
+      "authority_level": "judicial",
+      "granularity": "point",
+      "staging_root": "vs_np",
+      "industry": [
+        "criminal_law"
+      ],
+      "category": "vs_np_criminal",
+      "np_date": "",
+      "np_number": "",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/books/criminal/kz_book_vs_np_commentary.docx",
+      "source_id": "kz_book_vs_np_commentary",
+      "title": "Комментарий к нормативным постановлениям Верховного Суда Республики Казахстан",
+      "title_en": "Commentary on the Regulatory Resolutions of the Supreme Court of the Republic of Kazakhstan",
+      "doc_type": "legal_commentary",
+      "authority_level": "commentary",
+      "granularity": "section",
+      "staging_root": "books",
+      "is_primary_law": false,
+      "can_be_used_as_primary_basis": false,
+      "category": "criminal_commentary",
+      "enabled": true
+    },
+    {
+      "file_path": "inbox/books/criminal/kz_book_uk_special_part_commentary_old.docx",
+      "source_id": "kz_book_uk_special_part_commentary_old",
+      "title": "Комментарий к Уголовному кодексу Республики Казахстан (Особенная часть), старое издание",
+      "title_en": "Commentary on the Criminal Code of the Republic of Kazakhstan, Special Part, Old Edition",
+      "doc_type": "legal_commentary",
+      "authority_level": "commentary",
+      "granularity": "section",
+      "staging_root": "books",
+      "commentary_status": "old",
+      "is_primary_law": false,
+      "can_be_used_as_primary_basis": false,
+      "category": "criminal_commentary",
+      "enabled": true,
+      "warning": "Secondary outdated commentary. Do not use as current legal norm."
+    }
+  ]
+}

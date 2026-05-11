@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_law_enforcement_service_code_ch5_art33-1",
+  "doc_type": "law_article",
+  "source_id": "kz_law_law_enforcement_service_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан «О правоохранительной службе»",
+  "language": "ru",
+  "industry": [
+    "criminal_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "5",
+    "title": "НАЗНАЧЕНИЕ НА ДОЛЖНОСТЬ, ПЕРЕМЕЩЕНИЕ И"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "51b3eb0e8366b738ce15bcfcc7fa4de6dada9c2c4f0704044fa352e79b20e274",
+  "articles": [
+    {
+      "article": "33-1",
+      "title": "Президентский резерв руководства правоохранительных органов",
+      "text": "Сноска. Статья 33-1 исключена Законом РК от 10.01.2025 № 156-VIII (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

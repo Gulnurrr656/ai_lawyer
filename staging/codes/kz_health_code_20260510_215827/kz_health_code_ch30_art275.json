@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_health_code_ch30_art275",
+  "doc_type": "code_article",
+  "source_id": "kz_health_code",
+  "jurisdiction": "KZ",
+  "source": "Кодекс Республики Казахстан \"О здоровье народа и системе здравоохранения\"",
+  "language": "ru",
+  "industry": [
+    "health_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "30",
+    "title": "СТАТУС МЕДИЦИНСКИХ И ФАРМАЦЕВТИЧЕСКИХ РАБОТНИКОВ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "2dcb926831fbea68e87c7478e7c889f6663fc5a64b6a9546aa3acdfd3ac8a207",
+  "articles": [
+    {
+      "article": "275",
+      "title": "Ответственность за нарушение законодательства Республики Казахстан в области здравоохранения",
+      "text": "Нарушение законодательства Республики Казахстан в области здравоохранения влечет ответственность, установленную законами Республики Казахстан."
+    }
+  ],
+  "notes": []
+}

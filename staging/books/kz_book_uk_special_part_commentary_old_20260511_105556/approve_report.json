@@ -1,0 +1,111 @@
+{
+  "source_id": "kz_book_uk_special_part_commentary_old",
+  "batch": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\books\\kz_book_uk_special_part_commentary_old_20260511_105556",
+  "mode": "missing-only",
+  "from_article": null,
+  "to_article": null,
+  "dry_run": true,
+  "apply": false,
+  "RAG_CHANGED": false,
+  "BLOCKED_BY_MOJIBAKE": false,
+  "suspicious_mojibake_count": 0,
+  "approved_candidates": [
+    {
+      "article": "section_001",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\books\\kz_book_uk_special_part_commentary_old_20260511_105556\\kz_book_uk_special_part_commentary_old_section_001.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_book_uk_special_part_commentary_old\\kz_book_uk_special_part_commentary_old_section_001.json"
+    },
+    {
+      "article": "section_002",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\books\\kz_book_uk_special_part_commentary_old_20260511_105556\\kz_book_uk_special_part_commentary_old_section_002.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_book_uk_special_part_commentary_old\\kz_book_uk_special_part_commentary_old_section_002.json"
+    },
+    {
+      "article": "section_003",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\books\\kz_book_uk_special_part_commentary_old_20260511_105556\\kz_book_uk_special_part_commentary_old_section_003.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_book_uk_special_part_commentary_old\\kz_book_uk_special_part_commentary_old_section_003.json"
+    },
+    {
+      "article": "section_004",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\books\\kz_book_uk_special_part_commentary_old_20260511_105556\\kz_book_uk_special_part_commentary_old_section_004.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_book_uk_special_part_commentary_old\\kz_book_uk_special_part_commentary_old_section_004.json"
+    },
+    {
+      "article": "section_005",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\books\\kz_book_uk_special_part_commentary_old_20260511_105556\\kz_book_uk_special_part_commentary_old_section_005.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_book_uk_special_part_commentary_old\\kz_book_uk_special_part_commentary_old_section_005.json"
+    },
+    {
+      "article": "section_006",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\books\\kz_book_uk_special_part_commentary_old_20260511_105556\\kz_book_uk_special_part_commentary_old_section_006.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_book_uk_special_part_commentary_old\\kz_book_uk_special_part_commentary_old_section_006.json"
+    },
+    {
+      "article": "section_007",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\books\\kz_book_uk_special_part_commentary_old_20260511_105556\\kz_book_uk_special_part_commentary_old_section_007.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_book_uk_special_part_commentary_old\\kz_book_uk_special_part_commentary_old_section_007.json"
+    },
+    {
+      "article": "section_008",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\books\\kz_book_uk_special_part_commentary_old_20260511_105556\\kz_book_uk_special_part_commentary_old_section_008.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_book_uk_special_part_commentary_old\\kz_book_uk_special_part_commentary_old_section_008.json"
+    },
+    {
+      "article": "section_009",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\books\\kz_book_uk_special_part_commentary_old_20260511_105556\\kz_book_uk_special_part_commentary_old_section_009.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_book_uk_special_part_commentary_old\\kz_book_uk_special_part_commentary_old_section_009.json"
+    },
+    {
+      "article": "section_010",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\books\\kz_book_uk_special_part_commentary_old_20260511_105556\\kz_book_uk_special_part_commentary_old_section_010.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_book_uk_special_part_commentary_old\\kz_book_uk_special_part_commentary_old_section_010.json"
+    },
+    {
+      "article": "section_011",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\books\\kz_book_uk_special_part_commentary_old_20260511_105556\\kz_book_uk_special_part_commentary_old_section_011.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_book_uk_special_part_commentary_old\\kz_book_uk_special_part_commentary_old_section_011.json"
+    },
+    {
+      "article": "section_012",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\books\\kz_book_uk_special_part_commentary_old_20260511_105556\\kz_book_uk_special_part_commentary_old_section_012.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_book_uk_special_part_commentary_old\\kz_book_uk_special_part_commentary_old_section_012.json"
+    },
+    {
+      "article": "section_013",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\books\\kz_book_uk_special_part_commentary_old_20260511_105556\\kz_book_uk_special_part_commentary_old_section_013.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_book_uk_special_part_commentary_old\\kz_book_uk_special_part_commentary_old_section_013.json"
+    },
+    {
+      "article": "section_014",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\books\\kz_book_uk_special_part_commentary_old_20260511_105556\\kz_book_uk_special_part_commentary_old_section_014.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_book_uk_special_part_commentary_old\\kz_book_uk_special_part_commentary_old_section_014.json"
+    },
+    {
+      "article": "section_015",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\books\\kz_book_uk_special_part_commentary_old_20260511_105556\\kz_book_uk_special_part_commentary_old_section_015.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_book_uk_special_part_commentary_old\\kz_book_uk_special_part_commentary_old_section_015.json"
+    },
+    {
+      "article": "section_016",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\books\\kz_book_uk_special_part_commentary_old_20260511_105556\\kz_book_uk_special_part_commentary_old_section_016.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_book_uk_special_part_commentary_old\\kz_book_uk_special_part_commentary_old_section_016.json"
+    },
+    {
+      "article": "section_017",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\books\\kz_book_uk_special_part_commentary_old_20260511_105556\\kz_book_uk_special_part_commentary_old_section_017.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_book_uk_special_part_commentary_old\\kz_book_uk_special_part_commentary_old_section_017.json"
+    },
+    {
+      "article": "section_018",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\books\\kz_book_uk_special_part_commentary_old_20260511_105556\\kz_book_uk_special_part_commentary_old_section_018.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_book_uk_special_part_commentary_old\\kz_book_uk_special_part_commentary_old_section_018.json"
+    }
+  ],
+  "errors": [],
+  "skipped_conflicts": [],
+  "skipped_existing": [],
+  "skipped_by_range": [],
+  "backup_dir": null,
+  "copied": [],
+  "stopped": false
+}

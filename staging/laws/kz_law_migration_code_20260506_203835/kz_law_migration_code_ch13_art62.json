@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_migration_code_ch13_art62",
+  "doc_type": "law_article",
+  "source_id": "kz_law_migration_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О миграции населения\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "13",
+    "title": "ЗАКЛЮЧИТЕЛЬНЫЕ ПОЛОЖЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "a5be2de5e462c2850933cdde04a6feec644373c6bb2ddbab13a0da8859ca0621",
+  "articles": [
+    {
+      "article": "62",
+      "title": "Порядок применения настоящего Закона",
+      "text": "1. Настоящий Закон применяется к отношениям в области миграции населения, возникшим после введения его в действие.\n\n      2. Документы, выданные уполномоченными государственными органами до введения в действие настоящего Закона, сохраняют свое действие."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,13 @@
+/* ZangerPro AI — minimal app stylesheet.
+ * Tailwind via CDN handles the bulk of styling; this file holds small
+ * runtime tweaks only.
+ */
+
+html { scroll-behavior: smooth; }
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+#chat-log { display: flex; flex-direction: column; }
+#chat-log > * { max-width: 90%; }
+.self-end { align-self: flex-end; }
+
+button[disabled] { opacity: 0.6; cursor: not-allowed; }

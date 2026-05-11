@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_health_code_ch28_art234",
+  "doc_type": "code_article",
+  "source_id": "kz_health_code",
+  "jurisdiction": "KZ",
+  "source": "Кодекс Республики Казахстан \"О здоровье народа и системе здравоохранения\"",
+  "language": "ru",
+  "industry": [
+    "health_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "28",
+    "title": "ОБРАЩЕНИЕ ЛЕКАРСТВЕННЫХ СРЕДСТВ И МЕДИЦИНСКИХ ИЗДЕЛИЙ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "a273151eef23e815a1ce3e3c4d9711dfc6e7e8a6602a7fa563a905064abcd5f0",
+  "articles": [
+    {
+      "article": "234",
+      "title": "Система сферы обращения лекарственных средств и медицинских изделий",
+      "text": "Сноска. Статья 234 исключена Законом РК от 06.04.2024 № 71-VIII (вводится в действие по истечении шестидесяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

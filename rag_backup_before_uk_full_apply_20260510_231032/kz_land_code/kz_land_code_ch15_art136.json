@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_land_code_ch15_art136",
+  "doc_type": "code_article",
+  "source_id": "kz_land_code",
+  "jurisdiction": "KZ",
+  "source": "Земельный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "15",
+    "title": "Земли водного фонда"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "fbfedf2742ffb99c18b803ae432a5b3bdb468bd29cce839b88383f2353b683b1",
+  "articles": [
+    {
+      "article": "136",
+      "title": "Порядок использования земель водного фонда",
+      "text": "Использование земель водного фонда осуществляется в порядке и на условиях, установленных настоящим Кодексом и водным законодательством Республики Казахстан."
+    }
+  ],
+  "notes": []
+}

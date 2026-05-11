@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_uk_code_ch8_art241",
+  "doc_type": "code_article",
+  "source_id": "kz_uk_code",
+  "jurisdiction": "KZ",
+  "source": "Уголовный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "criminal_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "8",
+    "title": "УГОЛОВНЫЕ ПРАВОНАРУШЕНИЯ В СФЕРЕ ЭКОНОМИЧЕСКОЙ ДЕЯТЕЛЬНОСТИ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "c1398bed6752458cc5cd7315c63a7f33b6784401d6d9a41a3655fd602a521b90",
+  "articles": [
+    {
+      "article": "241",
+      "title": "Нарушение законодательства Республики Казахстан о бухгалтерском учете и финансовой отчетности",
+      "text": "Сноска. Статья 241 исключена Законом РК от 05.07.2024 № 113-VIII (вводится в действие по истечении шестидесяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

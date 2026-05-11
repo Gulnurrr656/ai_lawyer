@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_migration_code_ch3_art22",
+  "doc_type": "law_article",
+  "source_id": "kz_law_migration_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О миграции населения\"",
+  "language": "ru",
+  "industry": [
+    "migration_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "3",
+    "title": "ИММИГРАЦИЯ С ЦЕЛЬЮ ВОЗВРАЩЕНИЯ НА ИСТОРИЧЕСКУЮ РОДИНУ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "1ea85f4093960640fad8b80daaff0c3c5a21cfe0e25f7f77e58354a360f5ccdc",
+  "articles": [
+    {
+      "article": "22",
+      "title": "Особенности включения в квоту иммиграции оралманов отдельных членов семей этнических казахов",
+      "text": "Сноска. Статья 22 исключена Законом РК от 10.12.2013 № 153-V (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

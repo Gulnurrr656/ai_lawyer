@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}{{ t('orders_my_title', lang) }} — {{ brand }}{% endblock %}
+
+{% block content %}
+<div class="max-w-4xl mx-auto px-4 py-12">
+    <h1 class="text-2xl font-semibold text-zp-deep">{{ t('orders_my_title', lang) }}</h1>
+
+    {% if not orders %}
+    <p class="text-sm text-zp-mute mt-6">{{ t('orders_empty', lang) }}</p>
+    <a href="/pricing" class="inline-block mt-4 px-4 py-2 rounded-md bg-zp-gold text-zp-deep text-sm font-semibold">{{ t('pricing_title', lang) }} →</a>
+    {% else %}
+    <div class="mt-6 bg-white border border-zp-line rounded-lg shadow-zp-card divide-y divide-zp-line">
+        {% for o in orders %}
+        <a href="/orders/{{ o.order_id }}" class="flex flex-wrap items-center justify-between gap-3 px-4 py-3 hover:bg-zp-bg">
+            <div>
+                <span class="font-mono text-xs text-zp-mute">{{ o.order_id }}</span>
+                <span class="ml-3 text-sm text-zp-deep">{{ o.tariff_code }}</span>
+            </div>
+            <div class="flex items-center gap-3 text-sm">
+                <span class="font-semibold text-zp-deep">{{ o.amount_kzt }} ₸</span>
+                <span class="text-xs text-zp-mute">{{ o.status }}</span>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_competition_code_ch10_art72",
+  "doc_type": "law_article",
+  "source_id": "kz_law_competition_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О конкуренции\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "10",
+    "title": "Пресечение нарушений антимонопольного"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "f49f6bea6a330126cb29428988ec301c84f7ae1a4a4b6753b30f2b9f2c82d07c",
+  "articles": [
+    {
+      "article": "72",
+      "title": "Проверка предписаний территориальных",
+      "text": "органов антимонопольного органа\n\n      Предписания, принятые территориальными органами антимонопольного органа, могут быть проверены по заявлениям субъектов  рынка или по инициативе вышестоящего антимонопольного органа."
+    }
+  ],
+  "notes": []
+}

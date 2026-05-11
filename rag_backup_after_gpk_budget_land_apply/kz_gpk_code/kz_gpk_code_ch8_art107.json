@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_gpk_code_ch8_art107",
+  "doc_type": "code_article",
+  "source_id": "kz_gpk_code",
+  "jurisdiction": "KZ",
+  "source": "Гражданский процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "8",
+    "title": "СУДЕБНЫЕ РАСХОДЫ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "2c75d166b454c1bf8c9db1b72ed07021c75f48dea9a9b8a1cc2a73c8eb475582",
+  "articles": [
+    {
+      "article": "107",
+      "title": "Возврат государственной пошлины",
+      "text": "Порядок возврата государственной пошлины определяется Кодексом Республики Казахстан \"О налогах и других обязательных платежах в бюджет\" (Налоговый кодекс)."
+    }
+  ],
+  "notes": []
+}

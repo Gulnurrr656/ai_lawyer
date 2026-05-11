@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_constitution_2026_ch2_art40",
+  "doc_type": "code_article",
+  "source_id": "kz_constitution_2026",
+  "jurisdiction": "KZ",
+  "source": "Конституция Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "constitutional_law"
+  ],
+  "authority_level": "constitution",
+  "status": "active",
+  "chapter": {
+    "number": "2",
+    "title": "Основные права, свободы и обязанности"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "636d6c9d79985a1808e075fc845707a50c04092a7d9332616d2ee6c08cd6e43d",
+  "articles": [
+    {
+      "article": "40",
+      "title": "",
+      "text": "Граждане Республики Казахстан обязаны заботиться о сохранении исторического и культурного наследия, бережно относиться к памятникам истории и культуры."
+    }
+  ],
+  "notes": []
+}

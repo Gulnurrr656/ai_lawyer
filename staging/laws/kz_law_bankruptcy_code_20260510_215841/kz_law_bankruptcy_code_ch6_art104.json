@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_bankruptcy_code_ch6_art104",
+  "doc_type": "law_article",
+  "source_id": "kz_law_bankruptcy_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О реабилитации и банкротстве\"",
+  "language": "ru",
+  "industry": [
+    "bankruptcy_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "6",
+    "title": "ПРОЦЕДУРА БАНКРОТСТВА"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "e4c0813b76f873431eae295a8035b9a19f5cd93685133eab4347d7124b54a85b",
+  "articles": [
+    {
+      "article": "104",
+      "title": "Удовлетворение требований залоговых кредиторов",
+      "text": "Сноска. Статья 104 исключена Законом РК от 27.12.2019 № 290-VI (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

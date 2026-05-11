@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_gpk_code_ch57_art471",
+  "doc_type": "code_article",
+  "source_id": "kz_gpk_code",
+  "jurisdiction": "KZ",
+  "source": "Гражданский процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "civil_procedure"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "57",
+    "title": "ПРОИЗВОДСТВО ПО ДЕЛАМ С УЧАСТИЕМ ИНОСТРАННЫХ ЛИЦ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "15d5d4a5739016fd71a20b3bdc49b42a00168f731992d8752eeb438054725ab4",
+  "articles": [
+    {
+      "article": "471",
+      "title": "Подсудность",
+      "text": "Подсудность дел, отнесенных законодательством Республики Казахстан к компетенции судов Республики Казахстан, определяется по правилам подсудности, установленным главой 3 настоящего Кодекса."
+    }
+  ],
+  "notes": []
+}

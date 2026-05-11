@@ -1,0 +1,217 @@
+{% extends "base.html" %}
+{% block title %}{{ brand }} — {{ t('hero_title', lang) }}{% endblock %}
+
+{% set hero = get_hero(lang) %}
+{% set boundary = get_boundary_block(lang) %}
+{% set professor = get_professor_block(lang) %}
+{% set rag_block = get_rag_adilet_block(lang) %}
+{% set modules = get_modules(lang) %}
+{% set legal_base = get_legal_base_block(inventory or {}, lang) %}
+
+{% block content %}
+{# ===================================================================
+   HERO — single language per render, premium navy + gold
+   =================================================================== #}
+<section class="relative overflow-hidden">
+    <div class="absolute inset-0 -z-10 bg-gradient-to-br from-zp-deep via-[#0E2D63] to-[#143F8C]"></div>
+    <div class="absolute inset-x-0 top-0 -z-10 opacity-15 text-zp-sky" aria-hidden="true">
+        <img src="/static/img/ornament.svg" alt="" class="w-full h-12 select-none" />
+    </div>
+    <div class="absolute inset-x-0 bottom-0 -z-10 opacity-10 text-zp-sky rotate-180" aria-hidden="true">
+        <img src="/static/img/ornament.svg" alt="" class="w-full h-12 select-none" />
+    </div>
+
+    <div class="max-w-6xl mx-auto px-4 py-20 md:py-28 text-white">
+        <div class="max-w-3xl">
+            <p class="uppercase tracking-widest text-xs text-zp-gold mb-4">{{ brand }} · LegalTech</p>
+            <h1 class="text-3xl md:text-5xl font-semibold leading-tight">{{ hero.title }}</h1>
+
+            <div class="mt-7 max-w-2xl border-l-2 border-zp-gold/70 pl-4">
+                <p class="text-base md:text-lg text-blue-50">{{ hero.long }}</p>
+            </div>
+
+            <p class="text-sm text-zp-gold mt-5 max-w-2xl">{{ hero.not_a_chat }}</p>
+
+            <div class="mt-9 flex flex-wrap gap-3">
+                <a href="/consultation/new"
+                   class="px-5 py-3 rounded-md bg-zp-gold text-zp-deep font-semibold hover:brightness-105 shadow-sm">
+                    {{ t('cta_analyze_case', lang) }}
+                </a>
+                <a href="/documents/new"
+                   class="px-5 py-3 rounded-md bg-white text-zp-deep font-semibold hover:bg-zp-bg">
+                    {{ t('cta_prepare_doc', lang) }}
+                </a>
+                <a href="/consultation/new?topic=criminal_risk"
+                   class="px-5 py-3 rounded-md border border-zp-gold/60 text-zp-gold font-medium hover:bg-zp-gold/10">
+                    {{ t('cta_check_criminal_risk', lang) }}
+                </a>
+                <a href="{% if user %}/dashboard{% else %}/login{% endif %}"
+                   class="px-5 py-3 rounded-md border border-white/40 text-white font-medium hover:bg-white/10">
+                    {{ t('cta_cabinet', lang) }}
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+{# ===================================================================
+   9 FEATURE CARDS
+   =================================================================== #}
+<section id="features" class="max-w-6xl mx-auto px-4 py-16">
+    <div class="mb-8">
+        <p class="uppercase tracking-widest text-xs text-zp-gold mb-2">{{ t('menu_features', lang) }}</p>
+        <h2 class="text-2xl md:text-3xl font-semibold text-zp-deep">{{ t('menu_features', lang) }}</h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        {% for m in modules %}
+        <a href="{{ m.href }}"
+           class="group block bg-white border border-zp-line rounded-lg p-5 hover:shadow-zp-card hover:border-zp-gold/60 transition">
+            <div class="flex items-start justify-between">
+                <div class="text-lg font-medium text-zp-deep">{{ m.title }}</div>
+                <span class="text-zp-gold opacity-0 group-hover:opacity-100 transition text-sm">→</span>
+            </div>
+            <div class="text-xs text-zp-mute/80 mt-3 leading-relaxed">{{ m.desc }}</div>
+        </a>
+        {% endfor %}
+    </div>
+</section>
+
+{# ===================================================================
+   CRIMINAL / CIVIL / ADMIN BOUNDARY BLOCK
+   =================================================================== #}
+<section id="boundary" class="bg-zp-deep text-white">
+    <div class="max-w-6xl mx-auto px-4 py-16">
+        <p class="uppercase tracking-widest text-xs text-zp-gold mb-2">{{ boundary.kicker }}</p>
+        <h2 class="text-2xl md:text-3xl font-semibold">{{ boundary.title }}</h2>
+
+        <div class="mt-6 max-w-3xl border-l-2 border-zp-gold/70 pl-4">
+            <p class="text-blue-50">{{ boundary.text }}</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-3 mt-8">
+            {% for c in boundary.cards %}
+            <a href="{{ c.href }}"
+               class="group block bg-white/5 border border-white/10 hover:border-zp-gold/60 hover:bg-white/10 rounded-md p-4 transition">
+                <div class="flex items-center justify-between">
+                    <div class="font-medium text-white">{{ c.title }}</div>
+                    <span class="text-zp-gold opacity-0 group-hover:opacity-100 transition text-sm">→</span>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+
+        <p class="text-xs text-blue-100/60 mt-6 max-w-3xl">{{ boundary.disclaimer }}</p>
+    </div>
+</section>
+
+{# ===================================================================
+   PROFESSOR ADVOCATE BLOCK
+   =================================================================== #}
+<section id="professor" class="bg-white">
+    <div class="max-w-6xl mx-auto px-4 py-16">
+        <p class="uppercase tracking-widest text-xs text-zp-gold mb-2">{{ professor.kicker }}</p>
+        <h2 class="text-2xl md:text-3xl font-semibold text-zp-deep">{{ professor.title }}</h2>
+
+        <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
+            <div class="md:col-span-1">
+                <div class="border-l-2 border-zp-gold pl-4">
+                    <p class="text-zp-deep">{{ professor.text }}</p>
+                </div>
+                <div class="mt-6 flex flex-wrap gap-3">
+                    <a href="/consultation/new?mode=professor"
+                       class="px-4 py-2.5 rounded-md bg-zp-deep text-white text-sm font-medium hover:bg-zp-blue">
+                        {{ t('cta_analyze_case', lang) }}
+                    </a>
+                    <a href="/documents/new"
+                       class="px-4 py-2.5 rounded-md border border-zp-gold/60 text-zp-deep text-sm font-medium hover:bg-zp-gold/10">
+                        {{ t('cta_prepare_doc', lang) }}
+                    </a>
+                </div>
+            </div>
+
+            <div class="md:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-3">
+                {% for f in professor.features %}
+                <div class="border border-zp-line rounded-md p-3 bg-zp-bg/40">
+                    <div class="flex items-start gap-2">
+                        <span class="mt-1 inline-block w-1.5 h-1.5 rounded-full bg-zp-gold flex-shrink-0"></span>
+                        <div class="text-sm font-medium text-zp-deep">{{ f.title }}</div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+{# ===================================================================
+   RAG + ADILET PIPELINE BLOCK
+   =================================================================== #}
+<section id="rag-adilet" class="bg-zp-bg/60">
+    <div class="max-w-6xl mx-auto px-4 py-16">
+        <p class="uppercase tracking-widest text-xs text-zp-gold mb-2">{{ rag_block.kicker }}</p>
+        <h2 class="text-2xl md:text-3xl font-semibold text-zp-deep">{{ rag_block.title }}</h2>
+
+        <div class="mt-6 max-w-3xl border-l-2 border-zp-gold pl-4">
+            <p class="text-zp-deep">{{ rag_block.text }}</p>
+        </div>
+
+        <ol class="mt-8 grid grid-cols-1 md:grid-cols-5 gap-3">
+            {% for s in rag_block.steps %}
+            <li class="bg-white border border-zp-line rounded-md p-4">
+                <div class="flex items-center gap-2">
+                    <span class="text-zp-deep font-semibold text-sm w-6 h-6 rounded-md bg-zp-gold/15 border border-zp-gold/40 flex items-center justify-center">{{ loop.index }}</span>
+                    <div class="text-sm font-medium text-zp-deep">{{ s.title }}</div>
+                </div>
+                <div class="text-xs text-zp-mute/80 mt-3">{{ s.desc }}</div>
+            </li>
+            {% endfor %}
+        </ol>
+
+        <p class="text-xs text-zp-mute mt-6 max-w-3xl">{{ rag_block.disclaimer }}</p>
+    </div>
+</section>
+
+{# ===================================================================
+   LEGAL BASE — DUAL COVERAGE (internal RAG + external Adilet)
+   =================================================================== #}
+<div id="rag-base">{% include "_legal_base_block.html" %}</div>
+
+{# ===================================================================
+   HOW IT WORKS
+   =================================================================== #}
+<section id="how" class="max-w-6xl mx-auto px-4 py-16">
+    <p class="uppercase tracking-widest text-xs text-zp-gold mb-2">{{ t('menu_how', lang) }}</p>
+    <h2 class="text-2xl md:text-3xl font-semibold text-zp-deep mb-8">{{ t('menu_how', lang) }}</h2>
+    <ol class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {% for i in range(1, 7) %}
+        <li class="flex gap-4 items-start bg-white border border-zp-line rounded-md p-4">
+            <span class="text-zp-deep font-semibold text-lg w-7 h-7 rounded-md bg-zp-gold/15 border border-zp-gold/40 flex items-center justify-center">{{ i }}</span>
+            <div class="font-medium text-zp-deep">{{ t('how_step_' ~ i, lang) }}</div>
+        </li>
+        {% endfor %}
+    </ol>
+</section>
+
+{# ===================================================================
+   FINAL CTA
+   =================================================================== #}
+<section class="max-w-6xl mx-auto px-4 py-16">
+    <div class="relative bg-zp-deep text-white rounded-lg p-8 md:p-12 overflow-hidden">
+        <div class="absolute inset-x-0 bottom-0 opacity-10 text-zp-sky" aria-hidden="true">
+            <img src="/static/img/ornament.svg" alt="" class="w-full h-12 select-none" />
+        </div>
+        <p class="uppercase tracking-widest text-xs text-zp-gold mb-2">{{ t('cta_pricing', lang) }}</p>
+        <h2 class="text-2xl md:text-3xl font-semibold">{{ t('cta_try_free', lang) }}</h2>
+        <p class="text-blue-100 mt-3 max-w-2xl">{{ hero.disclaimer }}</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+            <a href="{% if user %}/dashboard{% else %}/register{% endif %}" class="inline-block px-5 py-3 rounded-md bg-zp-gold text-zp-deep font-semibold hover:brightness-105">
+                {{ t('cta_try_free', lang) }}
+            </a>
+            <a href="/pricing" class="inline-block px-5 py-3 rounded-md border border-white/30 text-white hover:bg-white/10">
+                {{ t('cta_pricing', lang) }}
+            </a>
+        </div>
+    </div>
+</section>
+{% endblock %}

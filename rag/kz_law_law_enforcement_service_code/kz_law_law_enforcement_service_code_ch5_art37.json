@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_law_enforcement_service_code_ch5_art37",
+  "doc_type": "law_article",
+  "source_id": "kz_law_law_enforcement_service_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан «О правоохранительной службе»",
+  "language": "ru",
+  "industry": [
+    "criminal_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "5",
+    "title": "НАЗНАЧЕНИЕ НА ДОЛЖНОСТЬ, ПЕРЕМЕЩЕНИЕ И"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "1db93ec11b3cc4575abf4a6967441af414805e3ece3704d2185621b0b82b8159",
+  "articles": [
+    {
+      "article": "37",
+      "title": "Отбор кандидатов для зачисления в кадровый резерв",
+      "text": "Сноска. Статья 37 исключена Законом РК от 10.01.2025 № 156-VIII (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

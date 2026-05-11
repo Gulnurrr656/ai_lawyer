@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_gpk_code_ch7_art67",
+  "doc_type": "code_article",
+  "source_id": "kz_gpk_code",
+  "jurisdiction": "KZ",
+  "source": "Гражданский процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "civil_procedure"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "7",
+    "title": "ДОКАЗАТЕЛЬСТВА И ДОКАЗЫВАНИЕ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "08d9e6ca5c029573b4d9c733a3c4ec2adf0fc4ab647a9b36589c338811eb2dbe",
+  "articles": [
+    {
+      "article": "67",
+      "title": "Достоверность доказательств",
+      "text": "Доказательство считается достоверным, если в результате проверки выяснится, что оно соответствует действительности."
+    }
+  ],
+  "notes": []
+}

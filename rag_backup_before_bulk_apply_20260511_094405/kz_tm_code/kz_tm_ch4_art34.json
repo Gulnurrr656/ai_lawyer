@@ -1,0 +1,23 @@
+{
+  "doc_id": "kz_tm_ch4_art34",
+  "doc_type": "code",
+  "jurisdiction": "KZ",
+  "source": "Трудовой кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": ["трудовое право"],
+  "chapter": {
+    "number": 4,
+    "title": "ТРУДОВОЙ ДОГОВОР"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "articles": [
+    {
+      "article": 34,
+      "title": "Оформление приема на работу",
+      "text": "Прием на работу оформляется актом работодателя, издаваемым на основании заключенного трудового договора."
+    }
+  ],
+  "notes": []
+}
+

@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_gpk_code_ch34_art320",
+  "doc_type": "code_article",
+  "source_id": "kz_gpk_code",
+  "jurisdiction": "KZ",
+  "source": "Гражданский процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "34",
+    "title": "ПРОИЗВОДСТВО ПО ДЕЛАМ О ПРИЗНАНИИ ГРАЖДАНИНА"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "318df8984265bc416e3b87696455d9c1fd79969c1cefea28f55a8d83509d7be1",
+  "articles": [
+    {
+      "article": "320",
+      "title": "Обязательность участия прокурора",
+      "text": "Сноска. Статья 320 исключена Законом РК от 11.07.2017 № 91-VI (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

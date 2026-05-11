@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_family_code_ch30_art266",
+  "doc_type": "code_article",
+  "source_id": "kz_family_code",
+  "jurisdiction": "KZ",
+  "source": "Кодекс Республики Казахстан О браке (супружестве) и семье",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "30",
+    "title": "Перемена имени, отчества, фамилии"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "73fe1fff60e909d7cbc9a6f87d37cecd93c8f846a3d114bad184401c88b22764",
+  "articles": [
+    {
+      "article": "266",
+      "title": "Свидетельство о перемене имени, отчества, фамилии",
+      "text": "Сноска. Статья 266 исключена Законом РК от 14.07.2022 № 141-VII (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

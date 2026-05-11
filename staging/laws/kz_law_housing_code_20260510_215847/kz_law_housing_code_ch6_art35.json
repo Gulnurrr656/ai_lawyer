@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_housing_code_ch6_art35",
+  "doc_type": "law_article",
+  "source_id": "kz_law_housing_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О жилищных отношениях\"",
+  "language": "ru",
+  "industry": [
+    "housing_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "6",
+    "title": "Кондоминиум многоквартирного жилого дома"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "1a8079a205e7ca5fb792eed6341170f80ce12af1f8914e81f106dadd4db86180",
+  "articles": [
+    {
+      "article": "35",
+      "title": "Обязанности собственников помещений (квартир)",
+      "text": "Сноска. Статья 35 исключена Законом РК от 26.12.2019 № 284-VІ (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

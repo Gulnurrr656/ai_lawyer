@@ -1,0 +1,216 @@
+{
+  "source_id": "kz_vs_np_criminal_minors_code",
+  "batch": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257",
+  "mode": "missing-only",
+  "from_article": null,
+  "to_article": null,
+  "dry_run": true,
+  "apply": false,
+  "RAG_CHANGED": false,
+  "BLOCKED_BY_MOJIBAKE": false,
+  "suspicious_mojibake_count": 0,
+  "approved_candidates": [
+    {
+      "article": "1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p001.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p001.json"
+    },
+    {
+      "article": "10",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p010.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p010.json"
+    },
+    {
+      "article": "11",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p011.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p011.json"
+    },
+    {
+      "article": "12",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p012.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p012.json"
+    },
+    {
+      "article": "13",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p013.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p013.json"
+    },
+    {
+      "article": "14",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p014.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p014.json"
+    },
+    {
+      "article": "15",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p015.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p015.json"
+    },
+    {
+      "article": "16",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p016.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p016.json"
+    },
+    {
+      "article": "16-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p16-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p16-1.json"
+    },
+    {
+      "article": "17",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p017.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p017.json"
+    },
+    {
+      "article": "18",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p018.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p018.json"
+    },
+    {
+      "article": "19",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p019.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p019.json"
+    },
+    {
+      "article": "19-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p19-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p19-1.json"
+    },
+    {
+      "article": "2",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p002.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p002.json"
+    },
+    {
+      "article": "20",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p020.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p020.json"
+    },
+    {
+      "article": "21",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p021.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p021.json"
+    },
+    {
+      "article": "22",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p022.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p022.json"
+    },
+    {
+      "article": "23",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p023.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p023.json"
+    },
+    {
+      "article": "24",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p024.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p024.json"
+    },
+    {
+      "article": "25",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p025.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p025.json"
+    },
+    {
+      "article": "26",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p026.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p026.json"
+    },
+    {
+      "article": "27",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p027.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p027.json"
+    },
+    {
+      "article": "28",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p028.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p028.json"
+    },
+    {
+      "article": "29",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p029.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p029.json"
+    },
+    {
+      "article": "3",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p003.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p003.json"
+    },
+    {
+      "article": "30",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p030.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p030.json"
+    },
+    {
+      "article": "31",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p031.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p031.json"
+    },
+    {
+      "article": "31-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p31-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p31-1.json"
+    },
+    {
+      "article": "32",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p032.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p032.json"
+    },
+    {
+      "article": "33",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p033.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p033.json"
+    },
+    {
+      "article": "34",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p034.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p034.json"
+    },
+    {
+      "article": "35",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p035.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p035.json"
+    },
+    {
+      "article": "36",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p036.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p036.json"
+    },
+    {
+      "article": "4",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p004.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p004.json"
+    },
+    {
+      "article": "5",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p005.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p005.json"
+    },
+    {
+      "article": "6",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p006.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p006.json"
+    },
+    {
+      "article": "7",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p007.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p007.json"
+    },
+    {
+      "article": "8",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p008.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p008.json"
+    },
+    {
+      "article": "9",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\vs_np\\kz_vs_np_criminal_minors_code_20260511_105257\\kz_vs_np_criminal_minors_code_p009.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_vs_np_criminal_minors_code\\kz_vs_np_criminal_minors_code_p009.json"
+    }
+  ],
+  "errors": [],
+  "skipped_conflicts": [],
+  "skipped_existing": [],
+  "skipped_by_range": [],
+  "backup_dir": null,
+  "copied": [],
+  "stopped": false
+}

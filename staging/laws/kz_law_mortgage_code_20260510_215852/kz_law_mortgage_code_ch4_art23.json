@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_mortgage_code_ch4_art23",
+  "doc_type": "law_article",
+  "source_id": "kz_law_mortgage_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"Об ипотеке недвижимого имущества\"",
+  "language": "ru",
+  "industry": [
+    "mortgage_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "4",
+    "title": "Реализация ипотеки"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "5be8ddcedae035464469976c70adc02088fe3073b44bea4159e1ccd7503050d5",
+  "articles": [
+    {
+      "article": "23",
+      "title": "Возмещение расходов, связанных с реализацией ипотеки",
+      "text": "Произведенные залогодержателем расходы, связанные с реализацией ипотеки, возмещаются ему из стоимости заложенного имущества."
+    }
+  ],
+  "notes": []
+}

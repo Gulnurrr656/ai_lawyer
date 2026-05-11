@@ -1,4 +1,5 @@
 import html
+import logging
 from io import BytesIO
 
 from aiogram import F, Router
@@ -16,12 +17,39 @@ from app.services.document_text_extract import (
     clamp_document_text_for_analyze,
     extract_uploaded_document,
 )
-from app.shared.main_menu import BTN_ANALYZE
+from app.shared.main_menu import BTN_ANALYZE, main_menu_button_matches
+from app.shared.fsm_scenario import (
+    FSM_ACTIVE_FEATURE,
+    FSM_ACTIVE_SCENARIO,
+    FSM_SCENARIO_ID_KEY,
+    FEATURE_ANALYZE,
+    SCENARIO_ANALYZE,
+    scenario_mismatch_for_analyze,
+)
+from app.shared.scenario_registry import SCENARIO_ANALYZE_DOCUMENT
+from app.shared.demo_messaging import friendly_analysis_message_html
+from app.shared.free_usage import (
+    assert_can_deliver_result,
+    free_tier_footer_html,
+    record_completed_result,
+)
 from app.shared.telegram_chunks import split_text_to_html_chunks_for_telegram
+from app.shared.ux_copy import (
+    UX_AFTER_BRANCH_HTML,
+    UX_BEFORE_GENERATION_HTML,
+    UX_FREE_NARRATIVE_INVITE_HTML,
+    UX_RIBBON_HTML,
+    UX_THIN_DATA_HTML,
+)
 
 CONFIRM_PREVIEW_CHAR_LIMIT = 600
 
 router = Router()
+logger = logging.getLogger(__name__)
+def _uid(m: Message) -> int | None:
+    return m.from_user.id if m.from_user else None
+
+
 CONFIRM_WORDS = {
     "да",
     "подтверждаю",
@@ -73,6 +101,14 @@ async def _advance_after_document_body(message: Message, state: FSMContext) -> N
 async def _start_analysis(message: Message, state: FSMContext):
     await state.clear()
     await state.set_state(AnalysisStates.document_type)
+    await state.update_data(
+        **{
+            FSM_ACTIVE_SCENARIO: SCENARIO_ANALYZE,
+            FSM_ACTIVE_FEATURE: FEATURE_ANALYZE,
+            FSM_SCENARIO_ID_KEY: SCENARIO_ANALYZE_DOCUMENT,
+        }
+    )
+    uid = _uid(message)
     await message.answer(
         "🔍 <b>Юридический анализ документа</b>\n\n"
         "Какой документ нужно проанализировать?\n"
@@ -81,12 +117,15 @@ async def _start_analysis(message: Message, state: FSMContext):
         "• соглашение\n"
         "• акт\n"
         "• претензия\n"
-        "• иной документ"
+        "• иной документ\n\n"
+        + UX_RIBBON_HTML
+        + free_tier_footer_html(uid),
+        parse_mode=ParseMode.HTML,
     )
 
 
 @router.message(Command("analysis"))
-@router.message(F.text == BTN_ANALYZE)
+@router.message(F.text.func(lambda text: main_menu_button_matches(text, BTN_ANALYZE, "analysis", "analyze")))
 async def start(message: Message, state: FSMContext):
     await _start_analysis(message, state)
 
@@ -110,12 +149,16 @@ async def _set_document_type_and_prompt_body(message: Message, state: FSMContext
     await state.update_data(document_type=(message.text or "").strip())
     await state.set_state(AnalysisStates.document_text)
     await message.answer(
+        UX_FREE_NARRATIVE_INVITE_HTML
+        + "\n\n"
         "Пришли <b>текст документа</b> одним сообщением "
         "или загрузи файл <b>PDF</b> (с текстовым слоем) / <b>DOCX</b>.\n\n"
         "⚠️ Скан PDF без текстового слоя не поддерживается (без OCR).\n"
         f"⚠️ Макс. размер файла: {MAX_UPLOAD_BYTES // (1024 * 1024)} МБ.\n"
         f"⚠️ Макс. длина текста для анализа: {MAX_EXTRACTED_TEXT_CHARS} символов "
-        "(лишнее обрежется с предупреждением)."
+        "(лишнее обрежется с предупреждением).\n\n"
+        + UX_AFTER_BRANCH_HTML,
+        parse_mode=ParseMode.HTML,
     )
 
 
@@ -260,6 +303,8 @@ async def get_context(message: Message, state: FSMContext):
         f"<b>Цель анализа:</b>\n{html.escape(str(data.get('goals') or ''))}\n\n"
         f"<b>Контекст:</b>\n{html.escape(context_text or 'не указан')}\n\n"
         "Если всё верно — напиши <b>подтвердить</b>."
+        + free_tier_footer_html(_uid(message)),
+        parse_mode=ParseMode.HTML,
     )
     await state.set_state(AnalysisStates.confirm)
 
@@ -283,28 +328,61 @@ async def confirm(message: Message, state: FSMContext):
     if (message.text or "").strip().lower() not in CONFIRM_WORDS:
         await message.answer(
             "Если данные верны — напиши <b>подтвердить</b>.\n"
-            "Или начни заново командой /analysis."
+            "Или начни заново командой /analysis.",
+            parse_mode=ParseMode.HTML,
         )
         return
 
     facts = await state.get_data()
 
-    # 🔒 FSM ЗАКРЫВАЕМ ДО АНАЛИЗА — КАНОН
-    await state.clear()
-
-    await message.answer("⚖️ Выполняю юридический анализ документа, пожалуйста подожди…")
-
-    try:
-        result = await generate_analysis(facts)
-    except Exception as e:
+    if scenario_mismatch_for_analyze(facts):
+        await state.clear()
         await message.answer(
-            "❌ <b>Не удалось выполнить анализ</b>\n\n"
-            f"Причина:\n<code>{html.escape(str(e))}</code>",
+            "Активен другой сценарий (не анализ документа). Откройте анализ через меню или /analysis.",
             parse_mode=ParseMode.HTML,
         )
         return
 
-    await _send_analysis_chunks(message, (result or {}).get("text", ""))
+    uid = _uid(message)
+    ok, wall = assert_can_deliver_result(uid)
+    if not ok:
+        await message.answer(wall, parse_mode=ParseMode.HTML)
+        return
+
+    # 🔒 FSM ЗАКРЫВАЕМ ДО АНАЛИЗА — КАНОН
+    await state.clear()
+
+    await message.answer(
+        f"{UX_BEFORE_GENERATION_HTML}\n\n"
+        "⚖️ Выполняю юридический анализ документа, пожалуйста подожди…"
+        + free_tier_footer_html(uid),
+        parse_mode=ParseMode.HTML,
+    )
+
+    try:
+        result = await generate_analysis(facts)
+    except Exception as e:
+        logger.exception("document analysis failed")
+        await message.answer(
+            friendly_analysis_message_html(e),
+            parse_mode=ParseMode.HTML,
+        )
+        return
+
+    res = result or {}
+    body = (res.get("text") or "").strip()
+    if not body:
+        await message.answer(
+            f"❌ Анализ вернул пустой текст.\n\n{UX_THIN_DATA_HTML}",
+            parse_mode=ParseMode.HTML,
+        )
+        return
+    await _send_analysis_chunks(message, res.get("text", ""))
+    record_completed_result(uid)
+
+    norms = (res.get("rag_sources_summary") or "").strip()
+    if norms:
+        await message.answer(norms)
 
 
 @router.message(AnalysisStates.confirm)

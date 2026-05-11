@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}{{ t('admin_orders_title', lang) }} — {{ brand }}{% endblock %}
+
+{% block content %}
+<div class="max-w-6xl mx-auto px-4 py-10">
+    <h1 class="text-2xl font-semibold text-zp-deep">{{ t('admin_orders_title', lang) }}</h1>
+
+    {% if orders %}
+    <div class="mt-6 bg-white border border-zp-line rounded-lg shadow-zp-card overflow-x-auto">
+        <table class="min-w-full text-sm">
+            <thead class="text-xs uppercase tracking-wide text-zp-mute bg-zp-bg">
+                <tr>
+                    <th class="px-4 py-2 text-left">order_id</th>
+                    <th class="px-4 py-2 text-left">user_id</th>
+                    <th class="px-4 py-2 text-left">{{ t('order_tariff_label', lang) }}</th>
+                    <th class="px-4 py-2 text-left">{{ t('order_amount_label', lang) }}</th>
+                    <th class="px-4 py-2 text-left">{{ t('order_provider_label', lang) }}</th>
+                    <th class="px-4 py-2 text-left">{{ t('order_status_label', lang) }}</th>
+                    <th class="px-4 py-2 text-left">case_id</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-zp-line">
+                {% for o in orders %}
+                <tr class="hover:bg-zp-bg/40">
+                    <td class="px-4 py-2 font-mono text-xs"><a class="text-zp-blue hover:underline" href="/admin/orders/{{ o.order_id }}">{{ o.order_id }}</a></td>
+                    <td class="px-4 py-2 font-mono">{{ o.user_id }}</td>
+                    <td class="px-4 py-2">{{ o.tariff_code }}</td>
+                    <td class="px-4 py-2 font-semibold">{{ o.amount_kzt }} ₸</td>
+                    <td class="px-4 py-2">{{ o.provider }}</td>
+                    <td class="px-4 py-2">{{ o.status }}</td>
+                    <td class="px-4 py-2 font-mono text-xs">{% if o.case_id %}<a class="text-zp-blue hover:underline" href="/admin/cases/{{ o.case_id }}">{{ o.case_id }}</a>{% else %}—{% endif %}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% else %}
+    <p class="text-sm text-zp-mute mt-6">{{ t('orders_empty', lang) }}</p>
+    {% endif %}
+</div>
+{% endblock %}

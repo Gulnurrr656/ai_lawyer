@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}{{ document.title or document.doc_type }} — {{ brand }}{% endblock %}
+
+{% block content %}
+<div class="max-w-4xl mx-auto px-4 py-10">
+    <div class="flex flex-wrap items-end justify-between gap-3">
+        <div>
+            <p class="text-xs text-zp-mute">#{{ document.id }} · {{ document.doc_type }}</p>
+            <h1 class="text-2xl font-semibold text-zp-deep">{{ document.title or document.doc_type }}</h1>
+            <p class="text-sm text-zp-mute mt-1">{{ document.status }}</p>
+        </div>
+        <div class="flex flex-wrap gap-2 items-center">
+            {% if document.file_path and document.status == 'ready' %}
+            <a href="/documents/{{ document.id }}/download/docx"
+               class="px-4 py-2 rounded-md bg-zp-gold text-zp-deep font-semibold hover:brightness-105 text-sm shadow-sm">
+                {{ t('doc_download', lang) }}
+            </a>
+            {% endif %}
+            <button type="button"
+                    aria-disabled="true"
+                    title="{{ t('pdf_disabled_short', lang) }}"
+                    class="px-4 py-2 rounded-md border border-zp-line text-zp-mute cursor-not-allowed text-sm flex items-center gap-2"
+                    disabled>
+                <span>PDF</span>
+                <span class="text-[10px] uppercase tracking-wider text-zp-gold border border-zp-gold/40 rounded px-1.5 py-0.5">
+                    {{ t('pdf_disabled_kicker', lang) }}
+                </span>
+            </button>
+        </div>
+    </div>
+
+    <p class="mt-2 text-xs text-zp-mute">
+        <span>{{ t('pdf_disabled_short', lang) }}</span>
+    </p>
+
+    <div class="mt-6 bg-white border border-zp-line rounded-lg p-5 shadow-zp-card">
+        <pre class="whitespace-pre-wrap text-sm text-zp-deep">{{ document.content_text or '' }}</pre>
+    </div>
+
+    <p class="text-xs text-zp-mute mt-6">{{ t('disclaimer', lang) }}</p>
+</div>
+{% endblock %}

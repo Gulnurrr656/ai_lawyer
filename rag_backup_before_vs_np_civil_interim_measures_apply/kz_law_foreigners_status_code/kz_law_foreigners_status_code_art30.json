@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_foreigners_status_code_art30",
+  "doc_type": "law_article",
+  "source_id": "kz_law_foreigners_status_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О правовом положении иностранцев\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": null,
+    "title": ""
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "d00b16bab947a8ba8f731ef0c56ebe0172a37a3ba733320a7b5556d3f0dfa3e4",
+  "articles": [
+    {
+      "article": "30",
+      "title": "Ограничения сферы действия настоящего Закона",
+      "text": "Положения настоящего Закона не затрагивают установленные законодательством Республики Казахстан и международными договорами Республики Казахстан привилегии и иммунитеты глав и сотрудников иностранных дипломатических и консульских представительств."
+    }
+  ],
+  "notes": []
+}

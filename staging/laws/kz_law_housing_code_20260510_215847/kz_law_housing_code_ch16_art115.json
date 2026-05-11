@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_housing_code_ch16_art115",
+  "doc_type": "law_article",
+  "source_id": "kz_law_housing_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О жилищных отношениях\"",
+  "language": "ru",
+  "industry": [
+    "housing_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "16",
+    "title": "Договорные обязательства по предоставлению жилища"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "f3798e8e34cfcb72eb02c321c43fa30134956a9ab955ce8fa53a7db771a4610a",
+  "articles": [
+    {
+      "article": "115",
+      "title": "Понятие и виды договорных обязательств",
+      "text": "Сноска. Статья 115 исключена Законом РК от 22.07.2011 № 479-IV (вводится в действие по истечении десяти календарных дней после его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

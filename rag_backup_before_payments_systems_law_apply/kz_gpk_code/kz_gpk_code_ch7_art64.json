@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_gpk_code_ch7_art64",
+  "doc_type": "code_article",
+  "source_id": "kz_gpk_code",
+  "jurisdiction": "KZ",
+  "source": "Гражданский процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "7",
+    "title": "ДОКАЗАТЕЛЬСТВА И ДОКАЗЫВАНИЕ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "53f4201bc73ecfd9413c4524a880b4707e939a66f00923b1c44c9b39da3f7189",
+  "articles": [
+    {
+      "article": "64",
+      "title": "Относимость доказательств",
+      "text": "Доказательство признается судом относящимся к делу, если оно содержит сведения о фактах, которыми подтверждаются, опровергаются либо ставятся под сомнение выводы о существовании обстоятельств, имеющих значение для дела."
+    }
+  ],
+  "notes": []
+}

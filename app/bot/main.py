@@ -45,6 +45,8 @@ from aiogram.client.default import DefaultBotProperties
 
 from app.shared.handlers.cancel import router as cancel_router
 from app.shared.handlers.start import router as start_router
+from app.shared.handlers.voice import router as voice_router
+from app.shared.handlers.rag_lookup import router as strict_rag_lookup_router
 
 # =====================================================
 # FEATURES
@@ -79,13 +81,19 @@ async def main() -> None:
     # 🟢 START / MENU
     dp.include_router(start_router)
 
-    # 🔹 FEATURES (порядок не критичен)
-    dp.include_router(contracts_router)
+    # 🎙 Голос → STT → подтверждение → тот же FSM-шаг (до сценариев с текстовыми хэндлерами)
+    dp.include_router(voice_router)
+
+    # 🔹 FEATURES — важен порядок: у contracts есть catch-all @router.message().
+    # Он должен идти ПОСЛЕДНИМ, иначе заявления / претензии / консультация и т.д. не получают апдейт.
+    # Консультация раньше заявления/иска: явное разделение сценариев при общих шагах confirm.
+    dp.include_router(consult_router)
     dp.include_router(petitions_router)
     dp.include_router(claims_router)
-    dp.include_router(consult_router)
     dp.include_router(bankruptcy_router)
     dp.include_router(analyze_router)
+    dp.include_router(contracts_router)
+    dp.include_router(strict_rag_lookup_router)
 
     logger.info("ROUTERS REGISTERED. START POLLING...")
 

@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_collectors_code_ch2_art13",
+  "doc_type": "law_article",
+  "source_id": "kz_law_collectors_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О коллекторской деятельности\"",
+  "language": "ru",
+  "industry": [
+    "collectors_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "2",
+    "title": "СОЗДАНИЕ И ДЕЯТЕЛЬНОСТЬ КОЛЛЕКТОРСКОГО АГЕНТСТВА"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "2f789272e93cf11e896cd074c77a8aed4f3cd9848b74e4ca2ed57ce60b80cf84",
+  "articles": [
+    {
+      "article": "13",
+      "title": "Хранение документов",
+      "text": "Перечень основных документов коллекторского агентства, подлежащих хранению, и сроки их хранения определяются уполномоченным органом.\n\nГлава 3. ПРАВА И ОБЯЗАННОСТИ КОЛЛЕКТОРСКОГО АГЕНТСТВА, ДОЛЖНИКА И (ИЛИ) ЕГО ПРЕДСТАВИТЕЛЯ"
+    }
+  ],
+  "notes": []
+}

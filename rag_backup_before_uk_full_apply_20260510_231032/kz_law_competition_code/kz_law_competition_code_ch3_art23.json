@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_competition_code_ch3_art23",
+  "doc_type": "law_article",
+  "source_id": "kz_law_competition_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О защите конкуренции\"",
+  "language": "ru",
+  "industry": [
+    "competition_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "3",
+    "title": "Недобросовестная конкуренция"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "130299c6c4be294c19e98b4f723cd5da20628176a118da65cae072ed4e2d9eb8",
+  "articles": [
+    {
+      "article": "23",
+      "title": "Призыв к бойкоту продавца (поставщика)",
+      "text": "Призывом к бойкоту продавца (поставщика) или его товара являются организованные конкурентом непосредственно или через посредника действия, направленные на отказ покупателей от установления договорных отношений с продавцом (поставщиком) или приобретения его товаров."
+    }
+  ],
+  "notes": []
+}

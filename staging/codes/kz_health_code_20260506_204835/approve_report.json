@@ -1,0 +1,2994 @@
+{
+  "source_id": "kz_health_code",
+  "batch": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835",
+  "mode": "missing-only",
+  "from_article": null,
+  "to_article": null,
+  "dry_run": false,
+  "apply": true,
+  "RAG_CHANGED": true,
+  "BLOCKED_BY_MOJIBAKE": false,
+  "suspicious_mojibake_count": 0,
+  "approved_candidates": [
+    {
+      "article": "1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch1_art1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch1_art1.json"
+    },
+    {
+      "article": "10",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch2_art10.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch2_art10.json"
+    },
+    {
+      "article": "100",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art100.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art100.json"
+    },
+    {
+      "article": "101",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art101.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art101.json"
+    },
+    {
+      "article": "102",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art102.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art102.json"
+    },
+    {
+      "article": "103",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art103.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art103.json"
+    },
+    {
+      "article": "104",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art104.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art104.json"
+    },
+    {
+      "article": "105",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art105.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art105.json"
+    },
+    {
+      "article": "106",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art106.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art106.json"
+    },
+    {
+      "article": "107",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art107.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art107.json"
+    },
+    {
+      "article": "108",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art108.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art108.json"
+    },
+    {
+      "article": "108-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art108-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art108-1.json"
+    },
+    {
+      "article": "109",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art109.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art109.json"
+    },
+    {
+      "article": "11",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch2_art11.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch2_art11.json"
+    },
+    {
+      "article": "110",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art110.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art110.json"
+    },
+    {
+      "article": "111",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art111.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art111.json"
+    },
+    {
+      "article": "112",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art112.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art112.json"
+    },
+    {
+      "article": "113",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art113.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art113.json"
+    },
+    {
+      "article": "114",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art114.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art114.json"
+    },
+    {
+      "article": "115",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art115.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art115.json"
+    },
+    {
+      "article": "116",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art116.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art116.json"
+    },
+    {
+      "article": "117",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art117.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art117.json"
+    },
+    {
+      "article": "118",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art118.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art118.json"
+    },
+    {
+      "article": "119",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art119.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art119.json"
+    },
+    {
+      "article": "12",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch2_art12.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch2_art12.json"
+    },
+    {
+      "article": "120",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art120.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art120.json"
+    },
+    {
+      "article": "121",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art121.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art121.json"
+    },
+    {
+      "article": "122",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art122.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art122.json"
+    },
+    {
+      "article": "123",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art123.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art123.json"
+    },
+    {
+      "article": "124",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art124.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art124.json"
+    },
+    {
+      "article": "125",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art125.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art125.json"
+    },
+    {
+      "article": "126",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art126.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art126.json"
+    },
+    {
+      "article": "127",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art127.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art127.json"
+    },
+    {
+      "article": "128",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art128.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art128.json"
+    },
+    {
+      "article": "129",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art129.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art129.json"
+    },
+    {
+      "article": "13",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch2_art13.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch2_art13.json"
+    },
+    {
+      "article": "130",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art130.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art130.json"
+    },
+    {
+      "article": "131",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art131.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art131.json"
+    },
+    {
+      "article": "132",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art132.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art132.json"
+    },
+    {
+      "article": "133",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art133.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art133.json"
+    },
+    {
+      "article": "134",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art134.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art134.json"
+    },
+    {
+      "article": "135",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art135.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art135.json"
+    },
+    {
+      "article": "136",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art136.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art136.json"
+    },
+    {
+      "article": "137",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art137.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art137.json"
+    },
+    {
+      "article": "138",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art138.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art138.json"
+    },
+    {
+      "article": "139",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch17_art139.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch17_art139.json"
+    },
+    {
+      "article": "14",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch2_art14.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch2_art14.json"
+    },
+    {
+      "article": "140",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch17_art140.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch17_art140.json"
+    },
+    {
+      "article": "141",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch17_art141.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch17_art141.json"
+    },
+    {
+      "article": "142",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch17_art142.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch17_art142.json"
+    },
+    {
+      "article": "143",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch17_art143.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch17_art143.json"
+    },
+    {
+      "article": "144",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch17_art144.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch17_art144.json"
+    },
+    {
+      "article": "145",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch18_art145.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch18_art145.json"
+    },
+    {
+      "article": "146",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch18_art146.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch18_art146.json"
+    },
+    {
+      "article": "147",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch18_art147.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch18_art147.json"
+    },
+    {
+      "article": "148",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch18_art148.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch18_art148.json"
+    },
+    {
+      "article": "149",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch18_art149.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch18_art149.json"
+    },
+    {
+      "article": "15",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch2_art15.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch2_art15.json"
+    },
+    {
+      "article": "150",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch18_art150.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch18_art150.json"
+    },
+    {
+      "article": "151",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch18_art151.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch18_art151.json"
+    },
+    {
+      "article": "152",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch18_art152.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch18_art152.json"
+    },
+    {
+      "article": "153",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch18_art153.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch18_art153.json"
+    },
+    {
+      "article": "154",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch18_art154.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch18_art154.json"
+    },
+    {
+      "article": "155",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch18_art155.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch18_art155.json"
+    },
+    {
+      "article": "156",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch18_art156.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch18_art156.json"
+    },
+    {
+      "article": "157",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch19_art157.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch19_art157.json"
+    },
+    {
+      "article": "158",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch19_art158.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch19_art158.json"
+    },
+    {
+      "article": "159",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch19_art159.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch19_art159.json"
+    },
+    {
+      "article": "16",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch2_art16.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch2_art16.json"
+    },
+    {
+      "article": "160",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch19_art160.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch19_art160.json"
+    },
+    {
+      "article": "161",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch19_art161.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch19_art161.json"
+    },
+    {
+      "article": "162",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch19_art162.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch19_art162.json"
+    },
+    {
+      "article": "163",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art163.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art163.json"
+    },
+    {
+      "article": "164",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art164.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art164.json"
+    },
+    {
+      "article": "165",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art165.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art165.json"
+    },
+    {
+      "article": "166",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art166.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art166.json"
+    },
+    {
+      "article": "167",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art167.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art167.json"
+    },
+    {
+      "article": "168",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art168.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art168.json"
+    },
+    {
+      "article": "169",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art169.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art169.json"
+    },
+    {
+      "article": "17",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch3_art17.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch3_art17.json"
+    },
+    {
+      "article": "170",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art170.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art170.json"
+    },
+    {
+      "article": "171",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art171.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art171.json"
+    },
+    {
+      "article": "172",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art172.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art172.json"
+    },
+    {
+      "article": "173",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art173.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art173.json"
+    },
+    {
+      "article": "174",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art174.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art174.json"
+    },
+    {
+      "article": "175",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art175.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art175.json"
+    },
+    {
+      "article": "176",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art176.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art176.json"
+    },
+    {
+      "article": "176-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art176-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art176-1.json"
+    },
+    {
+      "article": "177",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art177.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art177.json"
+    },
+    {
+      "article": "178",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch21_art178.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch21_art178.json"
+    },
+    {
+      "article": "179",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch21_art179.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch21_art179.json"
+    },
+    {
+      "article": "18",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch3_art18.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch3_art18.json"
+    },
+    {
+      "article": "180",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch21_art180.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch21_art180.json"
+    },
+    {
+      "article": "181",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch21_art181.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch21_art181.json"
+    },
+    {
+      "article": "182",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch21_art182.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch21_art182.json"
+    },
+    {
+      "article": "183",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch21_art183.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch21_art183.json"
+    },
+    {
+      "article": "184",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch22_art184.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch22_art184.json"
+    },
+    {
+      "article": "185",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch22_art185.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch22_art185.json"
+    },
+    {
+      "article": "186",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch22_art186.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch22_art186.json"
+    },
+    {
+      "article": "187",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch22_art187.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch22_art187.json"
+    },
+    {
+      "article": "188",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch22_art188.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch22_art188.json"
+    },
+    {
+      "article": "189",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch22_art189.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch22_art189.json"
+    },
+    {
+      "article": "19",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch3_art19.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch3_art19.json"
+    },
+    {
+      "article": "190",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch22_art190.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch22_art190.json"
+    },
+    {
+      "article": "191",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch22_art191.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch22_art191.json"
+    },
+    {
+      "article": "192",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch22_art192.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch22_art192.json"
+    },
+    {
+      "article": "193",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch22_art193.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch22_art193.json"
+    },
+    {
+      "article": "194",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch22_art194.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch22_art194.json"
+    },
+    {
+      "article": "195",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch23_art195.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch23_art195.json"
+    },
+    {
+      "article": "196",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch23_art196.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch23_art196.json"
+    },
+    {
+      "article": "197",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch23_art197.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch23_art197.json"
+    },
+    {
+      "article": "198",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch23_art198.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch23_art198.json"
+    },
+    {
+      "article": "199",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch23_art199.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch23_art199.json"
+    },
+    {
+      "article": "2",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch1_art2.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch1_art2.json"
+    },
+    {
+      "article": "20",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch3_art20.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch3_art20.json"
+    },
+    {
+      "article": "200",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch23_art200.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch23_art200.json"
+    },
+    {
+      "article": "201",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch23_art201.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch23_art201.json"
+    },
+    {
+      "article": "201-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch23_art201-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch23_art201-1.json"
+    },
+    {
+      "article": "202",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch23_art202.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch23_art202.json"
+    },
+    {
+      "article": "203",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art203.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art203.json"
+    },
+    {
+      "article": "204",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art204.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art204.json"
+    },
+    {
+      "article": "205",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art205.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art205.json"
+    },
+    {
+      "article": "206",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art206.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art206.json"
+    },
+    {
+      "article": "207",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art207.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art207.json"
+    },
+    {
+      "article": "208",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art208.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art208.json"
+    },
+    {
+      "article": "209",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art209.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art209.json"
+    },
+    {
+      "article": "21",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch3_art21.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch3_art21.json"
+    },
+    {
+      "article": "210",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art210.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art210.json"
+    },
+    {
+      "article": "211",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art211.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art211.json"
+    },
+    {
+      "article": "212",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art212.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art212.json"
+    },
+    {
+      "article": "213",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art213.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art213.json"
+    },
+    {
+      "article": "214",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art214.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art214.json"
+    },
+    {
+      "article": "215",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art215.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art215.json"
+    },
+    {
+      "article": "216",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art216.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art216.json"
+    },
+    {
+      "article": "217",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art217.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art217.json"
+    },
+    {
+      "article": "218",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art218.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art218.json"
+    },
+    {
+      "article": "219",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art219.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art219.json"
+    },
+    {
+      "article": "22",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch3_art22.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch3_art22.json"
+    },
+    {
+      "article": "220",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch25_art220.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch25_art220.json"
+    },
+    {
+      "article": "221",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch25_art221.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch25_art221.json"
+    },
+    {
+      "article": "222",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch25_art222.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch25_art222.json"
+    },
+    {
+      "article": "223",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch25_art223.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch25_art223.json"
+    },
+    {
+      "article": "224",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch25_art224.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch25_art224.json"
+    },
+    {
+      "article": "225",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch26_art225.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch26_art225.json"
+    },
+    {
+      "article": "226",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch26_art226.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch26_art226.json"
+    },
+    {
+      "article": "227",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch26_art227.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch26_art227.json"
+    },
+    {
+      "article": "228",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch26_art228.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch26_art228.json"
+    },
+    {
+      "article": "229",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch26_art229.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch26_art229.json"
+    },
+    {
+      "article": "23",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch3_art23.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch3_art23.json"
+    },
+    {
+      "article": "230",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch27_art230.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch27_art230.json"
+    },
+    {
+      "article": "231",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch27_art231.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch27_art231.json"
+    },
+    {
+      "article": "232",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch27_art232.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch27_art232.json"
+    },
+    {
+      "article": "233",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch27_art233.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch27_art233.json"
+    },
+    {
+      "article": "234",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art234.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art234.json"
+    },
+    {
+      "article": "235",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art235.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art235.json"
+    },
+    {
+      "article": "236",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art236.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art236.json"
+    },
+    {
+      "article": "237",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art237.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art237.json"
+    },
+    {
+      "article": "238",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art238.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art238.json"
+    },
+    {
+      "article": "239",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art239.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art239.json"
+    },
+    {
+      "article": "24",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch3_art24.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch3_art24.json"
+    },
+    {
+      "article": "240",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art240.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art240.json"
+    },
+    {
+      "article": "241",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art241.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art241.json"
+    },
+    {
+      "article": "242",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art242.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art242.json"
+    },
+    {
+      "article": "243",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art243.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art243.json"
+    },
+    {
+      "article": "244",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art244.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art244.json"
+    },
+    {
+      "article": "245",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art245.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art245.json"
+    },
+    {
+      "article": "246",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art246.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art246.json"
+    },
+    {
+      "article": "247",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art247.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art247.json"
+    },
+    {
+      "article": "248",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art248.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art248.json"
+    },
+    {
+      "article": "249",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art249.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art249.json"
+    },
+    {
+      "article": "25",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch4_art25.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch4_art25.json"
+    },
+    {
+      "article": "250",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art250.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art250.json"
+    },
+    {
+      "article": "251",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art251.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art251.json"
+    },
+    {
+      "article": "252",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art252.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art252.json"
+    },
+    {
+      "article": "253",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art253.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art253.json"
+    },
+    {
+      "article": "254",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art254.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art254.json"
+    },
+    {
+      "article": "255",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art255.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art255.json"
+    },
+    {
+      "article": "256",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art256.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art256.json"
+    },
+    {
+      "article": "257",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art257.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art257.json"
+    },
+    {
+      "article": "258",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art258.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art258.json"
+    },
+    {
+      "article": "259",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art259.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art259.json"
+    },
+    {
+      "article": "26",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch4_art26.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch4_art26.json"
+    },
+    {
+      "article": "260",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art260.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art260.json"
+    },
+    {
+      "article": "261",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art261.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art261.json"
+    },
+    {
+      "article": "262",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art262.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art262.json"
+    },
+    {
+      "article": "263",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art263.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art263.json"
+    },
+    {
+      "article": "264",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art264.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art264.json"
+    },
+    {
+      "article": "265",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art265.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art265.json"
+    },
+    {
+      "article": "266",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch29_art266.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch29_art266.json"
+    },
+    {
+      "article": "267",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch29_art267.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch29_art267.json"
+    },
+    {
+      "article": "268",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch29_art268.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch29_art268.json"
+    },
+    {
+      "article": "269",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch29_art269.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch29_art269.json"
+    },
+    {
+      "article": "27",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch4_art27.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch4_art27.json"
+    },
+    {
+      "article": "270",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch30_art270.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch30_art270.json"
+    },
+    {
+      "article": "270-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch30_art270-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch30_art270-1.json"
+    },
+    {
+      "article": "270-2",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch30_art270-2.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch30_art270-2.json"
+    },
+    {
+      "article": "270-3",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch30_art270-3.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch30_art270-3.json"
+    },
+    {
+      "article": "270-4",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch30_art270-4.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch30_art270-4.json"
+    },
+    {
+      "article": "271",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch30_art271.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch30_art271.json"
+    },
+    {
+      "article": "272",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch30_art272.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch30_art272.json"
+    },
+    {
+      "article": "273",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch30_art273.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch30_art273.json"
+    },
+    {
+      "article": "274",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch30_art274.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch30_art274.json"
+    },
+    {
+      "article": "275",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch30_art275.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch30_art275.json"
+    },
+    {
+      "article": "276",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch30_art276.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch30_art276.json"
+    },
+    {
+      "article": "28",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art28.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art28.json"
+    },
+    {
+      "article": "29",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art29.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art29.json"
+    },
+    {
+      "article": "3",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch1_art3.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch1_art3.json"
+    },
+    {
+      "article": "30",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art30.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art30.json"
+    },
+    {
+      "article": "31",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art31.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art31.json"
+    },
+    {
+      "article": "32",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art32.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art32.json"
+    },
+    {
+      "article": "33",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art33.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art33.json"
+    },
+    {
+      "article": "34",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art34.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art34.json"
+    },
+    {
+      "article": "34-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art34-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art34-1.json"
+    },
+    {
+      "article": "34-2",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art34-2.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art34-2.json"
+    },
+    {
+      "article": "35",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art35.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art35.json"
+    },
+    {
+      "article": "36",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art36.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art36.json"
+    },
+    {
+      "article": "37",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art37.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art37.json"
+    },
+    {
+      "article": "38",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art38.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art38.json"
+    },
+    {
+      "article": "39",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art39.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art39.json"
+    },
+    {
+      "article": "4",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch1_art4.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch1_art4.json"
+    },
+    {
+      "article": "40",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art40.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art40.json"
+    },
+    {
+      "article": "41",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art41.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art41.json"
+    },
+    {
+      "article": "42",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art42.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art42.json"
+    },
+    {
+      "article": "42-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art42-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art42-1.json"
+    },
+    {
+      "article": "43",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art43.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art43.json"
+    },
+    {
+      "article": "44",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art44.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art44.json"
+    },
+    {
+      "article": "45",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art45.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art45.json"
+    },
+    {
+      "article": "45-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art45-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art45-1.json"
+    },
+    {
+      "article": "46",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art46.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art46.json"
+    },
+    {
+      "article": "47",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art47.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art47.json"
+    },
+    {
+      "article": "48",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art48.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art48.json"
+    },
+    {
+      "article": "49",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art49.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art49.json"
+    },
+    {
+      "article": "5",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch1_art5.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch1_art5.json"
+    },
+    {
+      "article": "50",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art50.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art50.json"
+    },
+    {
+      "article": "51",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art51.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art51.json"
+    },
+    {
+      "article": "51-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art51-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art51-1.json"
+    },
+    {
+      "article": "51-2",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art51-2.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art51-2.json"
+    },
+    {
+      "article": "51-3",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art51-3.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art51-3.json"
+    },
+    {
+      "article": "51-4",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art51-4.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art51-4.json"
+    },
+    {
+      "article": "51-5",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art51-5.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art51-5.json"
+    },
+    {
+      "article": "51-6",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art51-6.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art51-6.json"
+    },
+    {
+      "article": "51-7",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art51-7.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art51-7.json"
+    },
+    {
+      "article": "51-8",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art51-8.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art51-8.json"
+    },
+    {
+      "article": "52",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art52.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art52.json"
+    },
+    {
+      "article": "53",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art53.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art53.json"
+    },
+    {
+      "article": "54",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art54.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art54.json"
+    },
+    {
+      "article": "55",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art55.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art55.json"
+    },
+    {
+      "article": "56",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch6_art56.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch6_art56.json"
+    },
+    {
+      "article": "57",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch7_art57.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch7_art57.json"
+    },
+    {
+      "article": "58",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch7_art58.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch7_art58.json"
+    },
+    {
+      "article": "59",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch7_art59.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch7_art59.json"
+    },
+    {
+      "article": "59-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch7_art59-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch7_art59-1.json"
+    },
+    {
+      "article": "6",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch2_art6.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch2_art6.json"
+    },
+    {
+      "article": "60",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch7_art60.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch7_art60.json"
+    },
+    {
+      "article": "61",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch7_art61.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch7_art61.json"
+    },
+    {
+      "article": "62",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch7_art62.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch7_art62.json"
+    },
+    {
+      "article": "63",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch8_art63.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch8_art63.json"
+    },
+    {
+      "article": "64",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch8_art64.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch8_art64.json"
+    },
+    {
+      "article": "65",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch8_art65.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch8_art65.json"
+    },
+    {
+      "article": "66",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch8_art66.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch8_art66.json"
+    },
+    {
+      "article": "67",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch9_art67.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch9_art67.json"
+    },
+    {
+      "article": "68",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch9_art68.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch9_art68.json"
+    },
+    {
+      "article": "69",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch9_art69.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch9_art69.json"
+    },
+    {
+      "article": "7",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch2_art7.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch2_art7.json"
+    },
+    {
+      "article": "70",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch9_art70.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch9_art70.json"
+    },
+    {
+      "article": "71",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch10_art71.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch10_art71.json"
+    },
+    {
+      "article": "72",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch10_art72.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch10_art72.json"
+    },
+    {
+      "article": "73",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch10_art73.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch10_art73.json"
+    },
+    {
+      "article": "74",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch11_art74.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch11_art74.json"
+    },
+    {
+      "article": "75",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch11_art75.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch11_art75.json"
+    },
+    {
+      "article": "76",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch12_art76.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch12_art76.json"
+    },
+    {
+      "article": "77",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch12_art77.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch12_art77.json"
+    },
+    {
+      "article": "78",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch12_art78.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch12_art78.json"
+    },
+    {
+      "article": "79",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch12_art79.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch12_art79.json"
+    },
+    {
+      "article": "8",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch2_art8.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch2_art8.json"
+    },
+    {
+      "article": "80",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch12_art80.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch12_art80.json"
+    },
+    {
+      "article": "81",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch12_art81.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch12_art81.json"
+    },
+    {
+      "article": "82",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch12_art82.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch12_art82.json"
+    },
+    {
+      "article": "83",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch12_art83.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch12_art83.json"
+    },
+    {
+      "article": "84",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch13_art84.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch13_art84.json"
+    },
+    {
+      "article": "85",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch13_art85.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch13_art85.json"
+    },
+    {
+      "article": "86",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch13_art86.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch13_art86.json"
+    },
+    {
+      "article": "87",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch13_art87.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch13_art87.json"
+    },
+    {
+      "article": "88",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch13_art88.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch13_art88.json"
+    },
+    {
+      "article": "89",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch13_art89.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch13_art89.json"
+    },
+    {
+      "article": "9",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch2_art9.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch2_art9.json"
+    },
+    {
+      "article": "90",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch13_art90.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch13_art90.json"
+    },
+    {
+      "article": "91",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch13_art91.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch13_art91.json"
+    },
+    {
+      "article": "92",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch13_art92.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch13_art92.json"
+    },
+    {
+      "article": "93",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch14_art93.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch14_art93.json"
+    },
+    {
+      "article": "94",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch14_art94.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch14_art94.json"
+    },
+    {
+      "article": "95",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch14_art95.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch14_art95.json"
+    },
+    {
+      "article": "95-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch14_art95-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch14_art95-1.json"
+    },
+    {
+      "article": "96",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art96.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art96.json"
+    },
+    {
+      "article": "97",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art97.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art97.json"
+    },
+    {
+      "article": "98",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art98.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art98.json"
+    },
+    {
+      "article": "99",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art99.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art99.json"
+    }
+  ],
+  "errors": [],
+  "skipped_conflicts": [],
+  "skipped_existing": [],
+  "skipped_by_range": [],
+  "backup_dir": null,
+  "copied": [
+    {
+      "article": "1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch1_art1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch1_art1.json"
+    },
+    {
+      "article": "10",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch2_art10.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch2_art10.json"
+    },
+    {
+      "article": "100",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art100.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art100.json"
+    },
+    {
+      "article": "101",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art101.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art101.json"
+    },
+    {
+      "article": "102",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art102.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art102.json"
+    },
+    {
+      "article": "103",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art103.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art103.json"
+    },
+    {
+      "article": "104",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art104.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art104.json"
+    },
+    {
+      "article": "105",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art105.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art105.json"
+    },
+    {
+      "article": "106",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art106.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art106.json"
+    },
+    {
+      "article": "107",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art107.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art107.json"
+    },
+    {
+      "article": "108",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art108.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art108.json"
+    },
+    {
+      "article": "108-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art108-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art108-1.json"
+    },
+    {
+      "article": "109",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art109.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art109.json"
+    },
+    {
+      "article": "11",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch2_art11.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch2_art11.json"
+    },
+    {
+      "article": "110",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art110.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art110.json"
+    },
+    {
+      "article": "111",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art111.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art111.json"
+    },
+    {
+      "article": "112",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art112.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art112.json"
+    },
+    {
+      "article": "113",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art113.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art113.json"
+    },
+    {
+      "article": "114",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art114.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art114.json"
+    },
+    {
+      "article": "115",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art115.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art115.json"
+    },
+    {
+      "article": "116",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art116.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art116.json"
+    },
+    {
+      "article": "117",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art117.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art117.json"
+    },
+    {
+      "article": "118",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art118.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art118.json"
+    },
+    {
+      "article": "119",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art119.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art119.json"
+    },
+    {
+      "article": "12",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch2_art12.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch2_art12.json"
+    },
+    {
+      "article": "120",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art120.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art120.json"
+    },
+    {
+      "article": "121",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art121.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art121.json"
+    },
+    {
+      "article": "122",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art122.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art122.json"
+    },
+    {
+      "article": "123",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art123.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art123.json"
+    },
+    {
+      "article": "124",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art124.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art124.json"
+    },
+    {
+      "article": "125",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art125.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art125.json"
+    },
+    {
+      "article": "126",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art126.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art126.json"
+    },
+    {
+      "article": "127",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art127.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art127.json"
+    },
+    {
+      "article": "128",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art128.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art128.json"
+    },
+    {
+      "article": "129",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art129.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art129.json"
+    },
+    {
+      "article": "13",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch2_art13.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch2_art13.json"
+    },
+    {
+      "article": "130",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art130.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art130.json"
+    },
+    {
+      "article": "131",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art131.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art131.json"
+    },
+    {
+      "article": "132",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art132.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art132.json"
+    },
+    {
+      "article": "133",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art133.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art133.json"
+    },
+    {
+      "article": "134",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art134.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art134.json"
+    },
+    {
+      "article": "135",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art135.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art135.json"
+    },
+    {
+      "article": "136",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art136.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art136.json"
+    },
+    {
+      "article": "137",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art137.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art137.json"
+    },
+    {
+      "article": "138",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch16_art138.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch16_art138.json"
+    },
+    {
+      "article": "139",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch17_art139.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch17_art139.json"
+    },
+    {
+      "article": "14",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch2_art14.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch2_art14.json"
+    },
+    {
+      "article": "140",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch17_art140.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch17_art140.json"
+    },
+    {
+      "article": "141",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch17_art141.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch17_art141.json"
+    },
+    {
+      "article": "142",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch17_art142.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch17_art142.json"
+    },
+    {
+      "article": "143",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch17_art143.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch17_art143.json"
+    },
+    {
+      "article": "144",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch17_art144.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch17_art144.json"
+    },
+    {
+      "article": "145",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch18_art145.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch18_art145.json"
+    },
+    {
+      "article": "146",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch18_art146.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch18_art146.json"
+    },
+    {
+      "article": "147",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch18_art147.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch18_art147.json"
+    },
+    {
+      "article": "148",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch18_art148.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch18_art148.json"
+    },
+    {
+      "article": "149",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch18_art149.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch18_art149.json"
+    },
+    {
+      "article": "15",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch2_art15.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch2_art15.json"
+    },
+    {
+      "article": "150",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch18_art150.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch18_art150.json"
+    },
+    {
+      "article": "151",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch18_art151.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch18_art151.json"
+    },
+    {
+      "article": "152",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch18_art152.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch18_art152.json"
+    },
+    {
+      "article": "153",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch18_art153.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch18_art153.json"
+    },
+    {
+      "article": "154",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch18_art154.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch18_art154.json"
+    },
+    {
+      "article": "155",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch18_art155.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch18_art155.json"
+    },
+    {
+      "article": "156",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch18_art156.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch18_art156.json"
+    },
+    {
+      "article": "157",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch19_art157.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch19_art157.json"
+    },
+    {
+      "article": "158",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch19_art158.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch19_art158.json"
+    },
+    {
+      "article": "159",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch19_art159.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch19_art159.json"
+    },
+    {
+      "article": "16",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch2_art16.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch2_art16.json"
+    },
+    {
+      "article": "160",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch19_art160.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch19_art160.json"
+    },
+    {
+      "article": "161",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch19_art161.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch19_art161.json"
+    },
+    {
+      "article": "162",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch19_art162.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch19_art162.json"
+    },
+    {
+      "article": "163",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art163.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art163.json"
+    },
+    {
+      "article": "164",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art164.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art164.json"
+    },
+    {
+      "article": "165",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art165.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art165.json"
+    },
+    {
+      "article": "166",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art166.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art166.json"
+    },
+    {
+      "article": "167",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art167.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art167.json"
+    },
+    {
+      "article": "168",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art168.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art168.json"
+    },
+    {
+      "article": "169",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art169.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art169.json"
+    },
+    {
+      "article": "17",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch3_art17.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch3_art17.json"
+    },
+    {
+      "article": "170",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art170.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art170.json"
+    },
+    {
+      "article": "171",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art171.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art171.json"
+    },
+    {
+      "article": "172",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art172.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art172.json"
+    },
+    {
+      "article": "173",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art173.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art173.json"
+    },
+    {
+      "article": "174",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art174.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art174.json"
+    },
+    {
+      "article": "175",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art175.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art175.json"
+    },
+    {
+      "article": "176",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art176.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art176.json"
+    },
+    {
+      "article": "176-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art176-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art176-1.json"
+    },
+    {
+      "article": "177",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch20_art177.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch20_art177.json"
+    },
+    {
+      "article": "178",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch21_art178.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch21_art178.json"
+    },
+    {
+      "article": "179",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch21_art179.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch21_art179.json"
+    },
+    {
+      "article": "18",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch3_art18.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch3_art18.json"
+    },
+    {
+      "article": "180",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch21_art180.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch21_art180.json"
+    },
+    {
+      "article": "181",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch21_art181.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch21_art181.json"
+    },
+    {
+      "article": "182",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch21_art182.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch21_art182.json"
+    },
+    {
+      "article": "183",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch21_art183.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch21_art183.json"
+    },
+    {
+      "article": "184",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch22_art184.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch22_art184.json"
+    },
+    {
+      "article": "185",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch22_art185.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch22_art185.json"
+    },
+    {
+      "article": "186",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch22_art186.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch22_art186.json"
+    },
+    {
+      "article": "187",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch22_art187.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch22_art187.json"
+    },
+    {
+      "article": "188",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch22_art188.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch22_art188.json"
+    },
+    {
+      "article": "189",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch22_art189.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch22_art189.json"
+    },
+    {
+      "article": "19",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch3_art19.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch3_art19.json"
+    },
+    {
+      "article": "190",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch22_art190.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch22_art190.json"
+    },
+    {
+      "article": "191",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch22_art191.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch22_art191.json"
+    },
+    {
+      "article": "192",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch22_art192.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch22_art192.json"
+    },
+    {
+      "article": "193",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch22_art193.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch22_art193.json"
+    },
+    {
+      "article": "194",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch22_art194.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch22_art194.json"
+    },
+    {
+      "article": "195",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch23_art195.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch23_art195.json"
+    },
+    {
+      "article": "196",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch23_art196.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch23_art196.json"
+    },
+    {
+      "article": "197",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch23_art197.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch23_art197.json"
+    },
+    {
+      "article": "198",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch23_art198.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch23_art198.json"
+    },
+    {
+      "article": "199",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch23_art199.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch23_art199.json"
+    },
+    {
+      "article": "2",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch1_art2.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch1_art2.json"
+    },
+    {
+      "article": "20",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch3_art20.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch3_art20.json"
+    },
+    {
+      "article": "200",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch23_art200.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch23_art200.json"
+    },
+    {
+      "article": "201",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch23_art201.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch23_art201.json"
+    },
+    {
+      "article": "201-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch23_art201-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch23_art201-1.json"
+    },
+    {
+      "article": "202",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch23_art202.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch23_art202.json"
+    },
+    {
+      "article": "203",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art203.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art203.json"
+    },
+    {
+      "article": "204",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art204.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art204.json"
+    },
+    {
+      "article": "205",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art205.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art205.json"
+    },
+    {
+      "article": "206",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art206.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art206.json"
+    },
+    {
+      "article": "207",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art207.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art207.json"
+    },
+    {
+      "article": "208",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art208.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art208.json"
+    },
+    {
+      "article": "209",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art209.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art209.json"
+    },
+    {
+      "article": "21",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch3_art21.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch3_art21.json"
+    },
+    {
+      "article": "210",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art210.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art210.json"
+    },
+    {
+      "article": "211",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art211.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art211.json"
+    },
+    {
+      "article": "212",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art212.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art212.json"
+    },
+    {
+      "article": "213",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art213.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art213.json"
+    },
+    {
+      "article": "214",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art214.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art214.json"
+    },
+    {
+      "article": "215",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art215.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art215.json"
+    },
+    {
+      "article": "216",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art216.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art216.json"
+    },
+    {
+      "article": "217",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art217.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art217.json"
+    },
+    {
+      "article": "218",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art218.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art218.json"
+    },
+    {
+      "article": "219",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch24_art219.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch24_art219.json"
+    },
+    {
+      "article": "22",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch3_art22.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch3_art22.json"
+    },
+    {
+      "article": "220",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch25_art220.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch25_art220.json"
+    },
+    {
+      "article": "221",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch25_art221.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch25_art221.json"
+    },
+    {
+      "article": "222",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch25_art222.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch25_art222.json"
+    },
+    {
+      "article": "223",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch25_art223.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch25_art223.json"
+    },
+    {
+      "article": "224",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch25_art224.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch25_art224.json"
+    },
+    {
+      "article": "225",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch26_art225.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch26_art225.json"
+    },
+    {
+      "article": "226",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch26_art226.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch26_art226.json"
+    },
+    {
+      "article": "227",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch26_art227.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch26_art227.json"
+    },
+    {
+      "article": "228",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch26_art228.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch26_art228.json"
+    },
+    {
+      "article": "229",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch26_art229.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch26_art229.json"
+    },
+    {
+      "article": "23",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch3_art23.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch3_art23.json"
+    },
+    {
+      "article": "230",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch27_art230.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch27_art230.json"
+    },
+    {
+      "article": "231",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch27_art231.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch27_art231.json"
+    },
+    {
+      "article": "232",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch27_art232.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch27_art232.json"
+    },
+    {
+      "article": "233",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch27_art233.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch27_art233.json"
+    },
+    {
+      "article": "234",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art234.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art234.json"
+    },
+    {
+      "article": "235",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art235.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art235.json"
+    },
+    {
+      "article": "236",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art236.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art236.json"
+    },
+    {
+      "article": "237",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art237.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art237.json"
+    },
+    {
+      "article": "238",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art238.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art238.json"
+    },
+    {
+      "article": "239",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art239.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art239.json"
+    },
+    {
+      "article": "24",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch3_art24.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch3_art24.json"
+    },
+    {
+      "article": "240",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art240.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art240.json"
+    },
+    {
+      "article": "241",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art241.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art241.json"
+    },
+    {
+      "article": "242",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art242.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art242.json"
+    },
+    {
+      "article": "243",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art243.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art243.json"
+    },
+    {
+      "article": "244",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art244.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art244.json"
+    },
+    {
+      "article": "245",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art245.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art245.json"
+    },
+    {
+      "article": "246",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art246.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art246.json"
+    },
+    {
+      "article": "247",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art247.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art247.json"
+    },
+    {
+      "article": "248",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art248.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art248.json"
+    },
+    {
+      "article": "249",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art249.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art249.json"
+    },
+    {
+      "article": "25",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch4_art25.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch4_art25.json"
+    },
+    {
+      "article": "250",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art250.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art250.json"
+    },
+    {
+      "article": "251",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art251.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art251.json"
+    },
+    {
+      "article": "252",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art252.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art252.json"
+    },
+    {
+      "article": "253",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art253.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art253.json"
+    },
+    {
+      "article": "254",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art254.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art254.json"
+    },
+    {
+      "article": "255",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art255.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art255.json"
+    },
+    {
+      "article": "256",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art256.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art256.json"
+    },
+    {
+      "article": "257",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art257.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art257.json"
+    },
+    {
+      "article": "258",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art258.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art258.json"
+    },
+    {
+      "article": "259",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art259.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art259.json"
+    },
+    {
+      "article": "26",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch4_art26.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch4_art26.json"
+    },
+    {
+      "article": "260",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art260.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art260.json"
+    },
+    {
+      "article": "261",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art261.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art261.json"
+    },
+    {
+      "article": "262",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art262.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art262.json"
+    },
+    {
+      "article": "263",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art263.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art263.json"
+    },
+    {
+      "article": "264",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art264.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art264.json"
+    },
+    {
+      "article": "265",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch28_art265.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch28_art265.json"
+    },
+    {
+      "article": "266",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch29_art266.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch29_art266.json"
+    },
+    {
+      "article": "267",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch29_art267.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch29_art267.json"
+    },
+    {
+      "article": "268",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch29_art268.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch29_art268.json"
+    },
+    {
+      "article": "269",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch29_art269.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch29_art269.json"
+    },
+    {
+      "article": "27",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch4_art27.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch4_art27.json"
+    },
+    {
+      "article": "270",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch30_art270.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch30_art270.json"
+    },
+    {
+      "article": "270-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch30_art270-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch30_art270-1.json"
+    },
+    {
+      "article": "270-2",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch30_art270-2.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch30_art270-2.json"
+    },
+    {
+      "article": "270-3",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch30_art270-3.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch30_art270-3.json"
+    },
+    {
+      "article": "270-4",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch30_art270-4.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch30_art270-4.json"
+    },
+    {
+      "article": "271",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch30_art271.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch30_art271.json"
+    },
+    {
+      "article": "272",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch30_art272.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch30_art272.json"
+    },
+    {
+      "article": "273",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch30_art273.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch30_art273.json"
+    },
+    {
+      "article": "274",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch30_art274.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch30_art274.json"
+    },
+    {
+      "article": "275",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch30_art275.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch30_art275.json"
+    },
+    {
+      "article": "276",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch30_art276.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch30_art276.json"
+    },
+    {
+      "article": "28",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art28.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art28.json"
+    },
+    {
+      "article": "29",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art29.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art29.json"
+    },
+    {
+      "article": "3",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch1_art3.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch1_art3.json"
+    },
+    {
+      "article": "30",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art30.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art30.json"
+    },
+    {
+      "article": "31",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art31.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art31.json"
+    },
+    {
+      "article": "32",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art32.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art32.json"
+    },
+    {
+      "article": "33",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art33.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art33.json"
+    },
+    {
+      "article": "34",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art34.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art34.json"
+    },
+    {
+      "article": "34-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art34-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art34-1.json"
+    },
+    {
+      "article": "34-2",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art34-2.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art34-2.json"
+    },
+    {
+      "article": "35",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art35.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art35.json"
+    },
+    {
+      "article": "36",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art36.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art36.json"
+    },
+    {
+      "article": "37",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art37.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art37.json"
+    },
+    {
+      "article": "38",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art38.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art38.json"
+    },
+    {
+      "article": "39",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art39.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art39.json"
+    },
+    {
+      "article": "4",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch1_art4.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch1_art4.json"
+    },
+    {
+      "article": "40",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art40.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art40.json"
+    },
+    {
+      "article": "41",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art41.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art41.json"
+    },
+    {
+      "article": "42",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art42.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art42.json"
+    },
+    {
+      "article": "42-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art42-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art42-1.json"
+    },
+    {
+      "article": "43",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art43.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art43.json"
+    },
+    {
+      "article": "44",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art44.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art44.json"
+    },
+    {
+      "article": "45",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art45.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art45.json"
+    },
+    {
+      "article": "45-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art45-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art45-1.json"
+    },
+    {
+      "article": "46",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art46.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art46.json"
+    },
+    {
+      "article": "47",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art47.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art47.json"
+    },
+    {
+      "article": "48",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art48.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art48.json"
+    },
+    {
+      "article": "49",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art49.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art49.json"
+    },
+    {
+      "article": "5",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch1_art5.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch1_art5.json"
+    },
+    {
+      "article": "50",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art50.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art50.json"
+    },
+    {
+      "article": "51",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art51.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art51.json"
+    },
+    {
+      "article": "51-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art51-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art51-1.json"
+    },
+    {
+      "article": "51-2",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art51-2.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art51-2.json"
+    },
+    {
+      "article": "51-3",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art51-3.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art51-3.json"
+    },
+    {
+      "article": "51-4",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art51-4.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art51-4.json"
+    },
+    {
+      "article": "51-5",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art51-5.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art51-5.json"
+    },
+    {
+      "article": "51-6",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art51-6.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art51-6.json"
+    },
+    {
+      "article": "51-7",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art51-7.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art51-7.json"
+    },
+    {
+      "article": "51-8",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art51-8.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art51-8.json"
+    },
+    {
+      "article": "52",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art52.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art52.json"
+    },
+    {
+      "article": "53",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art53.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art53.json"
+    },
+    {
+      "article": "54",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art54.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art54.json"
+    },
+    {
+      "article": "55",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch5_art55.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch5_art55.json"
+    },
+    {
+      "article": "56",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch6_art56.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch6_art56.json"
+    },
+    {
+      "article": "57",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch7_art57.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch7_art57.json"
+    },
+    {
+      "article": "58",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch7_art58.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch7_art58.json"
+    },
+    {
+      "article": "59",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch7_art59.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch7_art59.json"
+    },
+    {
+      "article": "59-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch7_art59-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch7_art59-1.json"
+    },
+    {
+      "article": "6",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch2_art6.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch2_art6.json"
+    },
+    {
+      "article": "60",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch7_art60.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch7_art60.json"
+    },
+    {
+      "article": "61",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch7_art61.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch7_art61.json"
+    },
+    {
+      "article": "62",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch7_art62.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch7_art62.json"
+    },
+    {
+      "article": "63",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch8_art63.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch8_art63.json"
+    },
+    {
+      "article": "64",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch8_art64.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch8_art64.json"
+    },
+    {
+      "article": "65",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch8_art65.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch8_art65.json"
+    },
+    {
+      "article": "66",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch8_art66.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch8_art66.json"
+    },
+    {
+      "article": "67",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch9_art67.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch9_art67.json"
+    },
+    {
+      "article": "68",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch9_art68.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch9_art68.json"
+    },
+    {
+      "article": "69",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch9_art69.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch9_art69.json"
+    },
+    {
+      "article": "7",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch2_art7.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch2_art7.json"
+    },
+    {
+      "article": "70",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch9_art70.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch9_art70.json"
+    },
+    {
+      "article": "71",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch10_art71.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch10_art71.json"
+    },
+    {
+      "article": "72",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch10_art72.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch10_art72.json"
+    },
+    {
+      "article": "73",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch10_art73.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch10_art73.json"
+    },
+    {
+      "article": "74",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch11_art74.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch11_art74.json"
+    },
+    {
+      "article": "75",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch11_art75.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch11_art75.json"
+    },
+    {
+      "article": "76",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch12_art76.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch12_art76.json"
+    },
+    {
+      "article": "77",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch12_art77.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch12_art77.json"
+    },
+    {
+      "article": "78",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch12_art78.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch12_art78.json"
+    },
+    {
+      "article": "79",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch12_art79.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch12_art79.json"
+    },
+    {
+      "article": "8",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch2_art8.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch2_art8.json"
+    },
+    {
+      "article": "80",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch12_art80.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch12_art80.json"
+    },
+    {
+      "article": "81",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch12_art81.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch12_art81.json"
+    },
+    {
+      "article": "82",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch12_art82.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch12_art82.json"
+    },
+    {
+      "article": "83",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch12_art83.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch12_art83.json"
+    },
+    {
+      "article": "84",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch13_art84.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch13_art84.json"
+    },
+    {
+      "article": "85",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch13_art85.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch13_art85.json"
+    },
+    {
+      "article": "86",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch13_art86.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch13_art86.json"
+    },
+    {
+      "article": "87",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch13_art87.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch13_art87.json"
+    },
+    {
+      "article": "88",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch13_art88.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch13_art88.json"
+    },
+    {
+      "article": "89",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch13_art89.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch13_art89.json"
+    },
+    {
+      "article": "9",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch2_art9.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch2_art9.json"
+    },
+    {
+      "article": "90",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch13_art90.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch13_art90.json"
+    },
+    {
+      "article": "91",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch13_art91.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch13_art91.json"
+    },
+    {
+      "article": "92",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch13_art92.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch13_art92.json"
+    },
+    {
+      "article": "93",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch14_art93.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch14_art93.json"
+    },
+    {
+      "article": "94",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch14_art94.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch14_art94.json"
+    },
+    {
+      "article": "95",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch14_art95.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch14_art95.json"
+    },
+    {
+      "article": "95-1",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch14_art95-1.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch14_art95-1.json"
+    },
+    {
+      "article": "96",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art96.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art96.json"
+    },
+    {
+      "article": "97",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art97.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art97.json"
+    },
+    {
+      "article": "98",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art98.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art98.json"
+    },
+    {
+      "article": "99",
+      "src": "C:\\Users\\admin\\Desktop\\ai_lawyer\\staging\\codes\\kz_health_code_20260506_204835\\kz_health_code_ch15_art99.json",
+      "dst": "C:\\Users\\admin\\Desktop\\ai_lawyer\\rag\\kz_health_code\\kz_health_code_ch15_art99.json"
+    }
+  ],
+  "backup_created": false,
+  "backup_reason": "source folder did not exist",
+  "created_source_folder": true
+}

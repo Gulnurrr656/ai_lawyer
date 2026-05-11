@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_gpk_code_ch18_art218",
+  "doc_type": "code_article",
+  "source_id": "kz_gpk_code",
+  "jurisdiction": "KZ",
+  "source": "Гражданский процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "18",
+    "title": "СУДЕБНОЕ РАЗБИРАТЕЛЬСТВО"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "7b43366d7fb03b280681b03dfd190bc2364b2de8a8fa2bec6cf698534eb76591",
+  "articles": [
+    {
+      "article": "218",
+      "title": "Реплики",
+      "text": "После произнесения речей всеми участниками судебных прений они могут выступить с репликой в связи со сказанным в речах. Право последней реплики всегда принадлежит ответчику и его представителю."
+    }
+  ],
+  "notes": []
+}

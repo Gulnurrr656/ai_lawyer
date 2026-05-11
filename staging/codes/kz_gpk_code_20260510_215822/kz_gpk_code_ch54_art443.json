@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_gpk_code_ch54_art443",
+  "doc_type": "code_article",
+  "source_id": "kz_gpk_code",
+  "jurisdiction": "KZ",
+  "source": "Гражданский процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "civil_procedure"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "54",
+    "title": "ПРОИЗВОДСТВО В СУДЕ КАССАЦИОННОЙ ИНСТАНЦИИ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "4db4d4f8eb7f088b2f08308822e7f0b7b44f50ac013379b29e6dd3b2e1f82688",
+  "articles": [
+    {
+      "article": "443",
+      "title": "Предварительное рассмотрение ходатайства",
+      "text": "Сноска. Статья 443 исключена Законом РК от 21.11.2024 № 136-VIII (вводится в действие с 01.07.2025)."
+    }
+  ],
+  "notes": []
+}

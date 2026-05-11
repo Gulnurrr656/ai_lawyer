@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_migration_code_ch6_art42",
+  "doc_type": "law_article",
+  "source_id": "kz_law_migration_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О миграции населения\"",
+  "language": "ru",
+  "industry": [
+    "migration_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "6",
+    "title": "ИММИГРАЦИЯ С ЦЕЛЬЮ ОСУЩЕСТВЛЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "b6b1db3a8bb1c9303ef663aee2738eaec289bffd7486ece0b65d437a6972b257",
+  "articles": [
+    {
+      "article": "42",
+      "title": "Условия привлечения сезонных иностранных работников",
+      "text": "Сноска. Статья 42 исключена Законом РК от 30.06.2025 № 203-VIII (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

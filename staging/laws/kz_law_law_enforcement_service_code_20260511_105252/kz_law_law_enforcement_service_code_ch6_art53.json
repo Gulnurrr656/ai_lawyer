@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_law_enforcement_service_code_ch6_art53",
+  "doc_type": "law_article",
+  "source_id": "kz_law_law_enforcement_service_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан «О правоохранительной службе»",
+  "language": "ru",
+  "industry": [
+    "criminal_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "6",
+    "title": "АТТЕСТАЦИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "445dced02ffd9c3bf2121160064be18830ac8e0e7a16b19a8dcddbb4faf3dda8",
+  "articles": [
+    {
+      "article": "53",
+      "title": "Обжалование решения аттестационной комиссии",
+      "text": "Решение аттестационной комиссии может быть обжаловано сотрудником руководителю правоохранительного органа или уполномоченному руководителю в месячный срок в порядке, установленном законами Республики Казахстан.\n\n      Сноска. Статья 53 – в редакции Закона РК от 29.06.2020 № 351-VI (вводится в действие с 01.07.2021)."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_gpk_code_ch33_art310",
+  "doc_type": "code_article",
+  "source_id": "kz_gpk_code",
+  "jurisdiction": "KZ",
+  "source": "Гражданский процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "civil_procedure"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "33",
+    "title": "ПРОИЗВОДСТВО ПО ЗАЯВЛЕНИЯМ ОБ УСЫНОВЛЕНИИ (УДОЧЕРЕНИИ) РЕБЕНКА"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "e9adef8ece392f69f0fc5734eaa7be00b7bc1f22412f7069b1d779abf7a06148",
+  "articles": [
+    {
+      "article": "310",
+      "title": "Подача заявления",
+      "text": "Заявление об усыновлении или удочерении (далее – усыновление) несовершеннолетнего ребенка подается гражданами, желающими усыновить ребенка, в суд по месту жительства (месту нахождения) ребенка по правилам подсудности, установленной главой 3 настоящего Кодекса."
+    }
+  ],
+  "notes": []
+}

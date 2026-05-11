@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_land_code_ch4_art28",
+  "doc_type": "code_article",
+  "source_id": "kz_land_code",
+  "jurisdiction": "KZ",
+  "source": "Земельный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "4",
+    "title": "Право землепользования"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "181990fa598dff7898b06701f3af933df581a085d79150cb64a38c20ff0e8a95",
+  "articles": [
+    {
+      "article": "28",
+      "title": "Режим права землепользования",
+      "text": "Право землепользования является вещным правом. К праву землепользования применяются нормы о праве собственности постольку, поскольку это не противоречит настоящему Кодексу или природе вещного права."
+    }
+  ],
+  "notes": []
+}

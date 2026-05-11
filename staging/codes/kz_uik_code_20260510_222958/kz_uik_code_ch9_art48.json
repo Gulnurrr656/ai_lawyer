@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_uik_code_ch9_art48",
+  "doc_type": "code_article",
+  "source_id": "kz_uik_code",
+  "jurisdiction": "KZ",
+  "source": "Уголовно-исполнительный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "criminal_executive"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "9",
+    "title": "НАЦИОНАЛЬНЫЙ ПРЕВЕНТИВНЫЙ МЕХАНИЗМ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "1f37cb6a04fb8eebc22ee2a342abc92fd65430d6f364fa73f8ce8610f10b1d2a",
+  "articles": [
+    {
+      "article": "48",
+      "title": "Конфиденциальность",
+      "text": "Участники национального превентивного механизма не вправе разглашать сведения о частной жизни осужденного, ставшие известными им в ходе превентивных посещений, без его согласия.\n\n      Нарушение указанного требования влечет ответственность, установленную законом."
+    }
+  ],
+  "notes": []
+}

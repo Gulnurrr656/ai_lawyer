@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}{{ t('card_my_documents', lang) }} — {{ brand }}{% endblock %}
+
+{% block content %}
+<div class="max-w-4xl mx-auto px-4 py-10">
+    <h1 class="text-2xl font-semibold">{{ t('card_my_documents', lang) }}</h1>
+    {% if not documents %}
+    <p class="text-slate-500 mt-4">—</p>
+    {% else %}
+    <div class="bg-white border border-slate-200 rounded-lg divide-y mt-6">
+        {% for d in documents %}
+        <a href="/documents/{{ d.id }}" class="block px-4 py-3 hover:bg-slate-50 flex items-center justify-between">
+            <div>
+                <div class="font-medium">{{ d.title or d.doc_type }}</div>
+                <div class="text-xs text-slate-500">#{{ d.id }} · {{ d.doc_type }} · {{ d.created_at }}</div>
+            </div>
+            <span class="text-xs px-2 py-1 rounded {% if d.status == 'ready' %}bg-emerald-100 text-emerald-700{% elif d.status == 'failed' %}bg-red-100 text-red-700{% else %}bg-slate-100 text-slate-600{% endif %}">
+                {{ d.status }}
+            </span>
+        </a>
+        {% endfor %}
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

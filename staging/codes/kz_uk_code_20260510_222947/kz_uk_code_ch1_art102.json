@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_uk_code_ch1_art102",
+  "doc_type": "code_article",
+  "source_id": "kz_uk_code",
+  "jurisdiction": "KZ",
+  "source": "Уголовный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "criminal_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "1",
+    "title": "УГОЛОВНЫЕ ПРАВОНАРУШЕНИЯ ПРОТИВ ЛИЧНОСТИ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "38658dc2bd48d192c146abbf7be0423fc6ae00d2e118abeb4a42eac75c773e7c",
+  "articles": [
+    {
+      "article": "102",
+      "title": "Убийство, совершенное при превышении пределов необходимой обороны",
+      "text": "Убийство, совершенное при превышении пределов необходимой обороны, –\n\n      наказывается ограничением свободы на срок до двух лет либо лишением свободы на тот же срок."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %}{{ t('commercial_title', lang) }} — {{ brand }}{% endblock %}
+
+{% set legal_base = get_legal_base_block(inventory or {}, lang) %}
+
+{% block content %}
+<section class="bg-gradient-to-b from-zp-bg to-white border-b border-zp-line">
+    <div class="max-w-5xl mx-auto px-4 py-16">
+        <p class="uppercase tracking-widest text-xs text-zp-gold mb-2">{{ t('menu_commercial', lang) }}</p>
+        <h1 class="text-3xl md:text-4xl font-semibold text-zp-deep">{{ t('commercial_title', lang) }}</h1>
+        <p class="mt-6 text-zp-deep max-w-3xl">{{ t('commercial_subtitle', lang) }}</p>
+    </div>
+</section>
+
+<section class="max-w-5xl mx-auto px-4 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="bg-white border border-zp-line rounded-lg p-5 shadow-zp-card" data-commercial-card="citizens">
+            <div class="text-zp-deep font-medium">{{ t('commercial_for_citizens', lang) }}</div>
+            <p class="mt-3 text-sm text-zp-mute">{{ t('commercial_body_citizens', lang) }}</p>
+        </div>
+        <div class="bg-white border border-zp-line rounded-lg p-5 shadow-zp-card" data-commercial-card="business">
+            <div class="text-zp-deep font-medium">{{ t('commercial_for_business', lang) }}</div>
+            <p class="mt-3 text-sm text-zp-mute">{{ t('commercial_body_business', lang) }}</p>
+        </div>
+        <div class="bg-white border border-zp-line rounded-lg p-5 shadow-zp-card" data-commercial-card="lawyers">
+            <div class="text-zp-deep font-medium">{{ t('commercial_for_lawyers', lang) }}</div>
+            <p class="mt-3 text-sm text-zp-mute">{{ t('commercial_body_lawyers', lang) }}</p>
+        </div>
+    </div>
+</section>
+
+{% include "_legal_base_block.html" %}
+
+<section class="max-w-5xl mx-auto px-4 py-12">
+    <p class="text-xs text-zp-mute">{{ t('disclaimer', lang) }}</p>
+</section>
+{% endblock %}

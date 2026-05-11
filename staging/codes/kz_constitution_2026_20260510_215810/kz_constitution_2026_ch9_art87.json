@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_constitution_2026_ch9_art87",
+  "doc_type": "code_article",
+  "source_id": "kz_constitution_2026",
+  "jurisdiction": "KZ",
+  "source": "Конституция Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "constitutional_law"
+  ],
+  "authority_level": "constitution",
+  "status": "active",
+  "chapter": {
+    "number": "9",
+    "title": "Местное государственное управление и самоуправление"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "08cebf40fcf500549ed0949368dec461e9952fcc0a2bf5383fa5c5ae0ad67ae0",
+  "articles": [
+    {
+      "article": "87",
+      "title": "",
+      "text": "Местное государственное управление осуществляется местными представительными и исполнительными органами, которые ответственны за состояние дел на соответствующей территории."
+    }
+  ],
+  "notes": []
+}

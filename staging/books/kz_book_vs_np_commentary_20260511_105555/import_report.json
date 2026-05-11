@@ -1,0 +1,17 @@
+{
+  "source_id": "kz_book_vs_np_commentary",
+  "input_file": "inbox/books/criminal/kz_book_vs_np_commentary.docx",
+  "batch_dir": "staging/books/kz_book_vs_np_commentary_20260511_105555",
+  "total_sections_found": 1,
+  "section_ids_found": [
+    "section_001"
+  ],
+  "errors": [],
+  "warnings": [
+    "weak_structure_detected; split by size"
+  ],
+  "suspicious_mojibake_count": 0,
+  "suspicious_mojibake": [],
+  "suspicious_articles": [],
+  "RAG_CHANGED": false
+}

@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_competition_code_ch5_art34",
+  "doc_type": "law_article",
+  "source_id": "kz_law_competition_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О конкуренции\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "5",
+    "title": "Антиконкурентные действия, соглашения"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "47acf6dc037ae4baf87c3097107f2075dcae50fbaba0b1377d700307bcfbd026",
+  "articles": [
+    {
+      "article": "34",
+      "title": "Государственная помощь",
+      "text": "Сноска. Статья 34 исключена Законом РК от 06.03.2013 № 81-V (вводится в действие по истечении десяти календарных дней после его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_law_enforcement_service_code_ch9_art67",
+  "doc_type": "law_article",
+  "source_id": "kz_law_law_enforcement_service_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан «О правоохранительной службе»",
+  "language": "ru",
+  "industry": [
+    "criminal_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "9",
+    "title": "СОЦИАЛЬНАЯ ЗАЩИТА"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "3d0259692f12a0067e02143511a08de7f76e6d947baf148f578e26d3e2a812a2",
+  "articles": [
+    {
+      "article": "67",
+      "title": "Компенсация расходов на погребение",
+      "text": "Для погребения умерших или погибших сотрудников выплачивается единовременная денежная компенсация в размере их трехмесячного денежного содержания, а пенсионерам - в размере трехмесячной пенсионной выплаты."
+    }
+  ],
+  "notes": []
+}

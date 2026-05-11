@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_constitution_2026_ch1_art10",
+  "doc_type": "code_article",
+  "source_id": "kz_constitution_2026",
+  "jurisdiction": "KZ",
+  "source": "Конституция Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "constitutional_law"
+  ],
+  "authority_level": "constitution",
+  "status": "active",
+  "chapter": {
+    "number": "1",
+    "title": "Основы конституционного строя"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "02cca2a9f4036983538474d60e72555c9cf990830290178ed3651cb7a2e767a3",
+  "articles": [
+    {
+      "article": "10",
+      "title": "",
+      "text": "Республика Казахстан уважает принципы и нормы международного права, проводит внешнюю политику мира и сотрудничества с заинтересованными государствами, невмешательства в их внутренние дела, мирного разрешения международных споров."
+    }
+  ],
+  "notes": []
+}

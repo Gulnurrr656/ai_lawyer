@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_law_enforcement_service_code_ch5_art34",
+  "doc_type": "law_article",
+  "source_id": "kz_law_law_enforcement_service_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан «О правоохранительной службе»",
+  "language": "ru",
+  "industry": [
+    "criminal_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "5",
+    "title": "НАЗНАЧЕНИЕ НА ДОЛЖНОСТЬ, ПЕРЕМЕЩЕНИЕ И"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "8630aaa48c82c9005c2577c239e6c5c35afc620e3764333fb8ea7bda76afb239",
+  "articles": [
+    {
+      "article": "34",
+      "title": "Кадровый резерв",
+      "text": "Сноска. Статья 34 исключена Законом РК от 10.01.2025 № 156-VIII (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

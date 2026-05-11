@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_bankruptcy_code_ch5_art65",
+  "doc_type": "law_article",
+  "source_id": "kz_law_bankruptcy_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О реабилитации и банкротстве\"",
+  "language": "ru",
+  "industry": [
+    "bankruptcy_law"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "5",
+    "title": "РЕАБИЛИТАЦИОННАЯ ПРОЦЕДУРА"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "e46056d559751483dd30228f6c84dec715937ea4794ec23b98e38611d38c6ab0",
+  "articles": [
+    {
+      "article": "65",
+      "title": "Приостановление и возобновление реабилитационной процедуры для участника мер государственной поддержки",
+      "text": "Сноска. Статья 65 исключена Законом РК от 27.12.2019 № 290-VI (вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

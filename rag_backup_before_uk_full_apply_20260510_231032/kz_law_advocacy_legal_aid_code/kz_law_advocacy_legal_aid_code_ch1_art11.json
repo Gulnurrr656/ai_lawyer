@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_advocacy_legal_aid_code_ch1_art11",
+  "doc_type": "law_article",
+  "source_id": "kz_law_advocacy_legal_aid_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"Об адвокатской деятельности и юридической помощи\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "1",
+    "title": "ОСНОВНЫЕ ПОЛОЖЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "a6e57f68dc28769fa8f959cb44f727c8730691166e5345e6a486f1c3d80cf155",
+  "articles": [
+    {
+      "article": "11",
+      "title": "Свобода определения пределов и мер оказания юридической помощи",
+      "text": "Пределы и меры оказания юридической помощи определяются по усмотрению лица, оказывающего юридическую помощь, и ограничиваются, если это предусмотрено законами Республики Казахстан."
+    }
+  ],
+  "notes": []
+}

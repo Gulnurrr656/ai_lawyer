@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_ecology_code_ch11_art168",
+  "doc_type": "code_article",
+  "source_id": "kz_ecology_code",
+  "jurisdiction": "KZ",
+  "source": "Экологический кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "11",
+    "title": "НАЦИОНАЛЬНАЯ ГИДРОМЕТЕОРОЛОГИЧЕСКАЯ СЛУЖБА"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "8d0762180822de5a6ee496072c8620b7ba466f882c839bfaca37d1f8d3db209e",
+  "articles": [
+    {
+      "article": "168",
+      "title": "Финансирование Национальной гидрометеорологической службы",
+      "text": "Финансирование Национальной гидрометеорологической службы осуществляется за счет бюджетных средств и иных источников в соответствии с действующим законодательством Республики Казахстан."
+    }
+  ],
+  "notes": []
+}

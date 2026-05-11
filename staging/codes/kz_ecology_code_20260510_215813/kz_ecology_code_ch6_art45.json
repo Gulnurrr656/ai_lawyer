@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_ecology_code_ch6_art45",
+  "doc_type": "code_article",
+  "source_id": "kz_ecology_code",
+  "jurisdiction": "KZ",
+  "source": "Экологический кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "ecology_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "6",
+    "title": "ТЕХНИЧЕСКОЕ РЕГУЛИРОВАНИЕ И СТАНДАРТИЗАЦИЯ В ОБЛАСТИ ОХРАНЫ ОКРУЖАЮЩЕЙ СРЕДЫ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "3033f32868f331f6f47a74b5a6d2586da57244fd9030f72e2f6240fa1a3dcb13",
+  "articles": [
+    {
+      "article": "45",
+      "title": "Объекты и процедура подтверждения соответствия в области охраны окружающей среды",
+      "text": "Объекты и процедура подтверждения соответствия в области охраны окружающей среды определяются законодательством Республики Казахстан в области технического регулирования."
+    }
+  ],
+  "notes": []
+}

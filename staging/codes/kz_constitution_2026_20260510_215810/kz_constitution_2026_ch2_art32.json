@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_constitution_2026_ch2_art32",
+  "doc_type": "code_article",
+  "source_id": "kz_constitution_2026",
+  "jurisdiction": "KZ",
+  "source": "Конституция Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "constitutional_law"
+  ],
+  "authority_level": "constitution",
+  "status": "active",
+  "chapter": {
+    "number": "2",
+    "title": "Основные права, свободы и обязанности"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "f73adf1569a16df05cb631a5e3de82c317c866d8d61beaabd196d7ba022bdea7",
+  "articles": [
+    {
+      "article": "32",
+      "title": "",
+      "text": "1. Граждане Республики Казахстан имеют право на охрану здоровья.\n\n      2. Граждане Республики Казахстан вправе получать не оплачиваемую ими медицинскую помощь, установленную законом.\n\n      3. Получение платной медицинской помощи в государственных и частных лечебных учреждениях, а также у лиц, занимающихся частной медицинской практикой, осуществляется на основаниях и в порядке, установленных законом."
+    }
+  ],
+  "notes": []
+}

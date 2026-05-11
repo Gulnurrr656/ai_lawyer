@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_mortgage_code_ch2_art11",
+  "doc_type": "law_article",
+  "source_id": "kz_law_mortgage_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"Об ипотеке недвижимого имущества\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "2",
+    "title": "Ипотечный договор"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "91bca7a87b4c4db9c6bc53fda07a549dc748004b05fa3d0b0fa09795af77c3ca",
+  "articles": [
+    {
+      "article": "11",
+      "title": "Приложения к ипотечному договору",
+      "text": "К ипотечному договору могут быть приложены документы, определяющие условия ипотеки, и/или условия, необходимые для осуществления залогодержателем своих прав по этому договору.\n\nГлава 3. Ипотечное свидетельство"
+    }
+  ],
+  "notes": []
+}

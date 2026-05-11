@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_family_code_ch22_art157",
+  "doc_type": "code_article",
+  "source_id": "kz_family_code",
+  "jurisdiction": "KZ",
+  "source": "Кодекс Республики Казахстан о браке (супружестве) и семье",
+  "language": "ru",
+  "industry": [
+    "family_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "22",
+    "title": "СОГЛАШЕНИЕ ОБ УПЛАТЕ АЛИМЕНТОВ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "e1f7a4c35d2b065fcb124a8cc582f4c14a79dfdc9010b7b12afe05a12b2aee4d",
+  "articles": [
+    {
+      "article": "157",
+      "title": "Заключение соглашения об уплате алиментов",
+      "text": "Соглашение об уплате алиментов (размер, условия и порядок выплаты алиментов) заключается между лицом, обязанным уплачивать алименты, и их получателем, а при недееспособности лица, обязанного уплачивать алименты, и (или) получателя алиментов - между законными представителями этих лиц."
+    }
+  ],
+  "notes": []
+}

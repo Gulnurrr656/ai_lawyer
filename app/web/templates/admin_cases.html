@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block title %}{{ t('admin_cases_title', lang) }} — {{ brand }}{% endblock %}
+
+{% block content %}
+<div class="max-w-6xl mx-auto px-4 py-10">
+    <div class="flex flex-wrap items-end justify-between gap-4">
+        <div>
+            <h1 class="text-2xl font-semibold text-zp-deep">{{ t('admin_cases_title', lang) }}</h1>
+        </div>
+        <a href="/admin" class="text-sm text-zp-blue hover:underline">← {{ t('menu_admin', lang) }}</a>
+    </div>
+
+    <div class="mt-6 bg-white border border-zp-line rounded-lg overflow-x-auto shadow-zp-card">
+        <table class="min-w-full text-sm">
+            <thead class="bg-zp-bg text-zp-mute text-xs uppercase">
+                <tr>
+                    <th class="px-3 py-2 text-left">case_id</th>
+                    <th class="px-3 py-2 text-left">user_id</th>
+                    <th class="px-3 py-2 text-left">{{ t('admin_queue_col_title', lang) }}</th>
+                    <th class="px-3 py-2 text-left">{{ t('cases_col_type', lang) }}</th>
+                    <th class="px-3 py-2 text-left">{{ t('cases_col_status', lang) }}</th>
+                    <th class="px-3 py-2 text-left">{{ t('cases_col_strategy', lang) }}</th>
+                    <th class="px-3 py-2 text-left">payment</th>
+                    <th class="px-3 py-2 text-left">{{ t('cases_col_created', lang) }}</th>
+                    <th class="px-3 py-2 text-left"></th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-zp-line">
+                {% for c in cases %}
+                <tr class="hover:bg-zp-bg/60">
+                    <td class="px-3 py-2 font-mono text-xs">{{ c.case_id }}</td>
+                    <td class="px-3 py-2">{{ c.user_id }}</td>
+                    <td class="px-3 py-2 max-w-[14rem] truncate" title="{{ c.title }}">{{ c.title }}</td>
+                    <td class="px-3 py-2">{{ c.case_type }}</td>
+                    <td class="px-3 py-2">{{ c.status }}</td>
+                    <td class="px-3 py-2 text-xs">{{ c.selected_strategy_id or "—" }}</td>
+                    <td class="px-3 py-2">{{ c.payment_status }}</td>
+                    <td class="px-3 py-2 text-xs text-zp-mute whitespace-nowrap">{{ c.created_at }}</td>
+                    <td class="px-3 py-2">
+                        <a href="/admin/cases/{{ c.case_id }}" class="text-zp-blue hover:underline text-xs">{{ t('admin_case_view', lang) }}</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% if not cases %}
+    <p class="mt-6 text-sm text-zp-mute">—</p>
+    {% endif %}
+</div>
+{% endblock %}

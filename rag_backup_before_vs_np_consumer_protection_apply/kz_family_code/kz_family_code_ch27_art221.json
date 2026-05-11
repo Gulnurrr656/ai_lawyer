@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_family_code_ch27_art221",
+  "doc_type": "code_article",
+  "source_id": "kz_family_code",
+  "jurisdiction": "KZ",
+  "source": "Кодекс Республики Казахстан О браке (супружестве) и семье",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "27",
+    "title": "ГОСУДАРСТВЕННАЯ РЕГИСТРАЦИЯ ЗАКЛЮЧЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "403d99569cdfface3c89e90b9b28b7f097e2e3e5584091547fc53ac5a486b421",
+  "articles": [
+    {
+      "article": "221",
+      "title": "Место государственной регистрации заключения брака (супружества)",
+      "text": "Государственная регистрация заключения брака (супружества) производится в любом регистрирующем органе на территории Республики Казахстан по желанию лиц, вступающих в брак (супружество)."
+    }
+  ],
+  "notes": []
+}

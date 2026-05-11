@@ -37,6 +37,9 @@ class PetitionStates(StatesGroup):
     # =================================================
 
     legal_goal = State()
+    # Интервью: свободный рассказ → уточнения (этап 2)
+    free_story = State()
+    interview_clarify = State()
     # ⚖️ GATE (A / B)
     #
     # Допустимые значения (канон):

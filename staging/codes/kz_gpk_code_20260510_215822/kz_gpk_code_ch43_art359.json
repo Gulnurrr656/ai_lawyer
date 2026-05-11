@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_gpk_code_ch43_art359",
+  "doc_type": "code_article",
+  "source_id": "kz_gpk_code",
+  "jurisdiction": "KZ",
+  "source": "Гражданский процессуальный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "civil_procedure"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "43",
+    "title": "ПРОИЗВОДСТВО ПО ДЕЛАМ О ПРИЗНАНИИ ДВИЖИМОЙ ВЕЩИ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "fc801b5aa0e1e628a0e86eee95d4926abe69a8efac8b2879c479bbe8c6d0c531",
+  "articles": [
+    {
+      "article": "359",
+      "title": "Рассмотрение заявления",
+      "text": "Заявление о признании движимой вещи бесхозяйной или о признании права коммунальной собственности на недвижимое имущество рассматривается судом с участием заявителя и всех заинтересованных по делу лиц."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_law_banks_code_ch23_art134",
+  "doc_type": "law_article",
+  "source_id": "kz_law_banks_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан \"О банках и банковской деятельности в Республике Казахстан\"",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "23",
+    "title": "СПЕЦИАЛЬНЫЕ, ПЕРЕХОДНЫЕ И ЗАКЛЮЧИТЕЛЬНЫЕ ПОЛОЖЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "42bae8e2d7bf63f99b0a1f9f9bc053346242ea6ca5a24711212bff2cb8872756",
+  "articles": [
+    {
+      "article": "134",
+      "title": "Ответственность за нарушение банковского законодательства",
+      "text": "Республики Казахстан\n\n      Нарушение банковского законодательства Республики Казахстан влечет ответственность, установленную законами Республики Казахстан."
+    }
+  ],
+  "notes": []
+}

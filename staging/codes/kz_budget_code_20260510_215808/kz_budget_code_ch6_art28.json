@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_budget_code_ch6_art28",
+  "doc_type": "code_article",
+  "source_id": "kz_budget_code",
+  "jurisdiction": "KZ",
+  "source": "Бюджетный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "budget_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "6",
+    "title": "РАСПРЕДЕЛЕНИЕ ПОСТУПЛЕНИЙ В БЮДЖЕТ МЕЖДУ УРОВНЯМИ БЮДЖЕТА"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "28a0a2c29874e5a2adbbaab6a74be9a16fff0e98fc3550ea02c92e4b994e21d8",
+  "articles": [
+    {
+      "article": "28",
+      "title": "Поступления во внебюджетные фонды, формируемые за счет неналоговых поступлений",
+      "text": "Виды неналоговых поступлений, поступающих во внебюджетные фонды, определены главой 13 настоящего Кодекса.\n\nГлава 7. РАСПРЕДЕЛЕНИЕ РАСХОДОВ МЕЖДУ УРОВНЯМИ БЮДЖЕТА"
+    }
+  ],
+  "notes": []
+}

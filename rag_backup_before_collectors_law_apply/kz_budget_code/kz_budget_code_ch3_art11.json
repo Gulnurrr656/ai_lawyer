@@ -1,0 +1,26 @@
+{
+  "doc_id": "kz_budget_code_ch3_art11",
+  "doc_type": "code_article",
+  "source_id": "kz_budget_code",
+  "jurisdiction": "KZ",
+  "source": "Бюджетный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "3",
+    "title": "ЕДИНАЯ БЮДЖЕТНАЯ КЛАССИФИКАЦИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "50e5be2dc60a2547d4984ef48c0b5d4fac35cdbd45cc7f009be59b6bd5d6ca2b",
+  "articles": [
+    {
+      "article": "11",
+      "title": "Классификация поступлений бюджета",
+      "text": "1. Классификацией поступлений бюджета является группировка поступлений бюджетов всех уровней по определенным характеристикам, основанная на бюджетном законодательстве Республики Казахстан.\n\n      2. Группировка классификации поступлений бюджета состоит из категории, класса, подкласса и специфики."
+    }
+  ],
+  "notes": []
+}

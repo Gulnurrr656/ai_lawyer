@@ -1,0 +1,32 @@
+{
+  "doc_id": "kz_constitution_2026_sec1_art11",
+  "doc_type": "constitution_article",
+  "source_id": "kz_constitution_2026",
+  "jurisdiction": "KZ",
+  "source": "Конституция Республики Казахстан 2026",
+  "language": "ru",
+  "industry": [
+    "constitutional_law"
+  ],
+  "authority_level": "constitution",
+  "status": "not_effective_yet",
+  "chapter": {
+    "number": "1",
+    "title": "Основы конституционного строя"
+  },
+  "granularity": "article",
+  "as_of_date": "2026-05-06",
+  "text_hash": "2e992cc204bba65178eaf9939411c5d2a2fb10f25a7eebc00e7321e5736eecdc",
+  "articles": [
+    {
+      "article": "11",
+      "title": "",
+      "text": "Республика Казахстан имеет государственные символы – Государственный Флаг, Государственный Герб, Государственный Гимн. Их описание и порядок использования устанавливаются конституционным законом.\n\nРаздел II\n\nОсновные права, свободы и обязанности"
+    }
+  ],
+  "notes": [
+    "Конституция принята на республиканском референдуме 15 марта 2026 года.",
+    "Вводится в действие с 1 июля 2026 года."
+  ],
+  "effective_from": "2026-07-01"
+}

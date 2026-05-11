@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_family_code_ch13_art104",
+  "doc_type": "code_article",
+  "source_id": "kz_family_code",
+  "jurisdiction": "KZ",
+  "source": "Кодекс Республики Казахстан о браке (супружестве) и семье",
+  "language": "ru",
+  "industry": [
+    "family_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "13",
+    "title": "УСЫНОВЛЕНИЕ РЕБЕНКА"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "d434b177904f8d64205c44a93222f4ea62f92ebea48de6c9699f7e8b46ece330",
+  "articles": [
+    {
+      "article": "104",
+      "title": "Лица, имеющие право требовать признания усыновления недействительным",
+      "text": "Требование о признании усыновления недействительным вправе предъявить родители усыновленного, супруг усыновителя, лица, права которых нарушены усыновлением, прокурор, орган, осуществляющий функции по опеке или попечительству."
+    }
+  ],
+  "notes": []
+}

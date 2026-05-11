@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% block title %}{{ t('cases_page_title', lang) }} — {{ brand }}{% endblock %}
+
+{% block content %}
+<div class="max-w-5xl mx-auto px-4 py-10">
+    <div class="flex flex-wrap items-end justify-between gap-4">
+        <div>
+            <h1 class="text-2xl font-semibold text-zp-deep">{{ t('cases_page_title', lang) }}</h1>
+        </div>
+        <form method="post" action="/cases/create" class="flex flex-wrap gap-2 items-end">
+            <input type="text" name="title" placeholder="{{ t('form_placeholder_title', lang) }}"
+                   class="rounded-md border border-zp-line px-3 py-2 text-sm w-56" />
+            <select name="case_type" class="rounded-md border border-zp-line px-3 py-2 text-sm">
+                <option value="consultation">consultation</option>
+                <option value="civil">civil</option>
+                <option value="administrative">administrative</option>
+                <option value="criminal">criminal</option>
+                <option value="bankruptcy">bankruptcy</option>
+                <option value="document">document</option>
+                <option value="document_analysis">document_analysis</option>
+                <option value="mixed" selected>mixed</option>
+            </select>
+            <button type="submit" class="px-4 py-2 rounded-md bg-zp-gold text-zp-deep font-semibold text-sm hover:brightness-105">
+                {{ t('case_create_submit', lang) }}
+            </button>
+        </form>
+    </div>
+
+    {% if not cases %}
+    <p class="mt-8 text-zp-mute text-sm">{{ t('cases_empty', lang) }}</p>
+    {% else %}
+    <div class="mt-8 bg-white border border-zp-line rounded-lg overflow-hidden shadow-zp-card">
+        <table class="min-w-full text-sm">
+            <thead class="bg-zp-bg text-zp-mute text-xs uppercase">
+                <tr>
+                    <th class="px-4 py-3 text-left">{{ t('admin_queue_col_title', lang) }}</th>
+                    <th class="px-4 py-3 text-left">{{ t('cases_col_type', lang) }}</th>
+                    <th class="px-4 py-3 text-left">{{ t('cases_col_status', lang) }}</th>
+                    <th class="px-4 py-3 text-left">{{ t('cases_col_strategy', lang) }}</th>
+                    <th class="px-4 py-3 text-left">{{ t('cases_col_created', lang) }}</th>
+                    <th class="px-4 py-3 text-right"></th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-zp-line">
+                {% for c in cases %}
+                <tr class="hover:bg-zp-bg/50">
+                    <td class="px-4 py-3 font-medium text-zp-deep">{{ c.title or c.case_id }}</td>
+                    <td class="px-4 py-3 text-zp-mute">{{ c.case_type }}</td>
+                    <td class="px-4 py-3"><span class="text-xs px-2 py-1 rounded border border-zp-line">{{ c.status }}</span></td>
+                    <td class="px-4 py-3 text-xs text-zp-mute">{{ c.selected_strategy_name or '—' }}</td>
+                    <td class="px-4 py-3 text-xs text-zp-mute whitespace-nowrap">{{ c.created_at }}</td>
+                    <td class="px-4 py-3 text-right">
+                        <a href="/cases/{{ c.case_id }}" class="text-sm text-zp-gold hover:underline font-medium">
+                            {{ t('cases_open', lang) }}
+                        </a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

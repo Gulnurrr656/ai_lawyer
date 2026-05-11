@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_health_code_ch18_art147",
+  "doc_type": "code_article",
+  "source_id": "kz_health_code",
+  "jurisdiction": "KZ",
+  "source": "Кодекс Республики Казахстан \"О здоровье народа и системе здравоохранения\"",
+  "language": "ru",
+  "industry": [
+    "health_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "18",
+    "title": "РЕГУЛИРОВАНИЕ ОТДЕЛЬНЫХ ОТНОШЕНИЙ В ОБЛАСТИ ЗДРАВООХРАНЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "6a4e8ac2bdb7fcbe95ce46bb265ce42afdd8d52fcec7f07ccf2caaa00516986e",
+  "articles": [
+    {
+      "article": "147",
+      "title": "Клонирование",
+      "text": "В Республике Казахстан клонирование человека – воспроизведение генетически идентичных особей – запрещается."
+    }
+  ],
+  "notes": []
+}

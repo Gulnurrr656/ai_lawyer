@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_uk_code_full_ch16_art374",
+  "doc_type": "code_article",
+  "source_id": "kz_uk_code_full",
+  "jurisdiction": "KZ",
+  "source": "Уголовный кодекс Республики Казахстан",
+  "language": "ru",
+  "industry": [
+    "criminal_law"
+  ],
+  "authority_level": "code",
+  "status": "active",
+  "chapter": {
+    "number": "16",
+    "title": "УГОЛОВНЫЕ ПРАВОНАРУШЕНИЯ ПРОТИВ ПОРЯДКА УПРАВЛЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "55de07870b13ad6b89561f657257a6762cef306caba083e72842a08851a8bb45",
+  "articles": [
+    {
+      "article": "374",
+      "title": "Нарушение гарантий неприкосновенности Первого Президента Республики Казахстан – Елбасы",
+      "text": "Сноска. Статья 374 исключена Законом РК от 12.07.2023 № 23-VIII(вводится в действие по истечении десяти календарных дней после дня его первого официального опубликования)."
+    }
+  ],
+  "notes": []
+}

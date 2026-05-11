@@ -1,0 +1,28 @@
+{
+  "doc_id": "kz_law_prosecutor_office_code_ch1_art2",
+  "doc_type": "law_article",
+  "source_id": "kz_law_prosecutor_office_code",
+  "jurisdiction": "KZ",
+  "source": "Закон Республики Казахстан «О прокуратуре»",
+  "language": "ru",
+  "industry": [
+    "prosecution"
+  ],
+  "authority_level": "law",
+  "status": "active",
+  "chapter": {
+    "number": "1",
+    "title": "ОБЩИЕ ПОЛОЖЕНИЯ"
+  },
+  "granularity": "article",
+  "as_of_date": null,
+  "text_hash": "62fdbbdde9bc6854bcd592fec60d651fea2619aa4f8e4356ba32c2b8f829b5b1",
+  "articles": [
+    {
+      "article": "2",
+      "title": "Правовая основа деятельности органов прокуратуры",
+      "text": "Правовую основу деятельности органов прокуратуры составляют Конституция Республики Казахстан, настоящий Конституционный закон, международные договоры, ратифицированные Республикой Казахстан, и иные нормативные правовые акты Республики Казахстан."
+    }
+  ],
+  "notes": []
+}

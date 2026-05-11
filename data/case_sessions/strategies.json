@@ -1,0 +1,82 @@
+{
+  "bfceacbaf4c35edf57051b3a": {
+    "case_id": "case_ec53efe502ddf384",
+    "user_id": 1,
+    "selected_strategy_id": "B_balanced",
+    "selected_strategy_name": "Сбалансированная позиция",
+    "selected_strategy_style": "balanced",
+    "selected_strategy_reason": "test",
+    "selected_at": "2026-05-11T14:04:57",
+    "document_id": null
+  },
+  "4172c18b322983ef7bfa0056": {
+    "case_id": "case_d3403ff1917d47c3",
+    "user_id": 1,
+    "selected_strategy_id": "B_balanced",
+    "selected_strategy_name": "Сбалансированная позиция",
+    "selected_strategy_style": "balanced",
+    "selected_strategy_reason": "test",
+    "selected_at": "2026-05-11T14:07:00",
+    "document_id": null
+  },
+  "bc04e8d1d687e518c3046053": {
+    "case_id": "case_821833d1a404675c",
+    "user_id": 1,
+    "selected_strategy_id": "B_balanced",
+    "selected_strategy_name": "Сбалансированная позиция",
+    "selected_strategy_style": "balanced",
+    "selected_strategy_reason": "test",
+    "selected_at": "2026-05-11T14:11:35",
+    "document_id": null
+  },
+  "f422be3f088ab3a8cbc912ed": {
+    "case_id": "case_ef1a578a69cf391f",
+    "user_id": 1,
+    "selected_strategy_id": "B_balanced",
+    "selected_strategy_name": "Сбалансированная позиция",
+    "selected_strategy_style": "balanced",
+    "selected_strategy_reason": "test",
+    "selected_at": "2026-05-11T14:49:58",
+    "document_id": null
+  },
+  "f2a251a3c067a47cf65b42cb": {
+    "case_id": "case_6ad7000d9f332bc6",
+    "user_id": 1,
+    "selected_strategy_id": "B_balanced",
+    "selected_strategy_name": "Сбалансированная позиция",
+    "selected_strategy_style": "balanced",
+    "selected_strategy_reason": "test",
+    "selected_at": "2026-05-11T15:44:47",
+    "document_id": null
+  },
+  "6c631abe6c0231bd565f0cbc": {
+    "case_id": "case_6",
+    "user_id": 1,
+    "selected_strategy_id": "C_defensive",
+    "selected_strategy_name": "Осторожная позиция",
+    "selected_strategy_style": "defensive",
+    "selected_strategy_reason": "",
+    "selected_at": "2026-05-11T16:05:20",
+    "document_id": null
+  },
+  "117545e4e826d95a79ccd846": {
+    "case_id": "case_c2136eb73d44a0b5",
+    "user_id": 1,
+    "selected_strategy_id": "B_balanced",
+    "selected_strategy_name": "Сбалансированная позиция",
+    "selected_strategy_style": "balanced",
+    "selected_strategy_reason": "test",
+    "selected_at": "2026-05-11T16:26:40",
+    "document_id": null
+  },
+  "ba830c6f416559ea6e70f0bc": {
+    "case_id": "case_65c7f2d4d1542758",
+    "user_id": 1,
+    "selected_strategy_id": "B_balanced",
+    "selected_strategy_name": "Сбалансированная позиция",
+    "selected_strategy_style": "balanced",
+    "selected_strategy_reason": "test",
+    "selected_at": "2026-05-11T16:31:03",
+    "document_id": null
+  }
+}
